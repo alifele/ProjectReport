@@ -1,0 +1,5 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Findings.blg'
+[33] biber:340> INFO - === Sun Jan 21, 2024, 18:54:31
+[88] Utils.pm:398> ERROR - Cannot find 'Findings.bcf'!
+[88] Biber.pm:135> INFO - ERRORS: 1

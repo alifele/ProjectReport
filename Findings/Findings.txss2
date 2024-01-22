@@ -1,0 +1,62 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": true,
+        "File": "Findings.pdf"
+    },
+    "Session": {
+        "Bookmarks": [
+            {
+                "bookmarkNumber": 6,
+                "fileName": "../../Lecture_Notes/Real Analysis/SetsAndFunctions.tex",
+                "lineNumber": 9,
+                "text": "SetsAndFunctions.tex\ndefined by the same association $x \\mapsto x$"
+            }
+        ],
+        "CurrentFile": "Findings.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 29,
+                "EditorGroup": 0,
+                "FileName": "Findings.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 10
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "commands.sty",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 42
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "labdiary.cls",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 17
+            },
+            {
+                "Col": 49,
+                "EditorGroup": 0,
+                "FileName": "Chapters/StatisticalPhysicsForBiology.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 4
+            },
+            {
+                "Col": 1,
+                "EditorGroup": 0,
+                "FileName": "references.bib",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 17
+            }
+        ],
+        "MasterFile": "Findings.tex",
+        "VerticalSplit": false
+    }
+}
