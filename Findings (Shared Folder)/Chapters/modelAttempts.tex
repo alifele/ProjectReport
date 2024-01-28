@@ -1,0 +1,87 @@
+\chapter{Modeling Attempts}
+
+\section{Simple ODE model (First Iteration)}
+Here, we develop a model that keeps track of the following variables
+\begin{quote}
+	$n(t)$= density of tip cells in area of interest, (number per unit area).
+	
+	$\rho(t)$ = density of blood vessels (length per unit area).
+	
+	$c(t)$ = concentration of drug delivered to region by blood vessels.
+\end{quote}
+An updating list of model parameters
+\begin{itemize}
+	\item $v$ [length/time]: The rate at which the tip cells move and extends the blood vessels.
+	\item $\delta_v$ [1/time]: The rate at which the vascular structure gets degraded.
+	\item $\lambda_s$ [1/time]: Tip cell division rate (splitting rate).
+	\item $\lambda_b$ [1/time/length]: Tip cell emerging rate from stalk cells.
+	\item $\delta_t$ [1/time]: Tip cell death/deactivation rate.
+	\item $\kappa$ [area/length/time]: Re-connection of tip cells to the other capillaries to form loops.  
+\end{itemize}
+
+
+
+\subsubsection*{Studying dynamics of vessel formation}
+\[ \frac{d\rho}{dt} = ??. \]
+The active tip cells extend the vascular structure as they move. Assuming the tip cells move at rate $v$, then 
+\[ \frac{d \rho}{dt} = vn+ ??. \]
+Also, assuming the vascular structure degrades with rate $\delta$ [per unit time], we can add the degradation term 
+\[ \boxed{\frac{d\rho}{dt} = vn + \delta_v \rho} . \]
+
+
+
+\subsubsection*{Studying the Dynamics of Tip Cells}
+Things important in the dynamics of the tip cells
+\begin{itemize}
+	\item Generation of the tip cells: There are at least two ways for new tip cell generation listed as follows:
+	\begin{enumerate}[(i)]
+		\item Splitting mechanics: When the tip cells splits new vascular stem gets two heads. This should be proportional to the density of tip cells. The parameter $\lambda_s$ [per unit time] reflects this mechanism.
+		\item Branching: New tip cells can form out the the endothelial stalk cells. This process should be proportional to the density of blood vessels. The parameter $\lambda_b$ [per unit time per unit length] reflects this mechanism
+	\end{enumerate}
+	\item Loss of tip cells
+	\begin{enumerate}[(i)]
+		\item Death of the tip cells or getting deactivated: Reflected by the parameter $\delta_t$
+		\item Joining the other branches of vascular network: When a tip cell reconnects another capillary branch, then they disappear. The parameter $\kappa$ is for this mechanism. Note that the re-connection term is proportional to both number of tips cells, as well as the density of blood vessels. Thus the units of $\kappa$ should be [area/length/time]. 
+	\end{enumerate}
+	\item The movement of tip cells and formation of new vascular networks along the way.
+\end{itemize}
+
+\[ \boxed{\frac{dn}{dt} = (\lambda_s - \delta_t) n + \lambda_b \rho + \kappa n \rho}.  \]
+
+\subsubsection*{Nondimensionalization}
+In order the analyze the model more easily, we nondimensionalize the system with the following change of variable
+\[ \rho = R \tilde{\rho}, \qquad n = N \tilde{n}, \qquad t = T \tau. \]
+There are many possible choice to choose the scaling factors $R, N, T$. However, we will choose them in a way that they are always positive, and the system of ODE becomes as simple as possible. Substituting the change of variable above in the ODE system, we will get
+\begin{align*}
+	&\frac{d\tilde{\rho}}{d\tau} = \frac{vNT}{R}\tilde{n} + \delta_v T \tilde{\rho},\\
+	&\frac{d\tilde{n}}{d\tau} = T(\lambda_s-\delta_t)\tilde{n} + \frac{\lambda_b T R}{N} \tilde{\rho} + T\kappa R \tilde{n}\tilde{\rho}.
+\end{align*}
+We choose the following values for $T,N$, and $R$
+\[ T = \frac{1}{\delta_v}, \qquad R = \frac{\delta_v}{\kappa}, \qquad N = \frac{\lambda_b}{\kappa}. \]
+This is a very suitable moment to pause and check the dimensions if they match (I did it and all of them matches!). With these choices from the coefficients, the system of ODEs will be
+\[ \frac{d\tilde{n}}{d \tau} = \frac{\lambda_s - \delta_t}{\delta_v} \tilde{n} + \tilde{\rho} + \tilde{n}\tilde{\rho}, \qquad
+\frac{d\tilde{\rho}}{d\tau} = \frac{v\lambda_b}{\delta_v^2}\tilde{n} + \tilde{\rho}. \]
+To make the ODEs simpler to work with, we will write $n,\rho$ in place of $\tilde{n}$ and $\tilde{\rho}$, and also we introduce the following parameters
+\[ \alpha = \lambda_s - \delta_t, \qquad \beta =\delta_v, \qquad \gamma = v\lambda_b. \]
+Then we can write
+
+
+\begin{equation*}
+	\boxed{
+		\begin{aligned}
+			&\dot{n} = \frac{\alpha}{\beta}n + \rho + n\rho, \\
+			&\dot{\rho} = \frac{\gamma}{\beta^2}n +\rho.
+		\end{aligned}
+	}
+	\tag{\smiley}
+\end{equation*}
+
+
+
+\newpage
+
+\section{Some Ideas to Try}
+This section might have very simple, basic and sometimes silly ideas that came into my mind during developing some models and I thought they might worth trying
+\begin{itemize}
+	\item Developing a model for a weighted graph generation. I suspect a weighted graph might have all the necessary information we want.
+\end{itemize}

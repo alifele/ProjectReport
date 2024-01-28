@@ -8,7 +8,12 @@
 %\end{document}
 \documentclass{labdiary}
 \usepackage{commands}
-\usepackage[numbers]{natbib} 
+\usepackage{natbib} 
+%\setcitestyle{authoryear, open={([},close={)]}}
+%\setcitestyle{numbers,square}
+\bibliographystyle{dinat}
+
+
 
 \title{My Findings}
 \author{Ali Fele Paranj}
@@ -20,25 +25,23 @@
 	
 	\tableofcontents
 	
-	\include{Chapters/StatisticalPhysicsForBiology.tex}
+%	\include{Chapters/StatisticalPhysicsForBiology.tex}
+	\include{Chapters/modelAttempts.tex}
 	\include{Chapters/PapersReviewed.tex}
-	
-	
-	
-	
-	
-	
-	
+	\include{Chapters/MolecularBiology.tex}
+	\include{Chapters/Comments.tex}
+	\include{Chapters/MeetingLog.tex}
 	
 	
 	
 	
 
-	%\backmatter
-	% Appendices, bibliography, etc.
-	
+
+
 	% Bibliography
-	\bibliographystyle{unsrtnat} % The bibliography style
+%	\bibliographystyle{plainnat}
+	
+
 	\bibliography{References/references} % The filename of the .bib file (without the extension)
 
 	

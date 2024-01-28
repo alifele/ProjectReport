@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  27 JAN 2024 16:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  27 JAN 2024 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -997,6 +997,8 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip72
 \dth@everypar=\toks58
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1137,37 +1139,39 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count373
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 17.
+h' as default language. on input line 22.
  (./Findings.aux
-(./Chapters/StatisticalPhysicsForBiology.aux) (./Chapters/PapersReviewed.aux))
+(./Chapters/modelAttempts.aux) (./Chapters/PapersReviewed.aux)
+(./Chapters/MolecularBiology.aux) (./Chapters/Comments.aux)
+(./Chapters/MeetingLog.aux))
 \openout1 = `Findings.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1203,11 +1207,11 @@ LaTeX Font Info:    ... okay on input line 17.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 17.
-Package microtype Info: Applying patch `item' on input line 17.
-Package microtype Info: Applying patch `toc' on input line 17.
-Package microtype Info: Applying patch `eqnum' on input line 17.
-Package microtype Info: Applying patch `footnote' on input line 17.
+LaTeX Info: Redefining \microtypecontext on input line 22.
+Package microtype Info: Applying patch `item' on input line 22.
+Package microtype Info: Applying patch `toc' on input line 22.
+Package microtype Info: Applying patch `eqnum' on input line 22.
+Package microtype Info: Applying patch `footnote' on input line 22.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1217,10 +1221,10 @@ Package microtype Info: No adjustment of kerning.
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 17.
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+Package hyperref Info: Link coloring ON on input line 22.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (./Findings.out) (./Findings.out)
 \@outlinefile=\write4
@@ -1231,7 +1235,7 @@ LaTeX Info: Redefining \nameref on input line 17.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 17.
+ on input line 22.
 
 \c@lstlisting=\count374
 
@@ -1241,7 +1245,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 17.
+or `english'. on input line 22.
  [1
 
 
@@ -1315,68 +1319,15 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
  [1
 
 ]
-\openout2 = `Chapters/StatisticalPhysicsForBiology.aux'.
+\openout2 = `Chapters/modelAttempts.aux'.
 
 
-(./Chapters/StatisticalPhysicsForBiology.tex
+(./Chapters/modelAttempts.tex
 Chapter 1.
-) [2
+[2
 
 
 ]
-\openout2 = `Chapters/PapersReviewed.aux'.
-
- (./Chapters/PapersReviewed.tex
-Chapter 2.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 17.
-
-[3
-
-
-
-
-]
-
-Package natbib Warning: Citation `Carlsson2009' on page 4 undefined on input li
-ne 49.
-
-
-Package natbib Warning: Citation `Zomorodian2005' on page 4 undefined on input 
-line 49.
-
-
-Package natbib Warning: Citation `2020' on page 4 undefined on input line 50.
-
-
-Package natbib Warning: Citation `2023' on page 4 undefined on input line 50.
-
-
-Package natbib Warning: Citation `Nicolau2011' on page 4 undefined on input lin
-e 51.
-
-
-Package natbib Warning: Citation `Nielson2015' on page 4 undefined on input lin
-e 51.
-
-
-Package natbib Warning: Citation `Qaiser2016' on page 4 undefined on input line
- 51.
-
-
-Package natbib Warning: Citation `Xia2014' on page 4 undefined on input line 51
-.
-
-
-Package natbib Warning: Citation `Topaz2015' on page 4 undefined on input line 
-52.
-
-
-Package natbib Warning: Citation `McGuirl2020' on page 4 undefined on input lin
-e 52.
-
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1385,22 +1336,166 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4] (./Findings.bbl)
+[3]
 
-Package natbib Warning: There were undefined citations.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(./Findings.aux (./Chapters/StatisticalPhysicsForBiology.aux)
-(./Chapters/PapersReviewed.aux))
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+\openout2 = `Chapters/PapersReviewed.aux'.
+
+ (./Chapters/PapersReviewed.tex
+Chapter 2.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 17.
+
+[6
+
+
+
+
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7]
+\openout2 = `Chapters/MolecularBiology.aux'.
+
+ (./Chapters/MolecularBiology.tex
+Chapter 3.
+[8
+
+
+
+
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
+\openout2 = `Chapters/Comments.aux'.
+
+ (./Chapters/Comments.tex
+Chapter 4.
+[10
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
+\openout2 = `Chapters/MeetingLog.aux'.
+
+ (./Chapters/MeetingLog.tex
+Chapter 5.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+) [14
+
+
+
+
+] (./Findings.bbl
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [15
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18] (./Findings.aux (./Chapters/modelAttempts.aux)
+(./Chapters/PapersReviewed.aux) (./Chapters/MolecularBiology.aux)
+(./Chapters/Comments.aux) (./Chapters/MeetingLog.aux))
 Package rerunfilecheck Info: File `Findings.out' has not changed.
-(rerunfilecheck)             Checksum: 476F9B2A53774E91A257C67F3FF72587;1375.
+(rerunfilecheck)             Checksum: 613DDB4514E71A151B11CA38C4A095F4;4383.
  ) 
 Here is how much of TeX's memory you used:
- 48084 strings out of 476191
- 1184260 string characters out of 5812073
- 1760548 words of memory out of 5000000
- 68040 multiletter control sequences out of 15000+600000
- 477282 words of font info for 67 fonts, out of 8000000 for 9000
+ 48282 strings out of 476191
+ 1190096 string characters out of 5812073
+ 1786702 words of memory out of 5000000
+ 68212 multiletter control sequences out of 15000+600000
+ 477298 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,11n,108p,1690b,879s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,108p,1163b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Findings.pdf (5 pages).
+Output written on Findings.pdf (19 pages).

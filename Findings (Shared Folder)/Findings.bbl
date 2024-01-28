@@ -1,0 +1,355 @@
+\begin{thebibliography}{29}
+% this bibliography was produced with the style dinat.bst v2.5
+\makeatletter
+\newcommand{\dinatlabel}[1]%
+{\ifNAT@numbers\else\NAT@biblabelnum{#1}\hspace{2\labelsep}\fi}
+\makeatother
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+
+\bibitem[angiogenesisYoutube()]{angiogenesisYoutube}
+\dinatlabel{angiogenesisYoutube } :
+\newblock \emph{(73) {Angiogenesis} - {YouTube}}. --
+\newblock URL \url{https://www.youtube.com/}. -- Zugriffsdatum: 2024-01-27
+
+\bibitem[conealMicroPocketAssayJOVE()]{conealMicroPocketAssayJOVE}
+\dinatlabel{conealMicroPocketAssayJOVE } :
+\newblock \emph{The {Corneal} {Micropocket} {Assay}: {A} {Model} of
+  {Angiogenesis} in the {Mouse} {Eye}}. --
+\newblock URL \url{https://app.jove.comthe corneal micropocket assay: a model
+  of angiogenesis in the mouse eye}. -- Zugriffsdatum: 2024-01-27
+
+\bibitem[Alberts u.\,a.(2002)Alberts, Johnson, Lewis, Raff, Roberts und
+  Walter]{Alberts2002}
+\dinatlabel{Alberts u.\,a. 2002} \textsc{Alberts}, Bruce~; \textsc{Johnson},
+  Alexander~; \textsc{Lewis}, Julian~; \textsc{Raff}, Martin~;
+  \textsc{Roberts}, Keith~; \textsc{Walter}, Peter:
+\newblock Blood {Vessels} and {Endothelial} {Cells}.
+\newblock In: \emph{Molecular {Biology} of the {Cell}. 4th edition}.
+\newblock Garland Science, 2002. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/books/NBK26848/}. --
+  Zugriffsdatum: 2024-01-27
+
+\bibitem[Anderson und Chaplain(1998)]{Anderson1998}
+\dinatlabel{Anderson und Chaplain 1998} \textsc{Anderson}, A. R.~A.~;
+  \textsc{Chaplain}, M. A.~J.:
+\newblock Continuous and discrete mathematical models of tumor-induced
+  angiogenesis.
+\newblock In: \emph{Bulletin of Mathematical Biology}
+\newblock 60 (1998), September, Nr.~5, S.~857--899. --
+\newblock URL \url{https://doi.org/10.1006/bulm.1998.0042}. -- Zugriffsdatum:
+  2024-01-21. --
+\newblock ISSN 1522-9602
+
+\bibitem[Balding und McElwain(1985)]{Balding1985}
+\dinatlabel{Balding und McElwain 1985} \textsc{Balding}, D.~;
+  \textsc{McElwain}, D. L.~S.:
+\newblock A mathematical model of tumour-induced capillary growth.
+\newblock In: \emph{Journal of Theoretical Biology}
+\newblock 114 (1985), Mai, Nr.~1, S.~53--73. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0022519385802551}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0022-5193
+
+\bibitem[Bauer u.\,a.(2007)Bauer, Jackson und Jiang]{Bauer2007}
+\dinatlabel{Bauer u.\,a. 2007} \textsc{Bauer}, Amy~L.~; \textsc{Jackson},
+  Trachette~L.~; \textsc{Jiang}, Yi:
+\newblock A {Cell}-{Based} {Model} {Exhibiting} {Branching} and {Anastomosis}
+  during {Tumor}-{Induced} {Angiogenesis}.
+\newblock In: \emph{Biophysical Journal}
+\newblock 92 (2007), Mai, Nr.~9, S.~3105--3121. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0006349507711207}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0006-3495
+
+\bibitem[Byrne und Chaplain(1995)]{Byrne1995}
+\dinatlabel{Byrne und Chaplain 1995} \textsc{Byrne}, H.~M.~; \textsc{Chaplain},
+  M. A.~J.:
+\newblock Growth of nonnecrotic tumors in the presence and absence of
+  inhibitors.
+\newblock In: \emph{Mathematical Biosciences}
+\newblock 130 (1995), Dezember, Nr.~2, S.~151--181. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/0025556494001173}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0025-5564
+
+\bibitem[Byrne(2010)]{Byrne2010}
+\dinatlabel{Byrne 2010} \textsc{Byrne}, Helen~M.:
+\newblock Dissecting cancer through mathematics: from the cell to the animal
+  model.
+\newblock In: \emph{Nature Reviews Cancer}
+\newblock 10 (2010), M\^^b{a}rz, Nr.~3, S.~221--230. --
+\newblock URL \url{https://www.nature.com/articles/nrc2808}. -- Zugriffsdatum:
+  2024-01-21. --
+\newblock ISSN 1474-1768
+
+\bibitem[Cai u.\,a.(2017)Cai, Liu, Zheng, Xue, Ma, Li, Xi, Li, Bao und
+  Liu]{Cai2017}
+\dinatlabel{Cai u.\,a. 2017} \textsc{Cai}, H.~; \textsc{Liu}, X.~;
+  \textsc{Zheng}, J.~; \textsc{Xue}, Y.~; \textsc{Ma}, J.~; \textsc{Li}, Z.~;
+  \textsc{Xi}, Z.~; \textsc{Li}, Z.~; \textsc{Bao}, M.~; \textsc{Liu}, Y.:
+\newblock Long non-coding {RNA} taurine upregulated 1 enhances tumor-induced
+  angiogenesis through inhibiting {microRNA}-299 in human glioblastoma.
+\newblock In: \emph{Oncogene}
+\newblock 36 (2017), Januar, Nr.~3, S.~318--331. --
+\newblock URL \url{https://www.nature.com/articles/onc2016212}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 1476-5594
+
+\bibitem[Folarin u.\,a.(2010)Folarin, Konerding, Timonen, Nagl und
+  Pedley]{Folarin2010}
+\dinatlabel{Folarin u.\,a. 2010} \textsc{Folarin}, A.~A.~; \textsc{Konerding},
+  M.~A.~; \textsc{Timonen}, J.~; \textsc{Nagl}, S.~; \textsc{Pedley}, R.~B.:
+\newblock Three-dimensional analysis of tumour vascular corrosion casts using
+  stereoimaging and micro-computed tomography.
+\newblock In: \emph{Microvascular Research}
+\newblock 80 (2010), Juli, Nr.~1, S.~89--98. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S002628621000052X}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0026-2862
+
+\bibitem[Folkman(1971)]{Folkman1971}
+\dinatlabel{Folkman 1971} \textsc{Folkman}, Judah:
+\newblock Tumor {Angiogenesis}: {Therapeutic} {Implications}.
+\newblock In: \emph{New England Journal of Medicine}
+\newblock 285 (1971), November, Nr.~21, S.~1182--1186. --
+\newblock URL \url{https://doi.org/10.1056/NEJM197111182852108}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0028-4793
+
+\bibitem[Grogan u.\,a.(2017)Grogan, Connor, Markelc, Muschel, Maini, Byrne und
+  Pitt-Francis]{Grogan2017}
+\dinatlabel{Grogan u.\,a. 2017} \textsc{Grogan}, James~A.~; \textsc{Connor},
+  Anthony~J.~; \textsc{Markelc}, Bostjan~; \textsc{Muschel}, Ruth~J.~;
+  \textsc{Maini}, Philip~K.~; \textsc{Byrne}, Helen~M.~; \textsc{Pitt-Francis},
+  Joe~M.:
+\newblock Microvessel {Chaste}: {An} {Open} {Library} for {Spatial} {Modeling}
+  of {Vascularized} {Tissues}.
+\newblock In: \emph{Biophysical Journal}
+\newblock 112 (2017), Mai, Nr.~9, S.~1767--1772. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0006349517303843}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0006-3495
+
+\bibitem[Gupta und Qin(2003)]{Gupta2003}
+\dinatlabel{Gupta und Qin 2003} \textsc{Gupta}, Manoj~K.~; \textsc{Qin},
+  Ren-Yi:
+\newblock Mechanism and its regulation of tumor-induced angiogenesis.
+\newblock In: \emph{World Journal of Gastroenterology : WJG}
+\newblock 9 (2003), Juni, Nr.~6, S.~1144--1155. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4611774/}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 1007-9327
+
+\bibitem[Hadjicharalambous u.\,a.(2021)Hadjicharalambous, Wijeratne und
+  Vavourakis]{Hadjicharalambous2021}
+\dinatlabel{Hadjicharalambous u.\,a. 2021} \textsc{Hadjicharalambous},
+  Myrianthi~; \textsc{Wijeratne}, Peter~A.~; \textsc{Vavourakis}, Vasileios:
+\newblock From tumour perfusion to drug delivery and clinical translation of in
+  silico cancer models.
+\newblock In: \emph{Methods}
+\newblock 185 (2021), Januar, S.~82--93. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1046202319302129}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 1046-2023
+
+\bibitem[Kannan u.\,a.(2018)Kannan, Kretzschmar, Winter, Warren, Bates, Allen,
+  Syed, Irving, Papiez, Kaeppler, Markelc, Kinchesh, Gilchrist, Smart,
+  Schnabel, Maughan, Harris, Muschel, Partridge, Sharma und
+  Kersemans]{Kannan2018}
+\dinatlabel{Kannan u.\,a. 2018} \textsc{Kannan}, Pavitra~;
+  \textsc{Kretzschmar}, Warren~W.~; \textsc{Winter}, Helen~; \textsc{Warren},
+  Daniel~; \textsc{Bates}, Russell~; \textsc{Allen}, Philip~D.~; \textsc{Syed},
+  Nigar~; \textsc{Irving}, Benjamin~; \textsc{Papiez}, Bartlomiej~W.~;
+  \textsc{Kaeppler}, Jakob~; \textsc{Markelc}, Bosjtan~; \textsc{Kinchesh},
+  Paul~; \textsc{Gilchrist}, Stuart~; \textsc{Smart}, Sean~; \textsc{Schnabel},
+  Julia~A.~; \textsc{Maughan}, Tim~; \textsc{Harris}, Adrian~L.~;
+  \textsc{Muschel}, Ruth~J.~; \textsc{Partridge}, Mike~; \textsc{Sharma},
+  Ricky~A.~; \textsc{Kersemans}, Veerle:
+\newblock Functional {Parameters} {Derived} from {Magnetic} {Resonance}
+  {Imaging} {Reflect} {Vascular} {Morphology} in {Preclinical} {Tumors} and in
+  {Human} {Liver} {Metastases}.
+\newblock In: \emph{Clinical Cancer Research}
+\newblock 24 (2018), Oktober, Nr.~19, S.~4694--4704. --
+\newblock URL \url{https://doi.org/10.1158/1078-0432.CCR-18-0033}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 1078-0432
+
+\bibitem[Konerding u.\,a.(2001)Konerding, Fait und Gaumann]{Konerding2001}
+\dinatlabel{Konerding u.\,a. 2001} \textsc{Konerding}, M.~A.~; \textsc{Fait},
+  E.~; \textsc{Gaumann}, A.:
+\newblock {3D} microvascular architecture of pre-cancerous lesions and invasive
+  carcinomas of the colon.
+\newblock In: \emph{British Journal of Cancer}
+\newblock 84 (2001), Mai, Nr.~10, S.~1354--1362. --
+\newblock URL \url{https://www.nature.com/articles/6691809}. -- Zugriffsdatum:
+  2024-01-21. --
+\newblock ISSN 1532-1827
+
+\bibitem[Konerding u.\,a.(1999)Konerding, Malkusch, Klapthor, Ackern, Fait,
+  Hill, Parkins, Chaplin, Presta und Denekamp]{Konerding1999}
+\dinatlabel{Konerding u.\,a. 1999} \textsc{Konerding}, M.~A.~;
+  \textsc{Malkusch}, W.~; \textsc{Klapthor}, B.~; \textsc{Ackern}, C.~v.~;
+  \textsc{Fait}, E.~; \textsc{Hill}, S.~A.~; \textsc{Parkins}, C.~;
+  \textsc{Chaplin}, D.~J.~; \textsc{Presta}, M.~; \textsc{Denekamp}, J.:
+\newblock Evidence for characteristic vascular patterns in solid tumours:
+  quantitative studies using corrosion casts.
+\newblock In: \emph{British Journal of Cancer}
+\newblock 80 (1999), Mai, Nr.~5, S.~724--732. --
+\newblock URL \url{https://www.nature.com/articles/6690416}. -- Zugriffsdatum:
+  2024-01-21. --
+\newblock ISSN 1532-1827
+
+\bibitem[Li und Harris(2005)]{Li2005}
+\dinatlabel{Li und Harris 2005} \textsc{Li}, Ji-Liang~; \textsc{Harris},
+  Adrian~L.:
+\newblock Notch signaling from tumor cells: {A} new mechanism of angiogenesis.
+\newblock In: \emph{Cancer Cell}
+\newblock 8 (2005), Juli, Nr.~1, S.~1--3. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1535610805001996}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 1535-6108
+
+\bibitem[Li u.\,a.(2002)Li, Butler, Wang, Hu, Han, Usami, Guan und
+  Chien]{Li2002}
+\dinatlabel{Li u.\,a. 2002} \textsc{Li}, Song~; \textsc{Butler}, Peter~;
+  \textsc{Wang}, Yingxiao~; \textsc{Hu}, Yingli~; \textsc{Han}, Dong~C.~;
+  \textsc{Usami}, Shunichi~; \textsc{Guan}, Jun-Lin~; \textsc{Chien}, Shu:
+\newblock The role of the dynamics of focal adhesion kinase in the mechanotaxis
+  of endothelial cells.
+\newblock In: \emph{Proceedings of the National Academy of Sciences}
+\newblock 99 (2002), M\^^b{a}rz, Nr.~6, S.~3546--3551. --
+\newblock URL \url{https://www.pnas.org/doi/full/10.1073/pnas.052018099}. --
+  Zugriffsdatum: 2024-01-21
+
+\bibitem[Lugano u.\,a.(2020)Lugano, Ramachandran und Dimberg]{Lugano2020}
+\dinatlabel{Lugano u.\,a. 2020} \textsc{Lugano}, Roberta~;
+  \textsc{Ramachandran}, Mohanraj~; \textsc{Dimberg}, Anna:
+\newblock Tumor angiogenesis: causes, consequences, challenges and
+  opportunities.
+\newblock In: \emph{Cellular and Molecular Life Sciences}
+\newblock 77 (2020), Mai, Nr.~9, S.~1745--1770. --
+\newblock URL \url{https://doi.org/10.1007/s00018-019-03351-7}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 1420-9071
+
+\bibitem[Metzcar u.\,a.(2019)Metzcar, Wang, Heiland und Macklin]{Metzcar2019}
+\dinatlabel{Metzcar u.\,a. 2019} \textsc{Metzcar}, John~; \textsc{Wang},
+  Yafei~; \textsc{Heiland}, Randy~; \textsc{Macklin}, Paul:
+\newblock A {Review} of {Cell}-{Based} {Computational} {Modeling} in {Cancer}
+  {Biology}.
+\newblock In: \emph{JCO Clinical Cancer Informatics}
+\newblock (2019), Dezember, Nr.~3, S.~1--13. --
+\newblock URL \url{https://ascopubs.org/doi/10.1200/CCI.18.00069}. --
+  Zugriffsdatum: 2024-01-21
+
+\bibitem[Perfahl u.\,a.(2017)Perfahl, Hughes, Alarcón, Maini, Lloyd, Reuss und
+  Byrne]{Perfahl2017}
+\dinatlabel{Perfahl u.\,a. 2017} \textsc{Perfahl}, Holger~; \textsc{Hughes},
+  Barry~D.~; \textsc{Alarcón}, Tomás~; \textsc{Maini}, Philip~K.~;
+  \textsc{Lloyd}, Mark~C.~; \textsc{Reuss}, Matthias~; \textsc{Byrne},
+  Helen~M.:
+\newblock {3D} hybrid modelling of vascular network formation.
+\newblock In: \emph{Journal of Theoretical Biology}
+\newblock 414 (2017), Februar, S.~254--268. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0022519316303782}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0022-5193
+
+\bibitem[Saman u.\,a.(2020)Saman, Raza, Uddin und Rasul]{Saman2020}
+\dinatlabel{Saman u.\,a. 2020} \textsc{Saman}, Harman~; \textsc{Raza},
+  Syed~S.~; \textsc{Uddin}, Shahab~; \textsc{Rasul}, Kakil:
+\newblock Inducing {Angiogenesis}, a {Key} {Step} in {Cancer}
+  {Vascularization}, and {Treatment} {Approaches}.
+\newblock In: \emph{Cancers}
+\newblock 12 (2020), Mai, Nr.~5, S.~1172. --
+\newblock URL \url{https://www.mdpi.com/2072-6694/12/5/1172}. -- Zugriffsdatum:
+  2024-01-21. --
+\newblock ISSN 2072-6694
+
+\bibitem[Scianna u.\,a.(2013)Scianna, Bell und Preziosi]{Scianna2013}
+\dinatlabel{Scianna u.\,a. 2013} \textsc{Scianna}, M.~; \textsc{Bell}, C.~G.~;
+  \textsc{Preziosi}, L.:
+\newblock A review of mathematical models for the formation of vascular
+  networks.
+\newblock In: \emph{Journal of Theoretical Biology}
+\newblock 333 (2013), September, S.~174--209. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0022519313002117}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0022-5193
+
+\bibitem[Sefidgar u.\,a.(2015)Sefidgar, Soltani, Raahemifar, Sadeghi, Bazmara,
+  Bazargan und Mousavi~Naeenian]{Sefidgar2015}
+\dinatlabel{Sefidgar u.\,a. 2015} \textsc{Sefidgar}, M.~; \textsc{Soltani},
+  M.~; \textsc{Raahemifar}, K.~; \textsc{Sadeghi}, M.~; \textsc{Bazmara}, H.~;
+  \textsc{Bazargan}, M.~; \textsc{Mousavi~Naeenian}, M.:
+\newblock Numerical modeling of drug delivery in a dynamic solid tumor
+  microvasculature.
+\newblock In: \emph{Microvascular Research}
+\newblock 99 (2015), Mai, S.~43--56. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0026286215000187}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0026-2862
+
+\bibitem[Stepanova u.\,a.(2021)Stepanova, Byrne, Maini und
+  Alarcón]{Stepanova2021}
+\dinatlabel{Stepanova u.\,a. 2021} \textsc{Stepanova}, Daria~; \textsc{Byrne},
+  Helen~M.~; \textsc{Maini}, Philip~K.~; \textsc{Alarcón}, Tomás:
+\newblock A multiscale model of complex endothelial cell dynamics in early
+  angiogenesis.
+\newblock In: \emph{PLOS Computational Biology}
+\newblock 17 (2021), Januar, Nr.~1, S.~e1008055. --
+\newblock URL
+  \url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008055}.
+  -- Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 1553-7358
+
+\bibitem[Stokes und Lauffenburger(1991)]{Stokes1991}
+\dinatlabel{Stokes und Lauffenburger 1991} \textsc{Stokes}, Cynthia~L.~;
+  \textsc{Lauffenburger}, Douglas~A.:
+\newblock Analysis of the roles of microvessel endothelial cell random motility
+  and chemotaxis in angiogenesis.
+\newblock In: \emph{Journal of Theoretical Biology}
+\newblock 152 (1991), Oktober, Nr.~3, S.~377--403. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0022519305802012}. --
+  Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 0022-5193
+
+\bibitem[Vavourakis u.\,a.(2017)Vavourakis, Wijeratne, Shipley, Loizidou,
+  Stylianopoulos und Hawkes]{Vavourakis2017}
+\dinatlabel{Vavourakis u.\,a. 2017} \textsc{Vavourakis}, Vasileios~;
+  \textsc{Wijeratne}, Peter~A.~; \textsc{Shipley}, Rebecca~; \textsc{Loizidou},
+  Marilena~; \textsc{Stylianopoulos}, Triantafyllos~; \textsc{Hawkes},
+  David~J.:
+\newblock A {Validated} {Multiscale} {In}-{Silico} {Model} for
+  {Mechano}-sensitive {Tumour} {Angiogenesis} and {Growth}.
+\newblock In: \emph{PLOS Computational Biology}
+\newblock 13 (2017), Januar, Nr.~1, S.~e1005259. --
+\newblock URL
+  \url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005259}.
+  -- Zugriffsdatum: 2024-01-21. --
+\newblock ISSN 1553-7358
+
+\bibitem[Vilanova u.\,a.(2017)Vilanova, Colominas und Gomez]{Vilanova2017}
+\dinatlabel{Vilanova u.\,a. 2017} \textsc{Vilanova}, Guillermo~;
+  \textsc{Colominas}, Ignasi~; \textsc{Gomez}, Hector:
+\newblock A mathematical model of tumour angiogenesis: growth, regression and
+  regrowth.
+\newblock In: \emph{Journal of The Royal Society Interface}
+\newblock 14 (2017), Januar, Nr.~126, S.~20160918. --
+\newblock URL
+  \url{https://royalsocietypublishing.org/doi/10.1098/rsif.2016.0918}. --
+  Zugriffsdatum: 2024-01-21
+
+\end{thebibliography}
