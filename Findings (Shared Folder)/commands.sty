@@ -186,65 +186,223 @@
 
 
 
-\newtcolorbox{Defbox}[2]{breakable,enhanced jigsaw,colback=red!5!, colframe=red!75!black,fonttitle=\bfseries, title=Definition~#1. #2.}
-\newtcolorbox{thmbox}[1]{breakable,enhanced jigsaw,colback=blue!5, colframe=blue!55!black, fonttitle=\bfseries, title=Theorem:\ #1}
-\newtcolorbox{lembox}[1]{breakable,enhanced jigsaw,colback=blue!5, colframe=blue!55!black, fonttitle=\bfseries, title=Lemma: #1}
-\newtcolorbox{corbox}[1]{breakable,enhanced jigsaw,colback=blue!5, colframe=blue!55!black, fonttitle=\bfseries, title=Corollary:\ #1}
-\newtcolorbox{propbox}[1]{breakable,enhanced jigsaw,colback=blue!5, colframe=blue!55!black, fonttitle=\bfseries, title=Proposition:\ #1}
-\newtcolorbox{Remark}[1]{breakable,enhanced jigsaw,colback=green!5, colframe=green!35!black, fonttitle=\bfseries, title=Remark~#1}
-\newtcolorbox{Example}[2]{breakable,enhanced jigsaw,colback=gray!5, colframe=white!40!black, fonttitle=\bfseries, title=Example~#1. #2}
+%\definecolor{propColor}{rgb}{0, 0.47, 0.6} % RGB(0, 204, 255) equivalent
+
+\definecolor{HighDark}{HTML}{003652}
+\definecolor{MedDark}{HTML}{3E80B6}
+\definecolor{LowDark}{HTML}{00798C}
+\definecolor{HighLight}{HTML}{EDAE49}
+\definecolor{LowLight}{HTML}{D1495B}
 
 
 
-\newcounter{defcounter}[section]
-\newenvironment{defbox}[2][]{
-		\refstepcounter{defcounter}	%% setting the counter
-		\par\medskip\noindent		%% setting the spacings	
-		\begin{Defbox}{\thesection.\thedefcounter}{#2}	%% Creating the tcolorbox
-		\par\medskip				%% Spacing setting 
-		}
-		{\end{Defbox}}
+\definecolor{propColor}{HTML}{33658a}
+\definecolor{remarkColor}{HTML}{2f4858}
+\definecolor{corColor}{HTML}{86bbd8}
+\definecolor{defColor}{RGB}{242, 100, 25}
 
-\newcounter{example}[section]
-\newenvironment{example}[2][]{
-		\refstepcounter{example}	%% setting the counter
-		\par\medskip\noindent		%% setting the spacings	
-		\begin{Example}{\thesection.\theexample}{#2}	%% Creating the tcolorbox
-		\par\medskip				%% Spacing setting 
-		}
-		{\end{Example}}
-		
-\newcounter{remark}[section]
-%\stepcounter{remark}
-\newenvironment{remark}[1][]{
-	\refstepcounter{remark}	%% setting the counter
-	\par\medskip\noindent		%% setting the spacings	
-	\begin{Remark}{\thesection.\theremark}	%% Creating the tcolorbox
-	%\par\medskip				%% Spacing setting 
-	}
-	{\end{Remark}}
-	
-\newenvironment{ans}{
-	\vspace{5pt}
-	\hrule
-	\par\medskip\noindent
-	\emph{Answer. }
-	\par\medskip
-	}
-	{\medskip}
-	
-\newcounter{question}[section]	
-\newenvironment{question}{
-	\refstepcounter{question}
-	\par\medskip\noindent
-	\textbf{Question~\thequestion.}
-	%\par\medskip
-}
-{\medskip}
-	
-	
-	
-	
-	
+
+
+
+
+%% Style for the boxed theorem like structures
+\newtheoremstyle{blacknumbox} % Theorem style name
+{4pt} % Space above
+{6pt} % Space below
+{\normalfont} % Body font
+{} % Indent amount
+{} % Theorem head font
+{} % Punctuation after theorem head
+{0.25em} % Space after theorem head
+{\small\sffamily\bfseries\thmname{#1}~\thmnumber{#2} % Theorem text (e.g. Theorem 2.1)
+	\thmnote{\sffamily\bfseries---~#3.\hspace{0.25em}}} % Optional theorem note
+
+
+%% Style for the unboxed theorem like structures --> Example
+\newtheoremstyle{blacknumNOTboxExample} % Theorem style name
+{6pt} % Space above
+{6pt} % Space below
+{\normalfont} % Body font
+{} % Indent amount
+{} % Theorem head font
+{} % Punctuation after theorem head
+{0.25em} % Space after theorem head
+{\small\sffamily\bfseries{\raisebox{1.25pt}{\tiny\ensuremath{\blacksquare}}}~\thmname{#1}~\thmnumber{#2} % Theorem text (e.g. Theorem 2.1)
+	\thmnote{\the\thm@notefont\sffamily\bfseries---~#3.\hspace{0.25em}}} % Optional theorem note
+
+
+%% Style for the unboxed theorem like structures --> remark - problem - solution
+\newtheoremstyle{blacknumNOTbox} % Theorem style name
+{6pt} % Space above
+{6pt} % Space below
+{\normalfont} % Body font
+{} % Indent amount
+{} % Theorem head font
+{} % Punctuation after theorem head
+{0.25em} % Space after theorem head
+{\small\sffamily\bfseries~\thmname{#1}~\thmnumber{#2} % Theorem text (e.g. Theorem 2.1)
+	\thmnote{\the\thm@notefont\sffamily\bfseries---~#3.\hspace{0.25em}}} % Optional theorem note
+
+
+
+\theoremstyle{blacknumbox}	
+\newtheorem{definitionT}{Definition}[chapter]
+\newtheorem{strangeObsT}{Strage Observation}[section]
+\newtheorem{theoremT}{Theorem}[chapter]
+\newtheorem{propositionT}{Proposition}[chapter]
+\newtheorem{corollaryT}{Corollary}[chapter]
+\newtheorem{lemmaT}{Lemma}[chapter]
+\newtheorem{summaryT}{Summary}[chapter]
+\newtheorem{trickT}{Trick}[chapter]
+
+
+\theoremstyle{blacknumNOTboxExample}
+\newtheorem{exampleT}{Example}[chapter]
+\newtheorem{problemT}{Problem}[chapter]
+\newtheorem*{remark}{Remark}
+
+
+\theoremstyle{blacknumNOTbox}
+\newtheorem{problem}{Problem}[chapter]
+\newtheorem*{solution}{Solution}
+
+
+
+
+%%% Boxed ones: Definition - Theorem - Proposition - Corollary - Lemma - Summary
+%%% Unboxed ones: Remark - Example - Problem - Solution
+
+
+%%% Colors for Boxes
+%% Definition - Summary - Trick: HighLight
+%% Theorem: LowLight
+%% Proposition: MedDark
+%% Lemma - Corollary: HighDark
+
+\usepackage{mdframed}
+
+
+%% Definition box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=false, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+backgroundcolor=HighLight!10, % BackgroundColor
+linecolor=red, % Border color
+linewidth=4pt, % Border width
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=0pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{defBox}
+
+
+%% Summary box and Trick Box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=true, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+backgroundcolor=HighLight!5, % BackgroundColor
+linecolor=LowLight, % Border color
+linewidth=4pt, % Border width
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=0pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{summaryBox}
+
+%% Theorem box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=false, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+backgroundcolor=LowLight!10, % BackgroundColor
+linecolor=LowLight, % Border color
+linewidth=4pt, % Border width
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=0pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{theoremBox}
+
+%% Proposition box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=false, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+backgroundcolor=MedDark!10, % BackgroundColor
+linecolor=MedDark, % Border color
+linewidth=4pt, % Border width
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=0pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{propositionBox}
+
+
+%% Lemma - Corollary Box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=false, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+backgroundcolor=LowDark!90!black!5, % BackgroundColor
+linecolor=LowDark!95!black, % Border color
+linewidth=4pt, % Border width
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=0pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{lemmaCorBox}
+
+
+\newenvironment{definition}{\begin{defBox}\begin{definitionT}}{\end{definitionT}\end{defBox}}
+\newenvironment{theorem}{\begin{theoremBox}\begin{theoremT}}{\end{theoremT}\end{theoremBox}}
+\newenvironment{proposition}{\begin{propositionBox}\begin{propositionT}}{\end{propositionT}\end{propositionBox}}
+\newenvironment{lemma}{\begin{lemmaCorBox}\begin{lemmaT}}{\end{lemmaT}\end{lemmaCorBox}}
+\newenvironment{summary}{\begin{summaryBox}\begin{summaryT}}{\end{summaryT}\end{summaryBox}}
+
+
+\newenvironment{trick}{\begin{summaryBox}\begin{trickT}}{\end{trickT}\end{summaryBox}}
+\newenvironment{strangeObs}{\begin{defBox}\begin{strangeObsT}}{\end{strangeObsT}\end{defBox}}
+
+
+\newenvironment{corollary}{\begin{lemmaCorBox}\begin{corollaryT}}{\end{corollaryT}\end{lemmaCorBox}}
+\newenvironment{example}{\begin{exampleT}}{\hfill{\tiny\ensuremath{\blacksquare}}\end{exampleT}}
+
+\renewenvironment{problem}{\begin{problemT}}{\end{problemT}}
+
+\newcommand{\definitionTautorefname}{Definition}
+\newcommand{\strangeObsTautorefname}{Strange observation}
+\newcommand{\theoremTautorefname}{Theorem}
+\newcommand{\propositionTautorefname}{Proposition}
+\newcommand{\lemmaTautorefname}{Lemma}
+\newcommand{\summaryTautorefname}{Summary}
+\newcommand{\corollaryTautorefname}{Corollary}
+\newcommand{\exampleTautorefname}{Example}
 
 
