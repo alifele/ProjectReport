@@ -1,0 +1,173 @@
+
+%\documentclass[12pt,a4paper]{book}
+%\usepackage{commands}
+%
+%\begin{document}
+%
+%	
+%\end{document}
+\documentclass{labdiary}
+\usepackage{commands}
+\usepackage[numbers]{natbib} 
+
+\title{My Findings}
+\author{Ali Fele Paranj}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\include{Chapters/StatisticalPhysicsForBiology.tex}
+	\include{Chapters/PapersReviewed.tex}
+	
+	
+	
+\section{Leah Comments Jan 24, 2024}
+Please change the citation style to Author et al (year) in place of [number], so it is easier to see who you are citing without having to flip to the bibliography. Thanks for linking the bibliography to the URLs of the papers so it's possible to scan them.
+
+When citing papers, it is best if you can also say 1-2 sentences about those papers, even based on their abstract (in your own words, of course, never copied directly). For example:
+
+Byrne (2010) reviews theoretical cancer models and demonstrates the advantages of colaboration between modelers and experimentalists.
+
+\subsection{Suggested research style and flavour}
+
+Since it is unlikely that we will get data for the detailed mechanochemical mechanisms for blood vessel growth in the prostate tumors, it makes sense to (a) start simple from very minimal models that can be linked to data and (b) avoid introducing variable that we have no hope of measuing in the obtained data. My understanding is that (for now) we will have to make do with at best some bulk properties of the blood vessels, so models with a lot of detail will hardly help us.
+
+Here is a possible minimalistic stepwise approach, where we start very simple and gradually build up more detail, starting with simple assumptions.
+
+\textbf{Definitions:} 
+
+$n(t)$= density of tip cells in area of interest, (number per unit area)
+
+$\rho(t)$ = density of blood vessels (length per unit area),
+
+$c(t)$ = concentration of drug delivered to region by blood vessels
+
+
+
+\subsection{Step 1: Bulk model}
+
+Ignoring spatial structure, we only track the density of vessels. Assume everything is spatially uniform, so there will be no spatial derivatives to consider. We construct an ODE model, and make an elementary assumption.
+
+\textbf{Assumption 1:} The drug is delivered by diffusion from the capillaries into the tissue. Hence, as a rough approximation, and (for now) neglecting the detailed structure of the vessel network, the amount of drug delivered to the region per unit time is proportional to the density of the blood vessels.
+
+\textbf{Step 1a: Elementary model:}
+
+Assume that tips extend at some rate $v$ (units of length/time), creating additional length of capillaries as they extend. Assume capillaries may also have some loss rate $\delta$ (per unit time). Write down an ODE for the rate at which capillary density changes with time.
+
+\begin{subequations}
+\label{eq:SimplestModel}
+\begin{equation}
+\label{eq:vesseldensODE}
+ \frac{d \rho}{dt}= ??   
+\end{equation}	
+	
+Assume that new tip cells are created by branching along sides of vessels (or possibly by splitting of existing tip cells) at a rate $\beta$ per unit length per unit time, and that tips disappear when they reconnect to a capillary at some rate $\kappa$ to form a loop. [Note: reconnection requires the interaction of tips with capillaries, and would thus be handled as mass action term. What are the units of $\kappa$?]
+Write down an equation for the rate of change of tip density.
+\begin{equation}
+\label{eq:tipdensODE}
+ \frac{d n}{dt}= ??   
+\end{equation}	
+
+
+Complete the ODE model equations \eqref{eq:SimplestModel}. Analyse the model so far by determining the steady state densities $\rho_{ss} , n_{ss}$, and how they depend on the parameters $v,\delta,\beta, \kappa$. Determine stability of SS. Create a phase plane diagram that shows the expected dynamics. Simulate the simple ODE system assuming some values of the parameters. 
+
+We made the assumption that drug delivery is roughly proportional to the vessel density. Write down an approximate ODE for concentration of drug in the region. 
+\begin{equation}
+\label{eq:drugODE}
+ \frac{d c}{dt}= ??   
+\end{equation}	
+\end{subequations}Explain how this level of drug depends on the vessel branching and growth parameters.
+
+So far, the blood vessels affect the drug but not the other way around.
+
+\bigskip
+
+\textbf{Step 1b: Coupling vessel dynamics to drug}
+
+Consider how the level of drug might affect the vessel parameters (branching or growth rate or death rate, etc). This will introduce feedback from the drug to the vessel density.
+
+Write down one or two variants of such a model and analyse them fully (including steady states, simulations, and some interpretation of what it means for overall treatment of the tissue.)
+
+Note that the drug dynamics would be fast on the timescale of vessel growth, so there is some time-scale separation that you can take advantage of.
+
+\subsection{(Optional) Step 2: Simple spatially distributed 1D system}
+We continue with simplest model but now take spatial growth of vessels into a region. So we consider $\rho(x,t), n(x,t), c(x,t)$ as variables of interest.
+We make the same assumptions as above, but now we take into account the fact that there is a flux of tips growing into a region,
+\[
+J=nv.
+\]
+Explain why this is a flux.
+The equations will be modified to form PDEs. Use the 1D balance equation to create that equation for $n$. Explain whether you need to add any spatial derivatives to the equation for $\rho$. The drug diffusion in the spatial variable will also introduce spatial derivatives in the equation for $c$. Write down the modified 1D spatial model. Note that we do not assume anything like chemotaxis or other fancy mechanisms for the tip motion at this point.
+
+\begin{subequations}
+\label{eq:SpatialtModel}
+\begin{align}
+\frac{\partial \rho}{\partial t }&= ?\\
+\frac{\partial n}{\partial t }&= ?\\
+\frac{\partial c}{\partial t }&= ?
+\end{align}
+\end{subequations}
+
+Remark: see above for timescale separation.
+
+\textbf{Step 2a: Analysis of wave of invasion}
+
+Consider looking for traveling wave solutions of the $\rho,n$ system on its own to ask how blood vessels spread along a 1D direction and invade a tissue. (Write down ODEs by transforming variables to $z=x-ct$ where $c$ is wave speed, then analyze existence of traveling was in the $\rho n$ phase plane. See one of my books or ask Jack Hughes for help if you are not yet familiar with this idea.)
+
+
+\textbf{Step 2b: Simulations}
+For simulations of the whole system: You will need to assume some boundary conditions on $n$ and on $c$, as well as some initial distribution in order to simulate this system. 
+
+
+
+\subsection{Step 3: An agent-based (CPM) model:}
+Look up the simplest work on Merks and Rens and co and find their CPM model. Ask whether a Morpheus xml file already exists for this model (can ask the Morpheus team or Merks). If not, create one.
+
+Set up this model and adapt it to describing a simple branching vessel structure, similar to what we have above.
+
+ADD: assume that the cells in this network ``secrete'' drug that then diffuses into the tissue and has some decay time. Find ways of plotting properties of the vessels and the drug concentration. 
+
+Here you can get creative, and assume that the tip cell growth etc are affected by drug level, etc. (Again, time scale separation is important.) 
+
+Your role will be to extend the Merks model to include this drug aspect.
+
+NOTE: some of Merk's work includes the dynamics of an ECM. I would suggest to avoid extending the model with such a dynamic variable, and to assume instead, that it is a static field or vector-field that affects the rate or direction of tip cell motion.
+
+\subsection{Step 4: Look for data}
+
+This can be done in parallel with other steps: look for specific data on blood vessel density in normal and cancerous tissue. There may be animal studies in which the vessel density is tracked over time.
+
+Find if there is data that we can use to help constrain any of these simple models.
+
+For sure it's easier to find bulk vessel density than to find its spatial distribution and the chemical factors liek VEGF that are modeled in some papers.
+
+
+\subsection{Step 5: More details and other variants}
+
+You can later (after all the early steps) extend and improve the model in various ways. Some suggestions include the following:
+
+\begin{itemize}
+    \item Write down an equation for the number of loops that accumulate as tips reconnect to blood vessels (extend simple model).
+    \item Find a way to associate these with ``tortuosity'' of vessel network that could affect its conductivity of drug to tissue.
+    \item Consider some kind of D'Arcy's Law (porous medium) as a measure of how vessel structure can reduce net drug delivery.
+    \item Vessels have various radii and sizes. You may want to consider how this affects the model as well as the implications on drug delivery. A PDE model with a distribution of vessel diameters would likely be a bit newer than the above simple branching equations.
+\end{itemize}
+
+
+
+	%\backmatter
+	% Appendices, bibliography, etc.
+	
+	% Bibliography
+	\bibliographystyle{unsrtnat} % The bibliography style
+	\bibliography{References/references} % The filename of the .bib file (without the extension)
+
+	
+
+	
+	
+\end{document}
