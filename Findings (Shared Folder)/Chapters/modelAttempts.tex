@@ -17,7 +17,7 @@ An updating list of model parameters:
 	\item $\lambda_b$ [1/time/length]: Tip cell emerging rate from stalk cells.
 	\item $\delta_t$ [1/time]: Tip cell death/deactivation rate.
 	\item $\kappa$ [area/length/time]: Re-connection of tip cells to the other capillaries to form loops.  
-	\item $\mu$ [1/time]: The rate at which 
+	\item $\mu$ [1/time]: Permeability of the capillary to the drug. 
 	\item $\sigma$ [area/length]: The coverage of the blood vessels in the region.
 \end{itemize}
 And a list input functions
@@ -138,12 +138,14 @@ The following shows the phase portrait of the system with some values for the pa
 %\end{strangeObs}
 
 
-\subsection*{Adding the drug-vessel interaction}
+\subsection*{Drug delivery}
 In order to bring the drug-vessel interaction into play, we develop a ODE for $c(t)$ add approporite terms to the RHS of $\dot{n}$ and $\dot{\rho}$.
 \[ \frac{dc}{dt} = \mu (\rho(t)f(t) - \sigma c(t)\rho(t)) - \boxed{\lambda c} \]
 where $\mu$ has the unit [1/time], and $f(t)$ is the amount drug inside the capillary that has the unit [nmol per unit length]. Note that we have assumed the exchange of drug between the vessels and the region of interest is proportional to the difference in the concentration of drug in two different environments. Furthermore, the coefficient $\sigma$ has the units of [area/length] which is an indicator of the area coverage of the blood vessels. This parameter somehow characterizes the space filling and fractal structure of the blood vessels. This parameter should have some relations with the fractal dimension of a given vascular structure. Considering the dynamics of this parameter can possibly reflect some of the topological and non-local characterizations of the vascular network.
 
 
+\subsection*{Adding the drug-vessel interaction}
+Presence of drug in the environment can have many different effects. It can kill/deactivate the existing tip cells (increasing $\delta_t$). Or it can change the rate at which the endothelial cells turn into the tip cells (changing the value of $\delta_b$). Or it can affect the tip cell division rate ($\lambda_s$). It can also affect the cellular migration of the tip cells and change the value of parameter $v$. I am not sure which of these effects will be more significant than the others.
 
 \newpage
 
