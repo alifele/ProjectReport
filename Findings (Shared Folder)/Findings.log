@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  27 JAN 2024 22:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  28 JAN 2024 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1128,15 +1128,16 @@ File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \c@thm=\count368
 \c@definitionT=\count369
 \c@strangeObsT=\count370
-\c@theoremT=\count371
-\c@propositionT=\count372
-\c@corollaryT=\count373
-\c@lemmaT=\count374
-\c@summaryT=\count375
-\c@trickT=\count376
-\c@exampleT=\count377
-\c@problemT=\count378
-\c@problem=\count379
+\c@obsBoxT=\count371
+\c@theoremT=\count372
+\c@propositionT=\count373
+\c@corollaryT=\count374
+\c@lemmaT=\count375
+\c@summaryT=\count376
+\c@trickT=\count377
+\c@exampleT=\count378
+\c@problemT=\count379
+\c@problem=\count380
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
@@ -1150,14 +1151,14 @@ Package zref Info: New property list: main on input line 764.
 Package zref Info: New property: default on input line 765.
 Package zref Info: New property: page on input line 766.
 )
-\c@abspage=\count380
+\c@abspage=\count381
 Package zref Info: New property: abspage on input line 66.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip74
-\c@mdf@globalstyle@cnt=\count381
+\c@mdf@globalstyle@cnt=\count382
 \mdf@skipabove@length=\skip75
 \mdf@skipbelow@length=\skip76
 \mdf@leftmargin@length=\skip77
@@ -1233,16 +1234,16 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip138
 \mdfsubtitleheight=\skip139
 \mdfsubsubtitleheight=\skip140
-\c@mdfcountframes=\count382
+\c@mdfcountframes=\count383
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count383
-\c@mdf@env@i=\count384
-\c@mdf@env@ii=\count385
-\c@mdf@zref@counter=\count386
+\mdf@envdepth=\count384
+\c@mdf@env@i=\count385
+\c@mdf@env@ii=\count386
+\c@mdf@zref@counter=\count387
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
@@ -1250,7 +1251,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip141
 \bibsep=\skip142
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count387
+\c@NAT@ctr=\count388
 )
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 22.
@@ -1351,7 +1352,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 22.
 
-\c@lstlisting=\count388
+\c@lstlisting=\count389
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1451,14 +1452,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-Package mdframed Info: mdframed works in twoside mode on input line 78.
+Package mdframed Info: mdframed works in twoside mode on input line 102.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 78.
+(mdframed)              on input line 102.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 102.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 102.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 102.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 102.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 109.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1469,10 +1481,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Package mdframed Info: mdframed works in twoside mode on input line 103.
+Package mdframed Info: mdframed works in twoside mode on input line 111.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 103.
+(mdframed)              on input line 111.
+Package mdframed Info: mdframed works in twoside mode on input line 124.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 124.
+File: images/simpleODEModel1PhasePortrait.png Graphic file (type bmp)
+<images/simpleODEModel1PhasePortrait.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1482,7 +1500,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5])
+[5]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1491,7 +1509,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6]
+[6])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7]
 \openout2 = `Chapters/PapersReviewed.aux'.
 
  (./Chapters/PapersReviewed.tex
@@ -1500,7 +1527,7 @@ Chapter 2.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 17.
 
-[7
+[8
 
 
 
@@ -1514,12 +1541,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]
+[9]
 \openout2 = `Chapters/MolecularBiology.aux'.
 
  (./Chapters/MolecularBiology.tex
 Chapter 3.
-[9
+[10
 
 
 
@@ -1533,7 +1560,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10]
+[11]
 \openout2 = `Chapters/MeetingLog.aux'.
 
  (./Chapters/MeetingLog.tex
@@ -1542,7 +1569,7 @@ Chapter 4.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3.
 
-) [11
+) [12
 
 
 
@@ -1552,7 +1579,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
  (./Chapters/Comments.tex
 Chapter 5.
-[12
+[13
 
 
 
@@ -1566,7 +1593,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13]
+[14]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1575,7 +1602,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14])
+[15])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1584,12 +1611,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15] (./Findings.bbl
+[16] (./Findings.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [16
+ [17
 
 
 
@@ -1602,7 +1629,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17]
+[18]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1611,7 +1638,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18])
+[19])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1620,19 +1647,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19] (./Findings.aux (./Chapters/modelAttempts.aux)
+[20] (./Findings.aux (./Chapters/modelAttempts.aux)
 (./Chapters/PapersReviewed.aux) (./Chapters/MolecularBiology.aux)
 (./Chapters/MeetingLog.aux) (./Chapters/Comments.aux))
 Package rerunfilecheck Info: File `Findings.out' has not changed.
 (rerunfilecheck)             Checksum: 17403864F397588485C3CEAF1785BB39;4383.
  ) 
 Here is how much of TeX's memory you used:
- 49211 strings out of 476191
- 1208772 string characters out of 5812073
- 1818839 words of memory out of 5000000
- 69116 multiletter control sequences out of 15000+600000
- 477322 words of font info for 72 fonts, out of 8000000 for 9000
+ 49286 strings out of 476191
+ 1210405 string characters out of 5812073
+ 1819217 words of memory out of 5000000
+ 69184 multiletter control sequences out of 15000+600000
+ 482137 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,108p,1163b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,108p,1163b,978s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Findings.pdf (20 pages).
+Output written on Findings.pdf (21 pages).

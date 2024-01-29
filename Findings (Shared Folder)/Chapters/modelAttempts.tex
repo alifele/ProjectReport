@@ -7,9 +7,9 @@ Here, we develop a model that keeps track of the following variables
 	
 	$\rho(t)$ = density of blood vessels (length per unit area).
 	
-	$c(t)$ = concentration of drug delivered to region by blood vessels.
+	$c(t)$ = concentration of drug delivered to region by blood vessels (nano mole per unit area).
 \end{quote}
-An updating list of model parameters
+An updating list of model parameters:
 \begin{itemize}
 	\item $v$ [length/time]: The rate at which the tip cells move and extends the blood vessels.
 	\item $\delta_v$ [1/time]: The rate at which the vascular structure gets degraded.
@@ -17,16 +17,23 @@ An updating list of model parameters
 	\item $\lambda_b$ [1/time/length]: Tip cell emerging rate from stalk cells.
 	\item $\delta_t$ [1/time]: Tip cell death/deactivation rate.
 	\item $\kappa$ [area/length/time]: Re-connection of tip cells to the other capillaries to form loops.  
+	\item $\mu$ [1/time]: The rate at which 
+	\item $\sigma$ [area/length]: The coverage of the blood vessels in the region.
+\end{itemize}
+And a list input functions
+\begin{itemize}
+	\item $f(t)$: [nmol/length]: The amount of drug inside the capillary.
 \end{itemize}
 
 
 
-\subsubsection*{Studying dynamics of vessel formation}
+
+\subsection*{Studying dynamics of vessel formation}
 \[ \frac{d\rho}{dt} = ??. \]
 The active tip cells extend the vascular structure as they move. Assuming the tip cells move at rate $v$, then 
 \[ \frac{d \rho}{dt} = vn+ ??. \]
 Also, assuming the vascular structure degrades with rate $\delta$ [per unit time], we can add the degradation term 
-\[ \boxed{\frac{d\rho}{dt} = vn + \delta_v \rho} . \]
+\[ \boxed{\frac{d\rho}{dt} = vn - \delta_v \rho} . \]
 
 
 
@@ -46,63 +53,97 @@ Things important in the dynamics of the tip cells
 	\item The movement of tip cells and formation of new vascular networks along the way.
 \end{itemize}
 
-\[ \boxed{\frac{dn}{dt} = (\lambda_s - \delta_t) n + \lambda_b \rho + \kappa n \rho}.  \]
+\[ \boxed{\frac{dn}{dt} = (\lambda_s - \delta_t) n + \lambda_b \rho - \kappa n \rho}.  \]
 
 \subsubsection*{Nondimensionalization}
 In order the analyze the model more easily, we nondimensionalize the system with the following change of variable
 \[ \rho = R \tilde{\rho}, \qquad n = N \tilde{n}, \qquad t = T \tau. \]
 There are many possible choice to choose the scaling factors $R, N, T$. However, we will choose them in a way that they are always positive, and the system of ODE becomes as simple as possible. Substituting the change of variable above in the ODE system, we will get
 \begin{align*}
-	&\frac{d\tilde{\rho}}{d\tau} = \frac{vNT}{R}\tilde{n} + \delta_v T \tilde{\rho},\\
-	&\frac{d\tilde{n}}{d\tau} = T(\lambda_s-\delta_t)\tilde{n} + \frac{\lambda_b T R}{N} \tilde{\rho} + T\kappa R \tilde{n}\tilde{\rho}.
+	&\frac{d\tilde{\rho}}{d\tau} = \frac{vNT}{R}\tilde{n} - \delta_v T \tilde{\rho},\\
+	&\frac{d\tilde{n}}{d\tau} = T(\lambda_s-\delta_t)\tilde{n} + \frac{\lambda_b T R}{N} \tilde{\rho} - T\kappa R \tilde{n}\tilde{\rho}. \tag{\twonotes}
 \end{align*}
 We choose the following values for $T,N$, and $R$
 \[ T = \frac{1}{\delta_v}, \qquad R = \frac{\delta_v}{\kappa}, \qquad N = \frac{\lambda_b}{\kappa}. \]
 This is a very suitable moment to pause and check the dimensions if they match (I did it and all of them matches!). With these choices from the coefficients, the system of ODEs will be
-\[ \frac{d\tilde{n}}{d \tau} = \frac{\lambda_s - \delta_t}{\delta_v} \tilde{n} + \tilde{\rho} + \tilde{n}\tilde{\rho}, \qquad
-\frac{d\tilde{\rho}}{d\tau} = \frac{v\lambda_b}{\delta_v^2}\tilde{n} + \tilde{\rho}. \]
+\[ \frac{d\tilde{n}}{d \tau} = \frac{\lambda_s - \delta_t}{\delta_v} \tilde{n} + \tilde{\rho} - \tilde{n}\tilde{\rho}, \qquad
+\frac{d\tilde{\rho}}{d\tau} = \frac{v\lambda_b}{\delta_v^2}\tilde{n} - \tilde{\rho}. \]
 To make the ODEs simpler to work with, we will write $n,\rho$ in place of $\tilde{n}$ and $\tilde{\rho}$, and also we introduce the following parameters
 \[ \alpha = \lambda_s - \delta_t, \qquad \beta =\delta_v, \qquad \gamma = v\lambda_b. \tag{$\clubsuit$} \]
 Then we can write
 \begin{equation*}
 	\boxed{
 		\begin{aligned}
-			&\dot{n} = \frac{\alpha}{\beta}n + \rho + n\rho, \\
-			&\dot{\rho} = \frac{\gamma}{\beta^2}n +\rho.
+			&\dot{n} = \frac{\alpha}{\beta}n + \rho - n\rho, \\
+			&\dot{\rho} = \frac{\gamma}{\beta^2}n -\rho.
 		\end{aligned}
 	}
 	\tag{\smiley}
 \end{equation*}
 After some algebra, it turns out that there are two equilibrium points for this system.
-\[ p^0_1 = (0,0), \qquad p^0_2 = (\frac{\alpha\beta}{\gamma} - 1, \frac{\gamma}{\beta^2}-\frac{\alpha}{\beta}) = (\frac{\alpha\beta-\gamma}{\gamma},\frac{\gamma - \alpha\beta}{\beta^2}). \]
-\begin{strangeObs}
-	Something does not make sense! We know that the variables $n$ and $\rho$ must all be positive, as they are both representing biological values. However, by looking closely at the second component of $p^0_2$, it turns out th at $\gamma - \alpha\beta$ should be positive. In order to have the first component positive as well, then $\gamma$ should be negative, which is not possible. That is because by $(\clubsuit)$ we know that $\gamma>0$. There is at least one solution for this paradox, which is letting $\alpha\beta - \gamma =0$. Then this equilibrium point will be the same as $p^0_1$, showing the fact that the system has only one equilibrium point with biological meaning, which is the origin (not very interesting)! \\
-	However, I am going to ignore this observation for now and proceed with the stability analysis.
-	
-	\label{strangeObs:SimpleODEequiliNegative}
-\end{strangeObs}
+\[ p^0_1 = (0,0), \qquad p^0_2 = (\frac{\alpha\beta}{\gamma} + 1, \frac{\gamma}{\beta^2}+\frac{\alpha}{\beta}) = (\frac{\alpha\beta+\gamma}{\gamma},\frac{\gamma + \alpha\beta}{\beta^2}). \]
+%\begin{strangeObs}
+%	Something does not make sense! We know that the variables $n$ and $\rho$ must all be positive, as they are both representing biological values. However, by looking closely at the second component of $p^0_2$, it turns out th at $\gamma - \alpha\beta$ should be positive. In order to have the first component positive as well, then $\gamma$ should be negative, which is not possible. That is because by $(\clubsuit)$ we know that $\gamma>0$. There is at least one solution for this paradox, which is letting $\alpha\beta - \gamma =0$. Then this equilibrium point will be the same as $p^0_1$, showing the fact that the system has only one equilibrium point with biological meaning, which is the origin (not very interesting)!\\
+%	However, I am going to ignore this observation for now and proceed with the stability analysis.
+%	
+%	\label{strangeObs:SimpleODEequiliNegative}
+%\end{strangeObs}
 
 In order to analyze the stability of these equilibrium points, we first need to calculate the Jacobian matrix of the ODE system 
-\[ DF = \matt{\alpha/\beta+\rho}{1+n}{\gamma/\beta^2}{1}. \]
+\[ DF = \matt{\alpha/\beta-\rho}{1-n}{\gamma/\beta^2}{-1}. \]
 
 \subsubsection{Stability Analysis of $p^0_2$}
 By evaluating the Jacobian matrix at the equilibrium point we will have
-\[ DF[p^0_2] = \matt{\gamma/\beta^2}{\alpha\beta/\gamma}{\gamma/\beta^2}{1}. \]
+\[ DF[p^0_2] = \matt{-\gamma/\beta^2}{-\alpha\beta/\gamma}{\gamma/\beta^2}{-1}. \]
 The trace and determinant of this matrix is
-\[  \Delta = \gamma/\beta_2 - \alpha/\beta, \qquad \sigma=\gamma/\beta^2 + 1.  \]
-By close inspection, it turns out that $\Delta$ is the same as the first component of $p^0_2$, which should be positive. This implies $\Delta > 0$. So the sign of the trace of the Jacobian matrix will determine the stability. From $(\clubsuit)$, $\gamma>0$. Thus $\sigma > 0$. This indicates that the equilibrium point $p_0^2$ is unstable (look at \autoref{strangeObs:SimpleODEequiliNegative} for another ongoing issue regarding this equilibrium point).
+\[  \Delta = \gamma/\beta^2 + \alpha/\beta, \qquad \sigma=-\gamma/\beta^2 - 1.  \]
+By close inspection, it turns out that $\Delta$ is the same as the first component of $p^0_2$, which should be positive. This implies $\Delta > 0$. So the sign of the trace of the Jacobian matrix will determine the stability. From $(\clubsuit)$, $\gamma>0$. Thus $\sigma < 0$. This indicates that the equilibrium point $p_0^2$ is stable equilibrium. Also, note that since $\sigma$ can never transversally become positive from being negative (i.e. passing through $\sigma=0$, transversally), thus we can rule out the existence of any Hopf bifurcation with this particular model.
+
+\begin{observation}[stability of $p^0_2$]
+	The Jacobian matrix evaluated at $p^0_2$ has
+	\[ \Delta \geq 0, \qquad \sigma < 0. \]
+	Thus equilibrium point $p^0_2$ is a hyperbolic sink (when $\delta > 0$). When $\Delta>0$, then we have two imaginary eigenvalues
+	\[ \lambda_1 = \sigma/2+i\sqrt{\Delta}, \qquad \lambda_2 = \sigma/2-i\sqrt{\Delta}. \]
+	where $\sigma$ is always negative. This implies that $p^0_2$ will always be a stable focus and the equilibrium point will be approached in a damping oscillatory way.\\
+	In the special case where $\Delta =0$, we will have $p^0_2=p^0_1$, thus it will inherit the stability of $p_0^1$. 
+\end{observation}
+
+\begin{observation}[No sustained oscillations]
+	Note that since $\sigma<0$ for all values of the parameters of the model, then there is no chance to observe a Hopf bifurcation, thus ruling out any sustained oscillations in the model.
+\end{observation}
+
+\subsubsection{Finding Lyapunov Function}
+In attempting to find a Lyapunov function, I thought it might be a good idea to have a different choices for the non-dimensionalization scaling so that I can have control on the nonlinear part $n\rho$. But it seems that there are no possible ways to achieve this. That is because in $(\twonotes)$, we can not make the first term of RHS of $\dot{\tilde{\rho}}$ and the second term of RHS of $\dot{\tilde{n}}$ simultaneously to be 1. Thus there are no choices for the scaling factors to make the coefficient of $\tilde{n}\tilde{\rho}$ to be 1.
 
 
 \subsubsection{Stability Analysis of $p^0_1$}
 The Jacobian matrix evaluated at $p^0_1$ is
-\[ DF[p^0_1] = \matt{\alpha/\beta}{1}{\gamma/\beta^2}{1}. \]
+\[ DF[p^0_1] = \matt{\alpha/\beta}{1}{\gamma/\beta^2}{-1}. \]
 The determinant and the trace will be
-\[  \Delta = \alpha/\beta - \gamma/\beta^2, \qquad \sigma = \alpha/\beta+1. \]
-Since the determinant is minus the first component of $p^0_2$. Thus $\delta<0$. This implies that regardless of the value of $\sigma$, the equilibrium $p^0_1$ is a saddle point.
+\[  \Delta = -\alpha/\beta - \gamma/\beta^2, \qquad \sigma = \alpha/\beta-1. \]
+\begin{observation}
+	The determinant $\Delta$ is negative the first term of the $p^0_2$. Thus $\Delta\leq0$. When $\Delta<0$, then regardless of value of $\sigma$, $p^0_1$ is a hyperbolic saddle. However, when $\Delta=0$, then $p^0_1$ is non-hyperbolic and further analysis is required to determine the stability.
+\end{observation}
+The following shows the phase portrait of the system with some values for the parameters.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/simpleODEModel1PhasePortrait}
 
-\begin{strangeObs}
-	This equilibrium point $p^0_1$ has no choice but to be stable, if we expect the model to represent real biological situation. But our analysis above, reveals that this equilibrium point is in fact a saddle point. However, I can argue that if that the eigenvector with negative eigenvalue for the Jacobian matrix evaluated at $p^0_2$, lies in the first quadrant, then $p^0_2$ will ``look'' stable for the points at the first quadrant. But I am not sure if this is something normal to happen for a biological model.
-\end{strangeObs}
+	\label{fig:simpleodemodel1phaseportrait}
+\end{figure}
+
+
+%\begin{strangeObs}
+%	This equilibrium point $p^0_1$ has no choice but to be stable, if we expect the model to represent real biological situation. But our analysis above, reveals that this equilibrium point is in fact a saddle point. However, I can argue that if that the eigenvector with negative eigenvalue for the Jacobian matrix evaluated at $p^0_2$, lies in the first quadrant, then $p^0_2$ will ``look'' stable for the points at the first quadrant. But I am not sure if this is something normal to happen for a biological model.
+%\end{strangeObs}
+
+
+\subsection*{Adding the drug-vessel interaction}
+In order to bring the drug-vessel interaction into play, we develop a ODE for $c(t)$ add approporite terms to the RHS of $\dot{n}$ and $\dot{\rho}$.
+\[ \frac{dc}{dt} = \mu (\rho(t)f(t) - \sigma c(t)\rho(t)) - \boxed{\lambda c} \]
+where $\mu$ has the unit [1/time], and $f(t)$ is the amount drug inside the capillary that has the unit [nmol per unit length]. Note that we have assumed the exchange of drug between the vessels and the region of interest is proportional to the difference in the concentration of drug in two different environments. Furthermore, the coefficient $\sigma$ has the units of [area/length] which is an indicator of the area coverage of the blood vessels. This parameter somehow characterizes the space filling and fractal structure of the blood vessels. This parameter should have some relations with the fractal dimension of a given vascular structure. Considering the dynamics of this parameter can possibly reflect some of the topological and non-local characterizations of the vascular network.
+
+
 
 \newpage
 

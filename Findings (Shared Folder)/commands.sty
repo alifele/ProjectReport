@@ -248,6 +248,8 @@
 \theoremstyle{blacknumbox}	
 \newtheorem{definitionT}{Definition}[chapter]
 \newtheorem{strangeObsT}{Strage Observation}[section]
+\newtheorem{obsBoxT}{Observation}[section]
+\newtheorem*{carefulBoxT}{Be Careful!}
 \newtheorem{theoremT}{Theorem}[chapter]
 \newtheorem{propositionT}{Proposition}[chapter]
 \newtheorem{corollaryT}{Corollary}[chapter]
@@ -310,8 +312,8 @@ rightline=true, % Right line visible
 leftline=true, % Left line visible
 topline=false, % Top line visible
 bottomline=false, % Bottom line visible
-backgroundcolor=HighLight!5, % BackgroundColor
-linecolor=LowLight, % Border color
+backgroundcolor=green!4, % BackgroundColor
+linecolor=green!60!black, % Border color
 linewidth=4pt, % Border width
 innerleftmargin=5pt, % Inside left margin width
 innerrightmargin=5pt, % Inside right margin width
@@ -329,8 +331,8 @@ rightline=false, % Right line visible
 leftline=true, % Left line visible
 topline=false, % Top line visible
 bottomline=false, % Bottom line visible
-backgroundcolor=LowLight!10, % BackgroundColor
-linecolor=LowLight, % Border color
+backgroundcolor=HighLight!10, % BackgroundColor
+linecolor=HighLight, % Border color
 linewidth=4pt, % Border width
 innerleftmargin=5pt, % Inside left margin width
 innerrightmargin=5pt, % Inside right margin width
@@ -348,8 +350,8 @@ rightline=false, % Right line visible
 leftline=true, % Left line visible
 topline=false, % Top line visible
 bottomline=false, % Bottom line visible
-backgroundcolor=MedDark!10, % BackgroundColor
-linecolor=MedDark, % Border color
+backgroundcolor=LowLight!10, % BackgroundColor
+linecolor=LowLight, % Border color
 linewidth=4pt, % Border width
 innerleftmargin=5pt, % Inside left margin width
 innerrightmargin=5pt, % Inside right margin width
@@ -389,6 +391,8 @@ rightmargin=0cm % Outside right margin width
 
 \newenvironment{trick}{\begin{summaryBox}\begin{trickT}}{\end{trickT}\end{summaryBox}}
 \newenvironment{strangeObs}{\begin{defBox}\begin{strangeObsT}}{\end{strangeObsT}\end{defBox}}
+\newenvironment{observation}{\begin{summaryBox}\begin{obsBoxT}}{\end{obsBoxT}\end{summaryBox}}
+\newenvironment{beCareful}{\begin{theoremBox}\begin{carefulBoxT}}{\end{carefulBoxT}\end{theoremBox}}
 
 
 \newenvironment{corollary}{\begin{lemmaCorBox}\begin{corollaryT}}{\end{corollaryT}\end{lemmaCorBox}}
