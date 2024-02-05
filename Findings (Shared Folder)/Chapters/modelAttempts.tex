@@ -102,10 +102,11 @@ By close inspection, it turns out that $\Delta$ is the same as the first compone
 \begin{observation}[stability of $p^0_2$]
 	The Jacobian matrix evaluated at $p^0_2$ has
 	\[ \Delta \geq 0, \qquad \sigma < 0. \]
-	Thus equilibrium point $p^0_2$ is a hyperbolic sink (when $\delta > 0$). When $\Delta>0$, then we have two imaginary eigenvalues
-	\[ \lambda_1 = \sigma/2+i\sqrt{\Delta}, \qquad \lambda_2 = \sigma/2-i\sqrt{\Delta}. \]
-	where $\sigma$ is always negative. This implies that $p^0_2$ will always be a stable focus and the equilibrium point will be approached in a damping oscillatory way.\\
-	In the special case where $\Delta =0$, we will have $p^0_2=p^0_1$, thus it will inherit the stability of $p_0^1$. 
+	Thus equilibrium point $p^0_2$ is a hyperbolic sink (when $\delta > 0$). This hyperbolic sink can be of the type stable node (with purely real eigenvalues) or stable focus (with complex valued eigenvalues whose real part is negative). But since these two kind of stability are topologically equivalent, we don't do further analysis to distinguish them at this point.
+%	When $\Delta>0$, then we have two imaginary eigenvalues
+%	\[ \lambda_1 = \sigma/2+i\sqrt{\Delta}, \qquad \lambda_2 = \sigma/2-i\sqrt{\Delta}. \]
+%	where $\sigma$ is always negative. This implies that $p^0_2$ will always be a stable focus and the equilibrium point will be approached in a damping oscillatory way.\\
+%	In the special case where $\Delta =0$, we will have $p^0_2=p^0_1$, thus it will inherit the stability of $p_0^1$. 
 \end{observation}
 
 \begin{observation}[No sustained oscillations]
@@ -133,6 +134,16 @@ The following shows the phase portrait of the system with some values for the pa
 \end{figure}
 
 
+Furthermore, the following diagram shows the nullclines and the sign of the vector field at the different regions of the phase portrait.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/nullClines.png}
+	
+	\label{fig:simpleodemodel1phaseportrait}
+\end{figure}
+
+
+
 %\begin{strangeObs}
 %	This equilibrium point $p^0_1$ has no choice but to be stable, if we expect the model to represent real biological situation. But our analysis above, reveals that this equilibrium point is in fact a saddle point. However, I can argue that if that the eigenvector with negative eigenvalue for the Jacobian matrix evaluated at $p^0_2$, lies in the first quadrant, then $p^0_2$ will ``look'' stable for the points at the first quadrant. But I am not sure if this is something normal to happen for a biological model.
 %\end{strangeObs}
@@ -143,9 +154,84 @@ In order to bring the drug-vessel interaction into play, we develop a ODE for $c
 \[ \frac{dc}{dt} = \mu (\rho(t)f(t) - \sigma c(t)\rho(t)) - \boxed{\lambda c} \]
 where $\mu$ has the unit [1/time], and $f(t)$ is the amount drug inside the capillary that has the unit [nmol per unit length]. Note that we have assumed the exchange of drug between the vessels and the region of interest is proportional to the difference in the concentration of drug in two different environments. Furthermore, the coefficient $\sigma$ has the units of [area/length] which is an indicator of the area coverage of the blood vessels. This parameter somehow characterizes the space filling and fractal structure of the blood vessels. This parameter should have some relations with the fractal dimension of a given vascular structure. Considering the dynamics of this parameter can possibly reflect some of the topological and non-local characterizations of the vascular network.
 
+\subsubsection*{Basic and Simplified delivery scenario}
+We assume that there is an infinite pool of drug (i.e. the patient is getting injected continuously) so the amount of drug per unit length in the capillary is constant $C_0$ [nmol per unit length].
+\[ \frac{dc}{dt} = \mu \rho(t)(C_0 - \sigma c(t)).  \]
+
+Also, note that we have ignored the radiation decay term to keep stuff simpler at this stage. The reason behind this choice is that at this stage, in adding the drug-vessel interaction, we will only consider a mass-action type interaction (i.e. chemical interactions), and no radio-biological interaction will be assumed (which has more complexity).
+
+Another assumption that we make is that since the molecules of the drug are much smaller and simpler than the cells in the body, then we assume that they reach to equilibrium much more faster than the characteristic time scale of tip cell movement, and the death/generation of the cells. This basically means that we can simply assume $dc/dt=0$ to arrive at the following algebraic equation for $c$.
+\[ C_0 = \sigma c(t). \]
 
 \subsection*{Adding the drug-vessel interaction}
-Presence of drug in the environment can have many different effects. It can kill/deactivate the existing tip cells (increasing $\delta_t$). Or it can change the rate at which the endothelial cells turn into the tip cells (changing the value of $\delta_b$). Or it can affect the tip cell division rate ($\lambda_s$). It can also affect the cellular migration of the tip cells and change the value of parameter $v$. I am not sure which of these effects will be more significant than the others.
+Presence of drug in the environment can have many different effects. It can kill/deactivate the existing tip cells (increasing $\delta_t$). Or it can change the rate at which the endothelial cells turn into the tip cells (changing the value of $\delta_b$). Or it can affect the tip cell division rate ($\lambda_s$). It can also affect the cellular migration of the tip cells and change the value of parameter $v$. The following lists the parameters corresponding to the amplitude of each of these interactions
+\begin{itemize}
+	\item $a_1$: changing the tip cell movement/migration
+	\item $a_2$: killing/deactivating the tip cells
+	\item $a_3$: changing the endothelial-to-tip cell conversion rate
+	\item $a_4$: changing the tip cell division rate
+\end{itemize}
+
+
+\subsection*{Some discussions on drug interaction}
+In mathematical modeling of biological processes, incorporating drug interactions can be complex, as the drug can influence various parameters of the system in different ways. The choice of interaction term often depends on the nature of the drug action and the available experimental data.
+Here are a few common approaches to include drug interactions in the model:
+
+\begin{enumerate}
+	\item \textbf{Linear Interaction}: If the drug effect is proportional to its concentration, we can model the interaction linearly. For instance:
+	\begin{align*}
+		v(c) &= v_0 - a_1 c, \\
+		\delta_v(c) &= \delta_{v0} + a_2 c,\\
+		\lambda_b(c) &= \lambda_{b0} + a_3 c,\\
+		\lambda_s(c) &= \lambda_{s0} - a_4 c.
+	\end{align*}
+	Here, \( v_0 \) and \( \delta_{v0} \) are the baseline motility and degradation rates without the drug, while \( a_1 \) and \( a_2 \) represent the sensitivity of these rates to the drug concentration. Similarly \( \lambda_{b0} \) and \( \lambda_{s0} \) are the baseline rates without the drug, and \( a_3 \), \( a_4 \) are the sensitivities of these rates to the drug concentration.
+
+	
+	\item \textbf{Hill Function}: If the drug effect exhibits saturation -- meaning it has a maximum effect regardless of concentration -- a Hill function can be appropriate:
+	\begin{align*}
+		v(c) &= v_0 \left(1 - \frac{a_1 c^h}{K_d^h + c^h}\right), \\
+		\delta_v(c) &= \delta_{v0} \left(1 + \frac{a_2 c^h}{K_d^h + c^h}\right),\\
+		\lambda_b(c) &= \lambda_{b0} \left(1 + \frac{a_3 c^h}{K_{d3}^h + c^h}\right),\\
+		\lambda_s(c)& = \lambda_{s0} \left(1 - \frac{a_4 c^h}{K_{d4}^h + c^h}\right),
+	\end{align*}
+	Here, \( h \) is the Hill coefficient that determines the steepness of the response curve, and \( K_d \) is the drug concentration at which the effect is half of its maximum. With \( h \) as the Hill coefficient, and \( K_{d3} \), \( K_{d4} \) as the half-maximal effective concentrations for \( \lambda_b \) and \( \lambda_s \), respectively.
+	
+	\item \textbf{Michaelis-Menten Kinetics}: If the drug interaction is enzyme-like, you can model it using Michaelis-Menten kinetics:
+	\begin{align*}
+		v(c) &= v_0 \left(1 - \frac{a_1 c}{K_m + c}\right), \\
+		\delta_v(c) &= \delta_{v0} \left(1 + \frac{a_2 c}{K_m + c}\right),\\
+		\lambda_b(c) &= \lambda_{b0} \left(1 + \frac{a_3 c}{K_m + c}\right),\\	
+		\lambda_s(c) &= \lambda_{s0} \left(1 - \frac{a_4 c}{K_m + c}\right),
+	\end{align*}
+	Where \( K_m \) is the Michaelis constant, representing the drug concentration at which the rate of reaction is half of its maximum. where \( K_m \) is the Michaelis constant, indicative of the concentration at which the reaction rate is half its maximum.
+	
+	\item \textbf{Exponential or Sigmoidal Functions}: For more complex drug effects, such as those that have a threshold effect or exhibit a sigmoidal dose-response, exponential or sigmoidal functions can be used.
+\end{enumerate}
+
+These interaction terms would be incorporated into the model by modifying the differential equations as follows:
+\[
+\frac{d\rho}{dt} = v(c)n - \delta_v(c) \rho,
+\]
+
+\[
+\frac{dn}{dt} = (\lambda_s(c) - \delta_t) n + \lambda_b(c) \rho - \kappa n \rho,
+\]
+
+where \( \lambda_b(c) \) and \( \lambda_s(c) \) are now functions of the drug concentration that reflect the modulation of the endothelial-to-tip cell conversion rate and the tip cell division rate by the drug.
+
+The form of the interaction should be chosen based on the biological mechanism of the drug action, the type and quality of experimental data available, and the ability to estimate the additional parameters introduced by these functional forms with the available data.
+To decide which model to use, consider the following:
+
+\begin{itemize}
+	\item \textbf{Biological Mechanism}: Does the drug interact with its target in a manner that is competitive, non-competitive, or does it follow some form of cooperative binding? This will guide whether you use linear, Hill, or Michaelis-Menten kinetics.
+	\item \textbf{Data Availability}: What kind of data do you have? If you have dose-response data, you can fit these models to the data to estimate parameters like \( a_1 \), \( a_2 \), \( h \), \( K_d \), or \( K_m \).
+	\item \textbf{Parameter Estimation}: Can you estimate the additional parameters introduced by these functions? More complex models require more data for accurate parameter estimation.
+\end{itemize}
+
+
+
+
 
 \newpage
 

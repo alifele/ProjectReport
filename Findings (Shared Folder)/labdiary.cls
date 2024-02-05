@@ -17,8 +17,8 @@
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage{color}
 \RequirePackage{xcolor}
-\RequirePackage{mathpazo}
-\RequirePackage{palatino}
+%\RequirePackage{12}
+%\RequirePackage{palatino}
 \RequirePackage{fontspec}
 
 
