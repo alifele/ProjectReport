@@ -1,7 +1,30 @@
 \chapter{Meeting log}
+\section{Meetings with Leah}
+\subsection{29 Jan Meeting}
 
-\subsection{29 Jan Meeting with Leah}
-Things to discuss
-\begin{itemize}
-	\item Citation with Year-Author style, or Number Style?
+\begin{itemize}[itemsep=0pt, parsep=0pt]
+	\item Fixing some errors in the eigenvalues for the main differential equations. 
+	\item Add the nullclines plot.
+	\item Add the possible interactions between vascular networks and the drug
 \end{itemize}
+
+
+\subsection{5 Feb Meeting}
+\begin{itemize}[itemsep=0pt, parsep=0pt]
+	\item Thinking again about including the decay of radiopharmaceuticals: This has both pros and cons. The pros is that 
+	\begin{itemize}[itemsep=0pt, parsep=0pt]
+		\item more realistic model,
+		\item it is always good to have same sort of decay in the model to ensure the stability.
+	\end{itemize}
+	However, the downside is that radiation interacts more wildly with the the cells present in the mode. It can inhibit them (by killing them) which is in a non mass action or Hill function style. The killing mechanism follows the linear quadratic rule. Also, the radiation can have activation functionality on the same cells by simply causing crazy genetic mutations. \textbf{So decision on including the radiation term in the basic model should be done with extra care.}
+	\item Doing qualitative analysis (not quantitative) with the nullclines and the change in parameters due to the drug interaction. This way we can capture the possible interactions with out considering the actual functional form of the interaction.
+	\item After doing the qualitative analysis, I need to do some literature review to see what are the possible drug-vessel interactions (both radiation and chemical)
+	\item Consider adding the tumor compartment. The tumor compartment can interact with the vascular network by
+	\begin{itemize}[itemsep=0pt, parsep=0pt]
+		\item increasing the mobility of the tip cells: both by increasing chemotaxis agents, and also by loosens the extracellular matrix,
+		\item Any other interaction that needs to be determined carefully.
+	\end{itemize}
+	\item Adding the condition under which the stability of $p^0_2$ is focus or node.
+\end{itemize}
+
+\section{Meetings with Arman}

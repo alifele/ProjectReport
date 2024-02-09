@@ -80,8 +80,13 @@ Then we can write
 	}
 	\tag{\smiley}
 \end{equation*}
+In order to find the equilibrium points, we demand $\dot{n} = 0$ as well as $\dot{\rho} = 0$. This will lead to the following equations
+\begin{align*}
+	\dot{n} = 0&: \qquad \frac{\alpha}{\beta} n + \rho - n\rho = 0, \\
+	\dot{\rho} =0&: \qquad \frac{\gamma}{\beta^2}n - \rho = 0.
+\end{align*}
 After some algebra, it turns out that there are two equilibrium points for this system.
-\[ p^0_1 = (0,0), \qquad p^0_2 = (\frac{\alpha\beta}{\gamma} + 1, \frac{\gamma}{\beta^2}+\frac{\alpha}{\beta}) = (\frac{\alpha\beta+\gamma}{\gamma},\frac{\gamma + \alpha\beta}{\beta^2}). \]
+\[ p^0_1 = (0,0), \qquad p^0_2 = (\frac{\alpha\beta}{\gamma} + 1, \frac{\gamma}{\beta^2}+\frac{\alpha}{\beta}) = (\frac{\alpha\beta+\gamma}{\gamma},\frac{\gamma + \alpha\beta}{\beta^2}). \tag{E.1.1} \]
 %\begin{strangeObs}
 %	Something does not make sense! We know that the variables $n$ and $\rho$ must all be positive, as they are both representing biological values. However, by looking closely at the second component of $p^0_2$, it turns out th at $\gamma - \alpha\beta$ should be positive. In order to have the first component positive as well, then $\gamma$ should be negative, which is not possible. That is because by $(\clubsuit)$ we know that $\gamma>0$. There is at least one solution for this paradox, which is letting $\alpha\beta - \gamma =0$. Then this equilibrium point will be the same as $p^0_1$, showing the fact that the system has only one equilibrium point with biological meaning, which is the origin (not very interesting)!\\
 %	However, I am going to ignore this observation for now and proceed with the stability analysis.
@@ -142,11 +147,25 @@ Furthermore, the following diagram shows the nullclines and the sign of the vect
 	\label{fig:simpleodemodel1phaseportrait}
 \end{figure}
 
-
+\FloatBarrier
 
 %\begin{strangeObs}
 %	This equilibrium point $p^0_1$ has no choice but to be stable, if we expect the model to represent real biological situation. But our analysis above, reveals that this equilibrium point is in fact a saddle point. However, I can argue that if that the eigenvector with negative eigenvalue for the Jacobian matrix evaluated at $p^0_2$, lies in the first quadrant, then $p^0_2$ will ``look'' stable for the points at the first quadrant. But I am not sure if this is something normal to happen for a biological model.
 %\end{strangeObs}
+
+
+\subsection*{Quantitative analysis with nullclines}
+Drawing the phase portrait and including the nullclines helps in understanding the quantitative effect of change in parameters (which causes by the drug-vessel interaction). To draw the nullclines, we require
+\[ \vectt{\dot{n}}{\dot{\rho}} = \vectt{f_1(n,\rho)}{f_2(n,\rho)} = \vectt{\frac{\alpha}{\beta}n + \rho - n\rho}{\frac{\gamma}{\beta^2}n - \rho} = \vectt{0}{0}. \]
+After a little bit of algebra, we get
+\begin{align*}
+	\dot{n} = 0:& \qquad \rho = \frac{\alpha}{\beta}\cdot \frac{n}{n-1} \quad (n\neq 1),\\
+	\dot{\rho} = 0:& \qquad \rho = \frac{\gamma}{\beta^2}n.
+\end{align*}
+
+\begin{observation}
+	The reason that we get the restriction $n\neq 1$ for the $\dot{n} = 0$ nullcline is the following. From (E.1.1) we know that $f_1(p^0_2)=0$. Thus we can use the implicit function theorem to get a continuous branch of equilibria near $p_2^0$ in the form of $\rho = \hat{\rho}(n)$ where $\hat{\rho}$ is a continuously differentiable function, where $\rho^* = \hat{\rho}(n^*)$ (note $p^0_2 = (n^*, \rho^*)$), and $f_1(n,\hat{\rho}(n)) = 0$ for some neighborhood of $p_0^2$. However, we can use this implicit function argument only when $\partial_\rho f_1 \neq 0$, which implies $n\neq 1$.
+\end{observation}
 
 
 \subsection*{Drug delivery}
