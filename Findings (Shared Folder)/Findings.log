@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  8 FEB 2024 21:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  8 FEB 2024 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1553,6 +1553,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
+File: images/effectOfGamma.png Graphic file (type bmp)
+<images/effectOfGamma.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1562,6 +1565,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
+File: images/EffectOfBeta.png Graphic file (type bmp)
+<images/EffectOfBeta.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1588,7 +1594,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11])
+[11]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1597,7 +1603,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12]
+[12])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
 \openout2 = `Chapters/PapersReviewed.aux'.
 
  (./Chapters/PapersReviewed.tex
@@ -1606,7 +1621,7 @@ Chapter 2.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 17.
 
-[13
+[14
 
 
 
@@ -1620,12 +1635,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14]
+[15]
 \openout2 = `Chapters/MolecularBiology.aux'.
 
  (./Chapters/MolecularBiology.tex
 Chapter 3.
-[15
+[16
 
 
 
@@ -1639,12 +1654,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16]
+[17]
 \openout2 = `Chapters/MeetingLog.aux'.
 
  (./Chapters/MeetingLog.tex
 Chapter 4.
-) [17
+) [18
 
 
 
@@ -1658,12 +1673,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18]
+[19]
 \openout2 = `Chapters/Comments.aux'.
 
  (./Chapters/Comments.tex
 Chapter 5.
-[19
+[20
 
 
 
@@ -1677,7 +1692,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
+[21]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1686,7 +1701,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21])
+[22])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1695,19 +1710,55 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22] (./Findings.bbl) (./Findings.aux (./Chapters/modelAttempts.aux)
+[23] (./Findings.bbl
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [24
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27] (./Findings.aux (./Chapters/modelAttempts.aux)
 (./Chapters/PapersReviewed.aux) (./Chapters/MolecularBiology.aux)
 (./Chapters/MeetingLog.aux) (./Chapters/Comments.aux))
 Package rerunfilecheck Info: File `Findings.out' has not changed.
 (rerunfilecheck)             Checksum: CF6A4E7777A6CC441837BE610CAC5EC0;4769.
  ) 
 Here is how much of TeX's memory you used:
- 49142 strings out of 476191
- 1207916 string characters out of 5812073
- 1804642 words of memory out of 5000000
- 69041 multiletter control sequences out of 15000+600000
- 477425 words of font info for 79 fonts, out of 8000000 for 9000
+ 49235 strings out of 476191
+ 1210073 string characters out of 5812073
+ 1818642 words of memory out of 5000000
+ 69125 multiletter control sequences out of 15000+600000
+ 477449 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,108p,1163b,957s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Findings.pdf (23 pages).
+Output written on Findings.pdf (28 pages).
