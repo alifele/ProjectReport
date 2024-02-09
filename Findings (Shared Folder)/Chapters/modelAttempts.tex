@@ -140,12 +140,6 @@ The following shows the phase portrait of the system with some values for the pa
 
 
 Furthermore, the following diagram shows the nullclines and the sign of the vector field at the different regions of the phase portrait.
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.5\linewidth]{images/nullClines.png}
-	
-	\label{fig:simpleodemodel1phaseportrait}
-\end{figure}
 
 \FloatBarrier
 
@@ -162,16 +156,54 @@ After a little bit of algebra, we get
 	\dot{n} = 0:& \qquad \rho = \frac{\alpha}{\beta}\cdot \frac{n}{n-1} \quad (n\neq 1),\\
 	\dot{\rho} = 0:& \qquad \rho = \frac{\gamma}{\beta^2}n.
 \end{align*}
-
 \begin{observation}
-	The reason that we get the restriction $n\neq 1$ for the $\dot{n} = 0$ nullcline is the following. From (E.1.1) we know that $f_1(p^0_2)=0$. Thus we can use the implicit function theorem to get a continuous branch of equilibria near $p_2^0$ in the form of $\rho = \hat{\rho}(n)$ where $\hat{\rho}$ is a continuously differentiable function, where $\rho^* = \hat{\rho}(n^*)$ (note $p^0_2 = (n^*, \rho^*)$), and $f_1(n,\hat{\rho}(n)) = 0$ for some neighborhood of $p_0^2$. However, we can use this implicit function argument only when $\partial_\rho f_1 \neq 0$, which implies $n\neq 1$.
+	The reason that we get the restriction $n\neq 1$ for the $\dot{n} = 0$ nullcline is the following. From (E.1.1) we know that $f_1(p^0_2)=0$. Thus we can use the implicit function theorem to get a continuous branch of equilibria near $p_2^0$ in the form of $\rho = \hat{\rho}(n)$ where $\hat{\rho}$ is a continuously differentiable function, where $\rho^* = \hat{\rho}(n^*)$ (note $p^0_2 = (n^*, \rho^*)$), and $f_1(n,\hat{\rho}(n)) = 0$ for some neighborhood of $p_0^2$. However, we can use this implicit function argument only when $\partial_\rho f_1 \neq 0$, which implies $n\neq 1$.\\
+	Also, it is interesting to note that $n=1$ is equivalent to $\alpha=0$. This can be observed from (E.1.1). The consequences of this are summarized in the following observation boxes.
 \end{observation}
+
+We will have two cases of the phase portrait as shown in the figure below. Note that the stability of the equilibrium point $p_2^0$ will still remain the same as the value of $\alpha$ passes $\alpha=0$ transversally. The results of this section is summarized in the observation box below.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{images/nullClines_positiveNegative.png} % first image
+\end{figure}
+
+\FloatBarrier
+
+\begin{observation}[Two different phase portraits]
+	As the parameter $\alpha$ passes through $\alpha_0 = 0$ transversally, we get two phase portraits that are not topologically equivalent (the results are shown in the figure above). Because of this, depending on the sign of $\alpha$, we will observe totally different behaviours from the system as we change the parameter values. \\
+	I \textbf{emphasis} that in both of these phase portraits, the stability of both equilibria remains the same.
+\end{observation}
+
+\begin{observation}[Biological meaning of $\alpha$]
+	From $(\clubsuit)$ we see that $\alpha = \lambda_s - \delta_t$, where $\lambda_s$ is the tip cell division rate (which leads to vascular splitting), and $\delta_t$ is the death rate of the tip cells. Thus $\alpha >0$ translates to larger division rate compared to the death rate for tip cells, and $\alpha<0$ is the opposite.
+\end{observation}
+
+
+
+
+
+\subsection*{Quantitative study of Effect of Changing the Parameters}
+This section will lay the foundations for studying the drug-vessel interaction and how that affects the system.
+\subsubsection*{Effect of $\alpha$} 
+Regardless of the sign of $\alpha$ (i.e. being in either of phase portraits) increasing the value of alpha will move the $p^0_2$ higher. This observation is summarized in the following figure.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{images/effectOfAlpha.png} % first image
+\end{figure}
+
+\FloatBarrier
+
+\subsubsection*{Effect of $\gamma$}
+
+
 
 
 \subsection*{Drug delivery}
 In order to bring the drug-vessel interaction into play, we develop a ODE for $c(t)$ add approporite terms to the RHS of $\dot{n}$ and $\dot{\rho}$.
 \[ \frac{dc}{dt} = \mu (\rho(t)f(t) - \sigma c(t)\rho(t)) - \boxed{\lambda c} \]
 where $\mu$ has the unit [1/time], and $f(t)$ is the amount drug inside the capillary that has the unit [nmol per unit length]. Note that we have assumed the exchange of drug between the vessels and the region of interest is proportional to the difference in the concentration of drug in two different environments. Furthermore, the coefficient $\sigma$ has the units of [area/length] which is an indicator of the area coverage of the blood vessels. This parameter somehow characterizes the space filling and fractal structure of the blood vessels. This parameter should have some relations with the fractal dimension of a given vascular structure. Considering the dynamics of this parameter can possibly reflect some of the topological and non-local characterizations of the vascular network.
+
+
 
 \subsubsection*{Basic and Simplified delivery scenario}
 We assume that there is an infinite pool of drug (i.e. the patient is getting injected continuously) so the amount of drug per unit length in the capillary is constant $C_0$ [nmol per unit length].
@@ -181,6 +213,8 @@ Also, note that we have ignored the radiation decay term to keep stuff simpler a
 
 Another assumption that we make is that since the molecules of the drug are much smaller and simpler than the cells in the body, then we assume that they reach to equilibrium much more faster than the characteristic time scale of tip cell movement, and the death/generation of the cells. This basically means that we can simply assume $dc/dt=0$ to arrive at the following algebraic equation for $c$.
 \[ C_0 = \sigma c(t). \]
+
+
 
 \subsection*{Adding the drug-vessel interaction}
 Presence of drug in the environment can have many different effects. It can kill/deactivate the existing tip cells (increasing $\delta_t$). Or it can change the rate at which the endothelial cells turn into the tip cells (changing the value of $\delta_b$). Or it can affect the tip cell division rate ($\lambda_s$). It can also affect the cellular migration of the tip cells and change the value of parameter $v$. The following lists the parameters corresponding to the amplitude of each of these interactions
