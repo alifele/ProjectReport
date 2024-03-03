@@ -157,7 +157,7 @@ After a little bit of algebra, we get
 	\dot{\rho} = 0:& \qquad \rho = \frac{\gamma}{\beta^2}n.
 \end{align*}
 \begin{observation}
-	The reason that we get the restriction $n\neq 1$ for the $\dot{n} = 0$ nullcline is the following. From (E.1.1) we know that $f_1(p^0_2)=0$. Thus we can use the implicit function theorem to get a continuous branch of equilibria near $p_2^0$ in the form of $\rho = \hat{\rho}(n)$ where $\hat{\rho}$ is a continuously differentiable function, where $\rho^* = \hat{\rho}(n^*)$ (note $p^0_2 = (n^*, \rho^*)$), and $f_1(n,\hat{\rho}(n)) = 0$ for some neighborhood of $p_0^2$. However, we can use this implicit function argument only when $\partial_\rho f_1 \neq 0$, which implies $n\neq 1$.\\
+	The reason that we get the restriction $n\neq 1$ for the $\dot{n} = 0$ nullcline is the following. From (E.1.1) we know that $f_1(p^0_2)=0$. Thus we can use the implicit function theorem to get a continuous branch of equilibria near $p_2^0$ in the form of $\rho = \hat{\rho}(n)$ where $\hat{\rho}$ is a continuously differentiable function, where $\rho^* = \hat{\rho}(n^*)$ (note $p^0_2 = (n^*, \rho^*)$), and $f_1(n,\hat{\rho}(n)) = 0$ for some open neighborhood containing $p_2^0$. However, we can use this implicit function argument only when $\partial_\rho f_1 \neq 0$, which implies $n\neq 1$.\\
 	Also, it is interesting to note that $n=1$ is equivalent to $\alpha=0$. This can be observed from (E.1.1). The consequences of this are summarized in the following observation boxes.
 \end{observation}
 
@@ -296,6 +296,42 @@ To decide which model to use, consider the following:
 	\item \textbf{Parameter Estimation}: Can you estimate the additional parameters introduced by these functions? More complex models require more data for accurate parameter estimation.
 \end{itemize}
 
+
+
+\section{Simple Spatially Distributed 1D System}
+
+
+In this section, we extend a simple ordinary differential equation (ODE) model for angiogenesis to include spatial dynamics. The original model captures the temporal evolution of the density of tip cells, the density of blood vessels, and the concentration of a drug delivered to a region. We now consider these variables as functions of both space and time, \(\rho(x,t)\), \(n(x,t)\), and \(c(x,t)\), to develop a partial differential equation (PDE) model that accounts for spatial growth and diffusion processes.
+
+\subsection{Flux of Tip Cells}
+A key concept in extending the model to incorporate spatial dynamics is the introduction of the flux of tip cells, denoted as \(J\). Flux is defined as the rate of flow of a property per unit area, which in this context is the flow of tip cells moving into a region. Mathematically, the flux \(J\) is given by the product of the density of tip cells \(n(x,t)\) and their velocity \(v\), i.e., \(J = nv\). This formulation allows us to quantify how the movement of tip cells contributes to the spatial development of blood vessels.
+
+\subsection{Spatial Model Development}
+We now proceed to develop the spatial model by modifying the equations from the original ODE model to incorporate spatial derivatives, reflecting the spatial dynamics of vessel formation, tip cell movement, and drug diffusion.
+
+\subsubsection{Equation for Blood Vessel Density}
+The blood vessel density \(\rho(x,t)\) is primarily affected by the extension of vascular structures due to the movement of tip cells and the degradation of these structures over time. Assuming homogeneous conditions without specific spatially-dependent growth mechanisms, the equation for \(\rho\) remains similar to the non-spatial model but now includes a spatial component:
+
+\begin{equation}
+	\frac{\partial \rho}{\partial t} = vn - \delta_v \rho,
+\end{equation}
+where \(\delta_v\) represents the rate of vascular degradation.
+
+\subsubsection{Equation for Tip Cell Density}
+The spatial dynamics of tip cell density \(n(x,t)\) are influenced by their flux across the spatial domain. Incorporating the concept of flux, the balance equation for \(n\) in one dimension is given by:
+
+\begin{equation}
+	\frac{\partial n}{\partial t} + \frac{\partial (nv)}{\partial x} = (\lambda_s - \delta_t) n + \lambda_b \rho - \kappa n \rho,
+\end{equation}
+where the terms on the right-hand side represent the generation and loss of tip cells, and the spatial derivative term accounts for their movement.
+
+\subsubsection{Equation for Drug Concentration}
+The drug concentration \(c(x,t)\) is affected by diffusion, permeation through the capillary walls, and any external sources of the drug. The equation accounting for these processes is:
+
+\begin{equation}
+	\frac{\partial c}{\partial t} = D\frac{\partial^2 c}{\partial x^2} - \mu c + f(x,t),
+\end{equation}
+where \(D\) is the diffusion coefficient, \(\mu\) represents the drug's permeability through capillaries, and \(f(x,t)\) is a source term for the drug.
 
 
 

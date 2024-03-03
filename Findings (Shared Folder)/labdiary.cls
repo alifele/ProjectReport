@@ -87,7 +87,7 @@
 	\begin{tcolorbox}[colback=white, colframe=customframecolor, title=\textbf{Paper Summary}]
 		\textbf{Title:} #1 \\
 		\textbf{Author(s):} #2 \\
-		\textbf{Published on:} #3
+		\textbf{Published:} #3
 	\end{tcolorbox}
 }
 

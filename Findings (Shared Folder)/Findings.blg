@@ -16,45 +16,45 @@ Database file #1: References/references.bib
 Warning--to sort, need author or key in angiogenesisYoutube
 Warning--to sort, need author or key in conealMicroPocketAssayJOVE
 Warning--empty pages in Alberts2002
-You've used 29 entries,
+You've used 54 entries,
             3552 wiz_defined-function locations,
-            1061 strings with 14436 characters,
-and the built_in function-call counts, 32028 in all, are:
-= -- 4106
-> -- 501
-< -- 1025
-+ -- 1317
-- -- 438
-* -- 3450
-:= -- 5391
-add.period$ -- 28
-call.type$ -- 29
-change.case$ -- 218
-chr.to.int$ -- 29
-cite$ -- 36
-duplicate$ -- 684
-empty$ -- 1726
-format.name$ -- 694
-if$ -- 5906
-int.to.chr$ -- 0
+            1246 strings with 23556 characters,
+and the built_in function-call counts, 66345 in all, are:
+= -- 8462
+> -- 1144
+< -- 2407
++ -- 3085
+- -- 1043
+* -- 6961
+:= -- 11558
+add.period$ -- 53
+call.type$ -- 54
+change.case$ -- 474
+chr.to.int$ -- 53
+cite$ -- 61
+duplicate$ -- 1302
+empty$ -- 3174
+format.name$ -- 1628
+if$ -- 11784
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 105
-newline$ -- 232
-num.names$ -- 108
-pop$ -- 235
+missing$ -- 194
+newline$ -- 407
+num.names$ -- 208
+pop$ -- 517
 preamble$ -- 1
-purify$ -- 218
+purify$ -- 474
 quote$ -- 0
-skip$ -- 1230
+skip$ -- 2805
 stack$ -- 0
-substring$ -- 2944
-swap$ -- 210
-text.length$ -- 131
+substring$ -- 5776
+swap$ -- 459
+text.length$ -- 312
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 319
+type$ -- 594
 warning$ -- 3
-while$ -- 318
+while$ -- 655
 width$ -- 0
-write$ -- 395
+write$ -- 695
 (There were 3 warnings)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{54}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -52,9 +52,20 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0022-5193
 
-\bibitem[Bauer u.\,a.(2007)Bauer, Jackson und Jiang]{Bauer2007}
-\dinatlabel{Bauer u.\,a. 2007} \textsc{Bauer}, Amy~L.~; \textsc{Jackson},
-  Trachette~L.~; \textsc{Jiang}, Yi:
+\bibitem[Bauer u.\,a.(2007{\natexlab{a}})Bauer, Jackson und Jiang]{Bauer2007a}
+\dinatlabel{Bauer u.\,a. 2007{\natexlab{a}}} \textsc{Bauer}, A.~;
+  \textsc{Jackson}, T.~; \textsc{Jiang}, Yi:
+\newblock A cell-based model exhibiting branching and anastomosis during
+  tumor-induced angiogenesis.
+\newblock In: \emph{Biophysical journal}
+\newblock 92 9 (2007), S.~3105--21. --
+\newblock URL
+  \url{https://consensus.app/papers/cellbased-model-exhibiting-branching-anastomosis-bauer/1756c0dc2c7850faad7b9a89f326dfdf/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Bauer u.\,a.(2007{\natexlab{b}})Bauer, Jackson und Jiang]{Bauer2007}
+\dinatlabel{Bauer u.\,a. 2007{\natexlab{b}}} \textsc{Bauer}, Amy~L.~;
+  \textsc{Jackson}, Trachette~L.~; \textsc{Jiang}, Yi:
 \newblock A {Cell}-{Based} {Model} {Exhibiting} {Branching} and {Anastomosis}
   during {Tumor}-{Induced} {Angiogenesis}.
 \newblock In: \emph{Biophysical Journal}
@@ -63,6 +74,31 @@
   \url{https://www.sciencedirect.com/science/article/pii/S0006349507711207}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0006-3495
+
+\bibitem[Bayrak u.\,a.(2015)Bayrak, Akar, Xiao, Mehdizadeh, Somo, Brey und
+  Çinar]{Bayrak2015}
+\dinatlabel{Bayrak u.\,a. 2015} \textsc{Bayrak}, E.~S.~; \textsc{Akar}, B.~;
+  \textsc{Xiao}, Nan~; \textsc{Mehdizadeh}, Hamidreza~; \textsc{Somo}, S.~;
+  \textsc{Brey}, E.~; \textsc{Çinar}, A.:
+\newblock Agent-{Based} {Modeling} of {Vascularization} in {Gradient} {Tissue}
+  {Engineering} {Constructs}.
+\newblock In: \emph{IFAC-PapersOnLine}
+\newblock 48 (2015), S.~1240--1245. --
+\newblock URL
+  \url{https://consensus.app/papers/modeling-vascularization-gradient-tissue-engineering-bayrak/d22174fff62150c992548ba168de9446/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Bookholt u.\,a.(2016)Bookholt, Monsuur, Gibbs und
+  Vermolen]{Bookholt2016}
+\dinatlabel{Bookholt u.\,a. 2016} \textsc{Bookholt}, F.~D.~; \textsc{Monsuur},
+  H.~; \textsc{Gibbs}, S.~; \textsc{Vermolen}, F.:
+\newblock Mathematical modelling of angiogenesis using continuous cell-based
+  models.
+\newblock In: \emph{Biomechanics and Modeling in Mechanobiology}
+\newblock 15 (2016), S.~1577--1600. --
+\newblock URL
+  \url{https://consensus.app/papers/modelling-angiogenesis-using-cellbased-models-bookholt/3bfbd79589195fd18705ba3c8cd4efb6/}.
+  -- Zugriffsdatum: 2024-03-02
 
 \bibitem[Byrne und Chaplain(1995)]{Byrne1995}
 \dinatlabel{Byrne und Chaplain 1995} \textsc{Byrne}, H.~M.~; \textsc{Chaplain},
@@ -99,6 +135,64 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1476-5594
 
+\bibitem[Chaplain(2000)]{Chaplain2000}
+\dinatlabel{Chaplain 2000} \textsc{Chaplain}, M.:
+\newblock Mathematical {Modelling} of {Angiogenesis}.
+\newblock In: \emph{Journal of Neuro-Oncology}
+\newblock 50 (2000), S.~37--51. --
+\newblock URL
+  \url{https://consensus.app/papers/modelling-angiogenesis-chaplain/6d427094e8205125a43fe573afe3612c/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Chávez u.\,a.(2016)Chávez, Aedo, Fierro, Allende und
+  Egaña]{Chavez2016}
+\dinatlabel{Chávez u.\,a. 2016} \textsc{Chávez}, Myra~N.~; \textsc{Aedo},
+  Geraldine~; \textsc{Fierro}, Fernando~A.~; \textsc{Allende}, Miguel~L.~;
+  \textsc{Egaña}, José~T.:
+\newblock Zebrafish as an {Emerging} {Model} {Organism} to {Study}
+  {Angiogenesis} in {Development} and {Regeneration}.
+\newblock In: \emph{Frontiers in Physiology}
+\newblock 7 (2016), S.~56. --
+\newblock ISSN 1664-042X
+
+\bibitem[Connor u.\,a.(2015)Connor, Nowak, Lorenzon, Thomas, Herting, Hoert,
+  Quaiser, Shochat, Pitt-Francis, Cooper, Maini und Byrne]{Connor2015}
+\dinatlabel{Connor u.\,a. 2015} \textsc{Connor}, A.~J.~; \textsc{Nowak},
+  Radosław~P.~; \textsc{Lorenzon}, E.~; \textsc{Thomas}, Markus~;
+  \textsc{Herting}, F.~; \textsc{Hoert}, Stefan~; \textsc{Quaiser}, Tom~;
+  \textsc{Shochat}, E.~; \textsc{Pitt-Francis}, J.~; \textsc{Cooper},
+  Jonathan~; \textsc{Maini}, P.~; \textsc{Byrne}, H.:
+\newblock An integrated approach to quantitative modelling in angiogenesis
+  research.
+\newblock In: \emph{Journal of The Royal Society Interface}
+\newblock 12 (2015). --
+\newblock URL
+  \url{https://consensus.app/papers/integrated-approach-modelling-angiogenesis-research-connor/0d838b388d255567b36652e5a33a98b8/}.
+  -- Zugriffsdatum: 2024-03-03
+
+\bibitem[Cooper u.\,a.(2010)Cooper, Tanaka und Puri]{Cooper2010}
+\dinatlabel{Cooper u.\,a. 2010} \textsc{Cooper}, M.~; \textsc{Tanaka},
+  Martin~L.~; \textsc{Puri}, I.~K.:
+\newblock Coupled mathematical model of tumorigenesis and angiogenesis in
+  vascular tumours.
+\newblock In: \emph{Cell Proliferation}
+\newblock 43 (2010). --
+\newblock URL
+  \url{https://consensus.app/papers/coupled-model-tumorigenesis-angiogenesis-vascular-cooper/8dd804e6a10c51e084bcb28451d1cc98/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Crawshaw u.\,a.(2023)Crawshaw, Flegg, Bernabeu und
+  Osborne]{Crawshaw2023}
+\dinatlabel{Crawshaw u.\,a. 2023} \textsc{Crawshaw}, Jessica~R.~;
+  \textsc{Flegg}, J.~; \textsc{Bernabeu}, M.~; \textsc{Osborne}, J.:
+\newblock Mathematical models of developmental vascular remodelling: {A}
+  review.
+\newblock In: \emph{PLOS Computational Biology}
+\newblock 19 (2023). --
+\newblock URL
+  \url{https://consensus.app/papers/models-developmental-remodelling-review-crawshaw/15c1d1d3a7ef55dbbd5167b2a576258a/}.
+  -- Zugriffsdatum: 2024-03-02
+
 \bibitem[Folarin u.\,a.(2010)Folarin, Konerding, Timonen, Nagl und
   Pedley]{Folarin2010}
 \dinatlabel{Folarin u.\,a. 2010} \textsc{Folarin}, A.~A.~; \textsc{Konerding},
@@ -120,6 +214,19 @@
 \newblock URL \url{https://doi.org/10.1056/NEJM197111182852108}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0028-4793
+
+\bibitem[Ghosh u.\,a.(2015)Ghosh, Kim, Flegg, Menon, Maini und
+  McElwain]{Ghosh2015}
+\dinatlabel{Ghosh u.\,a. 2015} \textsc{Ghosh}, Samik~; \textsc{Kim}, Y.~R.~;
+  \textsc{Flegg}, J.~; \textsc{Menon}, Shakti~N.~; \textsc{Maini}, P.~;
+  \textsc{McElwain}, D.:
+\newblock On the mathematical modeling of wound healing angiogenesis in skin as
+  a reaction-transport process.
+\newblock In: \emph{Frontiers in Physiology}
+\newblock 6 (2015). --
+\newblock URL
+  \url{https://consensus.app/papers/modeling-wound-healing-angiogenesis-skin-ghosh/d1ad44d139c05acb9eec3082a14420b1/}.
+  -- Zugriffsdatum: 2024-03-02
 
 \bibitem[Grogan u.\,a.(2017)Grogan, Connor, Markelc, Muschel, Maini, Byrne und
   Pitt-Francis]{Grogan2017}
@@ -159,6 +266,26 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1046-2023
 
+\bibitem[Hasan u.\,a.(2004)Hasan, Shnyder, Bibby, Double, Bicknel und
+  Jayson]{Hasan2004}
+\dinatlabel{Hasan u.\,a. 2004} \textsc{Hasan}, J.~; \textsc{Shnyder}, S.~;
+  \textsc{Bibby}, M.~; \textsc{Double}, J.~; \textsc{Bicknel}, R.~;
+  \textsc{Jayson}, G.:
+\newblock Quantitative {Angiogenesis} {Assays} in vivo – {A} {Review}.
+\newblock In: \emph{Angiogenesis}
+\newblock 7 (2004), S.~1--16. --
+\newblock URL
+  \url{https://consensus.app/papers/angiogenesis-assays-vivo-review-hasan/a633e139bbc55f17bfb6d5ce86ee244a/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Jones und Sleeman(2006)]{Jones2006}
+\dinatlabel{Jones und Sleeman 2006} \textsc{Jones}, Pamela~F.~;
+  \textsc{Sleeman}, Brian~D.:
+\newblock Angiogenesis - understanding the mathematical challenge.
+\newblock In: \emph{Angiogenesis}
+\newblock 9 (2006), Nr.~3, S.~127--138. --
+\newblock ISSN 0969-6970
+
 \bibitem[Kannan u.\,a.(2018)Kannan, Kretzschmar, Winter, Warren, Bates, Allen,
   Syed, Irving, Papiez, Kaeppler, Markelc, Kinchesh, Gilchrist, Smart,
   Schnabel, Maughan, Harris, Muschel, Partridge, Sharma und
@@ -180,6 +307,17 @@
 \newblock URL \url{https://doi.org/10.1158/1078-0432.CCR-18-0033}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1078-0432
+
+\bibitem[Khan u.\,a.(2014)Khan, Shakir, Khan, Naeem und Omer]{Khan2014}
+\dinatlabel{Khan u.\,a. 2014} \textsc{Khan}, G.~J.~; \textsc{Shakir}, Lubna~;
+  \textsc{Khan}, Sara~; \textsc{Naeem}, H.~S.~; \textsc{Omer}, M.:
+\newblock Assessment {Methods} of {Angiogenesis} and {Present} {Approaches} for
+  {Its} {Quantification}.
+\newblock In: \emph{Cancer Research}
+\newblock 2 (2014). --
+\newblock URL
+  \url{https://consensus.app/papers/assessment-methods-angiogenesis-present-approaches-khan/f73789f2ecf0541595b7c59887fdf599/}.
+  -- Zugriffsdatum: 2024-03-02
 
 \bibitem[Konerding u.\,a.(2001)Konerding, Fait und Gaumann]{Konerding2001}
 \dinatlabel{Konerding u.\,a. 2001} \textsc{Konerding}, M.~A.~; \textsc{Fait},
@@ -205,6 +343,17 @@
 \newblock URL \url{https://www.nature.com/articles/6690416}. -- Zugriffsdatum:
   2024-01-21. --
 \newblock ISSN 1532-1827
+
+\bibitem[Kopylova u.\,a.(2018)Kopylova, Boronovskiy und
+  Nartsissov]{Kopylova2018}
+\dinatlabel{Kopylova u.\,a. 2018} \textsc{Kopylova}, V.~; \textsc{Boronovskiy},
+  S.~; \textsc{Nartsissov}, Y.:
+\newblock Tree topology analysis of the arterial system model.
+\newblock In: \emph{Journal of Physics: Conference Series}
+\newblock 1141 (2018). --
+\newblock URL
+  \url{https://consensus.app/papers/tree-topology-analysis-system-model-kopylova/9915fb3edc1359f498296336de758dd4/}.
+  -- Zugriffsdatum: 2024-03-02
 
 \bibitem[Li und Harris(2005)]{Li2005}
 \dinatlabel{Li und Harris 2005} \textsc{Li}, Ji-Liang~; \textsc{Harris},
@@ -240,6 +389,17 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1420-9071
 
+\bibitem[McDougall u.\,a.(2006)McDougall, Anderson und Chaplain]{McDougall2006}
+\dinatlabel{McDougall u.\,a. 2006} \textsc{McDougall}, S.~; \textsc{Anderson},
+  A.~; \textsc{Chaplain}, M.:
+\newblock Mathematical modelling of dynamic adaptive tumour-induced
+  angiogenesis: clinical implications and therapeutic targeting strategies.
+\newblock In: \emph{Journal of theoretical biology}
+\newblock 241 3 (2006), S.~564--89. --
+\newblock URL
+  \url{https://consensus.app/papers/modelling-tumourinduced-angiogenesis-implications-mcdougall/d43a720d3c1659a68fb7b56dee0798ec/}.
+  -- Zugriffsdatum: 2024-03-02
+
 \bibitem[Metzcar u.\,a.(2019)Metzcar, Wang, Heiland und Macklin]{Metzcar2019}
 \dinatlabel{Metzcar u.\,a. 2019} \textsc{Metzcar}, John~; \textsc{Wang},
   Yafei~; \textsc{Heiland}, Randy~; \textsc{Macklin}, Paul:
@@ -249,6 +409,111 @@
 \newblock (2019), Dezember, Nr.~3, S.~1--13. --
 \newblock URL \url{https://ascopubs.org/doi/10.1200/CCI.18.00069}. --
   Zugriffsdatum: 2024-01-21
+
+\bibitem[Nickoloff(2000)]{Nickoloff2000}
+\dinatlabel{Nickoloff 2000} \textsc{Nickoloff}, B.:
+\newblock Characterization of lymphocyte-dependent angiogenesis using a {SCID}
+  mouse: human skin model of psoriasis.
+\newblock In: \emph{The journal of investigative dermatology. Symposium
+  proceedings}
+\newblock 5 1 (2000), S.~67--73. --
+\newblock URL
+  \url{https://consensus.app/papers/characterization-lymphocytedependent-angiogenesis-nickoloff/4cf8d8e3578d59afb8c1e9d6043e9fde/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Nowak-Sliwinska u.\,a.(2018)Nowak-Sliwinska, Alitalo, Allen, Anisimov,
+  Aplin, Auerbach, Augustin, Bates, van Beijnum, Bender, Bergers, Bikfalvi,
+  Bischoff, Böck, Brooks, Bussolino, Cakir, Carmeliet, Castranova, Cimpean,
+  Cleaver, Coukos, Davis, De~Palma, Dimberg, Dings, Djonov, Dudley, Dufton,
+  Fendt, Ferrara, Fruttiger, Fukumura, Ghesquière, Gong, Griffin, Harris,
+  Hughes, Hultgren, Iruela-Arispe, Irving, Jain, Kalluri, Kalucka, Kerbel,
+  Kitajewski, Klaassen, Kleinmann, Koolwijk, Kuczynski, Kwak, Marien,
+  Melero-Martin, Munn, Nicosia, Noel, Nurro, Olsson, Petrova, Pietras, Pili,
+  Pollard, Post, Quax, Rabinovich, Raica, Randi, Ribatti, Ruegg, Schlingemann,
+  Schulte-Merker, Smith, Song, Stacker, Stalin, Stratman, Van~de Velde, van
+  Hinsbergh, Vermeulen, Waltenberger, Weinstein, Xin, Yetkin-Arik,
+  Yla-Herttuala, Yoder und Griffioen]{NowakSliwinska2018a}
+\dinatlabel{Nowak-Sliwinska u.\,a. 2018} \textsc{Nowak-Sliwinska}, Patrycja~;
+  \textsc{Alitalo}, Kari~; \textsc{Allen}, Elizabeth~; \textsc{Anisimov},
+  Andrey~; \textsc{Aplin}, Alfred~C.~; \textsc{Auerbach}, Robert~;
+  \textsc{Augustin}, Hellmut~G.~; \textsc{Bates}, David~O.~; \textsc{Beijnum},
+  Judy~R. van~; \textsc{Bender}, R. Hugh~F.~; \textsc{Bergers}, Gabriele~;
+  \textsc{Bikfalvi}, Andreas~; \textsc{Bischoff}, Joyce~; \textsc{Böck},
+  Barbara~C.~; \textsc{Brooks}, Peter~C.~; \textsc{Bussolino}, Federico~;
+  \textsc{Cakir}, Bertan~; \textsc{Carmeliet}, Peter~; \textsc{Castranova},
+  Daniel~; \textsc{Cimpean}, Anca~M.~; \textsc{Cleaver}, Ondine~;
+  \textsc{Coukos}, George~; \textsc{Davis}, George~E.~; \textsc{De~Palma},
+  Michele~; \textsc{Dimberg}, Anna~; \textsc{Dings}, Ruud P.~M.~;
+  \textsc{Djonov}, Valentin~; \textsc{Dudley}, Andrew~C.~; \textsc{Dufton},
+  Neil~P.~; \textsc{Fendt}, Sarah-Maria~; \textsc{Ferrara}, Napoleone~;
+  \textsc{Fruttiger}, Marcus~; \textsc{Fukumura}, Dai~; \textsc{Ghesquière},
+  Bart~; \textsc{Gong}, Yan~; \textsc{Griffin}, Robert~J.~; \textsc{Harris},
+  Adrian~L.~; \textsc{Hughes}, Christopher C.~W.~; \textsc{Hultgren}, Nan~W.~;
+  \textsc{Iruela-Arispe}, M.~L.~; \textsc{Irving}, Melita~; \textsc{Jain},
+  Rakesh~K.~; \textsc{Kalluri}, Raghu~; \textsc{Kalucka}, Joanna~;
+  \textsc{Kerbel}, Robert~S.~; \textsc{Kitajewski}, Jan~; \textsc{Klaassen},
+  Ingeborg~; \textsc{Kleinmann}, Hynda~K.~; \textsc{Koolwijk}, Pieter~;
+  \textsc{Kuczynski}, Elisabeth~; \textsc{Kwak}, Brenda~R.~; \textsc{Marien},
+  Koen~; \textsc{Melero-Martin}, Juan~M.~; \textsc{Munn}, Lance~L.~;
+  \textsc{Nicosia}, Roberto~F.~; \textsc{Noel}, Agnes~; \textsc{Nurro}, Jussi~;
+  \textsc{Olsson}, Anna-Karin~; \textsc{Petrova}, Tatiana~V.~;
+  \textsc{Pietras}, Kristian~; \textsc{Pili}, Roberto~; \textsc{Pollard},
+  Jeffrey~W.~; \textsc{Post}, Mark~J.~; \textsc{Quax}, Paul H.~A.~;
+  \textsc{Rabinovich}, Gabriel~A.~; \textsc{Raica}, Marius~; \textsc{Randi},
+  Anna~M.~; \textsc{Ribatti}, Domenico~; \textsc{Ruegg}, Curzio~;
+  \textsc{Schlingemann}, Reinier~O.~; \textsc{Schulte-Merker}, Stefan~;
+  \textsc{Smith}, Lois E.~H.~; \textsc{Song}, Jonathan~W.~; \textsc{Stacker},
+  Steven~A.~; \textsc{Stalin}, Jimmy~; \textsc{Stratman}, Amber~N.~;
+  \textsc{Velde}, Maureen Van~de~; \textsc{Hinsbergh}, Victor W.~M. van~;
+  \textsc{Vermeulen}, Peter~B.~; \textsc{Waltenberger}, Johannes~;
+  \textsc{Weinstein}, Brant~M.~; \textsc{Xin}, Hong~; \textsc{Yetkin-Arik},
+  Bahar~; \textsc{Yla-Herttuala}, Seppo~; \textsc{Yoder}, Mervin~C.~;
+  \textsc{Griffioen}, Arjan~W.:
+\newblock Consensus guidelines for the use and interpretation of angiogenesis
+  assays.
+\newblock In: \emph{Angiogenesis}
+\newblock 21 (2018), August, Nr.~3, S.~425--532. --
+\newblock ISSN 1573-7209
+
+\bibitem[Nyberg u.\,a.(2005)Nyberg, Xie und Kalluri]{Nyberg2005}
+\dinatlabel{Nyberg u.\,a. 2005} \textsc{Nyberg}, P.~; \textsc{Xie}, Liang~;
+  \textsc{Kalluri}, R.:
+\newblock Endogenous inhibitors of angiogenesis.
+\newblock In: \emph{Cancer research}
+\newblock 65 10 (2005), S.~3967--79. --
+\newblock URL
+  \url{https://consensus.app/papers/inhibitors-angiogenesis-nyberg/c8d04e4d75375d60a58dcc8bb36bc544/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Olsen und Siegelmann(2013)]{Olsen2013}
+\dinatlabel{Olsen und Siegelmann 2013} \textsc{Olsen}, Megan~M.~;
+  \textsc{Siegelmann}, H.:
+\newblock Multiscale {Agent}-based {Model} of {Tumor} {Angiogenesis}.
+\newblock
+\newblock (2013), S.~1016--1025. --
+\newblock URL
+  \url{https://consensus.app/papers/multiscale-agentbased-model-tumor-angiogenesis-olsen/4a2e14c0a7275b40a99f8401168c65d8/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Peirce(2008)]{Peirce2008}
+\dinatlabel{Peirce 2008} \textsc{Peirce}, S.:
+\newblock Computational and {Mathematical} {Modeling} of {Angiogenesis}.
+\newblock In: \emph{Microcirculation}
+\newblock 15 (2008). --
+\newblock URL
+  \url{https://consensus.app/papers/computational-mathematical-modeling-angiogenesis-peirce/b868cc1948fc5b53a1ff58df257bffe2/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Peirce u.\,a.(2012)Peirce, Gabhann und Bautch]{Peirce2012}
+\dinatlabel{Peirce u.\,a. 2012} \textsc{Peirce}, S.~; \textsc{Gabhann}, F.~M.~;
+  \textsc{Bautch}, V.:
+\newblock Integration of experimental and computational approaches to sprouting
+  angiogenesis.
+\newblock In: \emph{Current Opinion in Hematology}
+\newblock 19 (2012). --
+\newblock URL
+  \url{https://consensus.app/papers/integration-approaches-sprouting-angiogenesis-peirce/01b4a50a54bf5dcbb096cb1a7667e60f/}.
+  -- Zugriffsdatum: 2024-03-02
 
 \bibitem[Perfahl u.\,a.(2017)Perfahl, Hughes, Alarcón, Maini, Lloyd, Reuss und
   Byrne]{Perfahl2017}
@@ -263,6 +528,16 @@
   \url{https://www.sciencedirect.com/science/article/pii/S0022519316303782}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0022-5193
+
+\bibitem[Roose u.\,a.(2007)Roose, Chapman und Maini]{Roose2007}
+\dinatlabel{Roose u.\,a. 2007} \textsc{Roose}, T.~; \textsc{Chapman}, S.~;
+  \textsc{Maini}, P.:
+\newblock Mathematical {Models} of {Avascular} {Tumor} {Growth}.
+\newblock In: \emph{SIAM Rev.}
+\newblock 49 (2007), S.~179--208. --
+\newblock URL
+  \url{https://consensus.app/papers/models-avascular-tumor-growth-roose/a77e9bfd612b51a2b233feb7b5b0aa0d/}.
+  -- Zugriffsdatum: 2024-03-02
 
 \bibitem[Saman u.\,a.(2020)Saman, Raza, Uddin und Rasul]{Saman2020}
 \dinatlabel{Saman u.\,a. 2020} \textsc{Saman}, Harman~; \textsc{Raza},
@@ -351,5 +626,53 @@
 \newblock URL
   \url{https://royalsocietypublishing.org/doi/10.1098/rsif.2016.0918}. --
   Zugriffsdatum: 2024-01-21
+
+\bibitem[Walpole u.\,a.(2015)Walpole, Chappell, Cluceru, Gabhann, Bautch und
+  Peirce]{Walpole2015}
+\dinatlabel{Walpole u.\,a. 2015} \textsc{Walpole}, Joseph~; \textsc{Chappell},
+  J.~; \textsc{Cluceru}, J.~; \textsc{Gabhann}, F.~M.~; \textsc{Bautch}, V.~;
+  \textsc{Peirce}, S.:
+\newblock Agent-based model of angiogenesis simulates capillary sprout
+  initiation in multicellular networks.
+\newblock In: \emph{Integrative biology : quantitative biosciences from nano to
+  macro}
+\newblock 7 9 (2015), S.~987--97. --
+\newblock URL
+  \url{https://consensus.app/papers/model-angiogenesis-simulates-sprout-initiation-walpole/af7809aa98fe5514bea86ecf7293a57d/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Wang u.\,a.(2015)Wang, Butner, Kerketta, Cristini und
+  Deisboeck]{Wang2015}
+\dinatlabel{Wang u.\,a. 2015} \textsc{Wang}, Zhihui~; \textsc{Butner}, J.~D.~;
+  \textsc{Kerketta}, Romica~; \textsc{Cristini}, V.~; \textsc{Deisboeck}, T.:
+\newblock Simulating cancer growth with multiscale agent-based modeling.
+\newblock In: \emph{Seminars in cancer biology}
+\newblock 30 (2015), S.~70--8. --
+\newblock URL
+  \url{https://consensus.app/papers/simulating-cancer-growth-multiscale-agentbased-modeling-wang/3280bbb99ff457bca49eba3af9928a3a/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Watanabe u.\,a.(2013)Watanabe, Blanco und Feijóo]{Watanabe2013}
+\dinatlabel{Watanabe u.\,a. 2013} \textsc{Watanabe}, Sansuke~M.~;
+  \textsc{Blanco}, P.~; \textsc{Feijóo}, R.:
+\newblock Mathematical {Model} of {Blood} {Flow} in an {Anatomically}
+  {Detailed} {Arterial} {Network} of the {Arm}.
+\newblock In: \emph{Mathematical Modelling and Numerical Analysis}
+\newblock 47 (2013), S.~961--985. --
+\newblock URL
+  \url{https://consensus.app/papers/model-blood-flow-anatomically-detailed-arterial-network-watanabe/c1484228598b50c7899870e3ee72c8b2/}.
+  -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Zudaire u.\,a.(2011)Zudaire, Gambardella, Kurcz und
+  Vermeren]{Zudaire2011}
+\dinatlabel{Zudaire u.\,a. 2011} \textsc{Zudaire}, E.~; \textsc{Gambardella},
+  L.~; \textsc{Kurcz}, Christopher~; \textsc{Vermeren}, S.:
+\newblock A {Computational} {Tool} for {Quantitative} {Analysis} of {Vascular}
+  {Networks}.
+\newblock In: \emph{PLoS ONE}
+\newblock 6 (2011). --
+\newblock URL
+  \url{https://consensus.app/papers/tool-quantitative-analysis-vascular-networks-zudaire/0ce65598d2355889bc86740873cf20b7/}.
+  -- Zugriffsdatum: 2024-03-03
 
 \end{thebibliography}
