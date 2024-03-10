@@ -1,4 +1,4 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{55}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -354,6 +354,21 @@
 \newblock URL
   \url{https://consensus.app/papers/tree-topology-analysis-system-model-kopylova/9915fb3edc1359f498296336de758dd4/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Köry u.\,a.(2024)Köry, Narain, Stolz, Kaeppler, Markelc, Muschel,
+  Maini, Pitt-Francis und Byrne]{Koery2024}
+\dinatlabel{Köry u.\,a. 2024} \textsc{Köry}, Jakub~; \textsc{Narain},
+  Vedang~; \textsc{Stolz}, Bernadette~J.~; \textsc{Kaeppler}, Jakob~;
+  \textsc{Markelc}, Bostjan~; \textsc{Muschel}, Ruth~J.~; \textsc{Maini},
+  Philip~K.~; \textsc{Pitt-Francis}, Joe~M.~; \textsc{Byrne}, Helen~M.:
+\newblock Enhanced perfusion following exposure to radiotherapy: {A}
+  theoretical investigation.
+\newblock In: \emph{PLOS Computational Biology}
+\newblock 20 (2024), Februar, Nr.~2, S.~e1011252. --
+\newblock URL
+  \url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011252}.
+  -- Zugriffsdatum: 2024-03-09. --
+\newblock ISSN 1553-7358
 
 \bibitem[Li und Harris(2005)]{Li2005}
 \dinatlabel{Li und Harris 2005} \textsc{Li}, Ji-Liang~; \textsc{Harris},
