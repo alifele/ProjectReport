@@ -70,7 +70,7 @@ This is a very suitable moment to pause and check the dimensions if they match (
 \frac{d\tilde{\rho}}{d\tau} = \frac{v\lambda_b}{\delta_v^2}\tilde{n} - \tilde{\rho}. \]
 To make the ODEs simpler to work with, we will write $n,\rho$ in place of $\tilde{n}$ and $\tilde{\rho}$, and also we introduce the following parameters
 \[ \alpha = \lambda_s - \delta_t, \qquad \beta =\delta_v, \qquad \gamma = v\lambda_b. \tag{$\clubsuit$} \]
-Then we can write
+Then we can write 
 \begin{equation*}
 	\boxed{
 		\begin{aligned}
@@ -80,6 +80,20 @@ Then we can write
 	}
 	\tag{\smiley}
 \end{equation*}
+
+\begin{observation}[Other form of non-dimensionalization]
+	After inspecting the non dimensionalization steps, we can see that the parameter $ \kappa $ somehow disappears, and there is no sign of it in the new parameters $ \alpha, \beta, $ and $ \gamma $. I tried another choices for $ R, T, $ and $ N $, but still, I can not have the $ \kappa $ in the new parameters. The steps that I followed are the following.
+	\[ T \kappa R = 1, \qquad NvT/R = 1, \qquad \delta_v T = 1. \]
+	Then we will have
+	\[ T = 1/\delta_v, \qquad R = \delta_v/\kappa, \qquad N = \delta_v^2/(v\kappa). 
+	\]
+	Thus the system of ODEs will be
+	\[ \dot{\rho} = n - \rho, \qquad \dot{n}= \alpha/\beta n - n\rho + \gamma/\beta^2 p, \]
+	where
+	\[ \alpha = \lambda_s - \delta_t, \qquad \beta=\delta_v, \qquad \gamma = \lambda_b v. \]
+	Still, there is not $ \kappa $ in the new parameters. 
+\end{observation}
+
 In order to find the equilibrium points, we demand $\dot{n} = 0$ as well as $\dot{\rho} = 0$. This will lead to the following equations
 \begin{align*}
 	\dot{n} = 0&: \qquad \frac{\alpha}{\beta} n + \rho - n\rho = 0, \\
