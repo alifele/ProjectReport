@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  19 MAR 2024 22:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  20 MAR 2024 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2293,12 +2293,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (./Chapters/PapersReviewed.aux) (./Chapters/MolecularBiology.aux)
 (./Chapters/MeetingLog.aux) (./Chapters/Comments.aux))
 Package rerunfilecheck Info: File `Findings.out' has not changed.
-(rerunfilecheck)             Checksum: 9D20F2B413FA7473E9E5882F2F004CE7;6415.
+(rerunfilecheck)             Checksum: 45237709FEF35E45B6B37D07C998B8E8;6563.
  ) 
 Here is how much of TeX's memory you used:
  50710 strings out of 476191
  1240436 string characters out of 5812073
- 1846924 words of memory out of 5000000
+ 1847081 words of memory out of 5000000
  70581 multiletter control sequences out of 15000+600000
  477449 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

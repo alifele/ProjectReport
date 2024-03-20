@@ -328,7 +328,7 @@ We now proceed to develop the spatial model by modifying the equations from the 
 The blood vessel density \(\rho(x,t)\) is primarily affected by the extension of vascular structures due to the movement of tip cells and the degradation of these structures over time. Assuming homogeneous conditions without specific spatially-dependent growth mechanisms, the equation for \(\rho\) remains similar to the non-spatial model but now includes a spatial component:
 
 \begin{equation}
-	\frac{\partial \rho}{\partial t} = vn - \delta_v \rho,
+	\boxed{\frac{\partial \rho}{\partial t} = vn - \delta_v \rho},
 \end{equation}
 where \(\delta_v\) represents the rate of vascular degradation.
 
@@ -336,7 +336,7 @@ where \(\delta_v\) represents the rate of vascular degradation.
 The spatial dynamics of tip cell density \(n(x,t)\) are influenced by their flux across the spatial domain. Incorporating the concept of flux, the balance equation for \(n\) in one dimension is given by:
 
 \begin{equation}
-	\frac{\partial n}{\partial t} + \frac{\partial (nv)}{\partial x} = (\lambda_s - \delta_t) n + \lambda_b \rho - \kappa n \rho,
+	\boxed{\frac{\partial n}{\partial t} + \frac{\partial (nv)}{\partial x} = (\lambda_s - \delta_t) n + \lambda_b \rho - \kappa n \rho},
 \end{equation}
 where the terms on the right-hand side represent the generation and loss of tip cells, and the spatial derivative term accounts for their movement.
 
