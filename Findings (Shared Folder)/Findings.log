@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  12 MAR 2024 17:48
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  19 MAR 2024 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,6 +978,27 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen318
+\captionmargin@=\dimen319
+\captionwidth=\dimen320
+\caption@tempdima=\dimen321
+\caption@indent=\dimen322
+\caption@parindent=\dimen323
+\caption@hangindent=\dimen324
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count364
+\c@continuedfloat=\count365
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -1001,7 +1022,7 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip72
 \dth@everypar=\toks59
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 36.
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1012,16 +1033,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count364
+\c@section@level=\count366
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip73
-\enit@outerparindent=\dimen318
+\enit@outerparindent=\dimen325
 \enit@toks=\toks60
 \enit@inbox=\box95
-\enit@count@id=\count365
-\enitdp@description=\count366
+\enit@count@id=\count367
+\enitdp@description=\count368
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
@@ -1058,7 +1079,7 @@ File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-\pgfbs@fading@count=\count367
+\pgfbs@fading@count=\count369
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.code.tex
@@ -1128,20 +1149,20 @@ File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodepartsixbox=\box114
 \pgfnodepartfivebox=\box115
 )))
-\c@prop=\count368
-\c@thm=\count369
-\c@definitionT=\count370
-\c@strangeObsT=\count371
-\c@obsBoxT=\count372
-\c@theoremT=\count373
-\c@propositionT=\count374
-\c@corollaryT=\count375
-\c@lemmaT=\count376
-\c@summaryT=\count377
-\c@trickT=\count378
-\c@exampleT=\count379
-\c@problemT=\count380
-\c@problem=\count381
+\c@prop=\count370
+\c@thm=\count371
+\c@definitionT=\count372
+\c@strangeObsT=\count373
+\c@obsBoxT=\count374
+\c@theoremT=\count375
+\c@propositionT=\count376
+\c@corollaryT=\count377
+\c@lemmaT=\count378
+\c@summaryT=\count379
+\c@trickT=\count380
+\c@exampleT=\count381
+\c@problemT=\count382
+\c@problem=\count383
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
@@ -1155,14 +1176,14 @@ Package zref Info: New property list: main on input line 764.
 Package zref Info: New property: default on input line 765.
 Package zref Info: New property: page on input line 766.
 )
-\c@abspage=\count382
+\c@abspage=\count384
 Package zref Info: New property: abspage on input line 66.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip74
-\c@mdf@globalstyle@cnt=\count383
+\c@mdf@globalstyle@cnt=\count385
 \mdf@skipabove@length=\skip75
 \mdf@skipbelow@length=\skip76
 \mdf@leftmargin@length=\skip77
@@ -1238,16 +1259,16 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip138
 \mdfsubtitleheight=\skip139
 \mdfsubsubtitleheight=\skip140
-\c@mdfcountframes=\count384
+\c@mdfcountframes=\count386
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count385
-\c@mdf@env@i=\count386
-\c@mdf@env@ii=\count387
-\c@mdf@zref@counter=\count388
+\mdf@envdepth=\count387
+\c@mdf@env@i=\count388
+\c@mdf@env@ii=\count389
+\c@mdf@zref@counter=\count390
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
@@ -1255,7 +1276,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip141
 \bibsep=\skip142
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count389
+\c@NAT@ctr=\count391
 )
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 23.
@@ -1412,7 +1433,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 23.
 
-\c@lstlisting=\count390
+\c@lstlisting=\count392
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1421,6 +1442,8 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 23.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
  [1
 
 
@@ -1450,13 +1473,13 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-))
+) [1
+
+])
 \tf@toc=\write5
 \openout5 = `Findings.toc'.
 
- [1
 
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1747,7 +1770,7 @@ File: images/CrossSectionOfVessels.png Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 4316) has occurred while \output is active []
+Underfull \vbox (badness 5578) has occurred while \output is active []
 
 
 
@@ -1798,7 +1821,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[28])
+[28]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1808,11 +1831,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [29]
+File: images/histologySquamousEpithelial.png Graphic file (type bmp)
+<images/histologySquamousEpithelial.png>
+File: images/bileDuct-SquamousEpithelialCells.png Graphic file (type bmp)
+<images/bileDuct-SquamousEpithelialCells.png>
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30]
 \openout2 = `Chapters/MeetingLog.aux'.
 
  (./Chapters/MeetingLog.tex
 Chapter 4.
-[30
+[31
 
 
 
@@ -1826,12 +1863,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[31]
+[32]
 \openout2 = `Chapters/Comments.aux'.
 
  (./Chapters/Comments.tex
 Chapter 5.
-[32
+[33
 
 
 
@@ -1845,7 +1882,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[33]
+[34]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1854,7 +1891,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[34])
+[35])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1863,7 +1900,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[35] (./Findings.bbl
+[36] (./Findings.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1913,7 +1950,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--102
 [][][][][][][] []
  []
 
-[36
+[37
 
 
 
@@ -1982,7 +2019,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37]
+[38]
 Underfull \hbox (badness 1112) in paragraph at lines 220--230
 \TU/lmr/m/n/10.95 P. ; \TU/lmr/m/sc/10.95 McElwain\TU/lmr/m/n/10.95 , D.:  On t
 he mathematical modeling of wound healing angiogenesis
@@ -2029,7 +2066,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[38]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 408--417
 []\TU/lmr/m/n/10.95 [McDougall u.a. 2006]  \TU/lmr/m/sc/10.95 McDougall\TU/lmr/
 m/n/10.95 , S. ; \TU/lmr/m/sc/10.95 Anderson\TU/lmr/m/n/10.95 , A. ; \TU/lmr/m/
@@ -2068,7 +2105,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[39]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 429--438
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
@@ -2146,7 +2183,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[40]
+[41]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2155,7 +2192,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[41]
+[42]
 Underfull \hbox (badness 1490) in paragraph at lines 647--658
 []\TU/lmr/m/n/10.95 [Walpole u.a. 2015]  \TU/lmr/m/sc/10.95 Walpole\TU/lmr/m/n/
 10.95 , Joseph ; \TU/lmr/m/sc/10.95 Chappell\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/
@@ -2252,19 +2289,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[42] (./Findings.aux (./Chapters/modelAttempts.aux)
+[43] (./Findings.aux (./Chapters/modelAttempts.aux)
 (./Chapters/PapersReviewed.aux) (./Chapters/MolecularBiology.aux)
 (./Chapters/MeetingLog.aux) (./Chapters/Comments.aux))
 Package rerunfilecheck Info: File `Findings.out' has not changed.
-(rerunfilecheck)             Checksum: 68D987106EC3DE3CF25EEB34659E74FB;6175.
+(rerunfilecheck)             Checksum: 9D20F2B413FA7473E9E5882F2F004CE7;6415.
  ) 
 Here is how much of TeX's memory you used:
- 49473 strings out of 476191
- 1215139 string characters out of 5812073
- 1823914 words of memory out of 5000000
- 69352 multiletter control sequences out of 15000+600000
+ 50710 strings out of 476191
+ 1240436 string characters out of 5812073
+ 1846924 words of memory out of 5000000
+ 70581 multiletter control sequences out of 15000+600000
  477449 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,108p,1163b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Findings.pdf (43 pages).
+Output written on Findings.pdf (44 pages).
