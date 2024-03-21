@@ -66,7 +66,46 @@
 		\item what is the topology of the reaction graph?
 	\end{itemize}
 	\item Jupiter: adaptive systems
-	\item Leah:
+	\item Leah: (1) I agree that vessel density is a good metric, and I suppose that often this is more easy to measure in scans of images than any other network property. I seriously doubt that you can estimate the number of loops or tips in 2D images for all but the very low density of vessels.
+	\begin{enumerate}[(i)]
+	
+	\item Eric asked: How do veins and arteries connect up. Good to look into this.
+	
+	
+	
+	\item He asked what causes more/less resistance to radiotherapy. Eric asked if you were thinking about devising some fractionation protocol that would result in tumor reduction overall.
+	
+	There was also a question about the effect of hypoxia - pro or anti tumor, pro or anti vessel growth etc.
+	
+	\item Tim asked if you were considering vessels to be tubes. I think it's OK to assume that the tubes emerge once the branches grow.
+	
+	\item Eric was asking what the model is describing, e.g. what timescale, etc. Do the vessels degrade over such timescale? Or do you want to consider a model where the growth rate v goes to 0 at steady state? [LEK: we are currently exploring a basic simple model with all parameters assumed to be constants.. but the eventual goal is to include the effect of tumor, and drug.. etc, and feedback between treatment and vessels.]
+	
+	\item You did not yet mention the drug c, and how you might include it.
+	
+	\item Talk to Tim about his microtubule branching ABM.
+	
+	\item Do you really want to nondimensionalize the model? Jupiter as confused why n --> 1 always. It's due to the scaling. If you keep the original parameters, you can see how they affect the n and rho steady states.
+	
+	\item Jimmy said so far you focused on the angiogenesis, what about the tumor. It would be good to mention that this will be considered later.
+	
+	\item Laurent: will drug feed back on vasculature? will tumor affect vasculature?
+	
+	He and Jack also asked if tips diffuse.
+	
+	[We do not want to redo the model by the Helen Byre group, but we could include later the chemotaxis of tips towards the tumor, as well as a bit of tip diffusion.]
+	
+	\item Talk to Jupiter about adaptive systems.
+	
+	
+	\item General comments from me:
+	\begin{itemize}
+	
+	\item On every slide you show, you need to give credit to where you got images, tables, data, graphs etc that you did not create yourself, even if available on the web. It can be in small font, but it is essential in all talks.
+	
+	\item I know you are still learning about TDA. But I am doubtful whether it will be helpful to us since (1) we have few images, if any to analyse (2) the images are all in 2D, so vessels overlap or disappear into the 3rd dimension (what you called blunt ends) making it tricky or impossible to detect true loops or other features. Density seems reasonable.
+	\end{itemize}
+\end{enumerate}
 \end{itemize}
 
 \section{Meetings with Arman}
