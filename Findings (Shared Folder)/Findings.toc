@@ -26,20 +26,26 @@
 \contentsline {subsection}{\numberline {3.2.1}Corneal Micropocket Assay}{29}{subsection.3.2.1}%
 \contentsline {section}{\numberline {3.3}Some Histology}{29}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Epithelium}{30}{subsection.3.3.1}%
-\contentsline {chapter}{\numberline {4}Meeting log}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Meetings with Leah}{31}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}29 Jan Meeting}{31}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}5 Feb Meeting}{31}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}12 Feb Meeting}{32}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}8 March Meeting}{32}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}12 March Meeting}{32}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {4.1.6}20 March Meeting}{32}{subsection.4.1.6}%
-\contentsline {section}{\numberline {4.2}Meetings with Arman}{33}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Comments}{34}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Leah Comments Jan 24, 2024}{34}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Suggested research style and flavour}{34}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Step 1: Bulk model}{34}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}(Optional) Step 2: Simple spatially distributed 1D system}{35}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Step 3: An agent-based (CPM) model:}{36}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}Step 4: Look for data}{36}{subsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.1.6}Step 5: More details and other variants}{36}{subsection.5.1.6}%
+\contentsline {chapter}{\numberline {4}Some Notes on Mathematical Modeling}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}STEP 0: Understanding the phenomena we want to study}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}STEP I: Converting Natural Phenomena to a Mathematical Problem }{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}STEP II: Mathematical Analysis of the Model in Hand}{32}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}STEP II: PDE models}{33}{subsection.4.3.1}%
+\contentsline {subsubsection}{Different Formulations of the Problem: Strong vs. Weak Formulation}{33}{subsubsection*.23}%
+\contentsline {chapter}{\numberline {5}Meeting log}{34}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Meetings with Leah}{34}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}29 Jan Meeting}{34}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}5 Feb Meeting}{34}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}12 Feb Meeting}{35}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}8 March Meeting}{35}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}12 March Meeting}{35}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}20 March Meeting}{35}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}Meetings with Arman}{36}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Comments}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Leah Comments Jan 24, 2024}{37}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Suggested research style and flavour}{37}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Step 1: Bulk model}{37}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}(Optional) Step 2: Simple spatially distributed 1D system}{38}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Step 3: An agent-based (CPM) model:}{39}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}Step 4: Look for data}{39}{subsection.6.1.5}%
+\contentsline {subsection}{\numberline {6.1.6}Step 5: More details and other variants}{39}{subsection.6.1.6}%

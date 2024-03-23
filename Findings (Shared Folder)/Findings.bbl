@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{60}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -228,6 +228,16 @@
   \url{https://consensus.app/papers/modeling-wound-healing-angiogenesis-skin-ghosh/d1ad44d139c05acb9eec3082a14420b1/}.
   -- Zugriffsdatum: 2024-03-02
 
+\bibitem[Grattan-Guinness(2008)]{GrattanGuinness2008}
+\dinatlabel{Grattan-Guinness 2008} \textsc{Grattan-Guinness}, Ivor:
+\newblock Solving wigner’s mystery: {The} reasonable (though perhaps limited)
+  effectiveness of mathematics in the natural sciences.
+\newblock In: \emph{The Mathematical Intelligencer}
+\newblock 30 (2008), Juni, Nr.~3, S.~7--17. --
+\newblock URL \url{https://doi.org/10.1007/BF02985373}. -- Zugriffsdatum:
+  2024-03-23. --
+\newblock ISSN 0343-6993
+
 \bibitem[Grogan u.\,a.(2017)Grogan, Connor, Markelc, Muschel, Maini, Byrne und
   Pitt-Francis]{Grogan2017}
 \dinatlabel{Grogan u.\,a. 2017} \textsc{Grogan}, James~A.~; \textsc{Connor},
@@ -265,6 +275,15 @@
   \url{https://www.sciencedirect.com/science/article/pii/S1046202319302129}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1046-2023
+
+\bibitem[Hamming(1980)]{Hamming1980}
+\dinatlabel{Hamming 1980} \textsc{Hamming}, R.~W.:
+\newblock The {Unreasonable} {Effectiveness} of {Mathematics}.
+\newblock In: \emph{The American Mathematical Monthly}
+\newblock 87 (1980), Nr.~2, S.~81--90. --
+\newblock URL \url{https://www.jstor.org/stable/2321982}. -- Zugriffsdatum:
+  2024-03-23. --
+\newblock ISSN 0002-9890
 
 \bibitem[Hasan u.\,a.(2004)Hasan, Shnyder, Bibby, Double, Bicknel und
   Jayson]{Hasan2004}
@@ -369,6 +388,15 @@
   \url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011252}.
   -- Zugriffsdatum: 2024-03-09. --
 \newblock ISSN 1553-7358
+
+\bibitem[Lesk(2000)]{Lesk2000}
+\dinatlabel{Lesk 2000} \textsc{Lesk}, Arthur~M.:
+\newblock The unreasonable effectiveness of mathematics in molecular biology.
+\newblock In: \emph{The Mathematical Intelligencer}
+\newblock 22 (2000), M\^^b{a}rz, Nr.~2, S.~28--37. --
+\newblock URL \url{https://doi.org/10.1007/BF03025372}. -- Zugriffsdatum:
+  2024-03-23. --
+\newblock ISSN 0343-6993
 
 \bibitem[Li und Harris(2005)]{Li2005}
 \dinatlabel{Li und Harris 2005} \textsc{Li}, Ji-Liang~; \textsc{Harris},
@@ -616,6 +644,15 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0022-5193
 
+\bibitem[Tegmark(2008)]{Tegmark2008}
+\dinatlabel{Tegmark 2008} \textsc{Tegmark}, Max:
+\newblock The {Mathematical} {Universe}.
+\newblock In: \emph{Foundations of Physics}
+\newblock 38 (2008), Februar, Nr.~2, S.~101--150. --
+\newblock URL \url{https://doi.org/10.1007/s10701-007-9186-9}. --
+  Zugriffsdatum: 2024-03-23. --
+\newblock ISSN 1572-9516
+
 \bibitem[Vavourakis u.\,a.(2017)Vavourakis, Wijeratne, Shipley, Loizidou,
   Stylianopoulos und Hawkes]{Vavourakis2017}
 \dinatlabel{Vavourakis u.\,a. 2017} \textsc{Vavourakis}, Vasileios~;
@@ -677,6 +714,15 @@
 \newblock URL
   \url{https://consensus.app/papers/model-blood-flow-anatomically-detailed-arterial-network-watanabe/c1484228598b50c7899870e3ee72c8b2/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Wigner(1995)]{Wigner1995}
+\dinatlabel{Wigner 1995} \textsc{Wigner}, E.~P.:
+\newblock The {Unreasonable} {Effectiveness} of {Mathematics} in the {Natural}
+  {Sciences}.
+\newblock Berlin, Heidelberg~: Springer, 1995, S.~534--549. --
+\newblock URL \url{https://doi.org/10.1007/978-3-642-78374-6_41}. --
+  Zugriffsdatum: 2024-03-23. --
+\newblock ISBN 9783642783746
 
 \bibitem[Zudaire u.\,a.(2011)Zudaire, Gambardella, Kurcz und
   Vermeren]{Zudaire2011}

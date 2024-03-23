@@ -5,6 +5,7 @@ The style file: dinat.bst
 A level-1 auxiliary file: Chapters/modelAttempts.aux
 A level-1 auxiliary file: Chapters/PapersReviewed.aux
 A level-1 auxiliary file: Chapters/MolecularBiology.aux
+A level-1 auxiliary file: Chapters/randomNotes.aux
 A level-1 auxiliary file: Chapters/MeetingLog.aux
 A level-1 auxiliary file: Chapters/Comments.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -16,45 +17,46 @@ Database file #1: References/references.bib
 Warning--to sort, need author or key in angiogenesisYoutube
 Warning--to sort, need author or key in conealMicroPocketAssayJOVE
 Warning--empty pages in Alberts2002
-You've used 55 entries,
+Warning--empty booktitle in Wigner1995
+You've used 60 entries,
             3552 wiz_defined-function locations,
-            1255 strings with 23944 characters,
-and the built_in function-call counts, 68126 in all, are:
-= -- 8692
-> -- 1175
-< -- 2491
-+ -- 3188
-- -- 1075
-* -- 7141
-:= -- 11871
-add.period$ -- 54
-call.type$ -- 55
-change.case$ -- 486
-chr.to.int$ -- 54
-cite$ -- 62
-duplicate$ -- 1331
-empty$ -- 3241
-format.name$ -- 1674
-if$ -- 12086
+            1302 strings with 24951 characters,
+and the built_in function-call counts, 71512 in all, are:
+= -- 9128
+> -- 1210
+< -- 2532
++ -- 3243
+- -- 1093
+* -- 7491
+:= -- 12387
+add.period$ -- 59
+call.type$ -- 60
+change.case$ -- 506
+chr.to.int$ -- 59
+cite$ -- 68
+duplicate$ -- 1423
+empty$ -- 3519
+format.name$ -- 1704
+if$ -- 12812
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 198
-newline$ -- 415
-num.names$ -- 212
-pop$ -- 529
+missing$ -- 215
+newline$ -- 454
+num.names$ -- 232
+pop$ -- 552
 preamble$ -- 1
-purify$ -- 486
+purify$ -- 506
 quote$ -- 0
-skip$ -- 2892
+skip$ -- 2984
 stack$ -- 0
-substring$ -- 5936
-swap$ -- 471
-text.length$ -- 321
+substring$ -- 6314
+swap$ -- 480
+text.length$ -- 326
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 605
-warning$ -- 3
-while$ -- 670
+type$ -- 660
+warning$ -- 4
+while$ -- 710
 width$ -- 0
-write$ -- 709
-(There were 3 warnings)
+write$ -- 778
+(There were 4 warnings)
