@@ -64,4 +64,102 @@ In this particular problem, we have a domain, on which we are interested in find
 \end{summary}
 
 \subsubsection{Different Formulations of the Problem: Strong vs. Weak Formulation}
-To find the answers to these questions, we can formulate our problem in different ways, i.e. strong formulation, or a weak formulation. 
+To find the answers to these questions, we can formulate our problem in different ways, i.e. strong formulation, or a weak formulation. In the weak formation, we have more relaxed requirements on the solutions. For instance, for a classic solution to satisfy an elliptic Dirichlet boundary value problem, by definition, it needs to have two derivatives while being zero at the boundary (i.e. $ u \in C_c^2(\Omega) $). However, we can relax this requirement by a kind of axiomatic extension of the set of possible solutions. For instance, we know that all $ C_c^2(\Omega) $ functions has a nice interaction with $ C_c^\infty(\Omega) $ functions through the integration by parts formula.
+\[ \int_\Omega \nabla u \nabla v = -\int_\Omega u \nabla v \qquad \forall v \in C_c^\infty (\Omega).  \]
+Thus we can use this property as a definition of derivative, and define the notion of the weak derivative. We can use this property to formulate the problem in weak sense. 
+\[ \int_\Omega \nabla u \ \nabla v = \int_\Omega g v \qquad \forall v \in H_0^1(\Omega). \]
+We can now write the problem in a more abstract form by defining bi-linear forms
+\[ a: H_0^1 \times H_0^1 \to \R, \qquad l:H_0^1 \to \R \] 
+and define 
+\[ a(u,v) = \int_\Omega \nabla u\  \nabla v, \qquad l(v) = \int_\Omega gv. \]
+Thus we can now write the weak formulation as the following abstract equation, i.e. we say $ u $ satisfies the boundary value problem stated above if it satisfies
+\begin{align*}
+	&a(u,v)  = l(v), \qquad \forall v \in H_0^1,\\
+	&u = 0 \quad \text{on}\ \partial \Omega.
+\end{align*}
+
+\subsubsection{well-Posedness}
+Writing the problem in hand in abstract form, helps us to use other existing mathematical infrastructure to understand if a solution exists, if it is unique, and if it is stable. For instance, writing the elliptic problem in the form of $ a(u,v) = l(v) $ allows us to use the infrastructure developed in functional analysis to find the answers to our questions. For instance, in this particular case, we can use the Lax-Milgram theorem (which is a kind of generalization to the Ritz-representation theorem) to show that under certain conditions (i.e. the bi-linear form $ a $ being coercive and bounded, and the linear form $ l $ being bounded. ) a solution exists, and is unique and stable (i.e. bounded by the data). Or in the case of the Stokes problem for the non-compressible fluid, we have the  Ladyzhenskaya-Babuška-Brezzi condition (or LBB in short) which is also often called inf-sup condition, is a set of conditions under which the Stokes problem as a unique solution that is stable. 
+
+\begin{summary}[Importance of formulating the mathematical problem appropriately]
+	Formulating a mathematical problem in an appropriate way is very crucial. Appropriate formulations allows us to use the existing important theorems in a specific field of mathematics to our advantage. For instance, by formulating a PDE in weak form and using suitable forms, we can use
+	\begin{itemize}
+		\item Lax-Milgram theorem (generalized form of Ritz-representation theorem) to show the well-posedness of an elliptic problem under certain conditions.
+		\item Ladyzhenskaya-Babuška-Brezzi theorem (or LBB in short) to show the well-posedness of the Stokes problem for non compressible fluid.
+	\end{itemize}
+\end{summary}
+
+
+\subsubsection{What kind of solutions do we need?}
+The well-posedness of a problem is a hunting license to find the actual solutions. Again, we need to revisits our main question in step I. What are we looking for? Is having a solutions in closed form necessary? Can having the solution in a series form (with a high or low convergence rate) enough? Can we get the answers to our question by some sort of qualitative analysis? Is a numerical solution necessary? \textbf{The exact answer to these questions depends on the questions that we want to answer with mathematical modeling.}
+
+\begin{summary}[Solutions to the PDE]
+	After getting the hunting license and being sure about the well-posedness of the problem, we need to revisit our original question to decide what we want to do with the solution? The solution can be found in many ways that might be suitable for some cases and and overkill for other cases.
+	\begin{itemize}
+		\item closed form solution
+		\item series solution (with poor or good convergence rate)
+		\item some contracting map 
+		\item local solution (for local behaviour analysis)
+		\item numerical solution
+		\item etc.
+	\end{itemize}
+\end{summary}
+
+\subsubsection{Numerical Solution}
+After deciding on if we need a numerical solution, we can use different approaches, each of which has its own treatment. Here I will only talk about the finite element methods. In the finite element method, we find a suitable finite dimensional sub-space of the solution space ($ H_0^1 $ in the case of the elliptic Dirichlet problem) and formulate the problem in discrete form. For instance, if we can generate a triangulation of a domain $ \Omega $ and define some local basis functions e.g. some continouse and piece-wise affine functions that each of them is non-zero only at one node. Thus we can express our function in the weak formulation in this form
+\[ u = \sum_{i=1}^{n}U_i \phi_i(x), \qquad g = \sum_{i=1}^{n}G_i \phi_i(x). \]
+By substituting this in the weak formulation, we will get the following system of linear equations
+\[ A U = G, \]
+where the matrix $ A $ (stiffness matrix) and the vector $  G $ are the given data and we want to find the vector $ U $. Or in the case of the Stokes problem, we will get the following system of equations.
+\begin{align*}
+	&AU + BP = F, \\
+	&B^T U = 0.
+\end{align*}
+\textbf{Note}: After projecting the problem to a finite dimensional sub-space, it is not necessarily true the the well-posedness of the problem in the infinite dimensional Hilbert space carries over to the finite dimensional sub-space. For instance, in the case of the Stokes problem, the well-posedness does not carry over and we need to study the well-posedness of the discrete problem.
+
+\subsubsection{Error Estimate}
+Projecting an infinite dimensional space to a finite dimensional space introduces some errors that we need to be sure we can quantify and understand how does that error scales with the mesh size (i.e. the dimension of the finite dimensional sub-space).
+
+
+
+\section{What Is the Flux, Really?}
+Here in this section we will go deeper into the notion of flux in particle transport which is the central part mathematical modeling of living systems. I will try to connect this notion with mathematical objects with clear definitions rather than providing vague intuition.
+
+Generally speaking, flux is a surface integral of some vector field, and by designing that vector field accurately, we can use the notion of flux in different contexts. Here we will design the notion of flux to study particles and their densities assuming they are non-compressible fluids. Let $ \Omega \subset \R^3 $. Define 
+\[ J = \rho v \]
+where
+\[ \rho: \Omega\times \R \to \R, \qquad v:\Omega\times \R\to\R^3, \]
+representing the density and the velocity of the scalar field respectively. But what is the velocity of $ \rho $? Here is the part where the notion of volume preserving diffeomorphisms become useful. Let $ X_0 \in\Omega $ denote the position of a point particle in the domain. Then its trajectory over time is determined by the action of the group $ \set{g^t}_{t \in T} $ on $ X_0 $. For instance $ X(t) = g^t X_0 $. Since we have assumed that the species are in form of non-compressible fluids, then the group $ \set{g^t} $ is a subgroup of the group of all diffeomorphisms that preserves the volume. For a fixed $ X_0 \in \Omega $ its orbit is defined to be
+\[ \operatorname{Orbit}(X_0) = \set{g^t X_0 \ |\ t \in T}. \]
+At any time $ t $, $ v(X,t) $ is defined to be
+\[ v(X,t) = \lim_{\Delta t \to 0} \frac{g^{t+\Delta t} X - g^{t} X}{\Delta t} \]
+This means that for $ X_0 \in A $ we can write
+\[ g^{\Delta t} X_0 = X_0 + \vec{v}(X_0) \Delta t + O(\Delta t ^2) \]
+which means that the effect of $ g^{\Delta t} $ on the point $ X_0 $ just shifting $ X_0 $ in the direction $ \vec{v}(X_0) \Delta t  $. In the figure below we can see this approximation on a particular orbit.
+\input{images/orbitApproximation.tex}
+Let $ \sigma $ be any surface given in the domain. We claim that the rate of volume passing through this membrane is given by
+\[ \frac{dV}{dt} = \int_\sigma \vec{v}\cdot \hat{n}\ dA. \]
+To see this $ \Delta A $ be the area of a flat square tangent to the membrane at point $ X_0 $ on the surface. See the figure below.
+\input{images/rateOfVolumePass.tex}
+
+\noindent We observe that the point $ X_0 $ moves to $ X_0 + \vec{v}(X_0)\Delta t + \O(\Delta t^2) $. Also, observe that the area any point on $ \Delta A $ distance $ \Delta r $ away from $ X_0 $ will be transferred to 
+\[ g^{\Delta t} (X_0 + \Delta r) = X_0 + \Delta r + \vec{v}(X_0 + \Delta r)\Delta t + O(\Delta t^2) = (X_0 + \Delta r) + \vec{v}(X_0) \Delta t + O(\Delta t^2 + \Delta t \Delta r).  \]
+Thus the area of the green surface in the figure above will be the same as $ \Delta A $ up to order
+$ O((\Delta t^2 + \Delta t \Delta r)^2) $. Note that by the action of $ g^{\Delta t} $, everything in between the yellow and green surfaces will move through the green surface. So the volume that will pass through the green surface is
+\[ \Delta V = (\vec{v}(X_0)\Delta t)\cdot \hat{n} \Delta A + O(\Delta t^2) \]
+Given that the density of species is $ u $, then the number species passed through the green membrane after time $ \Delta t $ will be
+\[ \frac{\Delta N}{\Delta t} = \vec{v}(X_0)\cdot \hat{n}\Delta A + O(\Delta t^2 + \Delta A^2) \]
+I.e. we can write
+\[ \frac{d N }{dt} = \int_\sigma \vec{v}\cdot \hat{n}\ dA \]
+
+
+\begin{summary}
+	In a nutshell, If we define 
+	\[  J = \rho v \]
+	where $ \rho :\Omega \times \R \to \R $ is a function representing the density, and $ v: \Omega \times \R \to \R^3 $ is the tangent vector to the orbit of particles generated by the action of group of diffeomorphisms that preserve the volume element $ \set{g^t}_{t\in T} $, then, for any surface $ \sigma \subset \Omega $, the rate of particles passing through the membrane will be
+	\[ \frac{dN}{dt} = \int_\sigma J\cdot \hat{n}\ dA. \]
+	Then by assuming that no particles will by destroyed to the thin air, and also no particles will born out of blue sky, then we can derive the continuity equation. In any volume $ V $ of our domain enclosed by the surface $ \sigma $, we can write
+	\[ \frac{d}{dt} \int_V \rho\ dV = - \int_\sigma J\cdot \hat{n}\ dA = - \int_V \nabla\cdot J dV. \]
+	By dropping the integration signs we will get
+	\[ \frac{d\rho}{dt} + \nabla\cdot J = 0.  \]
+\end{summary}
