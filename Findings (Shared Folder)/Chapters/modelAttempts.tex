@@ -1,6 +1,7 @@
 \chapter{Modeling Attempts}
 
-\section{Simple ODE model (First Iteration)}
+\section{Simple Model from Scratch}
+\subsection{Simple ODE Model}
 Here, we develop a model that keeps track of the following variables
 \begin{quote}
 	$n(t)$= density of tip cells in area of interest, (number per unit area).
@@ -312,15 +313,15 @@ To decide which model to use, consider the following:
 
 
 
-\section{Simple Spatially Distributed 1D System}
+\subsection{Simple Spatially Distributed 1D System}
 
 
 In this section, we extend a simple ordinary differential equation (ODE) model for angiogenesis to include spatial dynamics. The original model captures the temporal evolution of the density of tip cells, the density of blood vessels, and the concentration of a drug delivered to a region. We now consider these variables as functions of both space and time, \(\rho(x,t)\), \(n(x,t)\), and \(c(x,t)\), to develop a partial differential equation (PDE) model that accounts for spatial growth and diffusion processes.
 
-\subsection{Flux of Tip Cells}
+\subsubsection{Flux of Tip Cells}
 A key concept in extending the model to incorporate spatial dynamics is the introduction of the flux of tip cells, denoted as \(J\). Flux is defined as the rate of flow of a property per unit area, which in this context is the flow of tip cells moving into a region. Mathematically, the flux \(J\) is given by the product of the density of tip cells \(n(x,t)\) and their velocity \(v\), i.e., \(J = nv\). This formulation allows us to quantify how the movement of tip cells contributes to the spatial development of blood vessels.
 
-\subsection{Spatial Model Development}
+\subsubsection{Spatial Model Development}
 We now proceed to develop the spatial model by modifying the equations from the original ODE model to incorporate spatial derivatives, reflecting the spatial dynamics of vessel formation, tip cell movement, and drug diffusion.
 
 
@@ -351,10 +352,111 @@ where \(D\) is the diffusion coefficient, \(\mu\) represents the drug's permeabi
 
 
 
-\newpage
+\section{Anderson Chaplain Model of Angiogenesis}
 
-\section{Some Ideas to Try}
+\subsection{Biology Facts and Basics}
+The sequences of angiogenesis is assumed to be
+\begin{enumerate}[(i),noitemsep]
+	\item Tumor angiogenic factors (TAF) are secreted by the tumors under low oxygen stress. 
+	\item Emergence of a chemical gradient of TAF between the tumor and the pre-existing vasculature.
+	\item Endothelial cells lining the interior of the existing vasculature respond to this chemical clue by
+	\begin{itemize}[noitemsep]
+		\item Secreting digestive enzymes to loosen the basal lamina.
+		\item Migrate from the disrupted membrane, up in the TAF gradient towards the tumor (i.e. chemotaxis). Look at the citations in the corresponding section)
+		\item Small, finger-like capillary sprouts are formed by accumulation of endothelial cells which are recruited from the parent vessel.
+		\item The sprout grow in length and continue to move toward the tumor directed by the motion of the leading endothelial cells at the sprout tip.
+	\end{itemize} 
+	\item Further sprout extension occurs when some of the endothelial cells of the sprout wall begin to proliferate. Cell division is largely confined to a region just behind the cluster of mitotically inactive endothelial cells that constitute the sprout time. Note that \cite{Sholley1984} demonstrated that in the absence of endothelial cell proliferation, a restricted capillary network, which stops after a few days and never reaches the tumor, is formed. Thus, unless the endothelial cells undergo mitosis, the capillary sprouts cannot complete vascularization completely.
+	\item This process of sprout tip migration and proliferation of sprout-wall cells forms solid strands of endothelial cells amongst the extracellular matrix.
+	\item The tip cells find their way through the extracellular matrix that consist of itersitial tissue, collagen fiber and fibronectin as well as other components.
+	\item Interactions between the endothelial cells and the extracellular matrix, in particular fibronectin.
+	\begin{itemize}
+		\item Cultured endothelial cells are known to synthesize and secrete cellular fibronectin (i.e. the insoluble form) \cite{Birdwell1978,Birdwell1980,1978,Macarak1978,Nerlich1991}. Note that the insoluble form is first secreted in the soluble form and then assembles into insoluble matrix.
+		\item The expression of secreted fibronectin in cultured endothelial cells closely reflects the distribution of pre-existing fibronectin  observed in matrices \emph{in vivo} \cite{Vlodavsky1979,Hynes1989-je}
+		\item The fibronectin secreted by the endothelial cells do not diffuse and bound the to extracellular matrix \cite{Birdwell1980,Hynes1989-je}.
+		\item Fibronectin secreted by the endothelial cells is a major ligand between cells and matrix material in many situations.
+		\item Endothelial cells use fibronectin for attachment to the matrix via integrins, a family of cell surface receptors \cite{Johansson1987,Hynes1989-je,Alberts2002a}.
+	\end{itemize}
+	\item Haptotaxis of the endothelial cells: migration of the endothelial cells up the gradient of adhesiveness \cite{Everitt1996,McCarthy1984,Carter1965}.
+	\item Thus in addition to the chemotaxis of endothelial cells following the chemical gradient of TAF, there is a complementary haptotactic response to the fibronectin present within the extracellular matrix \cite{Bowersox1982}.
+	\item Modes of the spatial growth:
+	\begin{itemize}
+		\item Initially, the sprouts arising from the parent vessel are essentially parallel to each other. 
+		\item Tend to incline towards each other when the finger-like capillary sprouts have reached a certain distance from the parent vessel \cite{Paweletz1989} leading to numerous tip-to-tip and tip-to-sprout fusions known as anastomoses. This anastomoses leads to a network of poorly perfused loops and arcades.
+		\item Form this process of anastomoses, the first signs of circulation can be recognized and from the primary loops, new buds and sprouts emerge repeating the angiogenic sequence of events.
+		\item The process of emerging new capillary sprouts from the existing sprout tips is often called \emph{sprout branching}.
+		\item As the sprouts approach the tumor, their branching dramatically increases until the tumor is eventually penetrated.
+	\end{itemize}
+	\item The repeated steps of angiogenesis: endothelial cell migration, sprout extension, cell proliferation and loop formation.
+\end{enumerate}
+
+\subsection{A Review of previous mathematical models}
+\begin{itemize}
+	\item Continuum and deterministic models for one dimension developed by \cite{Liotta1977,Balding1985,Chaplain1993,Byrne1995a,Orme1996}. These models were able to capture some features like average sprout density and network expansion rates. But was not able to capture more detailed information concerning the actual structure and morphology of the capillary network.
+	\item More realistic 2D continuum models by \cite{Chaplain1995,Orme1997}: These models allowed a more detailed qualitative comparison with \emph{en vivo} observations about the spatial morphology of the networks. However, even these models were not able to capture the events like repeated sprout branching and hence overall dendrictic structure of the network.
+	\item {\color{orange} Important: }More general continuum branching models \cite{Meinhardt1976,Meinhardt1982,Ermentrout1993}.
+	\item Discrete probabilistic framework by \cite{Stokes1991} using stochastic differential equations. This model incorporated chemotaxis but not the Haptotaxis. Also, was not able to capture the fact that more branched appear as the network gets closer to the tumor. This effect is called the \textbf{brush border} effect\cite{Gimbrone1974,Ausprunk1977,Zawicki1981,Muthukkaruppan1982,Sholley1984}.
+\end{itemize}
+
+
+
+\textbf{Some notes about the fibronectin:} Fibronectin is a high molecular weight (about 500 kD) Glycoprotein (i.e. protein  + an Oligosaccharide) that binds to the membrane-spanning receptor protein called Integrin. On the other hand, they also bind to other extracellular matrix proteins like collage, fibrin, etc.
+
+Fibronectin in blood plasma, is in soluble form (made in Liver), however, in the extracellular matrix, the Fibronectin is first secreted in soluble form (mostly by the fibroblast cells) and then assembles into an insoluble matrix in a complex cell mediated process. In the terminology above, the soluble fibronectin is called \emph{plasma fibronectin} and the insoluble form is called \emph{cellular fibronectin}.
+
+\subsection{Details of the model}
+Here in this section I will follow the model described in \cite{Anderson1998}. This model is based on the experimental data presented in \cite{Gimbrone1974} and \cite{Muthukkaruppan1982}. The variables of the model are as the following.
+
+\begin{itemize}
+	\item $ n = n(X,t): \Omega \times \R \to \R $: the endothelial-cell density (per unit area).
+	\item $ c = c(X,t): \Omega \times \R \to \R $: the tumor angiogenic factor (TAF) concentration (nmol per unit area).
+	\item $ f = f(X,t): \Omega \times R \to \R $: the fibronectin concentration (nmol per unit area).
+\end{itemize}
+
+
+
+\subsection{Some Thoughts}
+\subsubsection{Discrete vs. continuous model}
+For me, the distinction between discrete model and the continuous model discussed above is just the difference between solving a SDE (which will give us some trajectories) vs. solving the corresponding Fokker-Plank equation. However observe that, in SDE trajectories, we can measure some quantities like the number of branches, number of loops, the tortuosity, distribution of the length segments, etc. On the other hand, the corresponding Fokker-Plank equation (the advection-diffusion PDE) gives us the time evolution of the tip cell density. So the following is my question
+
+\begin{openQuestion}
+	Given an SDE, is it possible to write down a differential equation (like the Fokker-Plank equation) that can capture a measurement of interest? Like the time evolution of the average number of collisions between $ n $ trajectories of the SDE.
+\end{openQuestion}
+Here are some possible steps to find the answer to the question above.
+\begin{observation}[Steps to solve the question above]
+	The overall theme of solving the question above is to generalize the Fokker-Plank equation of an SDE such that we can write down a similar PDE for any measurement of interest. 
+	\begin{enumerate}[(I)]
+		\item First, try to think about the Fokker-Plank equation in this framework. I.e. try to observe what kind of measurement is the variable $ \rho $ whose time evolution is captured by the Fokker-Plank equation.
+		\item Try to abstract the notion of $ \rho $. I.e. What are the properties of $ \rho $ that help in developing the Fokker-Plank equation?
+	\end{enumerate}
+\end{observation}
+
+
+\subsection{Important citations of this paper}
+\begin{itemize}[noitemsep]
+	\item biology of the angiogenesis
+	\begin{itemize}[noitemsep]
+		\item Embryo angiogenesis \cite{Graham1992}.
+		\item Angiogenesis in tissue repair \cite{Arnold1991,Pettet1996}.
+		\item Uncontrolled angiogenesis in tumors, arthritis, abnormal neovascularization of the eye, duodenal ulcers, and following myocardial infarction \cite{Folkman1985,Folkman1995,Folkman1987}.
+		\item Pathological examples of angiogenesis \cite{Muthukkaruppan1982,Ribatti2008}.
+	\end{itemize}
+	\item Angiogenic factors:
+	\begin{itemize}
+		\item Several angiogenic factors like vascular endothelial growth factor (VEGF), acidic and basic fibroblast growth factor (aFGF, bFGF), angiogenin, etc has been isolated \cite{Folkman1987,Relf1997}.
+		\item Endothelial cell receptors for these angiogenic factors \cite{Millauer1993,Hatva1995,Mandriota1995,Fong1995,Hewett1996,Patterson1996,Kappel1999,0deab5d12daa4d32b398e5c5f589f651,Hanahan1997}
+		\item Effect of disrupting the angiogenic factors on the final structure of the capillary network \cite{Dumont1994,Fong1995,Sato1995,Hanahan1997}.
+	\end{itemize}
+	\item Initial response of the endothelial cells to the angiogenic factors is a chemotatic one \cite{Sholley1984,Terranova1985,Paweletz1989,Stokes1990}.
+	\item New finger-like capillary sprout formation \cite{Cliff1963,Warren1966,Ausprunk1977,Sholley1984}
+	\item New tip cells finding their way through the extracellular matrix \cite{Liotta1983,Paweletz1989}.
+\end{itemize}
+
+
+\newpage
+\section{Idea Bin!}
 This section might have very simple, basic and sometimes silly ideas that came into my mind during developing some models and I thought they might worth trying
 \begin{itemize}
 	\item Developing a model for a weighted graph generation. I suspect a weighted graph might have all the necessary information we want.
 \end{itemize}
+

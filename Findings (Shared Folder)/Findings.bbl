@@ -1,4 +1,4 @@
-\begin{thebibliography}{60}
+\begin{thebibliography}{112}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -19,16 +19,26 @@
 \newblock URL \url{https://app.jove.comthe corneal micropocket assay: a model
   of angiogenesis in the mouse eye}. -- Zugriffsdatum: 2024-01-27
 
-\bibitem[Alberts u.\,a.(2002)Alberts, Johnson, Lewis, Raff, Roberts und
-  Walter]{Alberts2002}
-\dinatlabel{Alberts u.\,a. 2002} \textsc{Alberts}, Bruce~; \textsc{Johnson},
-  Alexander~; \textsc{Lewis}, Julian~; \textsc{Raff}, Martin~;
-  \textsc{Roberts}, Keith~; \textsc{Walter}, Peter:
+\bibitem[Alberts u.\,a.(2002{\natexlab{a}})Alberts, Johnson, Lewis, Raff,
+  Roberts und Walter]{Alberts2002}
+\dinatlabel{Alberts u.\,a. 2002{\natexlab{a}}} \textsc{Alberts}, Bruce~;
+  \textsc{Johnson}, Alexander~; \textsc{Lewis}, Julian~; \textsc{Raff},
+  Martin~; \textsc{Roberts}, Keith~; \textsc{Walter}, Peter:
 \newblock Blood {Vessels} and {Endothelial} {Cells}.
 \newblock In: \emph{Molecular {Biology} of the {Cell}. 4th edition}.
 \newblock Garland Science, 2002. --
 \newblock URL \url{https://www.ncbi.nlm.nih.gov/books/NBK26848/}. --
   Zugriffsdatum: 2024-01-27
+
+\bibitem[Alberts u.\,a.(2002{\natexlab{b}})Alberts, Johnson, Lewis, Raff,
+  Roberts und Walter]{Alberts2002a}
+\dinatlabel{Alberts u.\,a. 2002{\natexlab{b}}} \textsc{Alberts}, Bruce~;
+  \textsc{Johnson}, Alexander~; \textsc{Lewis}, Julian~; \textsc{Raff},
+  Martin~; \textsc{Roberts}, Keith~; \textsc{Walter}, Peter:
+\newblock \emph{Molecular {Biology} of the {Cell}}.
+\newblock 4th.
+\newblock Garland Science, 2002. --
+\newblock ISBN 9780815332183 9780815340720
 
 \bibitem[Anderson und Chaplain(1998)]{Anderson1998}
 \dinatlabel{Anderson und Chaplain 1998} \textsc{Anderson}, A. R.~A.~;
@@ -40,6 +50,22 @@
 \newblock URL \url{https://doi.org/10.1006/bulm.1998.0042}. -- Zugriffsdatum:
   2024-01-21. --
 \newblock ISSN 1522-9602
+
+\bibitem[Arnold und West(1991)]{Arnold1991}
+\dinatlabel{Arnold und West 1991} \textsc{Arnold}, F.~; \textsc{West}, D.~C.:
+\newblock Angiogenesis in wound healing.
+\newblock In: \emph{Pharmacology \& Therapeutics}
+\newblock 52 (1991), Dezember, Nr.~3, S.~407--422. --
+\newblock ISSN 0163-7258
+
+\bibitem[Ausprunk und Folkman(1977)]{Ausprunk1977}
+\dinatlabel{Ausprunk und Folkman 1977} \textsc{Ausprunk}, D.~H.~;
+  \textsc{Folkman}, J.:
+\newblock Migration and proliferation of endothelial cells in preformed and
+  newly formed blood vessels during tumor angiogenesis.
+\newblock In: \emph{Microvascular Research}
+\newblock 14 (1977), Juli, Nr.~1, S.~53--65. --
+\newblock ISSN 0026-2862
 
 \bibitem[Balding und McElwain(1985)]{Balding1985}
 \dinatlabel{Balding und McElwain 1985} \textsc{Balding}, D.~;
@@ -88,6 +114,31 @@
   \url{https://consensus.app/papers/modeling-vascularization-gradient-tissue-engineering-bayrak/d22174fff62150c992548ba168de9446/}.
   -- Zugriffsdatum: 2024-03-02
 
+\bibitem[Birdwell u.\,a.(1978)Birdwell, Gospodarowicz und
+  Nicolson]{Birdwell1978}
+\dinatlabel{Birdwell u.\,a. 1978} \textsc{Birdwell}, C~R.~;
+  \textsc{Gospodarowicz}, D~; \textsc{Nicolson}, G~L.:
+\newblock Identification, localization, and role of fibronectin in cultured
+  bovine endothelial cells.
+\newblock In: \emph{Proceedings of the National Academy of Sciences of the
+  United States of America}
+\newblock 75 (1978), Juli, Nr.~7, S.~3273--3277. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC392757/}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0027-8424
+
+\bibitem[Birdwell u.\,a.(1980)Birdwell, Brasier und Taylor]{Birdwell1980}
+\dinatlabel{Birdwell u.\,a. 1980} \textsc{Birdwell}, Charles~R.~;
+  \textsc{Brasier}, Allan~R.~; \textsc{Taylor}, Lorna~A.:
+\newblock Two-dimensional peptide mapping of fibronectins from bovine aortic
+  endothelial cells and bovine plasma.
+\newblock In: \emph{Biochemical and Biophysical Research Communications}
+\newblock 97 (1980), November, Nr.~2, S.~574--581. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/0006291X80903022}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0006-291X
+
 \bibitem[Bookholt u.\,a.(2016)Bookholt, Monsuur, Gibbs und
   Vermolen]{Bookholt2016}
 \dinatlabel{Bookholt u.\,a. 2016} \textsc{Bookholt}, F.~D.~; \textsc{Monsuur},
@@ -100,9 +151,17 @@
   \url{https://consensus.app/papers/modelling-angiogenesis-using-cellbased-models-bookholt/3bfbd79589195fd18705ba3c8cd4efb6/}.
   -- Zugriffsdatum: 2024-03-02
 
-\bibitem[Byrne und Chaplain(1995)]{Byrne1995}
-\dinatlabel{Byrne und Chaplain 1995} \textsc{Byrne}, H.~M.~; \textsc{Chaplain},
-  M. A.~J.:
+\bibitem[Bowersox und Sorgente(1982)]{Bowersox1982}
+\dinatlabel{Bowersox und Sorgente 1982} \textsc{Bowersox}, J.~C.~;
+  \textsc{Sorgente}, N.:
+\newblock Chemotaxis of aortic endothelial cells in response to fibronectin.
+\newblock In: \emph{Cancer Research}
+\newblock 42 (1982), Juli, Nr.~7, S.~2547--2551. --
+\newblock ISSN 0008-5472
+
+\bibitem[Byrne und Chaplain(1995{\natexlab{a}})]{Byrne1995}
+\dinatlabel{Byrne und Chaplain 1995{\natexlab{a}}} \textsc{Byrne}, H.~M.~;
+  \textsc{Chaplain}, M. A.~J.:
 \newblock Growth of nonnecrotic tumors in the presence and absence of
   inhibitors.
 \newblock In: \emph{Mathematical Biosciences}
@@ -111,6 +170,17 @@
   \url{https://www.sciencedirect.com/science/article/pii/0025556494001173}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0025-5564
+
+\bibitem[Byrne und Chaplain(1995{\natexlab{b}})]{Byrne1995a}
+\dinatlabel{Byrne und Chaplain 1995{\natexlab{b}}} \textsc{Byrne}, H.~M.~;
+  \textsc{Chaplain}, M. A.~J.:
+\newblock Mathematical models for tumour angiogenesis: {Numerical} simulations
+  and nonlinear wave solutions.
+\newblock In: \emph{Bulletin of Mathematical Biology}
+\newblock 57 (1995), Mai, Nr.~3, S.~461--486. --
+\newblock URL \url{https://doi.org/10.1007/BF02460635}. -- Zugriffsdatum:
+  2024-06-12. --
+\newblock ISSN 1522-9602
 
 \bibitem[Byrne(2010)]{Byrne2010}
 \dinatlabel{Byrne 2010} \textsc{Byrne}, Helen~M.:
@@ -135,6 +205,14 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1476-5594
 
+\bibitem[Carter(1965)]{Carter1965}
+\dinatlabel{Carter 1965} \textsc{Carter}, S.~B.:
+\newblock Principles of cell motility: the direction of cell movement and
+  cancer invasion.
+\newblock In: \emph{Nature}
+\newblock 208 (1965), Dezember, Nr.~5016, S.~1183--1187. --
+\newblock ISSN 0028-0836
+
 \bibitem[Chaplain(2000)]{Chaplain2000}
 \dinatlabel{Chaplain 2000} \textsc{Chaplain}, M.:
 \newblock Mathematical {Modelling} of {Angiogenesis}.
@@ -143,6 +221,22 @@
 \newblock URL
   \url{https://consensus.app/papers/modelling-angiogenesis-chaplain/6d427094e8205125a43fe573afe3612c/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Chaplain(1995)]{Chaplain1995}
+\dinatlabel{Chaplain 1995} \textsc{Chaplain}, M.~A.:
+\newblock The mathematical modelling of tumour angiogenesis and invasion.
+\newblock In: \emph{Acta Biotheoretica}
+\newblock 43 (1995), Dezember, Nr.~4, S.~387--402. --
+\newblock ISSN 0001-5342
+
+\bibitem[Chaplain und Stuart(1993)]{Chaplain1993}
+\dinatlabel{Chaplain und Stuart 1993} \textsc{Chaplain}, M.~A.~;
+  \textsc{Stuart}, A.~M.:
+\newblock A model mechanism for the chemotactic response of endothelial cells
+  to tumour angiogenesis factor.
+\newblock In: \emph{IMA journal of mathematics applied in medicine and biology}
+\newblock 10 (1993), Nr.~3, S.~149--168. --
+\newblock ISSN 0265-0746
 
 \bibitem[Chávez u.\,a.(2016)Chávez, Aedo, Fierro, Allende und
   Egaña]{Chavez2016}
@@ -154,6 +248,18 @@
 \newblock In: \emph{Frontiers in Physiology}
 \newblock 7 (2016), S.~56. --
 \newblock ISSN 1664-042X
+
+\bibitem[Cliff(1963)]{Cliff1963}
+\dinatlabel{Cliff 1963} \textsc{Cliff}, W.~J.:
+\newblock Observations on {Healing} {Tissue}: {A} {Combined} {Light} and
+  {Electron} {Microscopic} {Investigation}.
+\newblock In: \emph{Philosophical Transactions of the Royal Society of London
+  Series B}
+\newblock 246 (1963), Juli, S.~305--325. --
+\newblock URL \url{https://ui.adsabs.harvard.edu/abs/1963RSPTB.246..305C}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ADS Bibcode: 1963RSPTB.246..305C. --
+\newblock ISSN 1364-503X0962-84360080-4622
 
 \bibitem[Connor u.\,a.(2015)Connor, Nowak, Lorenzon, Thomas, Herting, Hoert,
   Quaiser, Shochat, Pitt-Francis, Cooper, Maini und Byrne]{Connor2015}
@@ -193,6 +299,46 @@
   \url{https://consensus.app/papers/models-developmental-remodelling-review-crawshaw/15c1d1d3a7ef55dbbd5167b2a576258a/}.
   -- Zugriffsdatum: 2024-03-02
 
+\bibitem[Duh u.\,a.(1997)Duh, King und
+  Aiello]{0deab5d12daa4d32b398e5c5f589f651}
+\dinatlabel{Duh u.\,a. 1997} \textsc{Duh}, {E. J.}~; \textsc{King}, {G. L.}~;
+  \textsc{Aiello}, {L. P.}:
+\newblock Identification of a VEGF receptor (KDR/FLK) promoter element which
+  binds an endothelial cell-specific protein conferring endothelial selective
+  expression.
+\newblock In: \emph{Investigative Ophthalmology and Visual Science}
+\newblock 38 (1997), Nr.~4, S.~S242. --
+\newblock ISSN 0146-0404
+
+\bibitem[Dumont u.\,a.(1994)Dumont, Gradwohl, Fong, Puri, Gertsenstein,
+  Auerbach und Breitman]{Dumont1994}
+\dinatlabel{Dumont u.\,a. 1994} \textsc{Dumont}, D.~J.~; \textsc{Gradwohl},
+  G.~; \textsc{Fong}, G.~H.~; \textsc{Puri}, M.~C.~; \textsc{Gertsenstein},
+  M.~; \textsc{Auerbach}, A.~; \textsc{Breitman}, M.~L.:
+\newblock Dominant-negative and targeted null mutations in the endothelial
+  receptor tyrosine kinase, tek, reveal a critical role in vasculogenesis of
+  the embryo.
+\newblock In: \emph{Genes \& Development}
+\newblock 8 (1994), August, Nr.~16, S.~1897--1909. --
+\newblock ISSN 0890-9369
+
+\bibitem[Ermentrout und Edelstein-Keshet(1993)]{Ermentrout1993}
+\dinatlabel{Ermentrout und Edelstein-Keshet 1993} \textsc{Ermentrout}, G.~B.~;
+  \textsc{Edelstein-Keshet}, L.:
+\newblock Cellular automata approaches to biological modeling.
+\newblock In: \emph{Journal of Theoretical Biology}
+\newblock 160 (1993), Januar, Nr.~1, S.~97--133. --
+\newblock ISSN 0022-5193
+
+\bibitem[Everitt u.\,a.(1996)Everitt, Malik und Hendey]{Everitt1996}
+\dinatlabel{Everitt u.\,a. 1996} \textsc{Everitt}, E.~A.~; \textsc{Malik},
+  A.~B.~; \textsc{Hendey}, B.:
+\newblock Fibronectin enhances the migration rate of human neutrophils in
+  vitro.
+\newblock In: \emph{Journal of Leukocyte Biology}
+\newblock 60 (1996), August, Nr.~2, S.~199--206. --
+\newblock ISSN 0741-5400
+
 \bibitem[Folarin u.\,a.(2010)Folarin, Konerding, Timonen, Nagl und
   Pedley]{Folarin2010}
 \dinatlabel{Folarin u.\,a. 2010} \textsc{Folarin}, A.~A.~; \textsc{Konerding},
@@ -206,6 +352,28 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0026-2862
 
+\bibitem[Folkman(1985)]{Folkman1985}
+\dinatlabel{Folkman 1985} \textsc{Folkman}, J.:
+\newblock Tumor angiogenesis.
+\newblock In: \emph{Advances in Cancer Research}
+\newblock 43 (1985), S.~175--203. --
+\newblock ISSN 0065-230X
+
+\bibitem[Folkman(1995)]{Folkman1995}
+\dinatlabel{Folkman 1995} \textsc{Folkman}, J.:
+\newblock Angiogenesis in cancer, vascular, rheumatoid and other disease.
+\newblock In: \emph{Nature Medicine}
+\newblock 1 (1995), Januar, Nr.~1, S.~27--31. --
+\newblock ISSN 1078-8956
+
+\bibitem[Folkman und Klagsbrun(1987)]{Folkman1987}
+\dinatlabel{Folkman und Klagsbrun 1987} \textsc{Folkman}, J.~;
+  \textsc{Klagsbrun}, M.:
+\newblock Angiogenic factors.
+\newblock In: \emph{Science (New York, N.Y.)}
+\newblock 235 (1987), Januar, Nr.~4787, S.~442--447. --
+\newblock ISSN 0036-8075
+
 \bibitem[Folkman(1971)]{Folkman1971}
 \dinatlabel{Folkman 1971} \textsc{Folkman}, Judah:
 \newblock Tumor {Angiogenesis}: {Therapeutic} {Implications}.
@@ -214,6 +382,15 @@
 \newblock URL \url{https://doi.org/10.1056/NEJM197111182852108}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0028-4793
+
+\bibitem[Fong u.\,a.(1995)Fong, Rossant, Gertsenstein und Breitman]{Fong1995}
+\dinatlabel{Fong u.\,a. 1995} \textsc{Fong}, G.~H.~; \textsc{Rossant}, J.~;
+  \textsc{Gertsenstein}, M.~; \textsc{Breitman}, M.~L.:
+\newblock Role of the {Flt}-1 receptor tyrosine kinase in regulating the
+  assembly of vascular endothelium.
+\newblock In: \emph{Nature}
+\newblock 376 (1995), Juli, Nr.~6535, S.~66--70. --
+\newblock ISSN 0028-0836
 
 \bibitem[Ghosh u.\,a.(2015)Ghosh, Kim, Flegg, Menon, Maini und
   McElwain]{Ghosh2015}
@@ -227,6 +404,28 @@
 \newblock URL
   \url{https://consensus.app/papers/modeling-wound-healing-angiogenesis-skin-ghosh/d1ad44d139c05acb9eec3082a14420b1/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Gimbrone u.\,a.(1974)Gimbrone, Cotran, Leapman und
+  Folkman]{Gimbrone1974}
+\dinatlabel{Gimbrone u.\,a. 1974} \textsc{Gimbrone}, Michael~A.~;
+  \textsc{Cotran}, Ramzi~S.~; \textsc{Leapman}, Stephen~B.~; \textsc{Folkman},
+  Judah:
+\newblock Tumor {Growth} and {Neovascularization}: {An} {Experimental} {Model}
+  {Using} the {Rabbit} {Cornea2}.
+\newblock In: \emph{JNCI: Journal of the National Cancer Institute}
+\newblock 52 (1974), Februar, Nr.~2, S.~413--427. --
+\newblock URL \url{https://doi.org/10.1093/jnci/52.2.413}. -- Zugriffsdatum:
+  2024-06-12. --
+\newblock ISSN 0027-8874
+
+\bibitem[Graham und Lala(1992)]{Graham1992}
+\dinatlabel{Graham und Lala 1992} \textsc{Graham}, C.~H.~; \textsc{Lala},
+  P.~K.:
+\newblock Mechanisms of placental invasion of the uterus and their control.
+\newblock In: \emph{Biochemistry and Cell Biology = Biochimie Et Biologie
+  Cellulaire}
+\newblock 70 (1992), Nr.~10-11, S.~867--874. --
+\newblock ISSN 0829-8211
 
 \bibitem[Grattan-Guinness(2008)]{GrattanGuinness2008}
 \dinatlabel{Grattan-Guinness 2008} \textsc{Grattan-Guinness}, Ivor:
@@ -285,6 +484,13 @@
   2024-03-23. --
 \newblock ISSN 0002-9890
 
+\bibitem[Hanahan(1997)]{Hanahan1997}
+\dinatlabel{Hanahan 1997} \textsc{Hanahan}, D.:
+\newblock Signaling vascular morphogenesis and maintenance.
+\newblock In: \emph{Science (New York, N.Y.)}
+\newblock 277 (1997), Juli, Nr.~5322, S.~48--50. --
+\newblock ISSN 0036-8075
+
 \bibitem[Hasan u.\,a.(2004)Hasan, Shnyder, Bibby, Double, Bicknel und
   Jayson]{Hasan2004}
 \dinatlabel{Hasan u.\,a. 2004} \textsc{Hasan}, J.~; \textsc{Shnyder}, S.~;
@@ -296,6 +502,53 @@
 \newblock URL
   \url{https://consensus.app/papers/angiogenesis-assays-vivo-review-hasan/a633e139bbc55f17bfb6d5ce86ee244a/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Hatva u.\,a.(1995)Hatva, Kaipainen, Mentula, Jääskeläinen, Paetau,
+  Haltia und Alitalo]{Hatva1995}
+\dinatlabel{Hatva u.\,a. 1995} \textsc{Hatva}, E.~; \textsc{Kaipainen}, A.~;
+  \textsc{Mentula}, P.~; \textsc{Jääskeläinen}, J.~; \textsc{Paetau}, A.~;
+  \textsc{Haltia}, M.~; \textsc{Alitalo}, K.:
+\newblock Expression of endothelial cell-specific receptor tyrosine kinases and
+  growth factors in human brain tumors.
+\newblock In: \emph{The American Journal of Pathology}
+\newblock 146 (1995), Februar, Nr.~2, S.~368--378. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1869858/}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0002-9440
+
+\bibitem[Hewett und Murray(1996)]{Hewett1996}
+\dinatlabel{Hewett und Murray 1996} \textsc{Hewett}, P.~W.~; \textsc{Murray},
+  J.~C.:
+\newblock Coexpression of flt-1, flt-4 and {KDR} in freshly isolated and
+  cultured human endothelial cells.
+\newblock In: \emph{Biochemical and Biophysical Research Communications}
+\newblock 221 (1996), April, Nr.~3, S.~697--702. --
+\newblock ISSN 0006-291X
+
+\bibitem[Hynes(1989)]{Hynes1989-je}
+\dinatlabel{Hynes 1989} \textsc{Hynes}, Richard~O.:
+\newblock \emph{Fibronectins}.
+\newblock 1990.
+\newblock New York, NY~: Springer, Dezember 1989
+\newblock (Springer Series in Molecular and Cell Biology)
+
+\bibitem[Jaffee(1978)]{1978}
+\dinatlabel{Jaffee 1978} \textsc{Jaffee}:
+\newblock Synthesis of fibronectin by cultured human endothelial cells.
+\newblock In: \emph{The Journal of Experimental Medicine}
+\newblock 147 (1978), Juni, Nr.~6, S.~1779--1791. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2184307/}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0022-1007
+
+\bibitem[Johansson u.\,a.(1987)Johansson, Gustafson und Pertoft]{Johansson1987}
+\dinatlabel{Johansson u.\,a. 1987} \textsc{Johansson}, S.~; \textsc{Gustafson},
+  S.~; \textsc{Pertoft}, H.:
+\newblock Identification of a fibronectin receptor specific for rat liver
+  endothelial cells.
+\newblock In: \emph{Experimental Cell Research}
+\newblock 172 (1987), Oktober, Nr.~2, S.~425--431. --
+\newblock ISSN 0014-4827
 
 \bibitem[Jones und Sleeman(2006)]{Jones2006}
 \dinatlabel{Jones und Sleeman 2006} \textsc{Jones}, Pamela~F.~;
@@ -326,6 +579,18 @@
 \newblock URL \url{https://doi.org/10.1158/1078-0432.CCR-18-0033}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1078-0432
+
+\bibitem[Kappel u.\,a.(1999)Kappel, Rönicke, Damert, Flamme, Risau und
+  Breier]{Kappel1999}
+\dinatlabel{Kappel u.\,a. 1999} \textsc{Kappel}, A.~; \textsc{Rönicke}, V.~;
+  \textsc{Damert}, A.~; \textsc{Flamme}, I.~; \textsc{Risau}, W.~;
+  \textsc{Breier}, G.:
+\newblock Identification of vascular endothelial growth factor ({VEGF})
+  receptor-2 ({Flk}-1) promoter/enhancer sequences sufficient for angioblast
+  and endothelial cell-specific transcription in transgenic mice.
+\newblock In: \emph{Blood}
+\newblock 93 (1999), Juni, Nr.~12, S.~4284--4292. --
+\newblock ISSN 0006-4971
 
 \bibitem[Khan u.\,a.(2014)Khan, Shakir, Khan, Naeem und Omer]{Khan2014}
 \dinatlabel{Khan u.\,a. 2014} \textsc{Khan}, G.~J.~; \textsc{Shakir}, Lubna~;
@@ -421,6 +686,23 @@
 \newblock URL \url{https://www.pnas.org/doi/full/10.1073/pnas.052018099}. --
   Zugriffsdatum: 2024-01-21
 
+\bibitem[Liotta u.\,a.(1983)Liotta, Rao und Barsky]{Liotta1983}
+\dinatlabel{Liotta u.\,a. 1983} \textsc{Liotta}, L.~A.~; \textsc{Rao}, C.~N.~;
+  \textsc{Barsky}, S.~H.:
+\newblock Tumor invasion and the extracellular matrix.
+\newblock In: \emph{Laboratory Investigation; a Journal of Technical Methods
+  and Pathology}
+\newblock 49 (1983), Dezember, Nr.~6, S.~636--649. --
+\newblock ISSN 0023-6837
+
+\bibitem[Liotta u.\,a.(1977)Liotta, Saidel und Kleinerman]{Liotta1977}
+\dinatlabel{Liotta u.\,a. 1977} \textsc{Liotta}, L.~A.~; \textsc{Saidel},
+  G.~M.~; \textsc{Kleinerman}, J.:
+\newblock Diffusion model of tumor vascularization and growth.
+\newblock In: \emph{Bulletin of Mathematical Biology}
+\newblock 39 (1977), Nr.~1, S.~117--128. --
+\newblock ISSN 0092-8240
+
 \bibitem[Lugano u.\,a.(2020)Lugano, Ramachandran und Dimberg]{Lugano2020}
 \dinatlabel{Lugano u.\,a. 2020} \textsc{Lugano}, Roberta~;
   \textsc{Ramachandran}, Mohanraj~; \textsc{Dimberg}, Anna:
@@ -431,6 +713,39 @@
 \newblock URL \url{https://doi.org/10.1007/s00018-019-03351-7}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1420-9071
+
+\bibitem[Macarak u.\,a.(1978)Macarak, Kirby, Kirk und Kefalides]{Macarak1978}
+\dinatlabel{Macarak u.\,a. 1978} \textsc{Macarak}, Edward~J.~; \textsc{Kirby},
+  Edward~; \textsc{Kirk}, Theresa~; \textsc{Kefalides}, Nicholas~A.:
+\newblock Synthesis of {Cold}-{Insoluble} {Globulin} by {Cultured} {Calf}
+  {Endothelial} {Cells}.
+\newblock In: \emph{Proceedings of the National Academy of Sciences of the
+  United States of America}
+\newblock 75 (1978), Nr.~6, S.~2621--2625. --
+\newblock URL \url{https://www.jstor.org/stable/68293}. -- Zugriffsdatum:
+  2024-06-12. --
+\newblock ISSN 0027-8424
+
+\bibitem[Mandriota u.\,a.(1995)Mandriota, Seghezzi, Vassalli, Ferrara, Wasi,
+  Mazzieri, Mignatti und Pepper]{Mandriota1995}
+\dinatlabel{Mandriota u.\,a. 1995} \textsc{Mandriota}, S.~J.~;
+  \textsc{Seghezzi}, G.~; \textsc{Vassalli}, J.~D.~; \textsc{Ferrara}, N.~;
+  \textsc{Wasi}, S.~; \textsc{Mazzieri}, R.~; \textsc{Mignatti}, P.~;
+  \textsc{Pepper}, M.~S.:
+\newblock Vascular endothelial growth factor increases urokinase receptor
+  expression in vascular endothelial cells.
+\newblock In: \emph{The Journal of Biological Chemistry}
+\newblock 270 (1995), April, Nr.~17, S.~9709--9716. --
+\newblock ISSN 0021-9258
+
+\bibitem[McCarthy und Furcht(1984)]{McCarthy1984}
+\dinatlabel{McCarthy und Furcht 1984} \textsc{McCarthy}, J.~B.~;
+  \textsc{Furcht}, L.~T.:
+\newblock Laminin and fibronectin promote the haptotactic migration of {B16}
+  mouse melanoma cells in vitro.
+\newblock In: \emph{The Journal of Cell Biology}
+\newblock 98 (1984), April, Nr.~4, S.~1474--1480. --
+\newblock ISSN 0021-9525
 
 \bibitem[McDougall u.\,a.(2006)McDougall, Anderson und Chaplain]{McDougall2006}
 \dinatlabel{McDougall u.\,a. 2006} \textsc{McDougall}, S.~; \textsc{Anderson},
@@ -443,6 +758,19 @@
   \url{https://consensus.app/papers/modelling-tumourinduced-angiogenesis-implications-mcdougall/d43a720d3c1659a68fb7b56dee0798ec/}.
   -- Zugriffsdatum: 2024-03-02
 
+\bibitem[Meinhardt(1976)]{Meinhardt1976}
+\dinatlabel{Meinhardt 1976} \textsc{Meinhardt}, H.:
+\newblock Morphogenesis of lines and nets.
+\newblock In: \emph{Differentiation; Research in Biological Diversity}
+\newblock 6 (1976), August, Nr.~2, S.~117--123. --
+\newblock ISSN 0301-4681
+
+\bibitem[Meinhardt(1982)]{Meinhardt1982}
+\dinatlabel{Meinhardt 1982} \textsc{Meinhardt}, Hans:
+\newblock \emph{Models of {Biological} {Pattern} {Formation} ({Academic}
+  {Press}, {London}, 1982)}.
+\newblock Mai 1982
+
 \bibitem[Metzcar u.\,a.(2019)Metzcar, Wang, Heiland und Macklin]{Metzcar2019}
 \dinatlabel{Metzcar u.\,a. 2019} \textsc{Metzcar}, John~; \textsc{Wang},
   Yafei~; \textsc{Heiland}, Randy~; \textsc{Macklin}, Paul:
@@ -452,6 +780,37 @@
 \newblock (2019), Dezember, Nr.~3, S.~1--13. --
 \newblock URL \url{https://ascopubs.org/doi/10.1200/CCI.18.00069}. --
   Zugriffsdatum: 2024-01-21
+
+\bibitem[Millauer u.\,a.(1993)Millauer, Wizigmann-Voos, Schnürch, Martinez,
+  Møller, Risau und Ullrich]{Millauer1993}
+\dinatlabel{Millauer u.\,a. 1993} \textsc{Millauer}, B.~;
+  \textsc{Wizigmann-Voos}, S.~; \textsc{Schnürch}, H.~; \textsc{Martinez},
+  R.~; \textsc{Møller}, N.~P.~; \textsc{Risau}, W.~; \textsc{Ullrich}, A.:
+\newblock High affinity {VEGF} binding and developmental expression suggest
+  {Flk}-1 as a major regulator of vasculogenesis and angiogenesis.
+\newblock In: \emph{Cell}
+\newblock 72 (1993), M\^^b{a}rz, Nr.~6, S.~835--846. --
+\newblock ISSN 0092-8674
+
+\bibitem[Muthukkaruppan u.\,a.(1982)Muthukkaruppan, Kubai und
+  Auerbach]{Muthukkaruppan1982}
+\dinatlabel{Muthukkaruppan u.\,a. 1982} \textsc{Muthukkaruppan}, V.~R.~;
+  \textsc{Kubai}, L.~; \textsc{Auerbach}, R.:
+\newblock Tumor-induced neovascularization in the mouse eye.
+\newblock In: \emph{Journal of the National Cancer Institute}
+\newblock 69 (1982), September, Nr.~3, S.~699--708. --
+\newblock ISSN 0027-8874
+
+\bibitem[Nerlich und Schleicher(1991)]{Nerlich1991}
+\dinatlabel{Nerlich und Schleicher 1991} \textsc{Nerlich}, A.~;
+  \textsc{Schleicher}, E.:
+\newblock Immunohistochemical localization of extracellular matrix components
+  in human diabetic glomerular lesions.
+\newblock In: \emph{The American Journal of Pathology}
+\newblock 139 (1991), Oktober, Nr.~4, S.~889--899. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1886324/}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0002-9440
 
 \bibitem[Nickoloff(2000)]{Nickoloff2000}
 \dinatlabel{Nickoloff 2000} \textsc{Nickoloff}, B.:
@@ -538,6 +897,43 @@
   \url{https://consensus.app/papers/multiscale-agentbased-model-tumor-angiogenesis-olsen/4a2e14c0a7275b40a99f8401168c65d8/}.
   -- Zugriffsdatum: 2024-03-02
 
+\bibitem[Orme und Chaplain(1996)]{Orme1996}
+\dinatlabel{Orme und Chaplain 1996} \textsc{Orme}, M.~E.~; \textsc{Chaplain},
+  M.~A.:
+\newblock A mathematical model of the first steps of tumour-related
+  angiogenesis: capillary sprout formation and secondary branching.
+\newblock In: \emph{IMA journal of mathematics applied in medicine and biology}
+\newblock 13 (1996), Juni, Nr.~2, S.~73--98. --
+\newblock ISSN 0265-0746
+
+\bibitem[Orme und Chaplain(1997)]{Orme1997}
+\dinatlabel{Orme und Chaplain 1997} \textsc{Orme}, M.~E.~; \textsc{Chaplain},
+  M.~A.:
+\newblock Two-dimensional models of tumour angiogenesis and anti-angiogenesis
+  strategies.
+\newblock In: \emph{IMA journal of mathematics applied in medicine and biology}
+\newblock 14 (1997), September, Nr.~3, S.~189--205. --
+\newblock ISSN 0265-0746
+
+\bibitem[Patterson u.\,a.(1996)Patterson, Perrella, Endege, Yoshizumi, Lee und
+  Haber]{Patterson1996}
+\dinatlabel{Patterson u.\,a. 1996} \textsc{Patterson}, C.~; \textsc{Perrella},
+  M.~A.~; \textsc{Endege}, W.~O.~; \textsc{Yoshizumi}, M.~; \textsc{Lee},
+  M.~E.~; \textsc{Haber}, E.:
+\newblock Downregulation of vascular endothelial growth factor receptors by
+  tumor necrosis factor-alpha in cultured human vascular endothelial cells.
+\newblock In: \emph{The Journal of Clinical Investigation}
+\newblock 98 (1996), Juli, Nr.~2, S.~490--496. --
+\newblock ISSN 0021-9738
+
+\bibitem[Paweletz und Knierim(1989)]{Paweletz1989}
+\dinatlabel{Paweletz und Knierim 1989} \textsc{Paweletz}, N.~;
+  \textsc{Knierim}, M.:
+\newblock Tumor-related angiogenesis.
+\newblock In: \emph{Critical Reviews in Oncology/Hematology}
+\newblock 9 (1989), Nr.~3, S.~197--242. --
+\newblock ISSN 1040-8428
+
 \bibitem[Peirce(2008)]{Peirce2008}
 \dinatlabel{Peirce 2008} \textsc{Peirce}, S.:
 \newblock Computational and {Mathematical} {Modeling} of {Angiogenesis}.
@@ -572,6 +968,38 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0022-5193
 
+\bibitem[Pettet u.\,a.(1996)Pettet, Chaplain, McElwain und Byrne]{Pettet1996}
+\dinatlabel{Pettet u.\,a. 1996} \textsc{Pettet}, G.~; \textsc{Chaplain},
+  M.~A.~; \textsc{McElwain}, D.~L.~; \textsc{Byrne}, H.~M.:
+\newblock On the rôle of angiogenesis in wound healing.
+\newblock In: \emph{Proceedings. Biological Sciences}
+\newblock 263 (1996), November, Nr.~1376, S.~1487--1493. --
+\newblock ISSN 0962-8452
+
+\bibitem[Relf u.\,a.(1997)Relf, LeJeune, Scott, Fox, Smith, Leek, Moghaddam,
+  Whitehouse, Bicknell und Harris]{Relf1997}
+\dinatlabel{Relf u.\,a. 1997} \textsc{Relf}, M.~; \textsc{LeJeune}, S.~;
+  \textsc{Scott}, P.~A.~; \textsc{Fox}, S.~; \textsc{Smith}, K.~;
+  \textsc{Leek}, R.~; \textsc{Moghaddam}, A.~; \textsc{Whitehouse}, R.~;
+  \textsc{Bicknell}, R.~; \textsc{Harris}, A.~L.:
+\newblock Expression of the angiogenic factors vascular endothelial cell growth
+  factor, acidic and basic fibroblast growth factor, tumor growth factor
+  beta-1, platelet-derived endothelial cell growth factor, placenta growth
+  factor, and pleiotrophin in human primary breast cancer and its relation to
+  angiogenesis.
+\newblock In: \emph{Cancer Research}
+\newblock 57 (1997), M\^^b{a}rz, Nr.~5, S.~963--969. --
+\newblock ISSN 0008-5472
+
+\bibitem[Ribatti(2008)]{Ribatti2008}
+\dinatlabel{Ribatti 2008} \textsc{Ribatti}, Domenico:
+\newblock Judah {Folkman}, a pioneer in the study of angiogenesis.
+\newblock In: \emph{Angiogenesis}
+\newblock 11 (2008), M\^^b{a}rz, Nr.~1, S.~3--10. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2268723/}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0969-6970
+
 \bibitem[Roose u.\,a.(2007)Roose, Chapman und Maini]{Roose2007}
 \dinatlabel{Roose u.\,a. 2007} \textsc{Roose}, T.~; \textsc{Chapman}, S.~;
   \textsc{Maini}, P.:
@@ -592,6 +1020,18 @@
 \newblock URL \url{https://www.mdpi.com/2072-6694/12/5/1172}. -- Zugriffsdatum:
   2024-01-21. --
 \newblock ISSN 2072-6694
+
+\bibitem[Sato u.\,a.(1995)Sato, Tozawa, Deutsch, Wolburg-Buchholz, Fujiwara,
+  Gendron-Maguire, Gridley, Wolburg, Risau und Qin]{Sato1995}
+\dinatlabel{Sato u.\,a. 1995} \textsc{Sato}, T.~N.~; \textsc{Tozawa}, Y.~;
+  \textsc{Deutsch}, U.~; \textsc{Wolburg-Buchholz}, K.~; \textsc{Fujiwara},
+  Y.~; \textsc{Gendron-Maguire}, M.~; \textsc{Gridley}, T.~; \textsc{Wolburg},
+  H.~; \textsc{Risau}, W.~; \textsc{Qin}, Y.:
+\newblock Distinct roles of the receptor tyrosine kinases {Tie}-1 and {Tie}-2
+  in blood vessel formation.
+\newblock In: \emph{Nature}
+\newblock 376 (1995), Juli, Nr.~6535, S.~70--74. --
+\newblock ISSN 0028-0836
 
 \bibitem[Scianna u.\,a.(2013)Scianna, Bell und Preziosi]{Scianna2013}
 \dinatlabel{Scianna u.\,a. 2013} \textsc{Scianna}, M.~; \textsc{Bell}, C.~G.~;
@@ -619,6 +1059,18 @@
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0026-2862
 
+\bibitem[Sholley u.\,a.(1984)Sholley, Ferguson, Seibel, Montour und
+  Wilson]{Sholley1984}
+\dinatlabel{Sholley u.\,a. 1984} \textsc{Sholley}, M.~M.~; \textsc{Ferguson},
+  G.~P.~; \textsc{Seibel}, H.~R.~; \textsc{Montour}, J.~L.~; \textsc{Wilson},
+  J.~D.:
+\newblock Mechanisms of neovascularization. {Vascular} sprouting can occur
+  without proliferation of endothelial cells.
+\newblock In: \emph{Laboratory Investigation; a Journal of Technical Methods
+  and Pathology}
+\newblock 51 (1984), Dezember, Nr.~6, S.~624--634. --
+\newblock ISSN 0023-6837
+
 \bibitem[Stepanova u.\,a.(2021)Stepanova, Byrne, Maini und
   Alarcón]{Stepanova2021}
 \dinatlabel{Stepanova u.\,a. 2021} \textsc{Stepanova}, Daria~; \textsc{Byrne},
@@ -631,6 +1083,17 @@
   \url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008055}.
   -- Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1553-7358
+
+\bibitem[Stokes u.\,a.(1990)Stokes, Rupnick, Williams und
+  Lauffenburger]{Stokes1990}
+\dinatlabel{Stokes u.\,a. 1990} \textsc{Stokes}, C.~L.~; \textsc{Rupnick},
+  M.~A.~; \textsc{Williams}, S.~K.~; \textsc{Lauffenburger}, D.~A.:
+\newblock Chemotaxis of human microvessel endothelial cells in response to
+  acidic fibroblast growth factor.
+\newblock In: \emph{Laboratory Investigation; a Journal of Technical Methods
+  and Pathology}
+\newblock 63 (1990), November, Nr.~5, S.~657--668. --
+\newblock ISSN 0023-6837
 
 \bibitem[Stokes und Lauffenburger(1991)]{Stokes1991}
 \dinatlabel{Stokes und Lauffenburger 1991} \textsc{Stokes}, Cynthia~L.~;
@@ -652,6 +1115,17 @@
 \newblock URL \url{https://doi.org/10.1007/s10701-007-9186-9}. --
   Zugriffsdatum: 2024-03-23. --
 \newblock ISSN 1572-9516
+
+\bibitem[Terranova u.\,a.(1985)Terranova, DiFlorio, Lyall, Hic, Friesel und
+  Maciag]{Terranova1985}
+\dinatlabel{Terranova u.\,a. 1985} \textsc{Terranova}, V.~P.~;
+  \textsc{DiFlorio}, R.~; \textsc{Lyall}, R.~M.~; \textsc{Hic}, S.~;
+  \textsc{Friesel}, R.~; \textsc{Maciag}, T.:
+\newblock Human endothelial cells are chemotactic to endothelial cell growth
+  factor and heparin.
+\newblock In: \emph{The Journal of Cell Biology}
+\newblock 101 (1985), Dezember, Nr.~6, S.~2330--2334. --
+\newblock ISSN 0021-9525
 
 \bibitem[Vavourakis u.\,a.(2017)Vavourakis, Wijeratne, Shipley, Loizidou,
   Stylianopoulos und Hawkes]{Vavourakis2017}
@@ -679,6 +1153,17 @@
   \url{https://royalsocietypublishing.org/doi/10.1098/rsif.2016.0918}. --
   Zugriffsdatum: 2024-01-21
 
+\bibitem[Vlodavsky u.\,a.(1979)Vlodavsky, Johnson, Greenburg und
+  Gospodarowicz]{Vlodavsky1979}
+\dinatlabel{Vlodavsky u.\,a. 1979} \textsc{Vlodavsky}, I.~; \textsc{Johnson},
+  L.~K.~; \textsc{Greenburg}, G.~; \textsc{Gospodarowicz}, D.:
+\newblock Vascular endothelial cells maintained in the absence of fibroblast
+  growth factor undergo structural and functional alterations that are
+  incompatible with their in vivo differentiated properties.
+\newblock In: \emph{The Journal of Cell Biology}
+\newblock 83 (1979), November, Nr.~2 Pt 1, S.~468--486. --
+\newblock ISSN 0021-9525
+
 \bibitem[Walpole u.\,a.(2015)Walpole, Chappell, Cluceru, Gabhann, Bautch und
   Peirce]{Walpole2015}
 \dinatlabel{Walpole u.\,a. 2015} \textsc{Walpole}, Joseph~; \textsc{Chappell},
@@ -704,6 +1189,16 @@
   \url{https://consensus.app/papers/simulating-cancer-growth-multiscale-agentbased-modeling-wang/3280bbb99ff457bca49eba3af9928a3a/}.
   -- Zugriffsdatum: 2024-03-02
 
+\bibitem[Warren und Shubik(1966)]{Warren1966}
+\dinatlabel{Warren und Shubik 1966} \textsc{Warren}, B.~A.~; \textsc{Shubik},
+  P.:
+\newblock The growth of the blood supply to melanoma transplants in the hamster
+  cheek pouch.
+\newblock In: \emph{Laboratory Investigation; a Journal of Technical Methods
+  and Pathology}
+\newblock 15 (1966), Februar, Nr.~2, S.~464--478. --
+\newblock ISSN 0023-6837
+
 \bibitem[Watanabe u.\,a.(2013)Watanabe, Blanco und Feijóo]{Watanabe2013}
 \dinatlabel{Watanabe u.\,a. 2013} \textsc{Watanabe}, Sansuke~M.~;
   \textsc{Blanco}, P.~; \textsc{Feijóo}, R.:
@@ -723,6 +1218,15 @@
 \newblock URL \url{https://doi.org/10.1007/978-3-642-78374-6_41}. --
   Zugriffsdatum: 2024-03-23. --
 \newblock ISBN 9783642783746
+
+\bibitem[Zawicki u.\,a.(1981)Zawicki, Jain, Schmid-Schoenbein und
+  Chien]{Zawicki1981}
+\dinatlabel{Zawicki u.\,a. 1981} \textsc{Zawicki}, D.~F.~; \textsc{Jain},
+  R.~K.~; \textsc{Schmid-Schoenbein}, G.~W.~; \textsc{Chien}, S.:
+\newblock Dynamics of neovascularization in normal tissue.
+\newblock In: \emph{Microvascular Research}
+\newblock 21 (1981), Januar, Nr.~1, S.~27--47. --
+\newblock ISSN 0026-2862
 
 \bibitem[Zudaire u.\,a.(2011)Zudaire, Gambardella, Kurcz und
   Vermeren]{Zudaire2011}

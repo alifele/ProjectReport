@@ -46,6 +46,7 @@
 \usetikzlibrary{patterns}
 \usetikzlibrary{shadows.blur}
 \usetikzlibrary{shapes}
+\usepackage{fontawesome5}
 
 
 
@@ -261,6 +262,7 @@
 \newtheorem{corollaryT}{Corollary}[chapter]
 \newtheorem{lemmaT}{Lemma}[chapter]
 \newtheorem{summaryT}{Summary}[chapter]
+\newtheorem{openQuestionT}{\faGraduationCap\ Open Question}[chapter]
 \newtheorem{trickT}{Trick}[chapter]
 
 
@@ -367,6 +369,24 @@ leftmargin=0cm, % Outside left margin width
 rightmargin=0cm % Outside right margin width
 ]{theoremBox}
 
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=false, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+backgroundcolor=HighLight!10, % BackgroundColor
+linecolor=HighLight, % Border color
+linewidth=4pt, % Border width
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=0pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{openQuestionbox}
+
 %% Proposition box
 \newmdenv[
 skipabove=7pt, % Whitespace above box
@@ -418,6 +438,9 @@ rightmargin=0cm % Outside right margin width
 \newenvironment{strangeObs}{\begin{defBox}\begin{strangeObsT}}{\end{strangeObsT}\end{defBox}}
 \newenvironment{observation}{\begin{observationBox}\begin{obsBoxT}}{\end{obsBoxT}\end{observationBox}}
 \newenvironment{beCareful}{\begin{theoremBox}\begin{carefulBoxT}}{\end{carefulBoxT}\end{theoremBox}}
+
+
+\newenvironment{openQuestion}{\begin{openQuestionbox}\begin{openQuestionT}}{\end{openQuestionT}\end{openQuestionbox}}
 
 
 \newenvironment{corollary}{\begin{lemmaCorBox}\begin{corollaryT}}{\end{corollaryT}\end{lemmaCorBox}}
