@@ -1,4 +1,4 @@
-\begin{thebibliography}{128}
+\begin{thebibliography}{129}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -244,6 +244,17 @@
 \newblock In: \emph{IMA journal of mathematics applied in medicine and biology}
 \newblock 10 (1993), Nr.~3, S.~149--168. --
 \newblock ISSN 0265-0746
+
+\bibitem[Chaplain(1996)]{Chaplain1996}
+\dinatlabel{Chaplain 1996} \textsc{Chaplain}, M. A.~J.:
+\newblock Avascular growth, angiogenesis and vascular growth in solid tumours:
+  {The} mathematical modelling of the stages of tumour development.
+\newblock In: \emph{Mathematical and Computer Modelling}
+\newblock 23 (1996), M\^^b{a}rz, Nr.~6, S.~47--87. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/0895717796000192}. --
+  Zugriffsdatum: 2024-06-13. --
+\newblock ISSN 0895-7177
 
 \bibitem[Chávez u.\,a.(2016)Chávez, Aedo, Fierro, Allende und
   Egaña]{Chavez2016}
