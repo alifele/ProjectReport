@@ -349,12 +349,12 @@ The drug concentration \(c(x,t)\) is affected by diffusion, permeation through t
 \end{equation}
 where \(D\) is the diffusion coefficient, \(\mu\) represents the drug's permeability through capillaries, and \(f(x,t)\) is a source term for the drug.
 
-
-
+\newpage
 
 \section{Anderson Chaplain Model of Angiogenesis}
 
-\subsection{Biology Facts and Basics}
+\subsection{Biological Facts and Basics}
+\label{subsection:AndersonChaplainBiologyFacts}
 The sequences of angiogenesis is assumed to be
 \begin{enumerate}[(i),noitemsep]
 	\item Tumor angiogenic factors (TAF) are secreted by the tumors under low oxygen stress. 
@@ -363,14 +363,15 @@ The sequences of angiogenesis is assumed to be
 	\begin{itemize}[noitemsep]
 		\item Secreting digestive enzymes to loosen the basal lamina.
 		\item Migrate from the disrupted membrane, up in the TAF gradient towards the tumor (i.e. chemotaxis). Look at the citations in the corresponding section)
-		\item Small, finger-like capillary sprouts are formed by accumulation of endothelial cells which are recruited from the parent vessel.
+		\item \label{item:InitialDistributionOfTipCells} The endothelial cells form into a few cell clusters \cite{Muthukkaruppan1982,Orme1996} which eventually become sprouts. Small, finger-like capillary sprouts are formed by accumulation of endothelial cells which are recruited from the parent vessel.
 		\item The sprout grow in length and continue to move toward the tumor directed by the motion of the leading endothelial cells at the sprout tip.
 	\end{itemize} 
-	\item Further sprout extension occurs when some of the endothelial cells of the sprout wall begin to proliferate. Cell division is largely confined to a region just behind the cluster of mitotically inactive endothelial cells that constitute the sprout time. Note that \cite{Sholley1984} demonstrated that in the absence of endothelial cell proliferation, a restricted capillary network, which stops after a few days and never reaches the tumor, is formed. Thus, unless the endothelial cells undergo mitosis, the capillary sprouts cannot complete vascularization completely.
+	\item Further sprout extension occurs when some of the endothelial cells of the sprout wall begin to proliferate. Cell division is largely confined to a region just behind the cluster of mitotically inactive endothelial cells that constitute the sprout time. Note that \cite{Sholley1984} demonstrated that in the absence of endothelial cell proliferation, a restricted capillary network, which stops after a few days and never reaches the tumor, is formed. Thus, unless the endothelial cells undergo mitosis, the capillary sprouts cannot complete vascularization completely. \label{item:tipCeillsAreDividing}
 	\item This process of sprout tip migration and proliferation of sprout-wall cells forms solid strands of endothelial cells amongst the extracellular matrix.
 	\item The tip cells find their way through the extracellular matrix that consist of itersitial tissue, collagen fiber and fibronectin as well as other components.
 	\item Interactions between the endothelial cells and the extracellular matrix, in particular fibronectin.
 	\begin{itemize}
+		\item \label{item:initialPhaseOfFibroNectin} \textbf{Initial distribution of fibronectin:} At the very early stages of angiogenesis, when the endothelial cells lining the parent vessels, are stimulated by TAF, they secrete enzymes to digest through the basal lamina of the parent vessel. This initial damage results in an increased vessel permeability \cite{Clark1981-pb}. This allows the plasma fibronectin from the blood to leak from the parent vessel and diffuse through the domain \cite{Hynes1989-je}. The diffusion coefficient of fibronectin has been measured to be $ 2\times10^{-7} \text{cm}^2\text{s}^{-1} $ \cite{Williams1982,Rocco1987}. This plasma fibronectin eventually binds to the extracellular matrix \cite{Oh1981,Deno1983,Clark1983}, thus prior to the start of angiogenesis we will have a gradient of fibronectin that is high near the parent vessel and gets lower away from the parent vessel. This has been experimentally observed by \cite{Paku1991} and \cite{Clark1982,Clark1981-pb,Clark1983}. It has also been experimentally observed that a higher concentration of laminin (another matrix macromolecule with similar adhesive properties to fibronectin) are initially found around the parent vessel \cite{Hynes1989-je,Paku1991}
 		\item Cultured endothelial cells are known to synthesize and secrete cellular fibronectin (i.e. the insoluble form) \cite{Birdwell1978,Birdwell1980,1978,Macarak1978,Nerlich1991}. Note that the insoluble form is first secreted in the soluble form and then assembles into insoluble matrix.
 		\item The expression of secreted fibronectin in cultured endothelial cells closely reflects the distribution of pre-existing fibronectin  observed in matrices \emph{in vivo} \cite{Vlodavsky1979,Hynes1989-je}
 		\item The fibronectin secreted by the endothelial cells do not diffuse and bound the to extracellular matrix \cite{Birdwell1980,Hynes1989-je}.
@@ -411,9 +412,190 @@ Here in this section I will follow the model described in \cite{Anderson1998}. T
 	\item $ n = n(X,t): \Omega \times \R \to \R $: the endothelial-cell density (per unit area).
 	\item $ c = c(X,t): \Omega \times \R \to \R $: the tumor angiogenic factor (TAF) concentration (nmol per unit area).
 	\item $ f = f(X,t): \Omega \times R \to \R $: the fibronectin concentration (nmol per unit area).
+	
+\begin{strangeObs}[Ambiguity in the definition of one of the parameters]
+	\label{strange:AmbiguityOfTipCell}
+	As we read in \cite{Anderson1998}, $ n $ is introduced to be the ``endothelial-cell density''. However, I feel that it is not true and this variable should represent the ``endothelial \emph{tip} cell density''. I feel this way because it is the tip cells that are doing a random walk (thus diffusion) and reacting to the TAF and fibronectin gradients.
+\end{strangeObs}
 \end{itemize}
 
+\subsubsection{Equations for endothelial cells}
+The endothelial cells are moving in the space due to (1) their random motion (i.e. diffusion), (2) chemotaxis (moving up in the gradient of TAF), and (3) haptotaxis (moving up in the gradient of fibronectin). Combining these factors we will come up with the following flux for the tip cells
+\[ J_n = -D_n \nabla n + \chi n \nabla c + \rho_0 n \nabla f. \]
+where $ D_n $ is the diffusion coefficient of the endothelial cells, and $ \chi, \rho_0 $ are the sensitivity of chemotaxis and haptotaxis of endothelial cells due to the TAF and fibronectin gradients respectively.
+Putting this in the continuoity equation, we will get
 
+\[ \frac{\partial n}{\partial t} = -\nabla\cdot (-D_n \nabla n + \xi n \nabla c + \rho_0 n \nabla f) = D_n\nabla^2 n  - \nabla\cdot(\chi n\nabla c) - \nabla\cdot(\rho_0 n \nabla f).    \]
+
+
+\begin{strangeObs}[Growth of the tip-cells are not considered in the model]
+	As we discussed in \autoref{subsection:AndersonChaplainBiologyFacts} in \autoref{item:tipCeillsAreDividing}, the endothelial tip cells are dividing (otherwise the vascularization will not be completed). But in the PDE above, we didn't have any term for the tip cells proliferating or degrading.
+\end{strangeObs}
+
+\begin{strangeObs}[A problem with the diffusion coefficient of endothelial cells]
+	As explained above, we are modeling the random mobility of endothelial tip cells by diffusion. However, according to the discussion (page 865 in \cite{Anderson1998}), it has been observed \cite{Rupnick1988} that when the migration of the endothelial cells are constrained by the surrounding cells, then their estimate for the for the diffusion coefficient the tip cells was too large and did not agree with experimental results. 
+	
+	Because of this observations, authors of \cite{Anderson1998} used a diffusion coefficient that was about 100 times smaller! (they cite to \cite{Bray2000} for this decision). I feel like this is not a good approach! The biological observation above is a signal that capturing the random mobility of the cell simply by diffusion is not a correct framework to use.
+	
+	Also, according to the discussion on page 886 of \cite{Anderson1998}), there are some in vivo experiments that indicate that there appear so the very little random mobility of endothelial cells at the capillary sprout tops \cite{Paweletz1989,Paku1991}.
+\end{strangeObs}
+In the PDE for tip cell density, the parameter $ \chi $ can depend on the concentration of TAF. We can model this interaction as (see the strange observation box below).
+
+\[ \chi(c) = \chi_0 \frac{k_1}{k_1+c}. \] 
+
+\begin{strangeObs}[The chemotaxis sensitivity seems not to be correct]
+	In the model above by \cite{Anderson1998}, the authors are assuming that the functional form of $ \chi $ is given as
+	\[ \chi(c) = \chi_0 \frac{k_1}{k_1+c}. \] 
+	They say that the more realistic assumption is that the chemotactic sensitivity decreases with increased TAF concentration. They present the following references for this claim \cite{Lapidus1976,Lauffenburger1984,Sherratt1994,Woodward1995,Olsen1997}. This does not make sense for me. I feel like since the cell feels the chemicals by cell surface receptor binding, then the more chemicals available, the more strong is the signal for chemotaxis. So I feel that the appropriate model for this will be
+	\[ \chi(c) = \chi_0\frac{c}{k_1 + c}. \]
+\end{strangeObs}
+
+\subsubsection{Equations for TAF}
+To derive the equation for TAF concentration, first observe that TAF is secreted by the tumor cells where it starts diffusing into the space. I.e. the governing equation for TAF will be
+\[ \frac{\partial c}{\partial t} = D_c\nabla^2 c - \theta c, \eqTag\label{eq:initialPDEForTAF} \]
+where $ D_c $ is the TAF diffusion constant and $ \theta $ is the decay rate. We assume that during the initial stage of tumor secreting TAF, its distribution in the environment reaches a steady state which gives us the initial condition for the concentration of $ c $ in the domain.
+
+In the stage that the angiogenesis begins (when we have an established steady state for $ c $), while the tip cells move up the gradient, TAF is used by uptake and binding to the cells \cite{Ausprunk1977,Hanahan1997}. This interaction can be modeled by
+\[ \frac{\partial c}{\partial t} = -\lambda n c, \]
+where $ \lambda $ is a constant.
+
+\begin{strangeObs}[TAF interaction with cells does not seem to be correct]
+	In the model above (from \cite{Anderson1998}), the uptake and binding of TAF to the tip cells is modeled in a mass action kinetic way. I have a feeling that this might not be true and it should be modeled by Michaelis-Menten equation. Also, this model assumes that the used TAF is not get replaced, but I feel that as long as tumor is under oxygen stress, the secreting mechanism of TAF in tumor will still be active. 
+\end{strangeObs}
+
+
+\begin{beCareful}[To much intuition is not good]
+	The way that the model above is presented is not appealing for me at all. This is the way that \cite{Anderson1998} does, and I think there are more than enough common sense floating around! For instance, they say that in the initial stage, the tumor secretes the TAF and it starts diffusing in the environment while degrading and eventually reaches steady state (which is fair up to now). Then, they say that during the angiogenesis stage the differential equation governing the concentration of TAF is different (Which also makes sense). My problem is that I want to see both of the terms in a single PDE and then by appropriate mathematical treatment (slow-fast dynamics, perturbation theory, etc) arrive at the conclusions that they stated using the commons sense. I need to do this for my thesis.
+\end{beCareful}
+
+\subsubsection{Equations for fibronectin}
+As we discussed in the biology background subsection, the endothelial tip cells tend to move up in the gradient of fibronectin. Fibronectin is present in the domain before angiogenesis. As the tip cells do haptotaxis (moving up {\color{red} (up or down?)} in the gradient of fibronectin) they use some fibronectin to connect to the ECM. Tip cells also secrete fibronectin which dose not diffuse. Thus the corresponding differential equation will be 
+\[ \frac{\partial f}{\partial t} = \omega n - \mu n f, \]
+where $ \omega $ is the production rate of $ f $ by the tip cells and $ \mu $ is the rate at which the tip cells use fibronectin to bind to the ECM.
+
+\begin{strangeObs}[The model for fibronectin dynamics is too simple]
+	The model above for the time evolution of fibronectin is given by \cite{Anderson1998}. According to our detailed discussion in \autoref{item:initialPhaseOfFibroNectin}, I feel like this model is too simple to capture the time evolution of the fibronectin. We are assuming that the fibronectin is used and produced only by the tip cells (if by \autoref{strange:AmbiguityOfTipCell} we come to the conclusion that $ n $ represents the tip cells). This implies that the stalk cells are not producing fibronectin which might not be true. Also, as assume that as soon as the process of angiogenesis starts, the leakage of fibronectin from the parent vessel into the domain stops. According to the parameters in \autoref{tab:AndersonChaplainModelRealisticParameters}, the time scale happens to be $ \tau = L^2/D_c \approx 2\ \text{days}  $. Since in \autoref{item:initialPhaseOfFibroNectin} we discussed that the reason of the initial distribution of fibronectin is the damage to the basal lamina of the parent vessels, then I feel like in the span of several days that dame might still persist so we might still have the leakage of fibronectin to the domain.
+\end{strangeObs}
+
+\begin{strangeObs}[The initial condition for fibronectin is too intuitive]
+	\label{strange:FibronectinInitialConcentration}
+	As we will see in {\color{red} [add the cross reference for the fibronectin initial condition here]}, the initial condition for fibronectin concentration, although makes sense, but it is not appropriately modeled compared to what we did for TAF (see Equation (\autoref{eq:initialPDEForTAF}))
+\end{strangeObs}
+
+\begin{summary}
+	The complete set of equations will be give as
+	\begin{align*}
+		&\frac{\partial n}{\partial t} =  D_n\nabla^2 n  - \nabla\cdot(\chi n\nabla c) - \nabla\cdot(\rho n \nabla f), \\
+		&\frac{\partial c}{\partial t} = -\lambda n c, \\
+		&\frac{\partial f}{\partial t} = \omega n - \mu n f,
+	\end{align*}
+\end{summary}
+\begin{remark}
+	We assume that non of species, i.e. tip cells, TAF and fibronectin leave the domain of simulation. Thus the boundary condition is give as 
+	\[ \hat{\xi} \cdot J_n = 0. \]
+\end{remark}
+
+\subsection{Non dimensionalization of the system}
+For an easier analysis of the system we first need to write the system in non dimensionalized way. Consider the following change of variables
+\begin{align*}
+	& n = N_0 \tilde{n}, && c = C_0 \tilde{c}, &&& f = F_0\tilde{f}, \\
+	& t = \underbrace{\tau}_{\tau = L^2/D_c} \tilde{t}, && x = L \tilde{x}.
+\end{align*}
+Substituting these change of variables in the model we will get the following non dimensionalized form of the model. Note that we remove the tilde symbol for more clear look.
+\begin{align*}
+	&\frac{\partial n}{\partial t} = D \nabla^2 n - \nabla\cdot(\frac{\chi}{1+\alpha c} n\nabla c) - \nabla\cdot(\rho n \nabla f), \\
+	&\frac{\partial c}{\partial t} = -\eta n c, \\
+	&\frac{\partial f}{\partial t} = \beta n - \gamma n f,
+\end{align*}
+where 
+\begin{align*}
+	& D = \frac{D_n}{D_c}, && \chi = \frac{C_0\chi_0}{D_c},\ \alpha = \frac{C_0}{k_1} && \rho = \frac{f_0\rho_0}{D_c},\\
+	& \eta = \frac{L^2\lambda N_0}{D_c}, && \beta = \frac{L^2\omega N_0}{F_0 D_c}, && \gamma = \frac{L^2\mu N_0}{D_c}.
+\end{align*}
+
+\subsection{Some discussions on the parameters used}
+The following table summarizes the realistic values for the model parameters discussed in \cite{Anderson1998}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{Parameter}       & \textbf{Value {[}units{]}}                       & \textbf{Reference} \\ \hline
+		$D_n$                    & $10^{-10}\ [\text{cm}^2\text{s}^{-1}]$           &  \cite{Bray2000}   \\ \hline
+		$ D_c $                  & $2.9 \times 10^{-7}\ [\text{cm}^2\text{s}^{-1}]$  & \cite{Bray2000,Sherratt1990} \\ \hline
+		$\chi_0$                 & $ 2600\ [\text{cm}^2\text{s}^{-1}\text{M}^{-1}] $ &  \cite{Stokes1990}  \\ \hline
+		$ \rho_0 $               & same as $\chi_0$ but $ \chi_0  > \rho_0 $        & \cite{Anderson1998}   \\ \hline
+		$ c_0 $                  & $10^{-10}\ [M]$                               &   \cite{Stokes1990} \\ \hline
+		$ f_0 $                  & $10^{-10}\ [M]$                               &  \cite{Terranova1985}  \\ \hline
+		$ \lambda, \omega, \mu $ & no available estimates.                          &  \cite{Hynes1989-je}  \\ \hline
+		$ L $                    &   $ 2\ [mm] $       &     \cite{Gimbrone1974}     \\ \hline
+	\end{tabular}
+	\caption{The biologically realistic parameter values for the Anderson-Chaplain model.}
+	\label{tab:AndersonChaplainModelRealisticParameters}
+\end{table}
+\FloatBarrier
+
+
+\subsection{Simulating the model}
+
+\subsection{Simulation Domain}
+to be expanded: square $ [0,1]\times [0,1] $. With the tumor located at $\set{1} \times [0,1] $ and the parent vessel located at $ \set{0} \times [0,1] $.
+
+\subsubsection{Initial condition for tip cell density}
+As we discussed in \autoref{item:InitialDistributionOfTipCells} the tip cells, after getting stimulated by TAF form small clusters. Thus we assume that the initial concentration of the tip cells are give as
+\[ n(x,y,0) = e^{-x^2/\xi_3} \sin^2(3\pi y). \]
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.4\linewidth]{images/tipCellInitialDensity}
+	\caption{Tip cell initial density.}
+	\label{fig:tipcellinitialdensity}
+\end{figure}
+
+
+\subsubsection{Initial condition for TAF}
+Assuming Equation \autoref{eq:initialPDEForTAF} models the initial phase of the time evolution of TAF, then we can assume that the steady state of that equation is the initial condition for the phase that the angiogenesis starts happening. Depending on the initial configuration of the tumor in the domain, \cite{Anderson1998} came up with two biologically interesting initial condition. 
+
+\textbf{Case 1: A column of tumor cells or larger circular implant.} For this case the initial concentration of TAF will be
+\[ c(x,y,0) = e^{-(1-x)^2/\xi_1}, \qquad (x,y) \in [0,1] \times [0,1]. \]
+
+\textbf{Case 2: A small circular tumor centered at (1,1/2)}. In this case the initial concentration of TAF is given by (\cite{Anderson1998} and they reference \cite{Chaplain1995,Chaplain1996} for the equation)
+\[ c(x,y,0) = \begin{cases}
+	1, &\qquad 0\leq r\leq r_0, \\
+	\frac{(\nu - r)^2}{\nu - r_0}, &\qquad r_0 \leq r \leq 1,
+\end{cases} \]
+where $ \nu $ is a positive constant and $ r $ is given by
+\[ r = \sqrt{(x-1)^{2} + (y-1/2)^2}, \]
+assuming that the tumor is centered at $ (1,1/2) $ with a radius of $ r_0 $. Note that $ \nu $ is in fact showing the concentration right at the edge of the tumor. To make the transition between concentration $ c $ inside the tumor (i.e. $ 0 \leq r \leq r_0 $) and outside the tumor (i.e. $ r_0 \leq r \leq 1 $) continuous, the value of $ \nu $ should be $ \boxed{\nu = r_0 + 1} $. We can see this by simply trying to force the function $ c(x,y,0) $ to be continuous. The following figure illustrates the initial concentration of TAF for $ r_0 = 0.2 $ (thus $ \nu = 1.2 $).
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/TAFInitialConcentrationSmallTumor}
+	\caption{Initial concentration of TAF for small tumor with radius $ r_0 = 0.2 $ centered at $ (1,1/2) $. The green region shows the tumor inside which the concentration of TAF is assumed to be 1.}
+	\label{fig:initialConcentrationOfTAFSmallTumor}
+\end{figure}
+
+
+\begin{beCareful}[I am not sure if the formulas above are really the steady state solution of TAF PDE]
+	Note that the initial concentration of TAF should be the steady state of Equation \autoref{eq:initialPDEForTAF}. \cite{Anderson1998} claims that the two cases above are the steady state solutions for the early stage TAF PDE. I have not checked this yet and I need to evaluate if this is really true.
+\end{beCareful}
+
+
+\subsubsection{Initial condition for Fibronectin}
+The initial condition for fibronectin has been a more phenomenological one in \cite{Anderson1998}. They Assumed the initial concentration of fibronectin is given by
+\[ f(x,y,0) = k e^{-x^2/\xi_2}, \qquad (x,y) \in [0,1] \times [0,1], \] 
+where $ 0<k<1 $ and $ \xi_2 > 0 $. As discussed in \autoref{item:initialPhaseOfFibroNectin} this choice of initial conditions is justified up to some degree. However look at \autoref{strange:FibronectinInitialConcentration} for a discussion about possible alternative approaches to find a more realistic initial condition.
+
+
+
+\subsection{Make it a Combo! Adding Stochastic Model to Generate Vascular Networks}
 
 \subsection{Some Thoughts}
 \subsubsection{Discrete vs. continuous model}

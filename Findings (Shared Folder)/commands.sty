@@ -254,9 +254,9 @@
 
 \theoremstyle{blacknumbox}	
 \newtheorem{definitionT}{Definition}[chapter]
-\newtheorem{strangeObsT}{Strange Observation}[section]
+\newtheorem{strangeObsT}{{\color{red!90!black} \noindent \faHandPaper} Strange Observation}[section]
 \newtheorem{obsBoxT}{Observation}[section]
-\newtheorem*{carefulBoxT}{Be Careful!}
+\newtheorem*{carefulBoxT}{{\color{LowLight}\faExclamationTriangle}\ Be Careful!}
 \newtheorem{theoremT}{Theorem}[chapter]
 \newtheorem{propositionT}{Proposition}[chapter]
 \newtheorem{corollaryT}{Corollary}[chapter]
@@ -305,7 +305,7 @@ linecolor=red, % Border color
 linewidth=4pt, % Border width
 innerleftmargin=5pt, % Inside left margin width
 innerrightmargin=5pt, % Inside right margin width
-innertopmargin=0pt, % Inside top margin height
+innertopmargin=5pt, % Inside top margin height
 innerbottommargin=5pt, % Inside bottom margin height
 leftmargin=0cm, % Outside left margin width
 rightmargin=0cm % Outside right margin width
@@ -456,5 +456,17 @@ rightmargin=0cm % Outside right margin width
 \newcommand{\summaryTautorefname}{Summary}
 \newcommand{\corollaryTautorefname}{Corollary}
 \newcommand{\exampleTautorefname}{Example}
+
+
+
+
+
+\newcounter{myequation}
+%\renewcommand{\theequation}{\thesection.\themyequation}
+%\newcommand{\eqTag}[1]{\refstepcounter{myequation}\tag{\thesection.\themyequation}\label{#1}}
+\newcommand{\eqTag}{\refstepcounter{myequation}\tag{\thesection.\themyequation}}
+%\renewcommand{\equationautorefname}{Eq.}
+
+
 
 

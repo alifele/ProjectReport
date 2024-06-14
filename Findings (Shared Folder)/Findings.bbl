@@ -1,4 +1,4 @@
-\begin{thebibliography}{112}
+\begin{thebibliography}{128}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -159,6 +159,13 @@
 \newblock 42 (1982), Juli, Nr.~7, S.~2547--2551. --
 \newblock ISSN 0008-5472
 
+\bibitem[Bray(2000)]{Bray2000}
+\dinatlabel{Bray 2000} \textsc{Bray}, Dennis:
+\newblock \emph{Cell {Movements}: {From} {Molecules} to {Motility}}.
+\newblock 2.
+\newblock New York~: Garland Science, November 2000. --
+\newblock ISBN 9780203833582
+
 \bibitem[Byrne und Chaplain(1995{\natexlab{a}})]{Byrne1995}
 \dinatlabel{Byrne und Chaplain 1995{\natexlab{a}}} \textsc{Byrne}, H.~M.~;
   \textsc{Chaplain}, M. A.~J.:
@@ -249,6 +256,34 @@
 \newblock 7 (2016), S.~56. --
 \newblock ISSN 1664-042X
 
+\bibitem[Clark u.\,a.(1982)Clark, DellaPelle, Manseau, Lanigan, Dvorak und
+  Colvin]{Clark1982}
+\dinatlabel{Clark u.\,a. 1982} \textsc{Clark}, R.~A.~; \textsc{DellaPelle},
+  P.~; \textsc{Manseau}, E.~; \textsc{Lanigan}, J.~M.~; \textsc{Dvorak},
+  H.~F.~; \textsc{Colvin}, R.~B.:
+\newblock Blood vessel fibronectin increases in conjunction with endothelial
+  cell proliferation and capillary ingrowth during wound healing.
+\newblock In: \emph{The Journal of Investigative Dermatology}
+\newblock 79 (1982), November, Nr.~5, S.~269--276. --
+\newblock ISSN 0022-202X
+
+\bibitem[Clark u.\,a.(1981)Clark, Dvorak und Colvin]{Clark1981-pb}
+\dinatlabel{Clark u.\,a. 1981} \textsc{Clark}, R~A.~; \textsc{Dvorak}, H~F.~;
+  \textsc{Colvin}, R~B.:
+\newblock Fibronectin in delayed-type hypersensitivity skin reactions:
+  associations with vessel permeability and endothelial cell activation.
+\newblock In: \emph{J. Immunol.}
+\newblock 126 (1981), Februar, Nr.~2, S.~787--793
+
+\bibitem[Clark u.\,a.(1983)Clark, Winn, Dvorak und Colvin]{Clark1983}
+\dinatlabel{Clark u.\,a. 1983} \textsc{Clark}, R.~A.~; \textsc{Winn}, H.~J.~;
+  \textsc{Dvorak}, H.~F.~; \textsc{Colvin}, R.~B.:
+\newblock Fibronectin beneath reepithelializing epidermis in vivo: sources and
+  significance.
+\newblock In: \emph{The Journal of Investigative Dermatology}
+\newblock 80 (1983), Juni, Nr.~1 Suppl, S.~26s--30s. --
+\newblock ISSN 0022-202X
+
 \bibitem[Cliff(1963)]{Cliff1963}
 \dinatlabel{Cliff 1963} \textsc{Cliff}, W.~J.:
 \newblock Observations on {Healing} {Tissue}: {A} {Combined} {Light} and
@@ -298,6 +333,15 @@
 \newblock URL
   \url{https://consensus.app/papers/models-developmental-remodelling-review-crawshaw/15c1d1d3a7ef55dbbd5167b2a576258a/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Deno u.\,a.(1983)Deno, Saba und Lewis]{Deno1983}
+\dinatlabel{Deno u.\,a. 1983} \textsc{Deno}, D.~C.~; \textsc{Saba}, T.~M.~;
+  \textsc{Lewis}, E.~P.:
+\newblock Kinetics of endogenously labeled plasma fibronectin: incorporation
+  into tissues.
+\newblock In: \emph{The American Journal of Physiology}
+\newblock 245 (1983), Oktober, Nr.~4, S.~R564--575. --
+\newblock ISSN 0002-9513
 
 \bibitem[Duh u.\,a.(1997)Duh, King und
   Aiello]{0deab5d12daa4d32b398e5c5f589f651}
@@ -654,6 +698,27 @@
   -- Zugriffsdatum: 2024-03-09. --
 \newblock ISSN 1553-7358
 
+\bibitem[Lapidus und Schiller(1976)]{Lapidus1976}
+\dinatlabel{Lapidus und Schiller 1976} \textsc{Lapidus}, I.~R.~;
+  \textsc{Schiller}, R.:
+\newblock Model for the chemotactic response of a bacterial population.
+\newblock In: \emph{Biophysical Journal}
+\newblock 16 (1976), Juli, Nr.~7, S.~779--789. --
+\newblock ISSN 0006-3495
+
+\bibitem[Lauffenburger u.\,a.(1984)Lauffenburger, Kennedy und
+  Aris]{Lauffenburger1984}
+\dinatlabel{Lauffenburger u.\,a. 1984} \textsc{Lauffenburger}, D.~;
+  \textsc{Kennedy}, C.~R.~; \textsc{Aris}, R.:
+\newblock Traveling bands of chemotactic bacteria in the context of population
+  growth.
+\newblock In: \emph{Bulletin of Mathematical Biology}
+\newblock 46 (1984), Januar, Nr.~1, S.~19--40. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0092824084800336}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0092-8240
+
 \bibitem[Lesk(2000)]{Lesk2000}
 \dinatlabel{Lesk 2000} \textsc{Lesk}, Arthur~M.:
 \newblock The unreasonable effectiveness of mathematics in molecular biology.
@@ -887,6 +952,26 @@
   \url{https://consensus.app/papers/inhibitors-angiogenesis-nyberg/c8d04e4d75375d60a58dcc8bb36bc544/}.
   -- Zugriffsdatum: 2024-03-02
 
+\bibitem[Oh u.\,a.(1981)Oh, Pierschbacher und Ruoslahti]{Oh1981}
+\dinatlabel{Oh u.\,a. 1981} \textsc{Oh}, E~; \textsc{Pierschbacher}, M~;
+  \textsc{Ruoslahti}, E:
+\newblock Deposition of plasma fibronectin in tissues.
+\newblock In: \emph{Proceedings of the National Academy of Sciences of the
+  United States of America}
+\newblock 78 (1981), Mai, Nr.~5, S.~3218--3221. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC319532/}. --
+  Zugriffsdatum: 2024-06-13. --
+\newblock ISSN 0027-8424
+
+\bibitem[Olsen u.\,a.(1997)Olsen, Sherratt, Maini und Arnold]{Olsen1997}
+\dinatlabel{Olsen u.\,a. 1997} \textsc{Olsen}, L.~; \textsc{Sherratt}, J.~A.~;
+  \textsc{Maini}, P.~K.~; \textsc{Arnold}, F.:
+\newblock A mathematical model for the capillary endothelial cell-extracellular
+  matrix interactions in wound-healing angiogenesis.
+\newblock In: \emph{IMA journal of mathematics applied in medicine and biology}
+\newblock 14 (1997), Dezember, Nr.~4, S.~261--281. --
+\newblock ISSN 0265-0746
+
 \bibitem[Olsen und Siegelmann(2013)]{Olsen2013}
 \dinatlabel{Olsen und Siegelmann 2013} \textsc{Olsen}, Megan~M.~;
   \textsc{Siegelmann}, H.:
@@ -914,6 +999,14 @@
 \newblock In: \emph{IMA journal of mathematics applied in medicine and biology}
 \newblock 14 (1997), September, Nr.~3, S.~189--205. --
 \newblock ISSN 0265-0746
+
+\bibitem[Paku und Paweletz(1991)]{Paku1991}
+\dinatlabel{Paku und Paweletz 1991} \textsc{Paku}, S.~; \textsc{Paweletz}, N.:
+\newblock First steps of tumor-related angiogenesis.
+\newblock In: \emph{Laboratory Investigation; a Journal of Technical Methods
+  and Pathology}
+\newblock 65 (1991), September, Nr.~3, S.~334--346. --
+\newblock ISSN 0023-6837
 
 \bibitem[Patterson u.\,a.(1996)Patterson, Perrella, Endege, Yoshizumi, Lee und
   Haber]{Patterson1996}
@@ -1000,6 +1093,15 @@
   Zugriffsdatum: 2024-06-12. --
 \newblock ISSN 0969-6970
 
+\bibitem[Rocco u.\,a.(1987)Rocco, Infusini, Daga, Gogioso und
+  Cuniberti]{Rocco1987}
+\dinatlabel{Rocco u.\,a. 1987} \textsc{Rocco}, M.~; \textsc{Infusini}, E.~;
+  \textsc{Daga}, M.~G.~; \textsc{Gogioso}, L.~; \textsc{Cuniberti}, C.:
+\newblock Models of fibronectin.
+\newblock In: \emph{The EMBO journal}
+\newblock 6 (1987), August, Nr.~8, S.~2343--2349. --
+\newblock ISSN 0261-4189
+
 \bibitem[Roose u.\,a.(2007)Roose, Chapman und Maini]{Roose2007}
 \dinatlabel{Roose u.\,a. 2007} \textsc{Roose}, T.~; \textsc{Chapman}, S.~;
   \textsc{Maini}, P.:
@@ -1009,6 +1111,17 @@
 \newblock URL
   \url{https://consensus.app/papers/models-avascular-tumor-growth-roose/a77e9bfd612b51a2b233feb7b5b0aa0d/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Rupnick u.\,a.(1988)Rupnick, Stokes, Williams und
+  Lauffenburger]{Rupnick1988}
+\dinatlabel{Rupnick u.\,a. 1988} \textsc{Rupnick}, M.~A.~; \textsc{Stokes},
+  C.~L.~; \textsc{Williams}, S.~K.~; \textsc{Lauffenburger}, D.~A.:
+\newblock Quantitative analysis of random motility of human microvessel
+  endothelial cells using a linear under-agarose assay.
+\newblock In: \emph{Laboratory Investigation; a Journal of Technical Methods
+  and Pathology}
+\newblock 59 (1988), September, Nr.~3, S.~363--372. --
+\newblock ISSN 0023-6837
 
 \bibitem[Saman u.\,a.(2020)Saman, Raza, Uddin und Rasul]{Saman2020}
 \dinatlabel{Saman u.\,a. 2020} \textsc{Saman}, Harman~; \textsc{Raza},
@@ -1058,6 +1171,25 @@
   \url{https://www.sciencedirect.com/science/article/pii/S0026286215000187}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0026-2862
+
+\bibitem[Sherratt und Murray(1990)]{Sherratt1990}
+\dinatlabel{Sherratt und Murray 1990} \textsc{Sherratt}, J.~A.~;
+  \textsc{Murray}, J.~D.:
+\newblock Models of epidermal wound healing.
+\newblock In: \emph{Proceedings. Biological Sciences}
+\newblock 241 (1990), Juli, Nr.~1300, S.~29--36. --
+\newblock ISSN 0962-8452
+
+\bibitem[Sherratt(1994)]{Sherratt1994}
+\dinatlabel{Sherratt 1994} \textsc{Sherratt}, Jonathan~A.:
+\newblock Chemotaxis and chemokinesis in eukaryotic cells: {The} keller-segel
+  equations as an approximation to a detailed model.
+\newblock In: \emph{Bulletin of Mathematical Biology}
+\newblock 56 (1994), Januar, Nr.~1, S.~129--146. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0092824005802083}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0092-8240
 
 \bibitem[Sholley u.\,a.(1984)Sholley, Ferguson, Seibel, Montour und
   Wilson]{Sholley1984}
@@ -1218,6 +1350,27 @@
 \newblock URL \url{https://doi.org/10.1007/978-3-642-78374-6_41}. --
   Zugriffsdatum: 2024-03-23. --
 \newblock ISBN 9783642783746
+
+\bibitem[Williams u.\,a.(1982)Williams, Janmey, Ferry und Mosher]{Williams1982}
+\dinatlabel{Williams u.\,a. 1982} \textsc{Williams}, E.~C.~; \textsc{Janmey},
+  P.~A.~; \textsc{Ferry}, J.~D.~; \textsc{Mosher}, D.~F.:
+\newblock Conformational states of fibronectin. {Effects} of {pH}, ionic
+  strength, and collagen binding.
+\newblock In: \emph{The Journal of Biological Chemistry}
+\newblock 257 (1982), Dezember, Nr.~24, S.~14973--14978. --
+\newblock ISSN 0021-9258
+
+\bibitem[Woodward u.\,a.(1995)Woodward, Tyson, Myerscough, Murray, Budrene und
+  Berg]{Woodward1995}
+\dinatlabel{Woodward u.\,a. 1995} \textsc{Woodward}, D~E.~; \textsc{Tyson}, R~;
+  \textsc{Myerscough}, M~R.~; \textsc{Murray}, J~D.~; \textsc{Budrene}, E~O.~;
+  \textsc{Berg}, H~C.:
+\newblock Spatio-temporal patterns generated by {Salmonella} typhimurium.
+\newblock In: \emph{Biophysical Journal}
+\newblock 68 (1995), Mai, Nr.~5, S.~2181--2189. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1282123/}. --
+  Zugriffsdatum: 2024-06-12. --
+\newblock ISSN 0006-3495
 
 \bibitem[Zawicki u.\,a.(1981)Zawicki, Jain, Schmid-Schoenbein und
   Chien]{Zawicki1981}

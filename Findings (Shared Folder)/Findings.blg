@@ -18,45 +18,45 @@ Warning--to sort, need author or key in angiogenesisYoutube
 Warning--to sort, need author or key in conealMicroPocketAssayJOVE
 Warning--empty pages in Alberts2002
 Warning--empty booktitle in Wigner1995
-You've used 112 entries,
+You've used 128 entries,
             3552 wiz_defined-function locations,
-            1684 strings with 35794 characters,
-and the built_in function-call counts, 119089 in all, are:
-= -- 15147
-> -- 1931
-< -- 3553
-+ -- 4638
-- -- 1681
-* -- 12707
-:= -- 20195
-add.period$ -- 113
-call.type$ -- 112
-change.case$ -- 833
-chr.to.int$ -- 109
-cite$ -- 120
-duplicate$ -- 2593
-empty$ -- 6585
-format.name$ -- 2641
-if$ -- 22033
+            1790 strings with 38816 characters,
+and the built_in function-call counts, 133966 in all, are:
+= -- 17029
+> -- 2154
+< -- 3865
++ -- 5068
+- -- 1875
+* -- 14370
+:= -- 22623
+add.period$ -- 130
+call.type$ -- 128
+change.case$ -- 934
+chr.to.int$ -- 125
+cite$ -- 136
+duplicate$ -- 2959
+empty$ -- 7542
+format.name$ -- 2928
+if$ -- 24910
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 417
-newline$ -- 827
-num.names$ -- 440
-pop$ -- 926
+missing$ -- 479
+newline$ -- 942
+num.names$ -- 504
+pop$ -- 1042
 preamble$ -- 1
-purify$ -- 833
+purify$ -- 934
 quote$ -- 0
-skip$ -- 4489
+skip$ -- 4950
 stack$ -- 0
-substring$ -- 11000
-swap$ -- 785
-text.length$ -- 497
+substring$ -- 12491
+swap$ -- 882
+text.length$ -- 550
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1217
+type$ -- 1388
 warning$ -- 4
-while$ -- 1238
+while$ -- 1401
 width$ -- 0
-write$ -- 1420
+write$ -- 1618
 (There were 4 warnings)
