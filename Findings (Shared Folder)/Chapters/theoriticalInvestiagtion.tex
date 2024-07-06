@@ -61,15 +61,19 @@ As we will see later, this map is very important and can be computed by consider
 \begin{remark}
 	According to the remark above, we can model the angiogenesis process as a background vector field on the space of all vascular systems. Any other background biological mechanisms can also be lumped in this vector field. We denote this vector field as $ \mathcal{G} $.
 \end{remark}
-\begin{remark}
-	The vector space $ \mathcal{I} $ due to intervention can be possibly learned by an appropriate machine learning system.
-\end{remark}
 
-\begin{openQuestion}[Can a Machine Learning System Learn These Vector Fields?]
+
+\begin{openQuestion}[How to Determine These Vector Fields?]
 	Our ultimate goal in this project is to determine the mapping $ F $ as well as the intervention vector field $ \mathcal{I}_i $, along with any background vector field $ \mathcal{G} $. Denote the intervention and the background vector fields as 
 	\[ \mathcal{I} = \mathcal{I}_i + \mathcal{G}. \]
+	I am still thinking actively how my modeling attempts (like agent based model, or the PDE model) manifest themselves in this general framework? How these models can ultimately help to determine these vector fields, at least locally.
+\end{openQuestion}
+
+
+\begin{openQuestion}[Can a Machine Learning System Learn These Vector Fields?]
 	One possible parallel approach to determine these vector fields is to use appropriate machine learning system along with a suitable simulator the learn these vector fields.
 \end{openQuestion}
+
 
 \begin{observation}[Effectiveness of the Intervention is the Lie Derivative of $ \nabla F $ with respect to $ \mathcal{I} $]
 	Formalizing the problem in the structure above is useful from many points of view and can be a unifying theme. 
@@ -88,4 +92,6 @@ As we will see later, this map is very important and can be computed by consider
 \section{Statistical Properties of Vascular System}
 For me, the phenomena of angiogenesis if very similar to the phenomena of percolation. I am not claiming that it is the same phenomena, but I am emphasizing the similarities. For instance, some fluid is percolating, then instead of a uniform flow of fluid through the porous media, individual channels form (I think due to the surface tension of water, the water molecules tend to follow the pre-existing water channels rather than making a new one through wetting the surface).
 
-I think at some step, I would need to consider percolation models and their statistical signatures to see if I can use somewhat modified versions of that.
+\begin{observation}[Homogenization and Darcy's Law]
+	I think at some step, I would need to consider percolation models and their statistical signatures to see if I can use somewhat modified versions of that. After making this connection. I can apply the idea of homogenization and possibly Darcy's law suggested by Leah.
+\end{observation}
