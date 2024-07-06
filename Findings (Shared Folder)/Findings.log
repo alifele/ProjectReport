@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  18 JUN 2024 17:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  4 JUL 2024 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1296,8 +1296,9 @@ LaTeX Info: Redefining \cite on input line 694.
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 22.
  (./Findings.aux
-(./Chapters/modelAttempts.aux) (./Chapters/PapersReviewed.aux)
-(./Chapters/MolecularBiology.aux) (./Chapters/randomNotes.aux
+(./Chapters/modelAttempts.aux) (./Chapters/theoriticalInvestiagtion.aux)
+(./Chapters/PapersReviewed.aux) (./Chapters/MolecularBiology.aux)
+(./Chapters/randomNotes.aux
 
 LaTeX Warning: Label `fig:simpleadvectiondiffusion1' multiply defined.
 
@@ -1843,15 +1844,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [25]
+\openout2 = `Chapters/theoriticalInvestiagtion.aux'.
+
+ (./Chapters/theoriticalInvestiagtion.tex
+Chapter 2.
+Package mdframed Info: mdframed works in twoside mode on input line 10.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 10.
+Package mdframed Info: mdframed works in twoside mode on input line 22.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 22.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 30.
+[26
+
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 34.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 34.
+Package mdframed Info: mdframed works in twoside mode on input line 36.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 36.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 38.
+Package mdframed Info: mdframed works in twoside mode on input line 48.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 48.
+Package mdframed Info: mdframed works in twoside mode on input line 56.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 56.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27]
+Package mdframed Info: mdframed works in twoside mode on input line 68.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 68.
+Package mdframed Info: mdframed works in twoside mode on input line 74.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 74.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28]
 \openout2 = `Chapters/PapersReviewed.aux'.
 
  (./Chapters/PapersReviewed.tex
-Chapter 2.
+Chapter 3.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 19.
 
-[26
+[29
 
 
 
@@ -1865,7 +1933,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[27]
+[30]
 Underfull \vbox (badness 4454) has occurred while \output is active []
 
 
@@ -1877,34 +1945,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[28]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[29]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[30]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [31]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[34]
 Underfull \vbox (badness 4467) has occurred while \output is active []
 
 
@@ -1916,7 +1984,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[32])
+[35])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1925,11 +1993,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[33]
+[36]
 \openout2 = `Chapters/MolecularBiology.aux'.
 
  (./Chapters/MolecularBiology.tex
-Chapter 3.
+Chapter 4.
 File: images/AnatomyOfVessel.jpg Graphic file (type bmp)
 <images/AnatomyOfVessel.jpg>
 File: images/perycitesForVascular.jpg Graphic file (type bmp)
@@ -1942,7 +2010,7 @@ File: images/ElectronMicroscopeOfVessel.jpg Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34
+[37
 
 
 
@@ -1966,7 +2034,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[35]
+[38]
 Package mdframed Info: mdframed works in twoside mode on input line 61.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -1980,7 +2048,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[36]
+[39]
 File: images/endothelialResponseToVEGF.jpg Graphic file (type bmp)
 <images/endothelialResponseToVEGF.jpg>
 
@@ -1997,7 +2065,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37]
+[40]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2006,7 +2074,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[38]
+[41]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2015,7 +2083,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[39]
+[42]
 File: images/histologySquamousEpithelial.png Graphic file (type bmp)
 <images/histologySquamousEpithelial.png>
 File: images/bileDuct-SquamousEpithelialCells.png Graphic file (type bmp)
@@ -2029,16 +2097,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[40]
+[43]
 \openout2 = `Chapters/randomNotes.aux'.
 
  (./Chapters/randomNotes.tex
-Chapter 4.
+Chapter 5.
 Package mdframed Info: mdframed works in twoside mode on input line 5.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 5.
-[41
+[44
 
 
 
@@ -2059,7 +2127,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[42]
+[45]
 Package mdframed Info: mdframed works in twoside mode on input line 56.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2073,7 +2141,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[43]
+[46]
 Package mdframed Info: mdframed works in twoside mode on input line 84.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2094,7 +2162,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[44]
+[47]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2103,7 +2171,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[45] (./images/orbitApproximation.tex) (./images/rateOfVolumePass.tex)
+[48] (./images/orbitApproximation.tex) (./images/rateOfVolumePass.tex)
 
 LaTeX Warning: Command \O invalid in math mode on input line 145.
 
@@ -2116,7 +2184,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[46]
+[49]
 Package mdframed Info: mdframed works in twoside mode on input line 156.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2134,7 +2202,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[47]
+[50]
 File: images/simpleAdvectionDiffusion1.png Graphic file (type bmp)
 <images/simpleAdvectionDiffusion1.png>
 
@@ -2146,7 +2214,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[48]
+[51]
 File: images/movingToCenter.png Graphic file (type bmp)
 <images/movingToCenter.png>
 File: images/movingAround.png Graphic file (type bmp)
@@ -2163,7 +2231,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[49]
+[52]
 File: images/spiralAdvectionDiffusion.png Graphic file (type bmp)
 <images/spiralAdvectionDiffusion.png>
 
@@ -2178,7 +2246,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[50]
+[53]
 File: images/flowLinePlot.png Graphic file (type bmp)
 <images/flowLinePlot.png>
 Package mdframed Info: mdframed works in twoside mode on input line 267.
@@ -2195,7 +2263,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[51]
+[54]
 Package mdframed Info: Not enough space on this page on input line 273.
 Package mdframed Info: mdframed works in twoside mode on input line 276.
 Package mdframed Info: mdframed detected package amsthm 
@@ -2214,7 +2282,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[52]
+[55]
 Package mdframed Info: mdframed works in twoside mode on input line 304.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2240,35 +2308,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[53]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[54])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[55]
-\openout2 = `Chapters/MeetingLog.aux'.
-
- (./Chapters/MeetingLog.tex
-Chapter 5.
-[56
-
-
-
-
-]
+[56]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2287,9 +2327,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [58]
-\openout2 = `Chapters/Comments.aux'.
+\openout2 = `Chapters/MeetingLog.aux'.
 
- (./Chapters/Comments.tex
+ (./Chapters/MeetingLog.tex
 Chapter 6.
 [59
 
@@ -2305,7 +2345,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[60]
+[60])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2314,7 +2354,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[61])
+[61]
+\openout2 = `Chapters/Comments.aux'.
+
+ (./Chapters/Comments.tex
+Chapter 7.
+[62
+
+
+
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2323,7 +2373,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[62] (./Findings.bbl
+[63]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[64])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[65] (./Findings.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2354,7 +2422,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--91
 [][][][] []
  []
 
-[63
+[66
 
 
 
@@ -2385,7 +2453,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[64]
+[67]
 Underfull \hbox (badness 10000) in paragraph at lines 312--324
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
@@ -2399,7 +2467,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[65]
+[68]
 Underfull \hbox (badness 3417) in paragraph at lines 326--335
 []\TU/lmr/m/n/10.95 [Cooper u.a. 2010]  \TU/lmr/m/sc/10.95 Cooper\TU/lmr/m/n/10
 .95 , M. ; \TU/lmr/m/sc/10.95 Tanaka\TU/lmr/m/n/10.95 , Martin L. ; \TU/lmr/m/s
@@ -2458,7 +2526,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[66]
+[69]
 Underfull \hbox (badness 1112) in paragraph at lines 452--462
 \TU/lmr/m/n/10.95 P. ; \TU/lmr/m/sc/10.95 McElwain\TU/lmr/m/n/10.95 , D.:  On t
 he mathematical modeling of wound healing angiogenesis
@@ -2479,7 +2547,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[67]
+[70]
 Underfull \hbox (badness 6876) in paragraph at lines 651--660
 []\TU/lmr/m/n/10.95 [Khan u.a. 2014]  \TU/lmr/m/sc/10.95 Khan\TU/lmr/m/n/10.95 
 , G. J. ; \TU/lmr/m/sc/10.95 Shakir\TU/lmr/m/n/10.95 , Lubna ; \TU/lmr/m/sc/10.
@@ -2513,7 +2581,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[68]
+[71]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2522,7 +2590,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[69]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 827--836
 []\TU/lmr/m/n/10.95 [McDougall u.a. 2006]  \TU/lmr/m/sc/10.95 McDougall\TU/lmr/
 m/n/10.95 , S. ; \TU/lmr/m/sc/10.95 Anderson\TU/lmr/m/n/10.95 , A. ; \TU/lmr/m/
@@ -2561,7 +2629,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[70]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 892--901
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
@@ -2575,7 +2643,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[71]
+[74]
 Underfull \hbox (badness 3009) in paragraph at lines 987--995
 []\TU/lmr/m/n/10.95 [Olsen und Siegelmann 2013]  \TU/lmr/m/sc/10.95 Olsen\TU/lm
 r/m/n/10.95 , Megan M. ; \TU/lmr/m/sc/10.95 Siegelmann\TU/lmr/m/n/10.95 , H.:  
@@ -2647,7 +2715,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[72]
+[75]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2656,7 +2724,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[73]
+[76]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2665,7 +2733,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[74]
+[77]
 Underfull \hbox (badness 1490) in paragraph at lines 1312--1323
 []\TU/lmr/m/n/10.95 [Walpole u.a. 2015]  \TU/lmr/m/sc/10.95 Walpole\TU/lmr/m/n/
 10.95 , Joseph ; \TU/lmr/m/sc/10.95 Chappell\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/
@@ -2762,23 +2830,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[75] (./Findings.aux (./Chapters/modelAttempts.aux)
-(./Chapters/PapersReviewed.aux) (./Chapters/MolecularBiology.aux)
-(./Chapters/randomNotes.aux) (./Chapters/MeetingLog.aux)
-(./Chapters/Comments.aux))
+[78] (./Findings.aux (./Chapters/modelAttempts.aux)
+(./Chapters/theoriticalInvestiagtion.aux) (./Chapters/PapersReviewed.aux)
+(./Chapters/MolecularBiology.aux) (./Chapters/randomNotes.aux)
+(./Chapters/MeetingLog.aux) (./Chapters/Comments.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Findings.out' has not changed.
-(rerunfilecheck)             Checksum: 170DEBFF4D6E56D0AEF37E5CCDDE3692;10721.
+(rerunfilecheck)             Checksum: 76FFA347400EC33E1794B2138E5F798F;11535.
  ) 
 Here is how much of TeX's memory you used:
- 52862 strings out of 476191
- 1274697 string characters out of 5812072
- 1881018 words of memory out of 5000000
- 72670 multiletter control sequences out of 15000+600000
+ 52902 strings out of 476191
+ 1276350 string characters out of 5812072
+ 1883003 words of memory out of 5000000
+ 72703 multiletter control sequences out of 15000+600000
  480503 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,15n,108p,2136b,1122s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Findings.pdf (76 pages).
+Output written on Findings.pdf (79 pages).

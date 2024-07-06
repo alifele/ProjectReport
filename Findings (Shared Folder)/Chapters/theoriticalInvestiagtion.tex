@@ -1,0 +1,91 @@
+\chapter{A Theoretical Investigation}
+
+In this chapter I will be trying to appropriately formalize the problem in hand while being very careful about the hidden structures in the problem.
+
+
+
+\section{The Set of All Vascular Structures. Is That a Manifold?}
+
+I start with my formal definition of a valid vascular structure.
+\begin{definition}
+	Consider $ \Omega = [0,1] \times [0,1] $ as a closed subset of $ \R^2 $. A valid vasculature, is a network in the domain, where there is at least one path that starts from $ \set{0}\times (0,1) $ and reaches $ \set{1}\times (0,1) $.
+\end{definition}
+\begin{remark}
+	The definition above needs to further formalized. For instance, what is a network? if I mean a graph theoretical concept, then I need to formally define it.
+\end{remark}
+
+
+Let $ \mathcal{N} $ denote the set of all valid vascular systems. Introducing the notion of the set of all valid vascular structures, if we have no information about the topology or algebraic properties of that set is no more useful than re-naming an object. 
+
+We can consider a particular vascular system as a mapping $ s: \Omega \to \R $, where a given vascular network will be just a domain coloring of the map $ s $. Then the set of all vascular systems $ \mathcal{N} $ will be the same as the function space of all functions mapping $ \Omega $ to $ \R $. This set is far too complex than being useful. So I will follow an alternative approach.We will use the notion of graphs to represent a particular vascular system.
+
+\begin{observation}[Vascular System as a Graph]
+	A weighted multi graph (where we allow to have multiple weights on an edge, and also allow assigning weights to nodes) can capture any necessary information of a vascular system that determines the flow of blood through it. For instance, we can have the following correspondence between a given vascular system and  a multi graph.
+	\begin{itemize}[noitemsep]
+		\item Denoting the branching points as nodes.
+		\item Denoting the vessel segments as edges.
+		\item Assigning a weight $ w\in \R^n $ to each edge, where $ n $ is the number of important characters of the vessel segment that affects the dynamic of blood flow. These weights can be the length of segment, the radius of segment, etc.
+		\item Assigning a weight to $ v \in \R^m $ to each node, where $ m $ is the number of important parameters at each node affecting the fluid dynamics of blood in the vessels. For instance, the hematocrit splitting ration depends on the number of branches in a given node (which is reflected by the degree of a given node), and also the angle between branches. The angle between branches, etc can all be considered in the weight assigned to each node.
+	\end{itemize}
+\end{observation}
+
+The observation above is just a general blue print. We can obviously make some simplifications and reduce the number of weights at each edge.
+
+\begin{observation}[The Set of All Vascular Systems is a Manifold]
+	For now, let's consider that for each vessel segment we assign one weight that can be the radius of the vessel segment, or a combination of parameters, like flow as given by the Poiseuille's law. For each node we assign no weights (for instance we assume that the hematicrit splitting is not significant). Then we can identify each vascular network with an adjacency matrix of the associated graph.  Thus the set of all vascular systems with $ n $ nodes will be the same as the set of all $ n\times n $ matrices. 
+	\begin{proposition}
+		The set of all $ n\times n $ matrices topologized with the subspace topology of $ \R^{n\times n} $, is a smooth manifold.
+	\end{proposition}
+	Thus the set of all vascular systems with $ n $ nodes is a smooth manifold.
+\end{observation} 
+
+\begin{remark}
+	In the observation box above we stated that the set of all manifolds with $ n $ nodes is a the same as the set of all $ n\times n $ matrices. But can we have any statements about the set of all vascular structures with any number of nodes? For this case I think I need to design a graded structures (as in the case of graded algebra) that can capture the whole set of all vascular structures.
+\end{remark}
+
+Intuitively, we tend to identify the vascular systems that have the same total flow across the network. To put this in a useful theoretical ground we have the following observation box.
+
+\begin{observation}[Vascular Systems Identification Based on the Total Flow in the Network]
+	Let $ \mathcal{N}_n $ denote the set of all vascular networks that has $ n $ nodes. Define the map
+	\[ F: \mathcal{N}_n \to \R \]
+	which is the total flow of the network. Then we define the following equivalence relation. For $ x,y \in \mathcal{N}_n $
+	\[ x \sim y \quad \Leftrightarrow \quad x,y \text{ are on the same level set of $ F $ }. \]
+\end{observation}
+As we will see later, this map is very important and can be computed by considering the rheology of blood and the geometry of the network. The observation box below shows that any intervention induces a vector field on the manifold $ \mathcal{N} $ and as we will see later, the interplay between this vector field and the gradient of the map $ F $ turns out to be very important. 
+
+\begin{observation}[Any Intervention Induces a Vector Field on $ \mathcal{F} $]
+	First, I need to mention that since I have not yet developed a graded structure to handle different vascular systems with different total number of nodes as a graded manifold (or some similar construct) I will assume that the interventions do not change the number of nodes. But this is just a bureaucracy and I will resolve it as soon as I develop rich structures. 
+	
+	Every intervention induces a vector field on the manifold $ \mathcal{N} $ denoted by $ \mathcal{I} $. So the time evolution of a given vascular system due to particular intervention (like radiotherapy or chemotherapy) will be given be a one-parameter group of diffeomorphisms of $ \mathcal{N} $. In other words, the time evolution of a given vascular system $ p \in \mathcal{N} $ will be the integral curve of $ \mathcal{I} $ starting at $ p $.
+\end{observation}
+\begin{remark}
+	According to the remark above, we can model the angiogenesis process as a background vector field on the space of all vascular systems. Any other background biological mechanisms can also be lumped in this vector field. We denote this vector field as $ \mathcal{G} $.
+\end{remark}
+\begin{remark}
+	The vector space $ \mathcal{I} $ due to intervention can be possibly learned by an appropriate machine learning system.
+\end{remark}
+
+\begin{openQuestion}[Can a Machine Learning System Learn These Vector Fields?]
+	Our ultimate goal in this project is to determine the mapping $ F $ as well as the intervention vector field $ \mathcal{I}_i $, along with any background vector field $ \mathcal{G} $. Denote the intervention and the background vector fields as 
+	\[ \mathcal{I} = \mathcal{I}_i + \mathcal{G}. \]
+	One possible parallel approach to determine these vector fields is to use appropriate machine learning system along with a suitable simulator the learn these vector fields.
+\end{openQuestion}
+
+\begin{observation}[Effectiveness of the Intervention is the Lie Derivative of $ \nabla F $ with respect to $ \mathcal{I} $]
+	Formalizing the problem in the structure above is useful from many points of view and can be a unifying theme. 
+	
+	For instance, let $ F:\mathcal{N}\to \R $ denote the total flow mapping and $ \mathcal{I} $ be the induced vector field due to intervention (and possibly plus any background process like angiogenesis). Then if $ \mathcal{I} $ align with $ \nabla F $ we will have the maximum effect due to therapy, and if $ \mathcal{I} $ gets perpendicular to $ \nabla{F} $ we will have no effect (i.e. the intervention will have no effect on the flow). Thus we can introduce a notion of effectiveness of intervention which is the Lie derivative of $ \nabla F $ with respect to $ \mathcal{I} $. In other words
+	\[ E = \mathcal{L}_{\mathcal{I}} \nabla F = [\mathcal{I},\nabla F]. \]
+	Alternatively, we can define other measures. For instance, assuming that the manifold $ \mathcal{N} $ is a Riemannian manifold, hence we have the notion of inner product at a given tangent space, we can define
+	\[ E = \langle \mathcal{I}, \nabla F \rangle . \]
+\end{observation}
+
+
+
+
+
+
+\section{Statistical Properties of Vascular System}
+For me, the phenomena of angiogenesis if very similar to the phenomena of percolation. I am not claiming that it is the same phenomena, but I am emphasizing the similarities. For instance, some fluid is percolating, then instead of a uniform flow of fluid through the porous media, individual channels form (I think due to the surface tension of water, the water molecules tend to follow the pre-existing water channels rather than making a new one through wetting the surface).
+
+I think at some step, I would need to consider percolation models and their statistical signatures to see if I can use somewhat modified versions of that.
