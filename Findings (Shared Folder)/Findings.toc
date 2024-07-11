@@ -38,47 +38,52 @@
 \contentsline {subsection}{\numberline {3.1.3}Useful facts}{31}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Points that are not clear yet}{31}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.1.5}Useful papers cited}{31}{subsection.3.1.5}%
-\contentsline {chapter}{\numberline {4}Molecular Biology}{38}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Molecular Mechanism of Angiogenesis}{38}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}A Brief Anatomy of Vessels}{38}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Molecular Biology of Vascular Structure}{40}{subsection.4.1.2}%
-\contentsline {subsubsection}{Steps involved in angiogenesis}{40}{subsubsection*.29}%
-\contentsline {subsubsection}{The Response of Endothelial Cells to VEGF}{41}{subsubsection*.30}%
-\contentsline {section}{\numberline {4.2}Biological Assays to Study Angiogenesis}{43}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Corneal Micropocket Assay}{43}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Some Histology}{43}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Epithelium}{44}{subsection.4.3.1}%
-\contentsline {chapter}{\numberline {5}Some Notes on Mathematical Modeling}{45}{chapter.5}%
-\contentsline {section}{\numberline {5.1}STEP 0: Understanding the phenomena we want to study}{45}{section.5.1}%
-\contentsline {section}{\numberline {5.2}STEP I: Converting Natural Phenomena to a Mathematical Problem }{45}{section.5.2}%
-\contentsline {section}{\numberline {5.3}STEP II: Mathematical Analysis of the Model in Hand}{46}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}STEP II: PDE models}{47}{subsection.5.3.1}%
-\contentsline {subsubsection}{Different Formulations of the Problem: Strong vs. Weak Formulation}{47}{subsubsection*.36}%
-\contentsline {subsubsection}{well-Posedness}{48}{subsubsection*.37}%
-\contentsline {subsubsection}{What kind of solutions do we need?}{48}{subsubsection*.38}%
-\contentsline {subsubsection}{Numerical Solution}{49}{subsubsection*.39}%
-\contentsline {subsubsection}{Error Estimate}{49}{subsubsection*.40}%
-\contentsline {section}{\numberline {5.4}What Is the Flux, Really?}{49}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Some cool PDE simulations}{51}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Diffusion and Advection}{52}{subsection.5.5.1}%
-\contentsline {subsubsection}{Simple velocity field}{52}{subsubsection*.43}%
-\contentsline {subsubsection}{Particles Moving Down the Hill}{53}{subsubsection*.45}%
-\contentsline {subsubsection}{Moving Around the Origin}{53}{subsubsection*.47}%
-\contentsline {subsubsection}{Spiraling in to the Origin}{54}{subsubsection*.49}%
-\contentsline {chapter}{\numberline {6}Meeting log}{60}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Meetings with Leah}{60}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}29 Jan Meeting}{60}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}5 Feb Meeting}{60}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}12 Feb Meeting}{61}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}8 March Meeting}{61}{subsection.6.1.4}%
-\contentsline {subsection}{\numberline {6.1.5}12 March Meeting}{61}{subsection.6.1.5}%
-\contentsline {subsection}{\numberline {6.1.6}20 March Meeting}{61}{subsection.6.1.6}%
-\contentsline {section}{\numberline {6.2}Meetings with Arman}{62}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Comments}{63}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Leah Comments Jan 24, 2024}{63}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Suggested research style and flavour}{63}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Step 1: Bulk model}{63}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}(Optional) Step 2: Simple spatially distributed 1D system}{64}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Step 3: An agent-based (CPM) model:}{65}{subsection.7.1.4}%
-\contentsline {subsection}{\numberline {7.1.5}Step 4: Look for data}{65}{subsection.7.1.5}%
-\contentsline {subsection}{\numberline {7.1.6}Step 5: More details and other variants}{65}{subsection.7.1.6}%
+\contentsline {subsection}{\numberline {3.2.1}Introduction}{31}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Methods}{31}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Useful facts}{31}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}I Need to Think More ...}{32}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Useful Papers Cited}{32}{subsection.3.2.5}%
+\contentsline {chapter}{\numberline {4}Molecular Biology}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Molecular Mechanism of Angiogenesis}{39}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}A Brief Anatomy of Vessels}{39}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Molecular Biology of Vascular Structure}{41}{subsection.4.1.2}%
+\contentsline {subsubsection}{Steps involved in angiogenesis}{41}{subsubsection*.29}%
+\contentsline {subsubsection}{The Response of Endothelial Cells to VEGF}{42}{subsubsection*.30}%
+\contentsline {section}{\numberline {4.2}Biological Assays to Study Angiogenesis}{44}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Corneal Micropocket Assay}{44}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Some Histology}{44}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Epithelium}{45}{subsection.4.3.1}%
+\contentsline {chapter}{\numberline {5}Some Notes on Mathematical Modeling}{46}{chapter.5}%
+\contentsline {section}{\numberline {5.1}STEP 0: Understanding the phenomena we want to study}{46}{section.5.1}%
+\contentsline {section}{\numberline {5.2}STEP I: Converting Natural Phenomena to a Mathematical Problem }{46}{section.5.2}%
+\contentsline {section}{\numberline {5.3}STEP II: Mathematical Analysis of the Model in Hand}{47}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}STEP II: PDE models}{48}{subsection.5.3.1}%
+\contentsline {subsubsection}{Different Formulations of the Problem: Strong vs. Weak Formulation}{48}{subsubsection*.36}%
+\contentsline {subsubsection}{well-Posedness}{49}{subsubsection*.37}%
+\contentsline {subsubsection}{What kind of solutions do we need?}{49}{subsubsection*.38}%
+\contentsline {subsubsection}{Numerical Solution}{50}{subsubsection*.39}%
+\contentsline {subsubsection}{Error Estimate}{50}{subsubsection*.40}%
+\contentsline {section}{\numberline {5.4}What Is the Flux, Really?}{50}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Some cool PDE simulations}{52}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Diffusion and Advection}{53}{subsection.5.5.1}%
+\contentsline {subsubsection}{Simple velocity field}{53}{subsubsection*.43}%
+\contentsline {subsubsection}{Particles Moving Down the Hill}{54}{subsubsection*.45}%
+\contentsline {subsubsection}{Moving Around the Origin}{54}{subsubsection*.47}%
+\contentsline {subsubsection}{Spiraling in to the Origin}{55}{subsubsection*.49}%
+\contentsline {chapter}{\numberline {6}Meeting log}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Meetings with Leah}{61}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}29 Jan Meeting}{61}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}5 Feb Meeting}{61}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}12 Feb Meeting}{62}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}8 March Meeting}{62}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}12 March Meeting}{62}{subsection.6.1.5}%
+\contentsline {subsection}{\numberline {6.1.6}20 March Meeting}{62}{subsection.6.1.6}%
+\contentsline {section}{\numberline {6.2}Meetings with Arman}{63}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Comments}{64}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Leah Comments Jan 24, 2024}{64}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Suggested research style and flavour}{64}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Step 1: Bulk model}{64}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}(Optional) Step 2: Simple spatially distributed 1D system}{65}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Step 3: An agent-based (CPM) model:}{66}{subsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.1.5}Step 4: Look for data}{66}{subsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.1.6}Step 5: More details and other variants}{66}{subsection.7.1.6}%

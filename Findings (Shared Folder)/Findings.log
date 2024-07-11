@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  6 JUL 2024 09:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  8 JUL 2024 09:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1951,9 +1951,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [31]
-Underfull \vbox (badness 4454) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1963,6 +1960,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [32]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1972,6 +1972,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1990,7 +1993,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [35]
-Underfull \vbox (badness 4467) has occurred while \output is active []
+Underfull \vbox (badness 4492) has occurred while \output is active []
 
 
 
@@ -2001,7 +2004,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[36])
+[36]
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2010,11 +2016,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37]
+[37])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[38]
 \openout2 = `Chapters/MolecularBiology.aux'.
 
  (./Chapters/MolecularBiology.tex
 Chapter 4.
+
+Package natbib Warning: Citation `Alberts2002' on page 39 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Alberts2002' on page 39 undefined on input li
+ne 9.
+
 File: images/AnatomyOfVessel.jpg Graphic file (type bmp)
 <images/AnatomyOfVessel.jpg>
 File: images/perycitesForVascular.jpg Graphic file (type bmp)
@@ -2025,9 +2048,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: images/ElectronMicroscopeOfVessel.jpg Graphic file (type bmp)
 <images/ElectronMicroscopeOfVessel.jpg>
 
+Package natbib Warning: Citation `Alberts2002' on page 39 undefined on input li
+ne 41.
+
+
+Package natbib Warning: Citation `Alberts2002' on page 39 undefined on input li
+ne 41.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38
+[39
 
 
 
@@ -2038,6 +2069,10 @@ File: images/CrossSectionOfVessels.png Graphic file (type bmp)
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Alberts2002' on page 40 undefined on input li
+ne 58.
 
 
 Underfull \vbox (badness 5578) has occurred while \output is active []
@@ -2051,7 +2086,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[39]
+[40]
 Package mdframed Info: mdframed works in twoside mode on input line 61.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2065,24 +2100,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[40]
+[41]
 File: images/endothelialResponseToVEGF.jpg Graphic file (type bmp)
 <images/endothelialResponseToVEGF.jpg>
 
 
+Package natbib Warning: Citation `Alberts2002' on page 42 undefined on input li
+ne 98.
+
+
+Package natbib Warning: Citation `Alberts2002' on page 42 undefined on input li
+ne 98.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Alberts2002' on page 42 undefined on input li
+ne 103.
 
 File: images/hallowStructureEndothelialCells.jpg Graphic file (type bmp)
 <images/hallowStructureEndothelialCells.jpg>
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Package natbib Warning: Citation `Alberts2002' on page 42 undefined on input li
+ne 116.
 
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[41]
+Package natbib Warning: Citation `Alberts2002' on page 42 undefined on input li
+ne 116.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2093,6 +2139,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 
+Package natbib Warning: Citation `Alberts2002' on page 43 undefined on input li
+ne 119.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2101,6 +2151,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [43]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[44]
 File: images/histologySquamousEpithelial.png Graphic file (type bmp)
 <images/histologySquamousEpithelial.png>
 File: images/bileDuct-SquamousEpithelialCells.png Graphic file (type bmp)
@@ -2114,7 +2173,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[44]
+[45]
 \openout2 = `Chapters/randomNotes.aux'.
 
  (./Chapters/randomNotes.tex
@@ -2123,7 +2182,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 5.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 5.
-[45
+[46
 
 
 
@@ -2144,7 +2203,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[46]
+[47]
 Package mdframed Info: mdframed works in twoside mode on input line 56.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2158,7 +2217,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[47]
+[48]
 Package mdframed Info: mdframed works in twoside mode on input line 84.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2179,7 +2238,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[48]
+[49]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2188,7 +2247,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[49] (./images/orbitApproximation.tex) (./images/rateOfVolumePass.tex)
+[50] (./images/orbitApproximation.tex) (./images/rateOfVolumePass.tex)
 
 LaTeX Warning: Command \O invalid in math mode on input line 145.
 
@@ -2201,7 +2260,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[50]
+[51]
 Package mdframed Info: mdframed works in twoside mode on input line 156.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2219,7 +2278,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[51]
+[52]
 File: images/simpleAdvectionDiffusion1.png Graphic file (type bmp)
 <images/simpleAdvectionDiffusion1.png>
 
@@ -2231,7 +2290,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[52]
+[53]
 File: images/movingToCenter.png Graphic file (type bmp)
 <images/movingToCenter.png>
 File: images/movingAround.png Graphic file (type bmp)
@@ -2248,7 +2307,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[53]
+[54]
 File: images/spiralAdvectionDiffusion.png Graphic file (type bmp)
 <images/spiralAdvectionDiffusion.png>
 
@@ -2263,7 +2322,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[54]
+[55]
 File: images/flowLinePlot.png Graphic file (type bmp)
 <images/flowLinePlot.png>
 Package mdframed Info: mdframed works in twoside mode on input line 267.
@@ -2280,7 +2339,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[55]
+[56]
 Package mdframed Info: Not enough space on this page on input line 273.
 Package mdframed Info: mdframed works in twoside mode on input line 276.
 Package mdframed Info: mdframed detected package amsthm 
@@ -2299,7 +2358,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[56]
+[57]
 Package mdframed Info: mdframed works in twoside mode on input line 304.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2325,11 +2384,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[57]
-
-LaTeX Warning: Reference `mdf@pagelabel-48' on page 58 undefined on input line 
-331.
-
+[58]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2338,7 +2393,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[58])
+[59])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2347,12 +2402,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[59]
+[60]
 \openout2 = `Chapters/MeetingLog.aux'.
 
  (./Chapters/MeetingLog.tex
 Chapter 6.
-[60
+[61
 
 
 
@@ -2366,7 +2421,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[61])
+[62])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2375,12 +2430,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[62]
+[63]
 \openout2 = `Chapters/Comments.aux'.
 
  (./Chapters/Comments.tex
 Chapter 7.
-[63
+[64
 
 
 
@@ -2394,7 +2449,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[64]
+[65]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2403,7 +2458,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[65])
+[66])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2412,55 +2467,55 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[66] (./Findings.bbl
+[67] (./Findings.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 5475) in paragraph at lines 82--91
+Underfull \hbox (badness 5475) in paragraph at lines 71--80
 []\TU/lmr/m/n/10.95 [Bauer u.a. 2007a]  \TU/lmr/m/sc/10.95 Bauer\TU/lmr/m/n/10.
 95 , A. ; \TU/lmr/m/sc/10.95 Jackson\TU/lmr/m/n/10.95 , T. ; \TU/lmr/m/sc/10.95
  Jiang\TU/lmr/m/n/10.95 , Yi:  A cell-based
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--91
+Underfull \hbox (badness 10000) in paragraph at lines 71--80
 \TU/lmr/m/n/10.95 model exhibiting branching and anastomosis during tumor-induc
 ed angiogene-
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 82--91
+Underfull \hbox (badness 5091) in paragraph at lines 71--80
 \TU/lmr/m/n/10.95 sis.  In: \TU/lmr/m/it/10.95 Biophysical journal  \TU/lmr/m/n
 /10.95 92 9 (2007), S. 3105–21. –  URL [][]$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--91
+Underfull \hbox (badness 10000) in paragraph at lines 71--80
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][] []
  []
 
-[67
 
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 106--116
+Underfull \hbox (badness 10000) in paragraph at lines 95--105
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
+[68
 
-Underfull \hbox (badness 1527) in paragraph at lines 144--153
+
+
+]
+Underfull \hbox (badness 1527) in paragraph at lines 133--142
 \TU/lmr/m/it/10.95 chanics and Modeling in Mechanobiology  \TU/lmr/m/n/10.95 15
  (2016), S. 1577–1600. –  URL [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--153
+Underfull \hbox (badness 10000) in paragraph at lines 133--142
 [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][] []
@@ -2474,10 +2529,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 312--324
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 301--313
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 315--324
+[]\TU/lmr/m/n/10.95 [Cooper u.a. 2010]  \TU/lmr/m/sc/10.95 Cooper\TU/lmr/m/n/10
+.95 , M. ; \TU/lmr/m/sc/10.95 Tanaka\TU/lmr/m/n/10.95 , Martin L. ; \TU/lmr/m/s
+c/10.95 Puri\TU/lmr/m/n/10.95 , I. K.:  Cou-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--324
+\TU/lmr/m/n/10.95 pled mathematical model of tumorigenesis and angiogenesis in 
+vascular tu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--324
+\TU/lmr/m/n/10.95 mours.  In: \TU/lmr/m/it/10.95 Cell Proliferation  \TU/lmr/m/
+n/10.95 43 (2010). –  URL [][]$[][][][][] [] [] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--324
+[][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
@@ -2488,52 +2568,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[69]
-Underfull \hbox (badness 3417) in paragraph at lines 326--335
-[]\TU/lmr/m/n/10.95 [Cooper u.a. 2010]  \TU/lmr/m/sc/10.95 Cooper\TU/lmr/m/n/10
-.95 , M. ; \TU/lmr/m/sc/10.95 Tanaka\TU/lmr/m/n/10.95 , Martin L. ; \TU/lmr/m/s
-c/10.95 Puri\TU/lmr/m/n/10.95 , I. K.:  Cou-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--335
-\TU/lmr/m/n/10.95 pled mathematical model of tumorigenesis and angiogenesis in 
-vascular tu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--335
-\TU/lmr/m/n/10.95 mours.  In: \TU/lmr/m/it/10.95 Cell Proliferation  \TU/lmr/m/
-n/10.95 43 (2010). –  URL [][]$[][][][][] [] [] [] [][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--335
-[][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 5050) in paragraph at lines 338--347
+[70]
+Underfull \hbox (badness 5050) in paragraph at lines 327--336
 []\TU/lmr/m/n/10.95 [Crawshaw u.a. 2023]  \TU/lmr/m/sc/10.95 Crawshaw\TU/lmr/m/
 n/10.95 , Jessica R. ; \TU/lmr/m/sc/10.95 Flegg\TU/lmr/m/n/10.95 , J. ; \TU/lmr
 /m/sc/10.95 Bernabeu\TU/lmr/m/n/10.95 , M. ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--347
+Underfull \hbox (badness 10000) in paragraph at lines 327--336
 \TU/lmr/m/sc/10.95 Osborne\TU/lmr/m/n/10.95 , J.:  Mathematical models of devel
 opmental vascular remodelling:
  []
 
 
-Underfull \hbox (badness 6188) in paragraph at lines 338--347
+Underfull \hbox (badness 6188) in paragraph at lines 327--336
 \TU/lmr/m/n/10.95 A review.  In: \TU/lmr/m/it/10.95 PLOS Computational Biology 
  \TU/lmr/m/n/10.95 19 (2023). –  URL [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--347
+Underfull \hbox (badness 10000) in paragraph at lines 327--336
 [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
  []
@@ -2547,14 +2602,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[70]
-Underfull \hbox (badness 1112) in paragraph at lines 452--462
+[71]
+Underfull \hbox (badness 1112) in paragraph at lines 441--451
 \TU/lmr/m/n/10.95 P. ; \TU/lmr/m/sc/10.95 McElwain\TU/lmr/m/n/10.95 , D.:  On t
 he mathematical modeling of wound healing angiogenesis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--462
+Underfull \hbox (badness 10000) in paragraph at lines 441--451
 [][]$[][][][][] [] [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][] []
@@ -2568,27 +2623,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[71]
-Underfull \hbox (badness 6876) in paragraph at lines 651--660
+[72]
+Underfull \hbox (badness 6876) in paragraph at lines 640--649
 []\TU/lmr/m/n/10.95 [Khan u.a. 2014]  \TU/lmr/m/sc/10.95 Khan\TU/lmr/m/n/10.95 
 , G. J. ; \TU/lmr/m/sc/10.95 Shakir\TU/lmr/m/n/10.95 , Lubna ; \TU/lmr/m/sc/10.
 95 Khan\TU/lmr/m/n/10.95 , Sara ; \TU/lmr/m/sc/10.95 Naeem\TU/lmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 651--660
+Underfull \hbox (badness 6493) in paragraph at lines 640--649
 \TU/lmr/m/n/10.95 H. S. ; \TU/lmr/m/sc/10.95 Omer\TU/lmr/m/n/10.95 , M.:  Asses
 sment Methods of Angiogenesis and Present Ap-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 651--660
+Underfull \hbox (badness 1874) in paragraph at lines 640--649
 \TU/lmr/m/n/10.95 proaches for Its Quantification.  In: \TU/lmr/m/it/10.95 Canc
 er Research  \TU/lmr/m/n/10.95 2 (2014). –  URL [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--660
+Underfull \hbox (badness 10000) in paragraph at lines 640--649
 [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][] []
@@ -2602,7 +2657,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[72]
+[73]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2611,33 +2666,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[73]
-Underfull \hbox (badness 10000) in paragraph at lines 827--836
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 826--835
 []\TU/lmr/m/n/10.95 [McDougall u.a. 2006]  \TU/lmr/m/sc/10.95 McDougall\TU/lmr/
 m/n/10.95 , S. ; \TU/lmr/m/sc/10.95 Anderson\TU/lmr/m/n/10.95 , A. ; \TU/lmr/m/
 sc/10.95 Chaplain\TU/lmr/m/n/10.95 , M.:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--836
+Underfull \hbox (badness 10000) in paragraph at lines 826--835
 \TU/lmr/m/n/10.95 Mathematical modelling of dynamic adaptive tumour-induced ang
 iogenesis: clin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--836
+Underfull \hbox (badness 10000) in paragraph at lines 826--835
 \TU/lmr/m/n/10.95 ical implications and therapeutic targeting strategies.  In: 
 \TU/lmr/m/it/10.95 Journal of the-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--836
+Underfull \hbox (badness 10000) in paragraph at lines 826--835
 \TU/lmr/m/it/10.95 oretical biology  \TU/lmr/m/n/10.95 241 3 (2006), S. 564–89.
  –  URL [][]$[][][][][] [] [] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--836
+Underfull \hbox (badness 10000) in paragraph at lines 826--835
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
@@ -2650,8 +2705,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 892--901
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 891--900
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
@@ -2664,79 +2719,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[75]
-Underfull \hbox (badness 3009) in paragraph at lines 987--995
+[76]
+Underfull \hbox (badness 3009) in paragraph at lines 986--994
 []\TU/lmr/m/n/10.95 [Olsen und Siegelmann 2013]  \TU/lmr/m/sc/10.95 Olsen\TU/lm
 r/m/n/10.95 , Megan M. ; \TU/lmr/m/sc/10.95 Siegelmann\TU/lmr/m/n/10.95 , H.:  
 Multiscale
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 987--995
+Underfull \hbox (badness 1331) in paragraph at lines 986--994
 \TU/lmr/m/n/10.95 Agent-based Model of Tumor Angiogenesis.   (2013), S. 1016–10
 25. –  URL [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 987--995
+Underfull \hbox (badness 10000) in paragraph at lines 986--994
 [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][] []
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 1042--1049
+Underfull \hbox (badness 6559) in paragraph at lines 1041--1048
 []\TU/lmr/m/n/10.95 [Peirce 2008]  \TU/lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10.95 ,
  S.:  Computational and Mathematical Modeling of An-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1048
 \TU/lmr/m/n/10.95 giogenesis.  In: \TU/lmr/m/it/10.95 Microcirculation  \TU/lmr
 /m/n/10.95 15 (2008). –  URL [][]$[][][][][] [] [] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1048
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 7116) in paragraph at lines 1051--1060
+Underfull \hbox (badness 7116) in paragraph at lines 1050--1059
 []\TU/lmr/m/n/10.95 [Peirce u.a. 2012]  \TU/lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10
 .95 , S. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/10.95 , F. M. ; \TU/lmr/m/sc/1
 0.95 Bautch\TU/lmr/m/n/10.95 , V.:  Inte-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1051--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1059
 \TU/lmr/m/n/10.95 gration of experimental and computational approaches to sprou
 ting angiogen-
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 1051--1060
+Underfull \hbox (badness 6412) in paragraph at lines 1050--1059
 \TU/lmr/m/n/10.95 esis.  In: \TU/lmr/m/it/10.95 Current Opinion in Hematology  
 \TU/lmr/m/n/10.95 19 (2012). –  URL [][]$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1051--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1059
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [] []
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[76]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2755,94 +2801,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [78]
-Underfull \hbox (badness 1490) in paragraph at lines 1312--1323
-[]\TU/lmr/m/n/10.95 [Walpole u.a. 2015]  \TU/lmr/m/sc/10.95 Walpole\TU/lmr/m/n/
-10.95 , Joseph ; \TU/lmr/m/sc/10.95 Chappell\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/
-sc/10.95 Cluceru\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/
-10.95 ,
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 1312--1323
-\TU/lmr/m/n/10.95 F. M. ; \TU/lmr/m/sc/10.95 Bautch\TU/lmr/m/n/10.95 , V. ; \TU
-/lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10.95 , S.:  Agent-based model of angiogenesi
-s simulates
- []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 1312--1323
-\TU/lmr/m/n/10.95 capillary sprout initiation in multicellular networks.  In: \
-TU/lmr/m/it/10.95 Integrative biology : quan-
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 1312--1323
-\TU/lmr/m/it/10.95 titative biosciences from nano to macro  \TU/lmr/m/n/10.95 7
- 9 (2015), S. 987–97. –  URL [][]$[][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1312--1323
-[] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][] []
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 1326--1334
-[]\TU/lmr/m/n/10.95 [Wang u.a. 2015]  \TU/lmr/m/sc/10.95 Wang\TU/lmr/m/n/10.95 
-, Zhihui ; \TU/lmr/m/sc/10.95 Butner\TU/lmr/m/n/10.95 , J. D. ; \TU/lmr/m/sc/10
-.95 Kerketta\TU/lmr/m/n/10.95 , Romica ; \TU/lmr/m/sc/10.95 Cristini\TU/lmr/m/n
-/10.95 ,
- []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 1326--1334
-\TU/lmr/m/n/10.95 V. ; \TU/lmr/m/sc/10.95 Deisboeck\TU/lmr/m/n/10.95 , T.:  Sim
-ulating cancer growth with multiscale agent-based model-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1334
-[][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1346--1355
-[][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1397--1406
-[]\TU/lmr/m/n/10.95 [Zudaire u.a. 2011]  \TU/lmr/m/sc/10.95 Zudaire\TU/lmr/m/n/
-10.95 , E. ; \TU/lmr/m/sc/10.95 Gambardella\TU/lmr/m/n/10.95 , L. ; \TU/lmr/m/s
-c/10.95 Kurcz\TU/lmr/m/n/10.95 , Christo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1397--1406
-\TU/lmr/m/n/10.95 pher ; \TU/lmr/m/sc/10.95 Vermeren\TU/lmr/m/n/10.95 , S.:  A 
-Computational Tool for Quantitative Analy-
- []
-
-
-Underfull \hbox (badness 6063) in paragraph at lines 1397--1406
-\TU/lmr/m/n/10.95 sis of Vascular Networks.  In: \TU/lmr/m/it/10.95 PLoS ONE  \
-TU/lmr/m/n/10.95 6 (2011). –  URL [][]$[][][][][] [] [] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1397--1406
-[][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][] []
- []
-
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2851,26 +2809,123 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[79] (./Findings.aux (./Chapters/modelAttempts.aux)
+[79]
+Underfull \hbox (badness 1490) in paragraph at lines 1311--1322
+[]\TU/lmr/m/n/10.95 [Walpole u.a. 2015]  \TU/lmr/m/sc/10.95 Walpole\TU/lmr/m/n/
+10.95 , Joseph ; \TU/lmr/m/sc/10.95 Chappell\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/
+sc/10.95 Cluceru\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/
+10.95 ,
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 1311--1322
+\TU/lmr/m/n/10.95 F. M. ; \TU/lmr/m/sc/10.95 Bautch\TU/lmr/m/n/10.95 , V. ; \TU
+/lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10.95 , S.:  Agent-based model of angiogenesi
+s simulates
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 1311--1322
+\TU/lmr/m/n/10.95 capillary sprout initiation in multicellular networks.  In: \
+TU/lmr/m/it/10.95 Integrative biology : quan-
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 1311--1322
+\TU/lmr/m/it/10.95 titative biosciences from nano to macro  \TU/lmr/m/n/10.95 7
+ 9 (2015), S. 987–97. –  URL [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1322
+[] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 1325--1333
+[]\TU/lmr/m/n/10.95 [Wang u.a. 2015]  \TU/lmr/m/sc/10.95 Wang\TU/lmr/m/n/10.95 
+, Zhihui ; \TU/lmr/m/sc/10.95 Butner\TU/lmr/m/n/10.95 , J. D. ; \TU/lmr/m/sc/10
+.95 Kerketta\TU/lmr/m/n/10.95 , Romica ; \TU/lmr/m/sc/10.95 Cristini\TU/lmr/m/n
+/10.95 ,
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 1325--1333
+\TU/lmr/m/n/10.95 V. ; \TU/lmr/m/sc/10.95 Deisboeck\TU/lmr/m/n/10.95 , T.:  Sim
+ulating cancer growth with multiscale agent-based model-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1325--1333
+[][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1354
+[][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1396--1405
+[]\TU/lmr/m/n/10.95 [Zudaire u.a. 2011]  \TU/lmr/m/sc/10.95 Zudaire\TU/lmr/m/n/
+10.95 , E. ; \TU/lmr/m/sc/10.95 Gambardella\TU/lmr/m/n/10.95 , L. ; \TU/lmr/m/s
+c/10.95 Kurcz\TU/lmr/m/n/10.95 , Christo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1396--1405
+\TU/lmr/m/n/10.95 pher ; \TU/lmr/m/sc/10.95 Vermeren\TU/lmr/m/n/10.95 , S.:  A 
+Computational Tool for Quantitative Analy-
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 1396--1405
+\TU/lmr/m/n/10.95 sis of Vascular Networks.  In: \TU/lmr/m/it/10.95 PLoS ONE  \
+TU/lmr/m/n/10.95 6 (2011). –  URL [][]$[][][][][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1396--1405
+[][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] []
+ []
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[80] (./Findings.aux (./Chapters/modelAttempts.aux)
 (./Chapters/theoriticalInvestiagtion.aux) (./Chapters/PapersReviewed.aux)
 (./Chapters/MolecularBiology.aux) (./Chapters/randomNotes.aux)
 (./Chapters/MeetingLog.aux) (./Chapters/Comments.aux))
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Findings.out' has not changed.
-(rerunfilecheck)             Checksum: 76FFA347400EC33E1794B2138E5F798F;11535.
+(rerunfilecheck)             Checksum: E6B4C1D6E0633068C51CC735706ADDB7;12264.
  ) 
 Here is how much of TeX's memory you used:
- 52905 strings out of 476191
- 1276410 string characters out of 5812072
- 1883049 words of memory out of 5000000
- 72706 multiletter control sequences out of 15000+600000
+ 52906 strings out of 476191
+ 1276432 string characters out of 5812072
+ 1882832 words of memory out of 5000000
+ 72707 multiletter control sequences out of 15000+600000
  480503 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,15n,108p,2136b,1122s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Findings.pdf (80 pages).
+Output written on Findings.pdf (81 pages).

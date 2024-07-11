@@ -19,22 +19,11 @@
 \newblock URL \url{https://app.jove.comthe corneal micropocket assay: a model
   of angiogenesis in the mouse eye}. -- Zugriffsdatum: 2024-01-27
 
-\bibitem[Alberts u.\,a.(2002{\natexlab{a}})Alberts, Johnson, Lewis, Raff,
-  Roberts und Walter]{Alberts2002}
-\dinatlabel{Alberts u.\,a. 2002{\natexlab{a}}} \textsc{Alberts}, Bruce~;
-  \textsc{Johnson}, Alexander~; \textsc{Lewis}, Julian~; \textsc{Raff},
-  Martin~; \textsc{Roberts}, Keith~; \textsc{Walter}, Peter:
-\newblock Blood {Vessels} and {Endothelial} {Cells}.
-\newblock In: \emph{Molecular {Biology} of the {Cell}. 4th edition}.
-\newblock Garland Science, 2002. --
-\newblock URL \url{https://www.ncbi.nlm.nih.gov/books/NBK26848/}. --
-  Zugriffsdatum: 2024-01-27
-
-\bibitem[Alberts u.\,a.(2002{\natexlab{b}})Alberts, Johnson, Lewis, Raff,
-  Roberts und Walter]{Alberts2002a}
-\dinatlabel{Alberts u.\,a. 2002{\natexlab{b}}} \textsc{Alberts}, Bruce~;
-  \textsc{Johnson}, Alexander~; \textsc{Lewis}, Julian~; \textsc{Raff},
-  Martin~; \textsc{Roberts}, Keith~; \textsc{Walter}, Peter:
+\bibitem[Alberts u.\,a.(2002)Alberts, Johnson, Lewis, Raff, Roberts und
+  Walter]{Alberts2002a}
+\dinatlabel{Alberts u.\,a. 2002} \textsc{Alberts}, Bruce~; \textsc{Johnson},
+  Alexander~; \textsc{Lewis}, Julian~; \textsc{Raff}, Martin~;
+  \textsc{Roberts}, Keith~; \textsc{Walter}, Peter:
 \newblock \emph{Molecular {Biology} of the {Cell}}.
 \newblock 4th.
 \newblock Garland Science, 2002. --
@@ -657,6 +646,16 @@
 \newblock URL
   \url{https://consensus.app/papers/assessment-methods-angiogenesis-present-approaches-khan/f73789f2ecf0541595b7c59887fdf599/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Kimura u.\,a.(1996)Kimura, Braun, Ong, Hsu, Secomb, Papahadjopoulos,
+  Hong und Dewhirst]{Kimura1996-od}
+\dinatlabel{Kimura u.\,a. 1996} \textsc{Kimura}, H~; \textsc{Braun}, R~D.~;
+  \textsc{Ong}, E~T.~; \textsc{Hsu}, R~; \textsc{Secomb}, T~W.~;
+  \textsc{Papahadjopoulos}, D~; \textsc{Hong}, K~; \textsc{Dewhirst}, M~W.:
+\newblock Fluctuations in red cell flux in tumor microvessels can lead to
+  transient hypoxia and reoxygenation in tumor parenchyma.
+\newblock In: \emph{Cancer Res.}
+\newblock 56 (1996), Dezember, Nr.~23, S.~5522--5528
 
 \bibitem[Konerding u.\,a.(2001)Konerding, Fait und Gaumann]{Konerding2001}
 \dinatlabel{Konerding u.\,a. 2001} \textsc{Konerding}, M.~A.~; \textsc{Fait},
