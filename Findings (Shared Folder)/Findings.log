@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  8 JUL 2024 09:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  15 JUL 2024 08:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1834,7 +1834,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24])
+[24]
+File: images/optimalTransportAndAngiogenesis.png Graphic file (type bmp)
+<images/optimalTransportAndAngiogenesis.png>
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2917,13 +2920,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Findings.out' has not changed.
-(rerunfilecheck)             Checksum: E6B4C1D6E0633068C51CC735706ADDB7;12264.
+(rerunfilecheck)             Checksum: ED6DD7121C349B4CCDBC21427CD1C8B2;12414.
  ) 
 Here is how much of TeX's memory you used:
- 52906 strings out of 476191
- 1276432 string characters out of 5812072
- 1882832 words of memory out of 5000000
- 72707 multiletter control sequences out of 15000+600000
+ 52926 strings out of 476191
+ 1277314 string characters out of 5812072
+ 1883030 words of memory out of 5000000
+ 72726 multiletter control sequences out of 15000+600000
  480503 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,15n,108p,2136b,1122s stack positions out of 5000i,500n,10000p,200000b,80000s
