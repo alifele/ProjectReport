@@ -1,0 +1,29 @@
+Depending on the modeling of interest A wide variety of software solutions exists.
+
+
+To simulate ODE models and perform the necessary analysis (birfurcation analysis, sensitivity anlysis, model reduction, etc) a wide variety of open source and commercial tools are developed. Refer to the last chapter of the book systems biology for a comprehensive list of awailable open source/commercial software tools and their capabilities.
+
+
+For PDE models, due to their complexities, there are less "integrated" software solutions availabe. VisualPDE web based software is a modern software solution to simulate and visualize farily complex PDE systems using finte element. A very intersting and growing set of examples, alongwith a complete explanation of each model in the website can be served as a great learning tool, as well as a very useful starting point to build other models by modification of existing models. Non-scalability for more complex simulations, non scripting, restricted available domain shapes, are among the limitations of this web based tool. There also other options to simulate and visualize PDE models, where sphinx, Matlab PDE applet, [etc etc etc] are among the useful tools.
+
+
+However, analysis of the PDE models do not come out of the box with the available software tools for simulating the PDEs and often more dedicated libraries are needed.
+
+
+For the hybrid modeling, that integrates the discrete and continuous models, thus harnessting the good of two world has been a popular approch recently [some review papers] and has been very succsful in mathematical biology research [some citations]. There are vide warity of tools exisiting for this purpose each with their limitations and powers, like being friendly wiht scripting, having internal GUI for rapid model development, or being somewhere in between, as reviewed by the paper [The citation by Leah]. 
+
+Althought the working princinple is the same theory of cellular potts model, but due to different implementaions and different structures used, often it is quite challenging to reproduce exactly same results by the same set of parameters in different software tools. Nontheless, a slight modification of parameters will lead to a same qualitative results [some figures from my project]. Also see (Buttenschon, et al 2020 Fig 5 for a similar comparison)
+
+To put the softwares on the spectrum of ease of use for pedagogical purposes, the software tool Artistoo has demonstrated a very good power. This software tool is developed purely with Javascript, hence it is native to be ran on the browsers, which makes it very accesible for students to get familiar with the concept easilty. Also, the detailed repositry of pre-designed models serve as a very good starting point. Nevertheless, use of use and easy to learn often comes with the cost of non-scalability for more complex tasks and scripts.
+
+
+
+Compared to the software suits that support ODE/PDE models natively, the CPM/Hybrid softwares are often limited with their capability in handling the continuous part of the model (i.e. ODEs, PDEs). The essential tools like sensitivty analysis, steady state solution analysis, bifurcation analysys, numerical schemse to support the non-stiff models, support for more complicated PDE models / stochstic differential equations (including the advection diffusion models),  are either not implemented, or are very basic and elementary and needs to be expanded.
+
+The trend in modern software ecosystems is the integrated software suits that are extinble with the notion of plugins. Some software slutions like CHEAST uses this paradigm. For instance the microvascular plugin is desiged to be used alongside CHEAST for more dedicated simulations for angiogenesis models. This framework can be promising for more scalable software solutions where different dedicated modules (like the ODE/PDE analysis tools mentioned above) can be developed by dedicated research group and be used as a plugin.
+
+
+
+
+
+More dedicated software tools like aritifical chemistry, etc.

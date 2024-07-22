@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  15 JUL 2024 08:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  15 JUL 2024 08:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2743,44 +2743,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 986--994
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 1041--1048
+Underfull \hbox (badness 6559) in paragraph at lines 1048--1055
 []\TU/lmr/m/n/10.95 [Peirce 2008]  \TU/lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10.95 ,
  S.:  Computational and Mathematical Modeling of An-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1048
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1055
 \TU/lmr/m/n/10.95 giogenesis.  In: \TU/lmr/m/it/10.95 Microcirculation  \TU/lmr
 /m/n/10.95 15 (2008). –  URL [][]$[][][][][] [] [] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1048
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1055
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 7116) in paragraph at lines 1050--1059
+Underfull \hbox (badness 7116) in paragraph at lines 1057--1066
 []\TU/lmr/m/n/10.95 [Peirce u.a. 2012]  \TU/lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10
 .95 , S. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/10.95 , F. M. ; \TU/lmr/m/sc/1
 0.95 Bautch\TU/lmr/m/n/10.95 , V.:  Inte-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1059
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1066
 \TU/lmr/m/n/10.95 gration of experimental and computational approaches to sprou
 ting angiogen-
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 1050--1059
+Underfull \hbox (badness 6412) in paragraph at lines 1057--1066
 \TU/lmr/m/n/10.95 esis.  In: \TU/lmr/m/it/10.95 Current Opinion in Hematology  
 \TU/lmr/m/n/10.95 19 (2012). –  URL [][]$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1059
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1066
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [] []
@@ -2813,7 +2813,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [79]
-Underfull \hbox (badness 1490) in paragraph at lines 1311--1322
+Underfull \hbox (badness 1490) in paragraph at lines 1318--1329
 []\TU/lmr/m/n/10.95 [Walpole u.a. 2015]  \TU/lmr/m/sc/10.95 Walpole\TU/lmr/m/n/
 10.95 , Joseph ; \TU/lmr/m/sc/10.95 Chappell\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/
 sc/10.95 Cluceru\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/
@@ -2821,33 +2821,33 @@ sc/10.95 Cluceru\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 1311--1322
+Underfull \hbox (badness 1642) in paragraph at lines 1318--1329
 \TU/lmr/m/n/10.95 F. M. ; \TU/lmr/m/sc/10.95 Bautch\TU/lmr/m/n/10.95 , V. ; \TU
 /lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10.95 , S.:  Agent-based model of angiogenesi
 s simulates
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 1311--1322
+Underfull \hbox (badness 1448) in paragraph at lines 1318--1329
 \TU/lmr/m/n/10.95 capillary sprout initiation in multicellular networks.  In: \
 TU/lmr/m/it/10.95 Integrative biology : quan-
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 1311--1322
+Underfull \hbox (badness 2165) in paragraph at lines 1318--1329
 \TU/lmr/m/it/10.95 titative biosciences from nano to macro  \TU/lmr/m/n/10.95 7
  9 (2015), S. 987–97. –  URL [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1322
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1329
 [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1325--1333
+Underfull \hbox (badness 1019) in paragraph at lines 1332--1340
 []\TU/lmr/m/n/10.95 [Wang u.a. 2015]  \TU/lmr/m/sc/10.95 Wang\TU/lmr/m/n/10.95 
 , Zhihui ; \TU/lmr/m/sc/10.95 Butner\TU/lmr/m/n/10.95 , J. D. ; \TU/lmr/m/sc/10
 .95 Kerketta\TU/lmr/m/n/10.95 , Romica ; \TU/lmr/m/sc/10.95 Cristini\TU/lmr/m/n
@@ -2855,46 +2855,46 @@ Underfull \hbox (badness 1019) in paragraph at lines 1325--1333
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 1325--1333
+Underfull \hbox (badness 1472) in paragraph at lines 1332--1340
 \TU/lmr/m/n/10.95 V. ; \TU/lmr/m/sc/10.95 Deisboeck\TU/lmr/m/n/10.95 , T.:  Sim
 ulating cancer growth with multiscale agent-based model-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1325--1333
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1340
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1354
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1361
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1396--1405
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1412
 []\TU/lmr/m/n/10.95 [Zudaire u.a. 2011]  \TU/lmr/m/sc/10.95 Zudaire\TU/lmr/m/n/
 10.95 , E. ; \TU/lmr/m/sc/10.95 Gambardella\TU/lmr/m/n/10.95 , L. ; \TU/lmr/m/s
 c/10.95 Kurcz\TU/lmr/m/n/10.95 , Christo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1396--1405
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1412
 \TU/lmr/m/n/10.95 pher ; \TU/lmr/m/sc/10.95 Vermeren\TU/lmr/m/n/10.95 , S.:  A 
 Computational Tool for Quantitative Analy-
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 1396--1405
+Underfull \hbox (badness 6063) in paragraph at lines 1403--1412
 \TU/lmr/m/n/10.95 sis of Vascular Networks.  In: \TU/lmr/m/it/10.95 PLoS ONE  \
 TU/lmr/m/n/10.95 6 (2011). –  URL [][]$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1396--1405
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1412
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][] []
@@ -2923,12 +2923,12 @@ Package rerunfilecheck Info: File `Findings.out' has not changed.
 (rerunfilecheck)             Checksum: ED6DD7121C349B4CCDBC21427CD1C8B2;12414.
  ) 
 Here is how much of TeX's memory you used:
- 52926 strings out of 476191
- 1277314 string characters out of 5812072
- 1883030 words of memory out of 5000000
- 72726 multiletter control sequences out of 15000+600000
+ 52929 strings out of 476191
+ 1277374 string characters out of 5812072
+ 1883159 words of memory out of 5000000
+ 72729 multiletter control sequences out of 15000+600000
  480503 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,15n,108p,2136b,1122s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,15n,108p,2136b,1124s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Findings.pdf (81 pages).

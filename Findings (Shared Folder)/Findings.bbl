@@ -1,4 +1,4 @@
-\begin{thebibliography}{129}
+\begin{thebibliography}{130}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -1036,6 +1036,13 @@
 \newblock In: \emph{Critical Reviews in Oncology/Hematology}
 \newblock 9 (1989), Nr.~3, S.~197--242. --
 \newblock ISSN 1040-8428
+
+\bibitem[Pegon u.\,a.(2019)Pegon, Santambrogio und Xia]{Pegon2019-ww}
+\dinatlabel{Pegon u.\,a. 2019} \textsc{Pegon}, Paul~; \textsc{Santambrogio},
+  Filippo~; \textsc{Xia}, Qinglan:
+\newblock A fractal shape optimization problem in branched transport.
+\newblock In: \emph{J. Math. Pures Appl.}
+\newblock 123 (2019), M\^^b{a}rz, S.~244--269
 
 \bibitem[Peirce(2008)]{Peirce2008}
 \dinatlabel{Peirce 2008} \textsc{Peirce}, S.:
