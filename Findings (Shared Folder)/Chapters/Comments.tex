@@ -1,4 +1,4 @@
-\chapter{Comments}
+\chapter{Leah's Chapter}
 
 
 	
@@ -133,3 +133,179 @@ You can later (after all the early steps) extend and improve the model in variou
 	\item Consider some kind of D'Arcy's Law (porous medium) as a measure of how vessel structure can reduce net drug delivery.
 	\item Vessels have various radii and sizes. You may want to consider how this affects the model as well as the implications on drug delivery. A PDE model with a distribution of vessel diameters would likely be a bit newer than the above simple branching equations.
 \end{itemize}
+
+
+
+\section{Distribution Model for Branching}
+
+%	
+\subsection{Introduction}
+
+The purpose of the model below is to derive a continuum description of vessel density so that it will be possible to compute mean vessel radius, as well as other aggregate properties that can, in turn, help to approximate the flow of blood through tissue.
+
+Some questions that this model could help answer are: how do tip branching and fusing combine to determine the properties of the vessels in some average way. How is mean radius dependent on assumptions about branching and fusing? If drugs or treatments affect the mortality of vessels, or the branching, how would the aggregate properties change?
+
+
+\subsection{Derivation of the model}
+
+Let $n(r,t), \rho(r,t)$ be the density of tips of blood vessels and of vessels that have radius $r$ at time $t$. That is,
+\[
+\int_a^b n(r,t) \, dr = \text{number of tips of vessels whose radius is in } a \le r \le b
+\]
+and similarly for $\rho$.
+Note that the total number of tips and the total length of vessels in the ``unit volume'' would then be
+\[
+N=\int_0^\infty n(r,t) \, dr, \quad  P=\int_0^\infty \rho(r,t) \, dr
+\]
+and the mean radius of the vessels in the unit volume would be
+\[
+r_\text{mean}=\int_0^\infty r \, \rho(r,t) \, dr
+\]
+We can similarly get higher moments of the distribution. In practice, there is some maximal radius, which is the upper limit of the integral. 
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.5\linewidth]{Figures/SimpleTubesVesselModel.png}
+%	\caption{The simple model for radial distribution of vessels can provide the most basic first idea of a block of tissue as a porous medium through which blood can flow. The model can inform us about the distribution of ``pores'' (radial vessels of various sizes). Left: the model keeps track of vessels of various radii in a unit volume of tissue. Right: view from another side of the block is basically that of a lot of ``holes'', like in porous medium. }
+%	\label{fig:SimpleTubesVesselModel}
+%\end{figure}
+
+We consider the following processes ad rates
+\begin{align*}
+	\beta(r)&= \text{branching rate,}\\
+	K(r,R) &= \text{probability that tip of a vessel of radius } R \text{ produces a daughter of radius } r, \\
+	\phi &= \text {average number of daughters produced per branching event},\\
+	A(r,R)&= \text{probability of fusing of tip of radius }r \text{ with vessel of radius }R,\\
+	\psi(r)&= \text{anastomosis rate},\\
+	v(r)&= \text{rate of tip extension},\\
+	\gamma(r) &= \text{rate of vessel mortality}.    
+\end{align*}
+
+Then a model for $n,\rho$ would be
+\begin{align}
+	\frac{\partial n}{\partial t} &= -\beta(r) n + \phi \beta(r) \int K(r,R) n(R,t) \, dR - \psi n(r,t) \int A(R,r)\rho(R,t)\, dR\\
+	\frac{\partial \rho}{\partial t} &= v(r) n(r,t) - \gamma(r) \rho(r,t)  .
+\end{align}
+
+In the first equation, the terms are (a) loss of a tip of radius $r$ when it splits into daughters of other radii, (b) creation of new tip of radius $r$ from any other parents of radius $R$. The integral sums over all such possible parents, with a kernel $K(R,r)$ that weights the contribution from $R$-radius parents to $r$-radius daughters. ($K$ is assumed to be normalized; more will be said about this kernel later.) A branching event produces 1 or more daughters, in general, and $\phi$ is that average number of daughters. ($\phi \approx 2$ typically.) (c) The third term is loss of tip of radius $r$ due to fusing with any other branches of radius $R$. The kernel $A$ (``anastomosis''), also normalized, gives the probability of this event, and $\psi>0$ is some rate.
+
+
+In the second equation, density of $r$-radius vessels increases when their tips grow, and we assume a low rate of decay to allow for some steady state.
+The vessels grow in length at their tips (which deposits branch length behind them). But it is assumed that they do not widen radially. (If this does happen, there would be a term of the form $-\partial (n \omega)/\partial r$ where $\omega$ is the rate of radial growth on the RHS of the first equation to take that into account.)
+
+The above model is nonlocal in that the dynamics of vessels at one radius (say $r$) depend on vessels at far larger (or smaller) radii. The kernels in such nonlocal equations will be important in the predicted behaviour of the system. However, the model is currently not spatial. It could be extended in that was, similar to \cite{edelstein1989models}, but we first consider this nonspatial version. For models using nonlocal equations (PDEs with integral terms) we refer the reader to papers on angular distributions such as \cite{edelstein1990contact,edelstein1990models,mogilner1995selecting,mogilner1995modelling,mogilner1999non,edelstein2005mathematical}
+
+In principle, many of the coefficients may be dependent on vessel size. That dependence will greatly influence the outcome of the model. However, most of the analysis will be restricted to simple special cases where those rates are constant.
+
+\subsection{Possible kernels and their interpretation}
+
+\subsection{Branching kernel}
+
+We can think of several simplifying cases for which the model can be analysed, including:
+
+\begin{itemize}
+	\item[k1:] $K$ is constant. (This is not very realistic, as it implies that a vessel can branch into daughters of any radii, including larger radii, which is implausible.
+	\item[k2:] $K(r,R)$ is a delta-function, 
+	$K=\delta(r-\alpha R)$. This means that parents of radius $R$ produce only daughters of radius $r=\alpha R$, where it makes sense that $0\le \alpha \le 1$.
+	\item[k3:] $K(r,R)$ is some Gaussian with mean at $r=\alpha R$. This last case can be simulated numerically.
+\end{itemize}
+The cases k1, k2 lead to some possible analysis.
+
+\subsection{Branching rate}
+It is possible that the vessel size affects the branching rate: possibly $\beta(r)$ is an increasing or decreasing function of radius. We will consider $\beta \ge 0 =$ constant in some cases that can be analysed.
+
+\subsection{Anastomosis kernel}
+
+It is not clear whether fusion of a tip with a vessel depends on the radii of these two. As in the case of the branching kernel, there are several possible assumptions, including
+
+\begin{itemize}
+	\item[a1:] $A$ is constant. (This is not very realistic, as it implies that a vessel of radius $r$ has an equal probability of fusing with a vessel of any other size. 
+	\item[a2:] $A(r,R)$ is a delta-function, 
+	$K=\delta(r-R)$. This means that an $r$-radius tip can only fuse to an $R$-radius vessel if $R=r$ radius.
+	\item[a3:] $A(r,R)$ is some Gaussian with mean at $r=R$. 
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%
+\subsection{Analysis of special cases}
+
+Below, we consider a number of simple situations where, under suitable assumptions, the model can be analysed either qualitatively or quantitatively. Even though many simplifications are somewhat unrealistic, we can use these results to get initial insights into how the branching system behaves.
+
+\subsection{Case 1: No anastomosis}
+Consider the case that (1) there is insignificant tip fusions, so that $A\approx 0$ and (2) Branching of $r$-sized tip produces daughters of any size smaller than $r$, with equal probability, that is $\beta=\beta(R)$ depends only on the parent radius, $R$, with $K(R,r)=H(R-r)$ a step function that ``turns on'' when $R=r$. (3) There is also some (possibly size-dependent) rate of tip stalling (or death), $\kappa(r)\ge 0$.
+Then the model has the form
+\begin{equation}
+	\label{eq:Case1:noAnast}
+	\frac{\partial n}{\partial t} = -\beta(r) n + \phi  \int_r^\infty \beta(R) n(R,t) \, dR - \kappa(r) n(r,t)     
+\end{equation}
+The first term is as before, while in the second term, we took the branching kernel to be simpler. The last term is 1st order decay of tips.
+
+This model can be analyzed by a method used in section 4 of \cite{edelstein2001model}.Look for a steady state distribution where $\frac{\partial n}{\partial t}=0$, and define
+\[
+z(r)= \int_r^\infty \beta(R) n(R,t) \, dR
+\]
+Then $\phi z$ is a cumulative rate of branching that results in $r$ sized vessels.
+
+By the Fundamental Theorem of Calculus,
+\[
+\frac{dz}{dr}= -\beta(r) n(r)
+\]
+(where we have used an assumption that $n(r)\to 0$ as $r\to \infty$). We can now rewrite the steady state version of Eqn.~\eqref{eq:Case1:noAnast} in the form
+\[
+0=\frac{dz}{dr} + \phi z +\frac{\kappa(r)}{\beta(r)} \frac{dz}{dr}
+\]
+where we have replaced each term by the equivalent term in $z$. But this is just a simple first order ODE for $z(r)$,
+\[
+\frac{dz}{dr}=- \frac{\phi \beta(r)}{\beta(r)+\kappa(r)} \, z.
+\]
+This can be easily integrated, by the usual technique of separation, i.e.,
+\[
+\frac{dz}{z}=- \frac{\phi \beta(r)}{\beta(r)+\kappa(r)} \, dr.
+\]
+It would be interesting to consider this solution for various specific assumptions about the functions $\beta(r),\kappa(r)$. We can then get an analytic formula for $n(r)$, and also for the vessel distribution $\rho(r)$.
+For example, if $\beta,\kappa$ are constants, we immediately see an exponential distribution, as expected.
+
+
+
+\subsection{Case 2: Delta function kernels}
+
+One special case that can be analyzed is that of delta function kernels $K(r,R)=\delta(r-\alpha R), A(r, R) = \delta(r-R)$. 
+We also assume that all coefficients are constant parameters.
+In this case, the model equations reduce to
+\begin{align}
+	\frac{\partial n}{\partial t} &= -\beta n + \phi \beta n(r/\alpha,t)  - \psi n(r,t) \rho(r,t)\\
+	\frac{\partial \rho}{\partial t} &= v n(r,t) - \gamma \rho(r,t)  .
+\end{align}
+That is, branching or parents with radius $R$ produces daughters at radius $r=\alpha R$, and fusion is only with vessels of the same radius.
+
+The steady state of this system satisfies
+\begin{align}
+	0 &= -\beta n(r) + \phi \beta n(r/\alpha)  - \psi n(r) \rho(r)\\
+	0 &= nv(r) - \gamma \rho(r)  .
+\end{align}
+We can eliminate $\rho$ using the second equation, obtaining
+\begin{equation}
+	\label{eq:discreteEq1}
+	0= -\beta n(r) + \phi \beta n(r/\alpha)  - \frac{v\psi}{\gamma} n^2(r)
+\end{equation}
+This equation links daughter tips of radius $r$ to parent tips whose (larger) radius is $r/\alpha$. Let us define the ith generation as the parents and the i+1 generation as the daughters. Assign the discrete variables
+\begin{align}
+	n_{i+1}&= n(r)\\
+	n_i&=n(r/\alpha).
+\end{align}
+Then the above equation can be written as
+\begin{equation}
+	\label{eq:discreteEq2}
+	0= -\beta n_{i+1} + \phi \beta n_i - \frac{v\psi}{\gamma} n^2_{i+1}
+\end{equation}
+This is a nonlinear discrete dynamical ``map'', let us rewrite it as
+\[
+n_i=f(n_{i+1}), \quad \text{where} \quad f(x)=\frac{1}{\phi}\left(x+\frac{\psi}{\beta}x^2\right).
+\]
+The ``generator'' of this iterated map is a quadratic function.  While we cannot solve it in closed form, we can use the usual ``cobwebbing'' method to solve it graphically, as shown in \cite{edelstein2005mathematical}. We can also iterate it on a computer. 
+
+We can also determine conditions on the parameters for which there is a progression $n_i \to 0$ as the generation number increases, or where $n_i \to N_0$, where $N_0>0$ is some constant tip density.
+
+Note: this map is related to the famous Robert May's discrete logistic map, but our iteration goes in reverse, from i+1 to i. That does not matter in the ability to understand the qualitative behaviour of the system.
+
+

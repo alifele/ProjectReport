@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  12 AUG 2024 20:03
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  21 AUG 2024 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,8 +1302,8 @@ h' as default language. on input line 22.
 
 LaTeX Warning: Label `fig:simpleadvectiondiffusion1' multiply defined.
 
-) (./Chapters/MeetingLog.aux) (./Chapters/Comments.aux)
-(./Chapters/PapersReviewed.aux))
+) (./Chapters/MeetingLog.aux) (./Chapters/PapersReviewed.aux)
+(./Chapters/Comments.aux))
 \openout1 = `Findings.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -2347,10 +2347,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [55]
-\openout2 = `Chapters/Comments.aux'.
+\openout2 = `Chapters/PapersReviewed.aux'.
 
- (./Chapters/Comments.tex
+ (./Chapters/PapersReviewed.tex
 Chapter 7.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 19.
+
 [56
 
 
@@ -2374,7 +2378,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[58])
+[58]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2384,15 +2391,65 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [59]
-\openout2 = `Chapters/PapersReviewed.aux'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (./Chapters/PapersReviewed.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[60]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[61]
+Underfull \vbox (badness 4492) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[62]
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[63])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[64]
+\openout2 = `Chapters/Comments.aux'.
+
+ (./Chapters/Comments.tex
 Chapter 8.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 19.
-
-[60
+[65
 
 
 
@@ -2406,64 +2463,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[61]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[62]
-Underfull \vbox (badness 2418) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[63]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[64]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[65]
-Underfull \vbox (badness 4492) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [66]
-Underfull \vbox (badness 1688) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2472,7 +2472,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[67])
+[67]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2481,7 +2481,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[68] (./Findings.bbl
+[68]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[69]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[70]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[71])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[72] (./Findings.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2518,7 +2554,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--105
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[69
+[73
 
 
 
@@ -2543,7 +2579,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[70]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 301--313
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
@@ -2582,7 +2618,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[71]
+[75]
 Underfull \hbox (badness 5050) in paragraph at lines 327--336
 []\TU/lmr/m/n/10.95 [Crawshaw u.a. 2023]  \TU/lmr/m/sc/10.95 Crawshaw\TU/lmr/m/
 n/10.95 , Jessica R. ; \TU/lmr/m/sc/10.95 Flegg\TU/lmr/m/n/10.95 , J. ; \TU/lmr
@@ -2616,14 +2652,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[72]
-Underfull \hbox (badness 1112) in paragraph at lines 441--451
+[76]
+Underfull \hbox (badness 1112) in paragraph at lines 478--488
 \TU/lmr/m/n/10.95 P. ; \TU/lmr/m/sc/10.95 McElwain\TU/lmr/m/n/10.95 , D.:  On t
 he mathematical modeling of wound healing angiogenesis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--451
+Underfull \hbox (badness 10000) in paragraph at lines 478--488
 [][]$[][][][][] [] [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][] []
@@ -2637,27 +2673,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[73]
-Underfull \hbox (badness 6876) in paragraph at lines 640--649
+[77]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[78]
+Underfull \hbox (badness 6876) in paragraph at lines 677--686
 []\TU/lmr/m/n/10.95 [Khan u.a. 2014]  \TU/lmr/m/sc/10.95 Khan\TU/lmr/m/n/10.95 
 , G. J. ; \TU/lmr/m/sc/10.95 Shakir\TU/lmr/m/n/10.95 , Lubna ; \TU/lmr/m/sc/10.
 95 Khan\TU/lmr/m/n/10.95 , Sara ; \TU/lmr/m/sc/10.95 Naeem\TU/lmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 640--649
+Underfull \hbox (badness 6493) in paragraph at lines 677--686
 \TU/lmr/m/n/10.95 H. S. ; \TU/lmr/m/sc/10.95 Omer\TU/lmr/m/n/10.95 , M.:  Asses
 sment Methods of Angiogenesis and Present Ap-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 640--649
+Underfull \hbox (badness 1874) in paragraph at lines 677--686
 \TU/lmr/m/n/10.95 proaches for Its Quantification.  In: \TU/lmr/m/it/10.95 Canc
 er Research  \TU/lmr/m/n/10.95 2 (2014). –  URL [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--649
+Underfull \hbox (badness 10000) in paragraph at lines 677--686
 [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][] []
@@ -2671,42 +2716,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[74]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 826--835
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 863--872
 []\TU/lmr/m/n/10.95 [McDougall u.a. 2006]  \TU/lmr/m/sc/10.95 McDougall\TU/lmr/
 m/n/10.95 , S. ; \TU/lmr/m/sc/10.95 Anderson\TU/lmr/m/n/10.95 , A. ; \TU/lmr/m/
 sc/10.95 Chaplain\TU/lmr/m/n/10.95 , M.:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--835
+Underfull \hbox (badness 10000) in paragraph at lines 863--872
 \TU/lmr/m/n/10.95 Mathematical modelling of dynamic adaptive tumour-induced ang
 iogenesis: clin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--835
+Underfull \hbox (badness 10000) in paragraph at lines 863--872
 \TU/lmr/m/n/10.95 ical implications and therapeutic targeting strategies.  In: 
 \TU/lmr/m/it/10.95 Journal of the-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--835
+Underfull \hbox (badness 10000) in paragraph at lines 863--872
 \TU/lmr/m/it/10.95 oretical biology  \TU/lmr/m/n/10.95 241 3 (2006), S. 564–89.
  –  URL [][]$[][][][][] [] [] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--835
+Underfull \hbox (badness 10000) in paragraph at lines 863--872
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
@@ -2719,8 +2755,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[76]
-Underfull \hbox (badness 10000) in paragraph at lines 891--900
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 948--957
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
@@ -2733,65 +2769,73 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[77]
-Underfull \hbox (badness 3009) in paragraph at lines 986--994
+[81]
+Underfull \hbox (badness 3009) in paragraph at lines 1043--1051
 []\TU/lmr/m/n/10.95 [Olsen und Siegelmann 2013]  \TU/lmr/m/sc/10.95 Olsen\TU/lm
 r/m/n/10.95 , Megan M. ; \TU/lmr/m/sc/10.95 Siegelmann\TU/lmr/m/n/10.95 , H.:  
 Multiscale
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 986--994
+Underfull \hbox (badness 1331) in paragraph at lines 1043--1051
 \TU/lmr/m/n/10.95 Agent-based Model of Tumor Angiogenesis.   (2013), S. 1016–10
 25. –  URL [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 986--994
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1051
 [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][] []
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 1048--1055
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[82]
+Underfull \hbox (badness 6559) in paragraph at lines 1105--1112
 []\TU/lmr/m/n/10.95 [Peirce 2008]  \TU/lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10.95 ,
  S.:  Computational and Mathematical Modeling of An-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1055
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1112
 \TU/lmr/m/n/10.95 giogenesis.  In: \TU/lmr/m/it/10.95 Microcirculation  \TU/lmr
 /m/n/10.95 15 (2008). –  URL [][]$[][][][][] [] [] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1055
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1112
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 7116) in paragraph at lines 1057--1066
+Underfull \hbox (badness 7116) in paragraph at lines 1114--1123
 []\TU/lmr/m/n/10.95 [Peirce u.a. 2012]  \TU/lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10
 .95 , S. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/10.95 , F. M. ; \TU/lmr/m/sc/1
 0.95 Bautch\TU/lmr/m/n/10.95 , V.:  Inte-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1123
 \TU/lmr/m/n/10.95 gration of experimental and computational approaches to sprou
 ting angiogen-
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 1057--1066
+Underfull \hbox (badness 6412) in paragraph at lines 1114--1123
 \TU/lmr/m/n/10.95 esis.  In: \TU/lmr/m/it/10.95 Current Opinion in Hematology  
 \TU/lmr/m/n/10.95 19 (2012). –  URL [][]$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1123
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [] []
@@ -2805,7 +2849,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[78]
+[83]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2814,17 +2858,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[79]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[80]
-Underfull \hbox (badness 1490) in paragraph at lines 1318--1329
+[84]
+Underfull \hbox (badness 1490) in paragraph at lines 1375--1386
 []\TU/lmr/m/n/10.95 [Walpole u.a. 2015]  \TU/lmr/m/sc/10.95 Walpole\TU/lmr/m/n/
 10.95 , Joseph ; \TU/lmr/m/sc/10.95 Chappell\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/
 sc/10.95 Cluceru\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/
@@ -2832,33 +2867,33 @@ sc/10.95 Cluceru\TU/lmr/m/n/10.95 , J. ; \TU/lmr/m/sc/10.95 Gabhann\TU/lmr/m/n/
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 1318--1329
+Underfull \hbox (badness 1642) in paragraph at lines 1375--1386
 \TU/lmr/m/n/10.95 F. M. ; \TU/lmr/m/sc/10.95 Bautch\TU/lmr/m/n/10.95 , V. ; \TU
 /lmr/m/sc/10.95 Peirce\TU/lmr/m/n/10.95 , S.:  Agent-based model of angiogenesi
 s simulates
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 1318--1329
+Underfull \hbox (badness 1448) in paragraph at lines 1375--1386
 \TU/lmr/m/n/10.95 capillary sprout initiation in multicellular networks.  In: \
 TU/lmr/m/it/10.95 Integrative biology : quan-
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 1318--1329
+Underfull \hbox (badness 2165) in paragraph at lines 1375--1386
 \TU/lmr/m/it/10.95 titative biosciences from nano to macro  \TU/lmr/m/n/10.95 7
  9 (2015), S. 987–97. –  URL [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1329
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1386
 [] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1332--1340
+Underfull \hbox (badness 1019) in paragraph at lines 1389--1397
 []\TU/lmr/m/n/10.95 [Wang u.a. 2015]  \TU/lmr/m/sc/10.95 Wang\TU/lmr/m/n/10.95 
 , Zhihui ; \TU/lmr/m/sc/10.95 Butner\TU/lmr/m/n/10.95 , J. D. ; \TU/lmr/m/sc/10
 .95 Kerketta\TU/lmr/m/n/10.95 , Romica ; \TU/lmr/m/sc/10.95 Cristini\TU/lmr/m/n
@@ -2866,46 +2901,54 @@ Underfull \hbox (badness 1019) in paragraph at lines 1332--1340
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 1332--1340
+Underfull \hbox (badness 1472) in paragraph at lines 1389--1397
 \TU/lmr/m/n/10.95 V. ; \TU/lmr/m/sc/10.95 Deisboeck\TU/lmr/m/n/10.95 , T.:  Sim
 ulating cancer growth with multiscale agent-based model-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1332--1340
+Underfull \hbox (badness 10000) in paragraph at lines 1389--1397
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1409--1418
 [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1403--1412
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[85]
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1469
 []\TU/lmr/m/n/10.95 [Zudaire u.a. 2011]  \TU/lmr/m/sc/10.95 Zudaire\TU/lmr/m/n/
 10.95 , E. ; \TU/lmr/m/sc/10.95 Gambardella\TU/lmr/m/n/10.95 , L. ; \TU/lmr/m/s
 c/10.95 Kurcz\TU/lmr/m/n/10.95 , Christo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1403--1412
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1469
 \TU/lmr/m/n/10.95 pher ; \TU/lmr/m/sc/10.95 Vermeren\TU/lmr/m/n/10.95 , S.:  A 
 Computational Tool for Quantitative Analy-
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 1403--1412
+Underfull \hbox (badness 6063) in paragraph at lines 1460--1469
 \TU/lmr/m/n/10.95 sis of Vascular Networks.  In: \TU/lmr/m/it/10.95 PLoS ONE  \
 TU/lmr/m/n/10.95 6 (2011). –  URL [][]$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1403--1412
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1469
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][] []
@@ -2923,24 +2966,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[81] (./Findings.aux (./Chapters/modelAttempts.aux)
+[86] (./Findings.aux (./Chapters/modelAttempts.aux)
 (./Chapters/theoriticalInvestiagtion.aux)
 (./Chapters/branchingMorphogenesis.aux) (./Chapters/MolecularBiology.aux)
 (./Chapters/randomNotes.aux) (./Chapters/MeetingLog.aux)
-(./Chapters/Comments.aux) (./Chapters/PapersReviewed.aux))
+(./Chapters/PapersReviewed.aux) (./Chapters/Comments.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `Findings.out' has not changed.
-(rerunfilecheck)             Checksum: 962AA7D000743B198E7F043B696DB605;12576.
+
+Package rerunfilecheck Warning: File `Findings.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Findings.out':
+(rerunfilecheck)             Before: A9CA2C0DB4984DE91F7591DA42746040;14352
+(rerunfilecheck)             After:  A872F954A54D3DA9A30BB65E7ED33B30;14456.
  ) 
 Here is how much of TeX's memory you used:
- 52958 strings out of 476191
- 1278770 string characters out of 5812072
- 1884231 words of memory out of 5000000
- 72751 multiletter control sequences out of 15000+600000
+ 52987 strings out of 476191
+ 1279512 string characters out of 5812072
+ 1887674 words of memory out of 5000000
+ 72780 multiletter control sequences out of 15000+600000
  480503 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,15n,108p,2136b,1124s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,15n,108p,2136b,1150s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Findings.pdf (82 pages).
+Output written on Findings.pdf (87 pages).

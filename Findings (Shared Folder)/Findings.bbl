@@ -1,4 +1,4 @@
-\begin{thebibliography}{130}
+\begin{thebibliography}{138}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -365,6 +365,43 @@
 \newblock In: \emph{Genes \& Development}
 \newblock 8 (1994), August, Nr.~16, S.~1897--1909. --
 \newblock ISSN 0890-9369
+
+\bibitem[Edelstein-Keshet(2005)]{edelstein2005mathematical}
+\dinatlabel{Edelstein-Keshet 2005} \textsc{Edelstein-Keshet}, Leah:
+\newblock \emph{Mathematical models in biology}.
+\newblock SIAM, 2005
+
+\bibitem[Edelstein-Keshet und Ermentrout(1989)]{edelstein1989models}
+\dinatlabel{Edelstein-Keshet und Ermentrout 1989} \textsc{Edelstein-Keshet},
+  Leah~; \textsc{Ermentrout}, Bard:
+\newblock Models for branching networks in two dimensions.
+\newblock In: \emph{SIAM Journal on Applied Mathematics}
+\newblock 49 (1989), Nr.~4, S.~1136--1157
+
+\bibitem[Edelstein-Keshet und
+  Ermentrout(1990{\natexlab{a}})]{edelstein1990contact}
+\dinatlabel{Edelstein-Keshet und Ermentrout 1990{\natexlab{a}}}
+  \textsc{Edelstein-Keshet}, Leah~; \textsc{Ermentrout}, G~B.:
+\newblock Contact response of cells can mediate morphogenetic pattern
+  formation.
+\newblock In: \emph{Differentiation}
+\newblock 45 (1990), Nr.~3, S.~147--159
+
+\bibitem[Edelstein-Keshet und
+  Ermentrout(1990{\natexlab{b}})]{edelstein1990models}
+\dinatlabel{Edelstein-Keshet und Ermentrout 1990{\natexlab{b}}}
+  \textsc{Edelstein-Keshet}, Leah~; \textsc{Ermentrout}, G~B.:
+\newblock Models for contact-mediated pattern formation: cells that form
+  parallel arrays.
+\newblock In: \emph{Journal of mathematical biology}
+\newblock 29 (1990), S.~33--58
+
+\bibitem[Edelstein-Keshet und Ermentrout(2001)]{edelstein2001model}
+\dinatlabel{Edelstein-Keshet und Ermentrout 2001} \textsc{Edelstein-Keshet},
+  Leah~; \textsc{Ermentrout}, G~B.:
+\newblock A model for actin-filament length distribution in a lamellipod.
+\newblock In: \emph{Journal of mathematical biology}
+\newblock 43 (2001), Nr.~4, S.~325--355
 
 \bibitem[Ermentrout und Edelstein-Keshet(1993)]{Ermentrout1993}
 \dinatlabel{Ermentrout und Edelstein-Keshet 1993} \textsc{Ermentrout}, G.~B.~;
@@ -866,6 +903,26 @@
 \newblock In: \emph{Cell}
 \newblock 72 (1993), M\^^b{a}rz, Nr.~6, S.~835--846. --
 \newblock ISSN 0092-8674
+
+\bibitem[Mogilner und Edelstein-Keshet(1995)]{mogilner1995selecting}
+\dinatlabel{Mogilner und Edelstein-Keshet 1995} \textsc{Mogilner}, Alex~;
+  \textsc{Edelstein-Keshet}, Leah:
+\newblock Selecting a common direction: I. How orientational order can arise
+  from simple contact responses between interacting cells.
+\newblock In: \emph{Journal of mathematical biology}
+\newblock 33 (1995), S.~619--660
+
+\bibitem[Mogilner(1995)]{mogilner1995modelling}
+\dinatlabel{Mogilner 1995} \textsc{Mogilner}, Alexander:
+\newblock \emph{Modelling spatio-angular patterns in cell biology}, University
+  of British Columbia, Dissertation, 1995
+
+\bibitem[Mogilner und Edelstein-Keshet(1999)]{mogilner1999non}
+\dinatlabel{Mogilner und Edelstein-Keshet 1999} \textsc{Mogilner}, Alexander~;
+  \textsc{Edelstein-Keshet}, Leah:
+\newblock A non-local model for a swarm.
+\newblock In: \emph{Journal of mathematical biology}
+\newblock 38 (1999), S.~534--570
 
 \bibitem[Muthukkaruppan u.\,a.(1982)Muthukkaruppan, Kubai und
   Auerbach]{Muthukkaruppan1982}
