@@ -637,8 +637,89 @@ Here are some possible steps to find the answer to the question above.
 \end{itemize}
 
 
+
+\section{Continues model to capture the distribution of useful quantities}
+After our literature review we observed that the flow of blood through a network of capillaries strongly depends on the radius of the vessel segments, as well as the length of those segments \cite{Koery2024}. So we had an attempt to have a mean field approach to capture the density of vasculature with different radius in the environment. Before going into the details of this model, consider the following important box:
+\begin{strangeObs}[The assumptions of the model above are not really realistic]
+	When we were developing this model, we knew that there is a notion of radius distribution in the vascular networks, meaning that in a given vascular network we can find vessel segments of different densities \cite{Jafarnejad2019}. At that time we thought that this distribution in length is happening because when a leading tip cell divides, with some mechanism, the radius of the daughter vessels are determined from the radius of the parent vessel. But this assumption is not correct and is completely wrong. Research studies show that the vascular network forms as a branching-annihilating random walker (with or without global guidance and local self interaction), and then, in a process known as ``vascular renormalization'', ``vascular adaptation'', or ``vascular pruning'', the vascular network changes based on the flow in the network, leading to thickening or thinning of some vessels, some branching joining to each other, etc. See \cite{Pries2014,Secomb2021,Bakker2021,Maringanti2021} for more details. \textbf{However, for pedagogical reasons and to master the technique in this great idea proposed by Leah we will continue analyzing this model.}
+\end{strangeObs}
+
+This model captures the time evolution of two following variables:
+\begin{itemize}
+	\item $ n(r,t) $: The density (number/Area) of tip cells of vessels with radius $ r $ at time $ t $.
+	\item $ \rho(r,t) $: The density (length/Area) of vessels with a given radius $ r $ at time $ t $.
+\end{itemize}
+We assume that the tip cells move in the environment, and as they move they deposit the vessel segments. We assume that each vessel segment as a predetermined radius which is determined by the radius of its parent vessel (see the strange observation box above for a discussion about why this is not a correct assumption). We also assume that the tip cells are can divide, which will lead to the branching event. Also, for tip cells, there is a chance that they encounter another vessel segment along their way, which will lead to the anastomoses event. Also note that we assume there is no side branching (despite the fact that there are some very recent evidences that side branching is very important in biological networks \cite{Ucar2023}). Two following PDEs captures all of these assumptions.
+
+\begin{align*}
+	\frac{\partial n}{\partial t} &= -\beta(r)n +  m \int K(r,R)  \beta(R) n(R,t) dR - \alpha n\int A(r,R) \rho(R,t) dR - \kappa n \\
+	\frac{\partial \rho}{\partial t} &= v n - \lambda \rho
+\end{align*}
+The parameters in this model are as the following
+\begin{itemize}
+	\item $ \beta(r) $: the branching rate,
+	\item $ m $: the stoichiometry coefficient in $ T \to m T $, where $ T $ represents a tip cell. We assume a symmetrical splitting of the parent vessel into the two daughter vessels of the same radius.
+	\item $ \alpha $: anastomoses rate.
+	\item $ v $: the speed at which the tip cells are moving
+	\item $ \lambda $: the death rate of the tip cells.
+	\item $ \kappa $: the death rate (or stalling rate) of the tip cells.
+\end{itemize}
+Furthermore, in the PDEs above we have two non-local terms that the kernels $ K $ and $ A $ plays a major role. The kernel $ K(r,R) $ represents the rate at which tip cells of radius $ R $ give birth to the tip cell of radius $ r $, and $ A(r,R) $ represents the rate at which the tip cells of vessels with radius $ r $ do anastomoses with the vessel segments of radius $ R $. Here we assume that the tip cells of a vessel with radius $ R $ can do anastomoses with segments with specific radius and this is captured by $ A(r,R) $. Different assumptions and hypothesis will lead to different designs of these kernels.
+
+
+\subsection{Case I: No Anastomoses} 
+For this case we assume that the kernel $ A(r,R) $ is identically zero. This can be a realistic assumption when we are considering the growth of vascular networks in 3D, where for several early generations of the angiogenesis, the anastomoses is almost not present (see \cite{Hannezo2017} for the 3D model for the kidney morphogenesis). For this case the model reduces to 
+\begin{align*}
+	\frac{\partial n}{\partial t} &= -\beta(r)n +  m \int K(r,R) \beta(R) n(R,t) dR - \kappa n \\
+	\frac{\partial \rho}{\partial t} &= v n - \lambda \rho
+\end{align*}
+
+\subsubsection{Sub-case (i): $ K(r,R) = H(R-r) $}
+For this case we assume that $ K(r,R) $ is a step function given by $ H(R-r) $, meaning that only parent vessels of bigger radius can produce the daughter vessels of smaller radius. We can re-write the system of PDEs as
+\begin{align*}
+	\frac{\partial n}{\partial t} &= -\beta(r)n +  m \int_{r}^{\infty} \beta(R) n(R,t) dR - \kappa n \\
+	\frac{\partial \rho}{\partial t} &= v n - \lambda \rho
+\end{align*}
+We seek to find an steady state solution of this differential equation, i.e. when $ t\to \infty $ and we have $ \partial n/\partial t  = 0, \partial \rho/\partial t = 0$. Define
+\[ z(r) = \int_{r}^{\infty} \beta(R)n(R)dR, \]
+and from FTC we have $ dz/dr = -\beta(r)n(r) $. The steady state solution will satisfy
+\begin{align*}
+	\frac{d z}{dr} + mz(r) + \frac{\kappa}{\beta(r)}\frac{dz}{dr} = 0 \quad\Leftrightarrow\quad \frac{dz}{dr} = \frac{- m \beta(r)}{\beta(r)+\kappa} z.
+\end{align*}
+Assuming $ \beta(r)\equiv \beta $, and by $ \gamma = -m\beta/(\beta + \kappa) $ we will get
+\[ z(r) = A e^{-\gamma r}. \]
+From the relation $ dz/dr = - \beta(r) n(r) $, as well as $ vn - \lambda \rho = 0 $ we will get
+\[ \boxed{n(r) = \frac{A\gamma}{\beta} e^{-\gamma r}}, \qquad \boxed{\rho(r) = \frac{vA\gamma}{\beta\lambda}e^{-\gamma r}}.\]
+Thus we conclude that under the assumptions as above, the steady state solution of the PDEs will exponential function.
+
+\subsubsection{Sub-case (ii): $ K(r,R) = \delta(r-\eta R) $}
+See (CrossRef here) for a more generalized version of this analysis where the anastomoses kernel is assumed to be a delta function.
+
+\subsection{Case II: Delta function for anastomoses}
+Let's assume that a vessel segment of radius $ r $ can do the anastomoses only with a vessel of radius $ R $. Thus $ A(r,R) = \delta(r-R) $.
+
+\subsubsection{Sub-case (i): $ K(r,R) = \delta(r-\eta R) $}
+In this sub-case we assume that only parents of radius $ R = r/\alpha $ for $ \alpha \leq  1 $ give birth to the vessels of radius $ r $. Also, we assume $ \beta(r) = \beta $ is a constant. The system of PDEs will be 
+\begin{align*}
+	\frac{\partial n}{\partial t} &= -\beta(r)n +  m\beta n(r/\eta,t) - \alpha n\rho(r,t) - \kappa n \\
+	\frac{\partial \rho}{\partial t} &= v n - \lambda \rho
+\end{align*}
+To find the steady state solution of this system, we will have
+\begin{align*}
+	-\beta n(r) +  m\beta n(r/\eta) - \alpha n(r)\rho(r) - \kappa n(r)  = 0, \qquad v n(r) - \lambda \rho(r) = 0.
+\end{align*}
+By substituting $ \rho $ from the second equation in the first equation we will get
+\[ (\beta + \kappa) n(r) + \frac{\alpha v}{\lambda}n^2(r) = m\beta n(r/\eta). \]
+To find the function $ n(r) $ that satisfies the recursive equation above, we can try different guesses (like $ n(r) = Ar^p $) and find the specify the unknowns of the function. However, here we do a different kind of analysis instead of trying to find $ n(r) $. Let $ n_i = n(r/\eta) $ (the parent generation) and $ n_{i+1} = n(r) $ (the daughter generation). Then we will have
+\[ \underbrace{(\beta + \kappa)}_A n_{i+1} + \underbrace{\frac{\alpha v}{\lambda}}_Bn^2_{i+1} = \underbrace{m\beta}_C n_i. \]
+Solving $ n_{i+1} $ in terms of $ n_i $ we will get
+\[ n_{i+1} = \frac{-B \pm \sqrt{B^2 + 4ACn_i}}{2A}. \]
+
+
+
+
 \newpage
-\section{Idea Bin!}
+\section{Ideas!}
 This section might have very simple, basic and sometimes silly ideas that came into my mind during developing some models and I thought they might worth trying
 \begin{itemize}
 	\item Developing a model for a weighted graph generation. I suspect a weighted graph might have all the necessary information we want.

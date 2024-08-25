@@ -1,35 +1,41 @@
-\contentsline {chapter}{\numberline {1}Modeling Attempts}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Simple Model from Scratch}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Simple ODE Model}{3}{subsection.1.1.1}%
-\contentsline {subsubsection}{Stability Analysis of $p^0_2$}{6}{subsubsection*.2}%
-\contentsline {subsubsection}{Finding Lyapunov Function}{6}{subsubsection*.3}%
-\contentsline {subsubsection}{Stability Analysis of $p^0_1$}{7}{subsubsection*.4}%
-\contentsline {subsection}{\numberline {1.1.2}Simple Spatially Distributed 1D System}{13}{subsection.1.1.2}%
-\contentsline {subsubsection}{Flux of Tip Cells}{13}{subsubsection*.10}%
-\contentsline {subsubsection}{Spatial Model Development}{13}{subsubsection*.11}%
-\contentsline {subsubsection}{Equation for Blood Vessel Density}{14}{subsubsection*.12}%
-\contentsline {subsubsection}{Equation for Tip Cell Density}{14}{subsubsection*.13}%
-\contentsline {subsubsection}{Equation for Drug Concentration}{14}{subsubsection*.14}%
-\contentsline {section}{\numberline {1.2}Anderson Chaplain Model of Angiogenesis}{15}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Biological Facts and Basics}{15}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}A Review of previous mathematical models}{16}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Details of the model}{17}{subsection.1.2.3}%
-\contentsline {subsubsection}{Equations for endothelial cells}{17}{subsubsection*.15}%
-\contentsline {subsubsection}{Equations for TAF}{18}{subsubsection*.16}%
-\contentsline {subsubsection}{Equations for fibronectin}{19}{subsubsection*.17}%
-\contentsline {subsection}{\numberline {1.2.4}Non dimensionalization of the system}{20}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Some discussions on the parameters used}{21}{subsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.2.6}Simulating the model}{21}{subsection.1.2.6}%
-\contentsline {subsubsection}{Simulation Domain}{21}{subsubsection*.19}%
-\contentsline {subsubsection}{Initial condition for tip cell density}{21}{subsubsection*.20}%
-\contentsline {subsubsection}{Initial condition for TAF}{21}{subsubsection*.22}%
-\contentsline {subsubsection}{Initial condition for Fibronectin}{22}{subsubsection*.24}%
-\contentsline {subsection}{\numberline {1.2.7}Make it a Combo! Adding Stochastic Model to Generate Vascular Networks}{23}{subsection.1.2.7}%
-\contentsline {subsection}{\numberline {1.2.8}Some Thoughts}{23}{subsection.1.2.8}%
-\contentsline {subsubsection}{Discrete vs. continuous model}{23}{subsubsection*.25}%
-\contentsline {subsection}{\numberline {1.2.9}Important citations of this paper}{23}{subsection.1.2.9}%
-\contentsline {section}{\numberline {1.3}Idea Bin!}{25}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Optimal Transport}{25}{subsection.1.3.1}%
+\contentsline {chapter}{\numberline {1}Modeling Attempts}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Simple Model from Scratch}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Simple ODE Model}{4}{subsection.1.1.1}%
+\contentsline {subsubsection}{Stability Analysis of $p^0_2$}{7}{subsubsection*.2}%
+\contentsline {subsubsection}{Finding Lyapunov Function}{7}{subsubsection*.3}%
+\contentsline {subsubsection}{Stability Analysis of $p^0_1$}{8}{subsubsection*.4}%
+\contentsline {subsection}{\numberline {1.1.2}Simple Spatially Distributed 1D System}{14}{subsection.1.1.2}%
+\contentsline {subsubsection}{Flux of Tip Cells}{14}{subsubsection*.10}%
+\contentsline {subsubsection}{Spatial Model Development}{14}{subsubsection*.11}%
+\contentsline {subsubsection}{Equation for Blood Vessel Density}{15}{subsubsection*.12}%
+\contentsline {subsubsection}{Equation for Tip Cell Density}{15}{subsubsection*.13}%
+\contentsline {subsubsection}{Equation for Drug Concentration}{15}{subsubsection*.14}%
+\contentsline {section}{\numberline {1.2}Anderson Chaplain Model of Angiogenesis}{16}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Biological Facts and Basics}{16}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}A Review of previous mathematical models}{17}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Details of the model}{18}{subsection.1.2.3}%
+\contentsline {subsubsection}{Equations for endothelial cells}{18}{subsubsection*.15}%
+\contentsline {subsubsection}{Equations for TAF}{19}{subsubsection*.16}%
+\contentsline {subsubsection}{Equations for fibronectin}{20}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {1.2.4}Non dimensionalization of the system}{21}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Some discussions on the parameters used}{22}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Simulating the model}{22}{subsection.1.2.6}%
+\contentsline {subsubsection}{Simulation Domain}{22}{subsubsection*.19}%
+\contentsline {subsubsection}{Initial condition for tip cell density}{22}{subsubsection*.20}%
+\contentsline {subsubsection}{Initial condition for TAF}{22}{subsubsection*.22}%
+\contentsline {subsubsection}{Initial condition for Fibronectin}{23}{subsubsection*.24}%
+\contentsline {subsection}{\numberline {1.2.7}Make it a Combo! Adding Stochastic Model to Generate Vascular Networks}{24}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}Some Thoughts}{24}{subsection.1.2.8}%
+\contentsline {subsubsection}{Discrete vs. continuous model}{24}{subsubsection*.25}%
+\contentsline {subsection}{\numberline {1.2.9}Important citations of this paper}{24}{subsection.1.2.9}%
+\contentsline {section}{\numberline {1.3}Continues model to capture the distribution of useful quantities}{25}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Case I: No Anastomoses}{26}{subsection.1.3.1}%
+\contentsline {subsubsection}{Sub-case (i): $ K(r,R) = H(R-r) $}{26}{subsubsection*.26}%
+\contentsline {subsubsection}{Sub-case (ii): $ K(r,R) = \delta (r-\eta R) $}{27}{subsubsection*.27}%
+\contentsline {subsection}{\numberline {1.3.2}Case II: Delta function for anastomoses}{27}{subsection.1.3.2}%
+\contentsline {subsubsection}{Sub-case (i): $ K(r,R) = \delta (r-\eta R) $}{27}{subsubsection*.28}%
+\contentsline {section}{\numberline {1.4}Ideas!}{29}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Optimal Transport}{29}{subsection.1.4.1}%
 \contentsline {chapter}{\numberline {2}A Theoretical Investigation}{26}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The Set of All Vascular Structures. Is That a Manifold?}{26}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Statistical Properties of Vascular System}{28}{section.2.2}%
@@ -38,12 +44,13 @@
 \contentsline {section}{\numberline {4.1}Molecular Mechanism of Angiogenesis}{31}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}A Brief Anatomy of Vessels}{31}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Molecular Biology of Vascular Structure}{33}{subsection.4.1.2}%
-\contentsline {subsubsection}{Steps involved in angiogenesis}{33}{subsubsection*.30}%
-\contentsline {subsubsection}{The Response of Endothelial Cells to VEGF}{34}{subsubsection*.31}%
+\contentsline {subsubsection}{Steps involved in angiogenesis}{33}{subsubsection*.5}%
+\contentsline {subsubsection}{The Response of Endothelial Cells to VEGF}{34}{subsubsection*.6}%
 \contentsline {section}{\numberline {4.2}Biological Assays to Study Angiogenesis}{36}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Corneal Micropocket Assay}{36}{subsection.4.2.1}%
 \contentsline {section}{\numberline {4.3}Some Histology}{36}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Epithelium}{37}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Important Random Facts}{38}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Some Notes on Mathematical Modeling}{38}{chapter.5}%
 \contentsline {section}{\numberline {5.1}STEP 0: Understanding the phenomena we want to study}{38}{section.5.1}%
 \contentsline {section}{\numberline {5.2}STEP I: Converting Natural Phenomena to a Mathematical Problem }{38}{section.5.2}%

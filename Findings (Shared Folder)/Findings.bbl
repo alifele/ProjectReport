@@ -1,4 +1,4 @@
-\begin{thebibliography}{138}
+\begin{thebibliography}{150}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -47,6 +47,18 @@
 \newblock 52 (1991), Dezember, Nr.~3, S.~407--422. --
 \newblock ISSN 0163-7258
 
+\bibitem[Augustin u.\,a.(2009)Augustin, Young~Koh, Thurston und
+  Alitalo]{Augustin2009}
+\dinatlabel{Augustin u.\,a. 2009} \textsc{Augustin}, Hellmut~G.~;
+  \textsc{Young~Koh}, Gou~; \textsc{Thurston}, Gavin~; \textsc{Alitalo}, Kari:
+\newblock Control of vascular morphogenesis and homeostasis through the
+  angiopoietin–{Tie} system.
+\newblock In: \emph{Nature Reviews Molecular Cell Biology}
+\newblock 10 (2009), M\^^b{a}rz, Nr.~3, S.~165--177. --
+\newblock URL \url{https://www.nature.com/articles/nrm2639}. -- Zugriffsdatum:
+  2024-08-21. --
+\newblock ISSN 1471-0080
+
 \bibitem[Ausprunk und Folkman(1977)]{Ausprunk1977}
 \dinatlabel{Ausprunk und Folkman 1977} \textsc{Ausprunk}, D.~H.~;
   \textsc{Folkman}, J.:
@@ -55,6 +67,15 @@
 \newblock In: \emph{Microvascular Research}
 \newblock 14 (1977), Juli, Nr.~1, S.~53--65. --
 \newblock ISSN 0026-2862
+
+\bibitem[Bakker und van Bavel(2021)]{Bakker2021}
+\dinatlabel{Bakker und van Bavel 2021} \textsc{Bakker}, Erik N. T.~P.~;
+  \textsc{Bavel}, Ed van:
+\newblock Biomechanics in {Small} {Artery} {Remodeling}.
+\newblock Cham~: Springer International Publishing, 2021, S.~47--68. --
+\newblock URL \url{https://doi.org/10.1007/978-3-030-63164-2_3}. --
+  Zugriffsdatum: 2024-08-21. --
+\newblock ISBN 9783030631642
 
 \bibitem[Balding und McElwain(1985)]{Balding1985}
 \dinatlabel{Balding und McElwain 1985} \textsc{Balding}, D.~;
@@ -155,6 +176,25 @@
 \newblock New York~: Garland Science, November 2000. --
 \newblock ISBN 9780203833582
 
+\bibitem[Buschmann u.\,a.(2010)Buschmann, Pries, Styp-Rekowska, Hillmeister,
+  Loufrani, Henrion, Shi, Duelsner, Hoefer, Gatzke, Wang, Lehmann, Ulm, Ritter,
+  Hauff, Hlushchuk, Djonov, van Veen und le~Noble]{Buschmann2010}
+\dinatlabel{Buschmann u.\,a. 2010} \textsc{Buschmann}, Ivo~; \textsc{Pries},
+  Axel~; \textsc{Styp-Rekowska}, Beata~; \textsc{Hillmeister}, Philipp~;
+  \textsc{Loufrani}, Laurent~; \textsc{Henrion}, Daniel~; \textsc{Shi}, Yu~;
+  \textsc{Duelsner}, Andre~; \textsc{Hoefer}, Imo~; \textsc{Gatzke}, Nora~;
+  \textsc{Wang}, Haitao~; \textsc{Lehmann}, Kerstin~; \textsc{Ulm}, Lena~;
+  \textsc{Ritter}, Zully~; \textsc{Hauff}, Peter~; \textsc{Hlushchuk}, Ruslan~;
+  \textsc{Djonov}, Valentin~; \textsc{Veen}, Toon van~; \textsc{Noble},
+  Ferdinand le:
+\newblock Pulsatile shear and {Gja5} modulate arterial identity and remodeling
+  events during flow-driven arteriogenesis.
+\newblock In: \emph{Development}
+\newblock 137 (2010), Juli, Nr.~13, S.~2187--2196. --
+\newblock URL \url{https://doi.org/10.1242/dev.045351}. -- Zugriffsdatum:
+  2024-08-21. --
+\newblock ISSN 0950-1991
+
 \bibitem[Byrne und Chaplain(1995{\natexlab{a}})]{Byrne1995}
 \dinatlabel{Byrne und Chaplain 1995{\natexlab{a}}} \textsc{Byrne}, H.~M.~;
   \textsc{Chaplain}, M. A.~J.:
@@ -200,6 +240,16 @@
 \newblock URL \url{https://www.nature.com/articles/onc2016212}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 1476-5594
+
+\bibitem[Carr u.\,a.(2005)Carr, Geddes und Wu]{Carr2005}
+\dinatlabel{Carr u.\,a. 2005} \textsc{Carr}, Russell~T.~; \textsc{Geddes},
+  John~B.~; \textsc{Wu}, Fan:
+\newblock Oscillations in a {Simple} {Microvascular} {Network}.
+\newblock In: \emph{Annals of Biomedical Engineering}
+\newblock 33 (2005), Juni, Nr.~6, S.~764--771. --
+\newblock URL \url{https://doi.org/10.1007/s10439-005-2345-2}. --
+  Zugriffsdatum: 2024-08-23. --
+\newblock ISSN 1573-9686
 
 \bibitem[Carter(1965)]{Carter1965}
 \dinatlabel{Carter 1965} \textsc{Carter}, S.~B.:
@@ -572,6 +622,20 @@
 \newblock 277 (1997), Juli, Nr.~5322, S.~48--50. --
 \newblock ISSN 0036-8075
 
+\bibitem[Hannezo u.\,a.(2017)Hannezo, Scheele, Moad, Drogo, Heer, Sampogna, van
+  Rheenen und Simons]{Hannezo2017}
+\dinatlabel{Hannezo u.\,a. 2017} \textsc{Hannezo}, Edouard~; \textsc{Scheele},
+  Colinda L. G.~J.~; \textsc{Moad}, Mohammad~; \textsc{Drogo}, Nicholas~;
+  \textsc{Heer}, Rakesh~; \textsc{Sampogna}, Rosemary~V.~; \textsc{Rheenen},
+  Jacco van~; \textsc{Simons}, Benjamin~D.:
+\newblock A {Unifying} {Theory} of {Branching} {Morphogenesis}.
+\newblock In: \emph{Cell}
+\newblock 171 (2017), September, Nr.~1, S.~242--255.e27. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0092867417309510}. --
+  Zugriffsdatum: 2024-08-21. --
+\newblock ISSN 0092-8674
+
 \bibitem[Hasan u.\,a.(2004)Hasan, Shnyder, Bibby, Double, Bicknel und
   Jayson]{Hasan2004}
 \dinatlabel{Hasan u.\,a. 2004} \textsc{Hasan}, J.~; \textsc{Shnyder}, S.~;
@@ -612,6 +676,17 @@
 \newblock 1990.
 \newblock New York, NY~: Springer, Dezember 1989
 \newblock (Springer Series in Molecular and Cell Biology)
+
+\bibitem[Jafarnejad u.\,a.(2019)Jafarnejad, Ismail, Duarte, Vyas, Ghahramani,
+  Zawieja, Celso, Poologasundarampillai und Jr]{Jafarnejad2019}
+\dinatlabel{Jafarnejad u.\,a. 2019} \textsc{Jafarnejad}, Mohammad~;
+  \textsc{Ismail}, A.~; \textsc{Duarte}, Delfim~; \textsc{Vyas}, Cian~;
+  \textsc{Ghahramani}, A.~; \textsc{Zawieja}, David~; \textsc{Celso},
+  Cristina~; \textsc{Poologasundarampillai}, Gowsihan~; \textsc{Jr}, Moore:
+\newblock Quantification of the {Whole} {Lymph} {Node} {Vasculature} {Based} on
+  {Tomography} of the {Vessel} {Corrosion} {Casts}.
+\newblock In: \emph{Scientific Reports}
+\newblock 9 (2019), September
 
 \bibitem[Jaffee(1978)]{1978}
 \dinatlabel{Jaffee 1978} \textsc{Jaffee}:
@@ -683,6 +758,21 @@
 \newblock URL
   \url{https://consensus.app/papers/assessment-methods-angiogenesis-present-approaches-khan/f73789f2ecf0541595b7c59887fdf599/}.
   -- Zugriffsdatum: 2024-03-02
+
+\bibitem[Kidoya u.\,a.(2008)Kidoya, Ueno, Yamada, Mochizuki, Nakata, Yano,
+  Fujii und Takakura]{Kidoya2008}
+\dinatlabel{Kidoya u.\,a. 2008} \textsc{Kidoya}, Hiroyasu~; \textsc{Ueno},
+  Masaya~; \textsc{Yamada}, Yoshihiro~; \textsc{Mochizuki}, Naoki~;
+  \textsc{Nakata}, Mitsugu~; \textsc{Yano}, Takashi~; \textsc{Fujii}, Ryo~;
+  \textsc{Takakura}, Nobuyuki:
+\newblock Spatial and temporal role of the apelin/{APJ} system in the caliber
+  size regulation of blood vessels during angiogenesis.
+\newblock In: \emph{The EMBO Journal}
+\newblock 27 (2008), Februar, Nr.~3, S.~522--534. --
+\newblock URL
+  \url{https://www.embopress.org/doi/full/10.1038/sj.emboj.7601982}. --
+  Zugriffsdatum: 2024-08-21. --
+\newblock ISSN 0261-4189
 
 \bibitem[Kimura u.\,a.(1996)Kimura, Braun, Ong, Hsu, Secomb, Papahadjopoulos,
   Hong und Dewhirst]{Kimura1996-od}
@@ -849,6 +939,18 @@
 \newblock In: \emph{The Journal of Biological Chemistry}
 \newblock 270 (1995), April, Nr.~17, S.~9709--9716. --
 \newblock ISSN 0021-9258
+
+\bibitem[Maringanti u.\,a.(2021)Maringanti, Meijer, Brandt, Duncker und
+  Cheng]{Maringanti2021}
+\dinatlabel{Maringanti u.\,a. 2021} \textsc{Maringanti}, Ranganath~;
+  \textsc{Meijer}, Elana~; \textsc{Brandt}, Maarten~M.~; \textsc{Duncker},
+  Dirk~J.~; \textsc{Cheng}, Caroline:
+\newblock Contributions of {Wall} {Stretch} and {Shear} {Stress} to {Vascular}
+  {Regulation}: {Molecular} {Mechanisms} of {Homeostasis} and {Expansion}.
+\newblock Cham~: Springer International Publishing, 2021, S.~21--46. --
+\newblock URL \url{https://doi.org/10.1007/978-3-030-63164-2_2}. --
+  Zugriffsdatum: 2024-08-21. --
+\newblock ISBN 9783030631642
 
 \bibitem[McCarthy und Furcht(1984)]{McCarthy1984}
 \dinatlabel{McCarthy und Furcht 1984} \textsc{McCarthy}, J.~B.~;
@@ -1143,6 +1245,17 @@
 \newblock 263 (1996), November, Nr.~1376, S.~1487--1493. --
 \newblock ISSN 0962-8452
 
+\bibitem[Pries und Secomb(2014)]{Pries2014}
+\dinatlabel{Pries und Secomb 2014} \textsc{Pries}, Axel~R.~; \textsc{Secomb},
+  Timothy~W.:
+\newblock Making {Microvascular} {Networks} {Work}: {Angiogenesis},
+  {Remodeling}, and {Pruning}.
+\newblock In: \emph{Physiology}
+\newblock 29 (2014), November, Nr.~6, S.~446--455. --
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4280154/}. --
+  Zugriffsdatum: 2024-08-21. --
+\newblock ISSN 1548-9213
+
 \bibitem[Relf u.\,a.(1997)Relf, LeJeune, Scott, Fox, Smith, Leek, Moghaddam,
   Whitehouse, Bicknell und Harris]{Relf1997}
 \dinatlabel{Relf u.\,a. 1997} \textsc{Relf}, M.~; \textsc{LeJeune}, S.~;
@@ -1175,6 +1288,20 @@
 \newblock In: \emph{The EMBO journal}
 \newblock 6 (1987), August, Nr.~8, S.~2343--2349. --
 \newblock ISSN 0261-4189
+
+\bibitem[Rodgers u.\,a.(1984)Rodgers, Schechter, Noguchi, Klein, Nienhuis und
+  Bonner]{Rodgers1984}
+\dinatlabel{Rodgers u.\,a. 1984} \textsc{Rodgers}, Griffin~P.~;
+  \textsc{Schechter}, Alan~N.~; \textsc{Noguchi}, Constance~T.~;
+  \textsc{Klein}, Harvey~G.~; \textsc{Nienhuis}, Arthur~W.~; \textsc{Bonner},
+  Robert~F.:
+\newblock Periodic {Microcirculatory} {Flow} in {Patients} with {Sickle}-{Cell}
+  {Disease}.
+\newblock In: \emph{New England Journal of Medicine}
+\newblock 311 (1984), Dezember, Nr.~24, S.~1534--1538. --
+\newblock URL \url{https://www.nejm.org/doi/full/10.1056/NEJM198412133112403}.
+  -- Zugriffsdatum: 2024-08-23. --
+\newblock ISSN 0028-4793
 
 \bibitem[Roose u.\,a.(2007)Roose, Chapman und Maini]{Roose2007}
 \dinatlabel{Roose u.\,a. 2007} \textsc{Roose}, T.~; \textsc{Chapman}, S.~;
@@ -1231,6 +1358,14 @@
   \url{https://www.sciencedirect.com/science/article/pii/S0022519313002117}. --
   Zugriffsdatum: 2024-01-21. --
 \newblock ISSN 0022-5193
+
+\bibitem[Secomb(2021)]{Secomb2021}
+\dinatlabel{Secomb 2021} \textsc{Secomb}, Timothy~W.:
+\newblock Hemodynamics and {Vascular} {Remodeling}.
+\newblock Cham~: Springer International Publishing, 2021, S.~1--20. --
+\newblock URL \url{https://doi.org/10.1007/978-3-030-63164-2_1}. --
+  Zugriffsdatum: 2024-08-21. --
+\newblock ISBN 9783030631642
 
 \bibitem[Sefidgar u.\,a.(2015)Sefidgar, Soltani, Raahemifar, Sadeghi, Bazmara,
   Bazargan und Mousavi~Naeenian]{Sefidgar2015}
@@ -1332,6 +1467,17 @@
 \newblock In: \emph{The Journal of Cell Biology}
 \newblock 101 (1985), Dezember, Nr.~6, S.~2330--2334. --
 \newblock ISSN 0021-9525
+
+\bibitem[Uçar u.\,a.(2023)Uçar, Hannezo, Tiilikainen, Liaqat, Jakobsson,
+  Nurmi und Vaahtomeri]{Ucar2023}
+\dinatlabel{Uçar u.\,a. 2023} \textsc{Uçar}, Mehmet~C.~; \textsc{Hannezo},
+  Edouard~; \textsc{Tiilikainen}, Emmi~; \textsc{Liaqat}, Inam~;
+  \textsc{Jakobsson}, Emma~; \textsc{Nurmi}, Harri~; \textsc{Vaahtomeri}, Kari:
+\newblock Self-organized and directed branching results in optimal coverage in
+  developing dermal lymphatic networks.
+\newblock In: \emph{Nature Communications}
+\newblock 14 (2023), September, Nr.~1, S.~5878. --
+\newblock ISSN 2041-1723
 
 \bibitem[Vavourakis u.\,a.(2017)Vavourakis, Wijeratne, Shipley, Loizidou,
   Stylianopoulos und Hawkes]{Vavourakis2017}
