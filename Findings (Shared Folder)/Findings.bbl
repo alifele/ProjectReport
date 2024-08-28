@@ -1,4 +1,4 @@
-\begin{thebibliography}{150}
+\begin{thebibliography}{155}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -28,6 +28,17 @@
 \newblock 4th.
 \newblock Garland Science, 2002. --
 \newblock ISBN 9780815332183 9780815340720
+
+\bibitem[Almeida und Dilão(2022)]{Almeida2022}
+\dinatlabel{Almeida und Dilão 2022} \textsc{Almeida}, Rodrigo~;
+  \textsc{Dilão}, Rui:
+\newblock Adaptive {Hagen}–{Poiseuille} flows on graphs.
+\newblock In: \emph{Physica D: Nonlinear Phenomena}
+\newblock 436 (2022), August, S.~133322. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0167278922001014}. --
+  Zugriffsdatum: 2024-08-26. --
+\newblock ISSN 0167-2789
 
 \bibitem[Anderson und Chaplain(1998)]{Anderson1998}
 \dinatlabel{Anderson und Chaplain 1998} \textsc{Anderson}, A. R.~A.~;
@@ -345,6 +356,17 @@
   Zugriffsdatum: 2024-06-12. --
 \newblock ADS Bibcode: 1963RSPTB.246..305C. --
 \newblock ISSN 1364-503X0962-84360080-4622
+
+\bibitem[Collinet und Lecuit(2021)]{Collinet2021}
+\dinatlabel{Collinet und Lecuit 2021} \textsc{Collinet}, Claudio~;
+  \textsc{Lecuit}, Thomas:
+\newblock Programmed and self-organized flow of information during
+  morphogenesis.
+\newblock In: \emph{Nature Reviews Molecular Cell Biology}
+\newblock 22 (2021), April, Nr.~4, S.~245--265. --
+\newblock URL \url{https://www.nature.com/articles/s41580-020-00318-6}. --
+  Zugriffsdatum: 2024-08-26. --
+\newblock ISSN 1471-0080
 
 \bibitem[Connor u.\,a.(2015)Connor, Nowak, Lorenzon, Thomas, Herting, Hoert,
   Quaiser, Shochat, Pitt-Francis, Cooper, Maini und Byrne]{Connor2015}
@@ -669,6 +691,14 @@
 \newblock In: \emph{Biochemical and Biophysical Research Communications}
 \newblock 221 (1996), April, Nr.~3, S.~697--702. --
 \newblock ISSN 0006-291X
+
+\bibitem[Hu und Cai(2013)]{Hu2013}
+\dinatlabel{Hu und Cai 2013} \textsc{Hu}, Dan~; \textsc{Cai}, David:
+\newblock Adaptation and {Optimization} of {Biological} {Transport} {Networks}.
+\newblock In: \emph{Physical Review Letters}
+\newblock 111 (2013), September, Nr.~13, S.~138701. --
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.111.138701}. --
+  Zugriffsdatum: 2024-08-27
 
 \bibitem[Hynes(1989)]{Hynes1989-je}
 \dinatlabel{Hynes 1989} \textsc{Hynes}, Richard~O.:
@@ -1303,6 +1333,16 @@
   -- Zugriffsdatum: 2024-08-23. --
 \newblock ISSN 0028-4793
 
+\bibitem[Ronellenfitsch und Katifori(2016)]{Ronellenfitsch2016}
+\dinatlabel{Ronellenfitsch und Katifori 2016} \textsc{Ronellenfitsch}, Henrik~;
+  \textsc{Katifori}, Eleni:
+\newblock Global {Optimization}, {Local} {Adaptation}, and the {Role} of
+  {Growth} in {Distribution} {Networks}.
+\newblock In: \emph{Physical Review Letters}
+\newblock 117 (2016), September, Nr.~13, S.~138301. --
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.117.138301}. --
+  Zugriffsdatum: 2024-08-27
+
 \bibitem[Roose u.\,a.(2007)Roose, Chapman und Maini]{Roose2007}
 \dinatlabel{Roose u.\,a. 2007} \textsc{Roose}, T.~; \textsc{Chapman}, S.~;
   \textsc{Maini}, P.:
@@ -1366,6 +1406,18 @@
 \newblock URL \url{https://doi.org/10.1007/978-3-030-63164-2_1}. --
   Zugriffsdatum: 2024-08-21. --
 \newblock ISBN 9783030631642
+
+\bibitem[Secomb u.\,a.(2012)Secomb, Dewhirst und Pries]{Secomb2012}
+\dinatlabel{Secomb u.\,a. 2012} \textsc{Secomb}, Timothy~W.~;
+  \textsc{Dewhirst}, Mark~W.~; \textsc{Pries}, Axel~R.:
+\newblock Structural {Adaptation} of {Normal} and {Tumour} {Vascular}
+  {Networks}.
+\newblock In: \emph{Basic \& Clinical Pharmacology \& Toxicology}
+\newblock 110 (2012), Nr.~1, S.~63--69. --
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1742-7843.2011.00815.x}.
+  -- Zugriffsdatum: 2024-08-25. --
+\newblock ISSN 1742-7843
 
 \bibitem[Sefidgar u.\,a.(2015)Sefidgar, Soltani, Raahemifar, Sadeghi, Bazmara,
   Bazargan und Mousavi~Naeenian]{Sefidgar2015}
