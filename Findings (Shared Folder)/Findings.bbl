@@ -1,4 +1,4 @@
-\begin{thebibliography}{155}
+\begin{thebibliography}{156}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -1035,6 +1035,15 @@
 \newblock In: \emph{Cell}
 \newblock 72 (1993), M\^^b{a}rz, Nr.~6, S.~835--846. --
 \newblock ISSN 0092-8674
+
+\bibitem[Modes u.\,a.(2016)Modes, Magnasco und Katifori]{Modes2016}
+\dinatlabel{Modes u.\,a. 2016} \textsc{Modes}, Carl~D.~; \textsc{Magnasco},
+  Marcelo~O.~; \textsc{Katifori}, Eleni:
+\newblock Extracting {Hidden} {Hierarchies} in {3D} {Distribution} {Networks}.
+\newblock In: \emph{Physical Review X}
+\newblock 6 (2016), Juli, Nr.~3, S.~031009. --
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevX.6.031009}. --
+  Zugriffsdatum: 2024-08-28
 
 \bibitem[Mogilner und Edelstein-Keshet(1995)]{mogilner1995selecting}
 \dinatlabel{Mogilner und Edelstein-Keshet 1995} \textsc{Mogilner}, Alex~;
