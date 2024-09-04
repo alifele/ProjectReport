@@ -1,4 +1,4 @@
-\begin{thebibliography}{156}
+\begin{thebibliography}{158}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -437,6 +437,14 @@
 \newblock In: \emph{Genes \& Development}
 \newblock 8 (1994), August, Nr.~16, S.~1897--1909. --
 \newblock ISSN 0890-9369
+
+\bibitem[Durand(2006)]{Durand2006}
+\dinatlabel{Durand 2006} \textsc{Durand}, Marc:
+\newblock Architecture of optimal transport networks.
+\newblock In: \emph{Physical Review E}
+\newblock 73 (2006), Januar, Nr.~1, S.~016116. --
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevE.73.016116}. --
+  Zugriffsdatum: 2024-09-02
 
 \bibitem[Edelstein-Keshet(2005)]{edelstein2005mathematical}
 \dinatlabel{Edelstein-Keshet 2005} \textsc{Edelstein-Keshet}, Leah:
@@ -1207,6 +1215,18 @@
 \newblock In: \emph{IMA journal of mathematics applied in medicine and biology}
 \newblock 14 (1997), September, Nr.~3, S.~189--205. --
 \newblock ISSN 0265-0746
+
+\bibitem[Ouarné u.\,a.(2021)Ouarné, Pena und Franco]{Ouarne2021}
+\dinatlabel{Ouarné u.\,a. 2021} \textsc{Ouarné}, Marie~; \textsc{Pena},
+  Andreia~; \textsc{Franco}, Cláudio~A.:
+\newblock From remodeling to quiescence: {The} transformation of the vascular
+  network.
+\newblock In: \emph{Cells \& Development}
+\newblock 168 (2021), Dezember, S.~203735. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S2667290121000693}. --
+  Zugriffsdatum: 2024-08-30. --
+\newblock ISSN 2667-2901
 
 \bibitem[Paku und Paweletz(1991)]{Paku1991}
 \dinatlabel{Paku und Paweletz 1991} \textsc{Paku}, S.~; \textsc{Paweletz}, N.:

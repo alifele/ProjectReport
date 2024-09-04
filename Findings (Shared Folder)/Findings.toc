@@ -50,7 +50,7 @@
 \contentsline {subsection}{\numberline {4.2.1}Corneal Micropocket Assay}{36}{subsection.4.2.1}%
 \contentsline {section}{\numberline {4.3}Some Histology}{36}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Epithelium}{37}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Important Random Facts}{38}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Important Facts}{38}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Some Notes on Mathematical Modeling}{38}{chapter.5}%
 \contentsline {section}{\numberline {5.1}STEP 0: Understanding the phenomena we want to study}{38}{section.5.1}%
 \contentsline {section}{\numberline {5.2}STEP I: Converting Natural Phenomena to a Mathematical Problem }{38}{section.5.2}%
