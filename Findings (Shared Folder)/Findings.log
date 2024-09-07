@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  2 SEP 2024 13:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  6 SEP 2024 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1518,76 +1518,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-\openout2 = `Chapters/MolecularBiology.aux'.
+\openout2 = `Chapters/theoriticalInvestiagtion.aux'.
 
- (./Chapters/MolecularBiology.tex
-Chapter 4.
-
-Package natbib Warning: Citation `Alberts2002' on page 31 undefined on input li
-ne 6.
-
-
-Package natbib Warning: Citation `Alberts2002' on page 31 undefined on input li
-ne 9.
-
-File: images/AnatomyOfVessel.jpg Graphic file (type bmp)
-<images/AnatomyOfVessel.jpg>
-File: images/perycitesForVascular.jpg Graphic file (type bmp)
-<images/perycitesForVascular.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: images/ElectronMicroscopeOfVessel.jpg Graphic file (type bmp)
-<images/ElectronMicroscopeOfVessel.jpg>
-
-Package natbib Warning: Citation `Alberts2002' on page 31 undefined on input li
-ne 41.
-
-
-Package natbib Warning: Citation `Alberts2002' on page 31 undefined on input li
-ne 41.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[31
-
-
-
-
-
-]
-File: images/CrossSectionOfVessels.png Graphic file (type bmp)
-<images/CrossSectionOfVessels.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `Alberts2002' on page 32 undefined on input li
-ne 58.
-
-
-Underfull \vbox (badness 5578) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[32]
-Package mdframed Info: mdframed works in twoside mode on input line 61.
+ (./Chapters/theoriticalInvestiagtion.tex
+Chapter 2.
+Package mdframed Info: mdframed works in twoside mode on input line 10.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 61.
+(mdframed)              on input line 10.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package mdframed Info: mdframed works in twoside mode on input line 22.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 22.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 30.
+[30
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 34.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 34.
+Package mdframed Info: mdframed works in twoside mode on input line 36.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 36.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 38.
+Package mdframed Info: mdframed works in twoside mode on input line 48.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 48.
+Package mdframed Info: mdframed works in twoside mode on input line 56.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 56.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1597,155 +1569,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[33]
-File: images/endothelialResponseToVEGF.jpg Graphic file (type bmp)
-<images/endothelialResponseToVEGF.jpg>
-
-
-Package natbib Warning: Citation `Alberts2002' on page 34 undefined on input li
-ne 98.
-
-
-Package natbib Warning: Citation `Alberts2002' on page 34 undefined on input li
-ne 98.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `Alberts2002' on page 34 undefined on input li
-ne 103.
-
-File: images/hallowStructureEndothelialCells.jpg Graphic file (type bmp)
-<images/hallowStructureEndothelialCells.jpg>
-
-Package natbib Warning: Citation `Alberts2002' on page 34 undefined on input li
-ne 116.
-
-
-Package natbib Warning: Citation `Alberts2002' on page 34 undefined on input li
-ne 116.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[34]
-
-Package natbib Warning: Citation `Alberts2002' on page 35 undefined on input li
-ne 119.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[35]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[36]
-File: images/histologySquamousEpithelial.png Graphic file (type bmp)
-<images/histologySquamousEpithelial.png>
-File: images/bileDuct-SquamousEpithelialCells.png Graphic file (type bmp)
-<images/bileDuct-SquamousEpithelialCells.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[37]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[38]
-Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[39]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[40]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[41]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[42]
-File: images/pillarFormationInEmbryoLigation.jpeg Graphic file (type bmp)
-<images/pillarFormationInEmbryoLigation.jpeg>
-
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:mapping=t
-ex-text;!
+[31]
+Package mdframed Info: mdframed works in twoside mode on input line 66.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 66.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
+ndard glyph set (RS)
 )
+Package mdframed Info: mdframed works in twoside mode on input line 73.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 73.
+Package mdframed Info: mdframed works in twoside mode on input line 78.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 78.
+Package mdframed Info: mdframed works in twoside mode on input line 95.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 95.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1754,7 +1599,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[43]
+[32])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1763,7 +1608,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[44] (./Findings.bbl
+[33] (./Findings.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1795,6 +1640,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--112
  []
 
 [73
+
+
 
 
 
@@ -2230,9 +2077,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1687--1696
 
 )
 
-Package natbib Warning: There were undefined citations.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2249,15 +2093,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Findings.out' has not changed.
-(rerunfilecheck)             Checksum: A3131A890AB27294243C4428023C89DD;1672.
+(rerunfilecheck)             Checksum: 18380D95DAA46DE9598F1C3E0CD91D29;814.
  ) 
 Here is how much of TeX's memory you used:
- 52517 strings out of 476191
- 1263674 string characters out of 5812072
- 1876797 words of memory out of 5000000
- 72372 multiletter control sequences out of 15000+600000
- 475092 words of font info for 71 fonts, out of 8000000 for 9000
+ 52458 strings out of 476191
+ 1260806 string characters out of 5812072
+ 1875864 words of memory out of 5000000
+ 72319 multiletter control sequences out of 15000+600000
+ 477465 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,11n,108p,1389b,1194s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Findings.pdf (34 pages).
+Output written on Findings.pdf (24 pages).

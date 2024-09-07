@@ -1,0 +1,155 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[T1]{fontenc}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{thmtools}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage{nameref}
+\usepackage{hyperref}
+\title{On the Mathematical Formulation of the Angiogenesis Process in Health and Disease}
+\author{Ali Fele-Paranj, Leah Edelstein-Keshet}
+
+\newcommand{\R}{\mathbb{R}}
+
+\begin{document}
+	\maketitle
+	\begin{abstract}
+		We will review the mathematical formulations of the angiogenesis process in health and disease. The implementations of some of the discussed models are shared, as well as sharing some mini-scripts demonstrating use cases of some of the software tools we have described in the paper.
+	\end{abstract}
+	\section{Introduction}
+	Angiogenesis is the biological process in which body generates new vessels out of the pre-existing ones that happens during the development (some citations) as well as the response of body for the change in the demands in the tissue (like in sports, wound healing, or angiogenesis in the case of tumor). Angiogenesis is a complected process because as we will discuss there are many molecular, biochemical, genetic, mechanical, topological (the gap junction signal transduction) as well as statistical mechanisms that are happening in parallel and each of them have a significant effect on the outcome of the network. 
+	
+	Also we need to distinguish the notion of angiogenesis and angiogenesis. During the development, much of the information about the important and main vessels are pre-determined during the development. However afterwards, since there are $10^9$ vessel segment in the body (citation), it is not possible to code all of that information in a genetic code. So an optimized and working vascular system emerges as a self-organized way.
+	
+	Angiogenesis is a simultaneous process of growth a a new network (by sprouting or intussusception) and remodeling at the same time. These two processes happen at the same time, but most of the recent and old papers modeling the angiogenesis are either modeling sprouting, or modeling the vasculature remodeling. Or they assume that there is a pre-existing vasculature mesh and then they apply the remodeling principles on top of that mesh. Neither of these assumptions are realistic and in fact in the paper [Secomb, making vascular network work], the authors show some evidences that the sprouting and remodeling both happen at the same time.
+	
+	In this review paper, we will go through the mathematical models capturing the sprouting step in angiogenesis, and then we will discuss the literature modeling the vasculature-remodeling (maturation). We will discuss the classic as well as the recent results and we will conclude with a discussion on the possible improvements on these models.
+	
+	\section{Sprouting Angiogenesis}
+	\subsection{Biological Mechanisms of Angiogenesis}
+	Here we will review some of the important biological aspect of the sprouting in angiogenesis. This will not be a comprehensive review and we refer the readers to other detailed review papers [cited here]. Instead, here we will only cover the details that are highlighted to taken into account in mathematical models presented below.
+	
+	\subsection{Anderson-Chaplain Model}
+	Is one of the classic models that captures that sprouting step in the angiogenesis and takes into account some important factors like the fibronectin and the tumor angiogenic factor (TAF). This model of angiogenesis has been appeared in many different papers and many different analysis has been done on the topology and statistical features of the formed network.
+	
+	\begin{align*}
+		&\frac{\partial n}{\partial t} =  D_n\nabla^2 n  - \nabla\cdot(\chi n\nabla c) - \nabla\cdot(\rho n \nabla f), \\
+		&\frac{\partial c}{\partial t} = -\lambda n c, \\
+		&\frac{\partial f}{\partial t} = \omega n - \mu n f,
+	\end{align*}
+	
+	\begin{itemize}
+		\item $ n = n(X,t): \Omega \times \R \to \R $: the endothelial-cell density (per unit area).
+		\item $ c = c(X,t): \Omega \times \R \to \R $: the tumor angiogenic factor (TAF) concentration (nmol per unit area).
+		\item $ f = f(X,t): \Omega \times \R \to \R $: the fibronectin concentration (nmol per unit area).
+	\end{itemize}
+	
+	\subsection{Branching Annihilating Random Walker}
+	The Anderson-Chaplain model of angiogenesis is also a form of branching annihilating random walker at its heart. A powerful fact about the BARW formulation of the sprouting mechanism in angiogenesis is that we can have some important analytical predictions about the properties of the network formed by this process.
+	
+	The paper A unifying theory of branching annihilating random walker is has demonstrated the capabilities of this model in explaining the observed morphoges in a variety of tissues, as diverse as kidney, mammary glands, and prostate. Also the paper by Ucar 2024 shows that BARW can model the lymphatic network and the authors have found that the global optimization and local adaptation ensues the optimal coverage of vascular tissue. 
+	
+	
+	\section{Microcirculation, Vascular Remodeling and Adaptation}
+	Vascular networks are complex networks that has the ability to adapt to the changing conditions and metabolic demand in tissue. The sprouting step generates a mesh of vasculature in tissue which then adapts according to the signals. In this section, we will review some of the most important biological facts behind this mechanisms and then we will cover the classic and recent mathematical models modeling this phenomena.
+	
+	Most of the biology behind the vascular remodeling comes back to the principles of micro circulation in vascular networks. So in this section we will cover the basics of the micro-circulation in vascular networks and we will discuss some of the important non-linearities in the rheology of the blood in microvasculature.
+	
+	\subsection{Microcirculation in blood microvasculature}
+	The blood is a suspension of red blood cells and proteins in a plasma and this makes vascular networks to have a very interesting non-linear rheology. Three main effects are 
+	\begin{enumerate}
+		\item Hematocrit splitting effect,
+		\item Fahraeus effect,
+		\item Fahraeus-Lindqvist effect.
+	\end{enumerate}
+	Hematocrit splitting effect is basically the fact that at the branching points of the vascular networks,  Faraeus and Fahraeus-Lindqvist effects can be traced down to the plasma skimming effect, where a think layer of void space forms between the red blood cells and the wall of the blood vessels. This causes the ratio between the tube hamtocrite\footnote{Hematocrit is the volumetric ratio of red blood cells in a given sample of blood} and the discharge hematocrite to depend on the tube (which is called the Fahraues effect), as well as the dependence of the relative viscosity of blood (the apparent viscousity of blood\footnote{we can measure the apparent viscousity of blood by considering it as a fluid and running it through a channel (a glass tube) and then usng the relation [blublu] to measure the value for viscosity.} divided by the viscosity of plasma) changes as a function of the tube diameters and retains its minimum value for the tube diameter $ 10\mu m $ that coincides with the typical diameter of the capillary bends.
+	
+	 It is very important to mention that all of these experiments where done in a glass tube, and the situation in in-vivo systems are more subtle. There has been discrepency between the tube measurements and the real in-vivo vascular networks. Different mechanisms has been suggested to take into account this (cite to that old paper), but then it turned out the the inner layer of the vessels causes this discrepancy.
+	
+	\subsection{Biological Process of the Vascular Network Remodeling}
+	The endothelial cells can feel the shear stress and respond to that (through that trans-membrane protein that can act as a mechanical sensor). The higher the shear stress is the larger the vessel gets. However, by an argument first appeared in (some of the Secomb papers), if this was true, then the parallel tracks would be unstable. That is because for the perfectly symmetric parallel track (or loop), disturbing the radius of the any of the parallel tracks can lead to the complete shrinkage of one track and the growth of the other track. To make this not happen, we need to also have metabolic signaling, where tissue under hypoxia initiates a signaling that promotes the growth of the vessel diameter. However, this mechanisms alone can lead to the problem of the functional shunt where the long pathways of the vascular network can get closed and a shunt short pathway can form. So there should be some downstream and upstream signaling happening in the network that is really related to the topology of the network (for instance, length of the downstream daughter branches that a particular branch has) which primarily conducted by the gap-junction receptors between the endothelial cells. This gap junction is one of the most volunreble things in the case of cancer and more of this is covered in the disease section.
+	
+	
+	\section{Mathematical Formulation of the Vascular Network Remodeling}
+	The problem of the vascular network modeling can be formulated in many different ways and here we will be discussing some of the recent approaches. 
+	
+	\subsection{Discrete Formulation}
+	In this formulation we start with the fact that we already have a mesh of vascular network that can be abstracted as a weighted graph $ G(E,V) $ where $ E $ is the edge set and $ V $ is the vertex set, where the weights on the graph if $ C: E \to \R $ which shows the conductance of each edge. We can also assume that the flow in the network is governed by some potentials defined on the vertices $ P: V \to \R $. The flow at each edge is given by the function $ Q: E \to \R $. We can assume $ Q_{i,j} = F(\Delta P_{i,j},C_{i,j}) $, where different choices for $ F $ will assume different fluids running in the network. For instance, for the case of Poiseuille's flow we have
+	\[ Q_{i,j} = -C_{i,j} \frac{\Delta P_{i,j}}{L_{i,j}} \]
+	where $ L_{i,j} $ is the length of the edge.
+	
+	\subsection{Continuous Formulation}
+	In the continuous formulation, instead of the discrete graph as our network, we assume the domain is a continuous domain (for instance $ \Omega \subset \R^3 $). Then we defined the conductance vector field over the domain $ m: \Omega \to \R^3 $ and define the permeability tensor as
+	\[ \mathbb{P}[m] = \mathbb{I}r + m\otimes m, \]
+	where $ \mathbb{I} $ is identity matrix, $ m\otimes m $ is the tensor product of two vectors\footnote{The tensor product of two vectors $ a=(a_1,a_2) $ and $ b = (b_1,b_2) $ is a $ 2\times 2 $ matrix given as 
+	\[ a\otimes b = 
+	\begin{pmatrix}
+		a_1 b_1 & a_1 b_2 \\
+		a_2 b_1 & a_2 b_2
+	\end{pmatrix}.
+	 \]
+	}
+	
+	\subsubsection{Well-posedness of the Continuous Formulation}
+	
+	
+	\subsection{Time Evolution of the Graph}
+	We can come up with all sort of laws and rules that can govern the time evolution of the vascular network. For instance, we can assume that the vascular network evolves as the gradient flow of some energy functional, i.e. there is some functional that the vascular network wants to minimize. Or we can come up with some ad-hoc ODE governing the weights of the network that evolve in a mechanistic way with some biological intuition. Or, we can even try to find this evolution law from data by trying to find a group of diffeomorphisms which are on a geodesics in the space of all diffeomorphisms. 
+	
+	\subsubsection{Time Evolution as the Gradient Flow of The Energy Functional}
+	We can postulate that a normal vascular network remodeling in a normal environment is maximizing some functional $ E $ that depends on the weights of the edges of the graphs. There have been many different suggestions for this functional and one of the most popular ones for the discrete model
+	\[ E(C_{i,j}) = \frac12 \sum_{<i,j>}(\frac{Q_{i,j}^2}{C_{i,j}} + \nu C_{i,j}^\gamma)  \]
+	with some other variations. In this energy functional the first term takes the pumping energy into account and the second functional takes the metabolic constrain into account. In general we can assume that this function will have three kind of terms: 1) A term about the cost of pumping the fluid through the network, 2) a term quantifying the total volume or the total surface area of the network (as larger networks will need more maintainance cost), and 3) robustness to damage or fluctuating source/load.
+	and now we can assume that the weights on the graph changes in a way that this energy minimizes, i.e.
+	\[ \frac{d C_{i,j}}{dt} = - \nabla E, \]
+	so the energy will be minimized. The steady state solution of this ODE systems is precisely the Euler-Lagrange formulation of the least action principle.
+	
+	
+	\subsection{Time Evolution Governed by Mechanistic Ad-Hoc Models}
+	We can also describe the time evolution of the conductance in an ad-hoc way. The following ODE has been popular form some specific applications
+	\begin{align*}
+		&\frac{1}{C_{i,j}}\frac{dC_{i,j}}{dt} = k (\tau_\text{wall} - \tau_0),\\
+		&\frac{dC_i,j}{dt} = \alpha |Q_{i,j}|^{2\sigma} - b C_{i,j} + g, \\
+		&\frac{d}{dt}\sqrt{C_{i,j}} = F(Q_{i,j}) - c \sqrt{C_{i,j}}.
+	\end{align*}
+	
+	
+	
+	\section{Data Analysis}
+	The vascular networks are very complex networks that their structure carries a lot of important information about their function. There have been many different important measurements/characterization of vascular networks like measuring the distribution of the length of the vascular branches, the distribution of the angles between branches, the distribution of the radius of the vessel segments, and etc. Also there have been some other quantification of the vascular networks like measuring the topological features which we will cover here.
+	
+	\subsection{Topological Features of Vascular Networks}
+	There has been an active research on the correlating the topological characteristics of vascular network in health and disease and if these measurements can cluster these data points efficiently. Here we will quickly review the important topological features of vascular networks.
+	
+	
+	
+	\section{Statistical Features of Vascular Networks}
+	Scaling laws, statistical physics, and statistical physics of complex networks. 
+
+	
+	
+	
+	\section{Angiogenesis in Health and Disease}
+	One important aim of modeling is to understand/predict what happens to a vascular network in disease. Vascular networks get affected in a number of disease, including hypertension, cancer, [any other disease related to eye vascular network]. For instance the notion of vascular remodeling has been a very important topic in cancer and there have been many discussion of enhancing the function of vascular networks before some treatments (like chemotherapy or radiotherapy). There are at least two mechanisms under which the vascular network can affect the treatment of cancer: 1) delivery of the drugs, 2) the response of the tumor the vasculature. In the case of the delivery, an impaired vascular network can lead to impaired delivery of drugs. For instance the chronic hypoxic can affect the reachibility of the tissue of interest by the drug through the vascular network (Or are there any other mechanism leading to this?). For the case of the impaired tumor response to the therapy, the main important thing is that impaired vascular network (for instance the functional shunt) leads to in-efficient oxygenating the tumor microenvironment. It is a well accepted fact that under hypoxia, the therapeutic response becomes worsen about 3 fold for radiotherapy. In the case of the chemo-therapy, there are some studies (which when why) that are showing that the response of tumor to chemotherapy becomes impaired.
+	
+	
+	\section{Useful Research Tools}
+	In this section we will review some of the important software tools and also open source available datasets that can be used to enhance the research.
+	\subsection{Open Microvascular Network Data Sets}
+	Often, finding appropriate date to validate a model is a challenging step for the research. Fortunately, due to the growth of the machine learning and deep learning and computer vision community, there are very well organized and large data sets of vascular networks that can be very useful.
+	\begin{itemize}
+		\item High-Resolution Fundus (HRF) Dataset: Contains retinal fundus images.
+		\item ROSE Dataset: Contains retinal OCT-A segmented data.
+		\item OCTAGON Dataset: Angiography by OCT-A of foveal avascular zone (FAZ)
+		\item VESSEL GRAPH Dataset: Whole brain vessel graphs.
+		\item MiniVess Dataset: rodent cerebrovasculature images.
+		\item STARE dataset: Stands for STructured Analysis of the Retina
+		\item 2-PM Vessel Dataset: Volumetric brain vasculature dataset from two photon microscopy
+	\end{itemize}
+	
+	\subsection{Open Source Software Solutions}
+\end{document}

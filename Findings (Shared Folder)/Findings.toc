@@ -36,9 +36,9 @@
 \contentsline {subsubsection}{Sub-case (i): $ K(r,R) = \delta (r-\eta R) $}{27}{subsubsection*.28}%
 \contentsline {section}{\numberline {1.4}Ideas!}{29}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Optimal Transport}{29}{subsection.1.4.1}%
-\contentsline {chapter}{\numberline {2}A Theoretical Investigation}{26}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Set of All Vascular Structures. Is That a Manifold?}{26}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Statistical Properties of Vascular System}{28}{section.2.2}%
+\contentsline {chapter}{\numberline {2}A Theoretical Investigation}{30}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Set of All Vascular Structures. Is That a Manifold?}{30}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Statistical Properties of Vascular System}{32}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Branching Morphogenesis}{30}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Molecular Biology}{31}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Molecular Mechanism of Angiogenesis}{31}{section.4.1}%
