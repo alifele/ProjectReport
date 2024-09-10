@@ -1,0 +1,94 @@
+\begin{thebibliography}{9}
+% this bibliography was produced with the style dinat.bst v2.5
+\makeatletter
+\newcommand{\dinatlabel}[1]%
+{\ifNAT@numbers\else\NAT@biblabelnum{#1}\hspace{2\labelsep}\fi}
+\makeatother
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+
+\bibitem[Almeida und Dilão(2022)]{Almeida2022}
+\dinatlabel{Almeida und Dilão 2022} \textsc{Almeida}, Rodrigo~;
+  \textsc{Dilão}, Rui:
+\newblock Adaptive {Hagen}–{Poiseuille} flows on graphs.
+\newblock In: \emph{Physica D: Nonlinear Phenomena}
+\newblock 436 (2022), August, S.~133322. --
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0167278922001014}. --
+  Zugriffsdatum: 2024-09-08. --
+\newblock ISSN 0167-2789
+
+\bibitem[Almeida und Dilão(2023)]{Almeida2023}
+\dinatlabel{Almeida und Dilão 2023} \textsc{Almeida}, Rodrigo~;
+  \textsc{Dilão}, Rui:
+\newblock Formation and {Optimisation} of {Vein} {Networks} in {Physarum}.
+\newblock URL \url{http://arxiv.org/abs/2305.12244}. -- Zugriffsdatum:
+  2024-09-09, Mai 2023.
+\newblock  -- Forschungsbericht.
+\newblock arXiv:2305.12244 [physics] type: article
+
+\bibitem[Bohn und Magnasco(2007)]{Bohn2007}
+\dinatlabel{Bohn und Magnasco 2007} \textsc{Bohn}, Steffen~; \textsc{Magnasco},
+  Marcelo~O.:
+\newblock Structure, {Scaling}, and {Phase} {Transition} in the {Optimal}
+  {Transport} {Network}.
+\newblock In: \emph{Physical Review Letters}
+\newblock 98 (2007), Februar, Nr.~8, S.~088702. --
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.98.088702}. --
+  Zugriffsdatum: 2024-09-08
+
+\bibitem[Durand(2006)]{Durand2006}
+\dinatlabel{Durand 2006} \textsc{Durand}, Marc:
+\newblock Architecture of optimal transport networks.
+\newblock In: \emph{Physical Review E}
+\newblock 73 (2006), Januar, Nr.~1, S.~016116. --
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevE.73.016116}. --
+  Zugriffsdatum: 2024-09-08
+
+\bibitem[Hu und Cai(2013)]{Hu2013}
+\dinatlabel{Hu und Cai 2013} \textsc{Hu}, Dan~; \textsc{Cai}, David:
+\newblock Adaptation and {Optimization} of {Biological} {Transport} {Networks}.
+\newblock In: \emph{Physical Review Letters}
+\newblock 111 (2013), September, Nr.~13, S.~138701. --
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.111.138701}. --
+  Zugriffsdatum: 2024-09-08
+
+\bibitem[Murray(1926)]{Murray1926}
+\dinatlabel{Murray 1926} \textsc{Murray}, Cecil~D.:
+\newblock The {Physiological} {Principle} of {Minimum} {Work}.
+\newblock In: \emph{Proceedings of the National Academy of Sciences}
+\newblock 12 (1926), M\^^b{a}rz, Nr.~3, S.~207--214. --
+\newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.12.3.207}. --
+  Zugriffsdatum: 2024-09-08
+
+\bibitem[Secomb u.\,a.(2012)Secomb, Dewhirst und Pries]{Secomb2012}
+\dinatlabel{Secomb u.\,a. 2012} \textsc{Secomb}, Timothy~W.~;
+  \textsc{Dewhirst}, Mark~W.~; \textsc{Pries}, Axel~R.:
+\newblock Structural {Adaptation} of {Normal} and {Tumour} {Vascular}
+  {Networks}.
+\newblock In: \emph{Basic \& Clinical Pharmacology \& Toxicology}
+\newblock 110 (2012), Nr.~1, S.~63--69. --
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1742-7843.2011.00815.x}.
+  -- Zugriffsdatum: 2024-09-09. --
+\newblock ISSN 1742-7843
+
+\bibitem[{tec-science}(2020)]{tecscience2020}
+\dinatlabel{{tec-science} 2020} \textsc{{tec-science}}:
+\newblock \emph{Derivation of {Hagen}-{Poiseuille} equation for pipe flows with
+  friction {\textbar} tec-science}.
+\newblock April 2020. --
+\newblock URL
+  \url{https://www.tec-science.com/mechanics/gases-and-liquids/hagen-poiseuille-equation-for-pipe-flows-with-friction/}.
+  -- Zugriffsdatum: 2024-09-09
+
+\bibitem[Valente(2023)]{Valente2023}
+\dinatlabel{Valente 2023} \textsc{Valente}, Ana~F.:
+\newblock Applications to {Biological} {Networks} of {Adaptive}
+  {Hagen}-{Poiseuille} {Flow} on {Graphs}.
+\newblock URL \url{http://arxiv.org/abs/2309.10577}. -- Zugriffsdatum:
+  2024-09-09, September 2023.
+\newblock  -- Forschungsbericht.
+\newblock arXiv:2309.10577 [physics] type: article
+
+\end{thebibliography}

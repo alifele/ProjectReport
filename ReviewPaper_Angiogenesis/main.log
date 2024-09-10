@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  6 SEP 2024 18:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  9 SEP 2024 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -390,47 +390,56 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip60
+\bibsep=\skip61
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count288
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
 
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count288
-\l__color_backend_stack_int=\count289
-\g__color_backend_stack_int=\count290
-\g__graphics_track_int=\count291
+\c__kernel_sys_dvipdfmx_version_int=\count289
+\l__color_backend_stack_int=\count290
+\g__color_backend_stack_int=\count291
+\g__graphics_track_int=\count292
 \l__pdf_internal_box=\box54
-\g__pdf_backend_object_int=\count292
-\g__pdf_backend_annotation_int=\count293
-\g__pdf_backend_link_int=\count294
+\g__pdf_backend_object_int=\count293
+\g__pdf_backend_annotation_int=\count294
+\g__pdf_backend_link_int=\count295
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -466,74 +475,223 @@ LaTeX Font Info:    ... okay on input line 18.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 18.
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+Package hyperref Info: Link coloring ON on input line 28.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 2644) in paragraph at lines 51--51
-[]\T1/lmr/bx/n/12 Branching An-ni-hi-lat-ing Ran-dom
- []
-
-[1
+) [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 2644) in paragraph at lines 62--62
+[]\T1/lmr/bx/n/12 Branching An-ni-hi-lat-ing Ran-dom
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []\T1/lmr/bx/n/14.4 Microcirculation, Vas-cu-lar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []\T1/lmr/bx/n/12 Microcirculation in blood mi-
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []\T1/lmr/bx/n/12 Time Evo-lu-tion Gov-erned by
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 125--125
+Underfull \hbox (badness 1019) in paragraph at lines 136--136
 []\T1/lmr/bx/n/12 Topological Fea-tures of Vas-cu-lar
  []
 
-
-Underfull \hbox (badness 1122) in paragraph at lines 136--136
+[3]
+Underfull \hbox (badness 1122) in paragraph at lines 147--147
 []\T1/lmr/bx/n/14.4 Angiogenesis in Health and
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 137--138
+Underfull \hbox (badness 5345) in paragraph at lines 148--149
 \T1/lmr/m/n/10 One im-por-tant aim of mod-el-ing is to un-der-
  []
 
-[3] [4] (./main.aux)
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]\T1/lmr/bx/n/14.4 Adaptive Hagen-Poiseuille
+ []
+
+
+Package natbib Warning: Citation `Tero2010' on page 5 undefined on input line 1
+96.
+
+
+Package natbib Warning: Citation `Tero2010' on page 5 undefined on input line 2
+04.
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 217--217
+[]\T1/lmr/bx/n/14.4 Work bCa-te-rina De Bacco
+ []
+
+
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+ [5]
+(./main.bbl
+Missing character: There is no – ("2013) in font ec-lmr10!
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+7.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 1087) in paragraph at lines 11--20
+[]\T1/lmr/m/n/10 [Almeida und Dilão 2022]  \T1/lmr/m/sc/10 Almeida\T1/lmr/m/n/1
+0 , Ro-drigo ;
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 11--20
+\T1/lmr/m/sc/10 Dilão\T1/lmr/m/n/10 , Rui:  Adap-tive Ha-gen-Poiseuille flows
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 11--20
+\T1/lmr/m/n/10 on graphs.  In: \T1/lmr/m/it/10 Phys-ica D: Non-lin-ear Phe-
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 11--20
+\T1/lmr/m/it/10 nom-ena  \T1/lmr/m/n/10 436 (2022), Au-gust, S. 133322. --
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 11--20
+\T1/lmtt/m/n/10 article / pii / S0167278922001014$[][]\T1/lmr/m/n/10 . -- Zu-gr
+iffs-da-
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 22--29
+[]\T1/lmr/m/n/10 [Almeida und Dilão 2023]  \T1/lmr/m/sc/10 Almeida\T1/lmr/m/n/1
+0 , Ro-drigo ;
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 22--29
+\T1/lmr/m/sc/10 Dilão\T1/lmr/m/n/10 , Rui:  For-ma-tion and Op-ti-mi-sa-tion of
+
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 31--39
+\T1/lmr/m/sc/10 nasco\T1/lmr/m/n/10 , Marcelo O.:  Struc-ture, Scal-ing, and
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 41--47
+\T1/lmr/m/n/10 op-ti-mal trans-port net-works.  In: \T1/lmr/m/it/10 Phys-i-cal 
+Re-
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 41--47
+\T1/lmr/m/n/10 --  URL [][]$\T1/lmtt/m/n/10 https : / / link . aps . org / doi 
+/ 10 . 1103 /
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 49--55
+[]\T1/lmr/m/n/10 [Hu und Cai 2013]  \T1/lmr/m/sc/10 Hu\T1/lmr/m/n/10 , Dan ; \T
+1/lmr/m/sc/10 Cai\T1/lmr/m/n/10 , David:
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 49--55
+\T1/lmr/m/n/10 port Net-works.  In: \T1/lmr/m/it/10 Phys-i-cal Re-view Let-
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 49--55
+\T1/lmr/m/n/10 --  URL [][]$\T1/lmtt/m/n/10 https : / / link . aps . org / doi 
+/ 10 . 1103 /
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 65--75
+\T1/lmtt/m/n/10 abs / 10 . 1111 / j . 1742-[]7843 . 2011 . 00815 . x$[][]\T1/lm
+r/m/n/10 . -- Zu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--84
+[]\T1/lmr/m/n/10 [tec-science 2020]  \T1/lmr/m/sc/10 tec-science\T1/lmr/m/n/10 
+:  \T1/lmr/m/it/10 Deriva-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--84
+\T1/lmr/m/it/10 tion of Hagen-Poiseuille equa-tion for pipe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--84
+\T1/lmr/m/it/10 flows with fric-tion | tec-science\T1/lmr/m/n/10 .  April
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--84
+\T1/lmr/m/n/10 2020. --  URL [][]$\T1/lmtt/m/n/10 https : / / www . tec-[]scien
+ce .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--84
+\T1/lmtt/m/n/10 com / mechanics / gases-[]and-[]liquids /
+ []
+
+
+Overfull \hbox (68.17848pt too wide) in paragraph at lines 77--84
+\T1/lmtt/m/n/10 hagen-[]poiseuille-[]equation-[]for-[]pipe-[]flows-[]with-[]fri
+ction/$[][]\T1/lmr/m/n/10 .
+ []
+
+[6])
+
+Package natbib Warning: There were undefined citations.
+
+[7
+
+] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B50F83A5D71592766AB97BCFF4664995;5282.
+(rerunfilecheck)             Checksum: D2FDD20AA565211C14135016169BC9AB;6926.
  ) 
 Here is how much of TeX's memory you used:
- 11562 strings out of 476191
- 182929 string characters out of 5812072
- 505326 words of memory out of 5000000
- 32124 multiletter control sequences out of 15000+600000
- 509283 words of font info for 68 fonts, out of 8000000 for 9000
+ 11983 strings out of 476191
+ 188487 string characters out of 5812072
+ 513441 words of memory out of 5000000
+ 32532 multiletter control sequences out of 15000+600000
+ 516660 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,10n,76p,1445b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,76p,1445b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (4 pages).
+Output written on main.pdf (7 pages).

@@ -9,7 +9,17 @@
 \usepackage{xcolor}
 \usepackage{enumerate}
 \usepackage{nameref}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	citecolor=cyan!70!black,
+	linkcolor=cyan!90!black
+}
+\usepackage{natbib} 
+%\setcitestyle{authoryear, open={([},close={)]}}
+%\setcitestyle{numbers,square}
+\bibliographystyle{dinat}
+
 \title{On the Mathematical Formulation of the Angiogenesis Process in Health and Disease}
 \author{Ali Fele-Paranj, Leah Edelstein-Keshet}
 
@@ -18,7 +28,8 @@
 \begin{document}
 	\maketitle
 	\begin{abstract}
-		We will review the mathematical formulations of the angiogenesis process in health and disease. The implementations of some of the discussed models are shared, as well as sharing some mini-scripts demonstrating use cases of some of the software tools we have described in the paper.
+		We will review the mathematical formulations of the angiogenesis process in health and disease. The implementations of some of the discussed models are shared, as well as sharing some mini-scripts demonstrating use cases of some of the software tools we have described in the paper. In the last 20 years of increased research interest in the optimal transport networks in biological systems, there have been many approaches towards this problem, where some of which share same mathematical structure. Here in this paper we will develop the common mathematical formulation of the problem and discuss the results.
+		For the theory of optimal transport networks, since they are abundant in nature and applications, there have been many different modelings for different systems (like the river basins, leaf venation, slime mold, etc). One purpose of this review paper is the give a unified picture of the relevance of such attempts in the realm of micro-vascular systems, and cancer. 
 	\end{abstract}
 	\section{Introduction}
 	Angiogenesis is the biological process in which body generates new vessels out of the pre-existing ones that happens during the development (some citations) as well as the response of body for the change in the demands in the tissue (like in sports, wound healing, or angiogenesis in the case of tumor). Angiogenesis is a complected process because as we will discuss there are many molecular, biochemical, genetic, mechanical, topological (the gap junction signal transduction) as well as statistical mechanisms that are happening in parallel and each of them have a significant effect on the outcome of the network. 
@@ -152,4 +163,59 @@
 	\end{itemize}
 	
 	\subsection{Open Source Software Solutions}
+	
+	
+	\section{Construction Zone!}
+	This is a temporally construction zone to keep the information and details of some of the papers and them move them to the appropriate place in the text. 
+	
+	\subsection{Adaptation and optimization of biological transport networks}
+	\label{Hu_Work}
+	Paper by \cite{Hu2013}. The functional relation between $ Q $ (flow) and $ \Delta P $ the pressure difference between the two adjacent nodes given as $ Q = C \Delta P $ is because of the low Reynolds number microvasculature. The vessel conductance 
+	\[ C = \frac{\pi D^4}{128 \eta L}. \]
+	The model is originally derived for the leaf veins, hence they assume no dependence of the viscosity ($ \eta $) on the diameter of the tube. The energy of the network defined as
+	\[ E = \sum_i\left(\frac{Q_i^2}{\tilde{C}_i} + c_0 \tilde{C}_i^\gamma\right) L_i \]
+	where $ c_0 $ is the metabolic rate, $ \gamma $ an intrinsic factor of the network, $ \tilde{C} = C L $ conductivity (note that $ C $ is the conductance). The \textbf{first term} of the energy functional above is the energy required to pump the fluid through the network (this is of the form current times potential difference). To understand the rationale behind the \textbf{second term} of the energy functional, we evaluate the case $ \gamma = 1/2 $. In the Murray's work \cite{Murray1926}, authors postulates that the vascular networks remodel in a way to minimize their total volume (hence lower total number of the cells building the network, lower the metabolic cost). When $ \gamma = 1/2 $, then 
+	\[ \tilde{C}_i^{1/2}L_i \propto D^2 L_i, \]
+	i.e. when $ \gamma=1/2 $, then the metabolic cost is precisely proportional to the volume of the network. Thus $ \gamma $ generalizes the Murray's law for vascular networks. Furthermore, when $ \gamma = 1/4 $, then the metabolic rate is proportional to the surface area of the network and minimizing this energy functional is the same as minimizing the total surface area of the network. Note that \cite{Durand2006} also has a kind of generalization between surface area and volume.
+	
+	The authors mention that the metabolic term is not a constrain in this formulation, and $ c_0 $ is not the Lagrange multiplier, but a measurable quantity. I need to figure out the formulation by writing an explicit constraint and using the Lagrange multiplier method to optimize the objective. \cite{Durand2006,Bohn2007} are using this formulation (optimization by the use of Lagrange multipliers). Furthermore\cite{Almeida2022} uses some form of Lagrange multipliers in a different setting that is worth exploration.
+	
+	The authors propose the following ODE that governs the governs the time evolution of the conductance of the links. 
+	\[ \frac{d\tilde{C}_i}{dt} = c\left(\underbrace{\frac{Q_i^2}{\tilde{C}_i^{\gamma+1}}}_{\text{prop to }\tau_w^2} - \tilde{\tau_e}^2\right) \tilde{C}_i, \]
+	where $ \tilde{\tau} $ is the target shear stress that we want to have in the tube. Here in this section we will highlight the rationale behind this design. First, as derived in \cite{Secomb2012}, the shear stress on the vascular wall in the case of the blood networks is given as
+	\[ \tau_w \propto \frac{Q}{D^3}. \]
+	On the other hand since $ \tilde{C} \propto D^4 $, then for $ \gamma = 1/2 $ the first term in the parenthesis in the RHS of the ODE will become
+	\[ \frac{Q_i^2}{\tilde{C_i}^{3/2}} \propto \frac{Q_i^2}{D^6} \propto (\tau_w)^2.  \]
+	Furthermore, authors claim that for this choice of evolution law for the conductivity, $ dE/dt < 0 $. \textbf{I am still trying to figure this out}. However, the time derivative of the energy functional is
+	\[ \frac{dE}{dt} = \sum_i\left(-\frac{Q_i^2}{\tilde{C}^2_i} + c_0\gamma \tilde{C}_i^{\gamma-1}\right) L_i \frac{d\tilde{C}_i}{dt}. \]
+	
+	
+	\section{Adaptive Hagen-Poiseuille flows on graphs}
+	In this part, I will summarize the methods and the results of the paper \cite{Almeida2022}, and the corresponding theses came out of the same research group that contains more details \cite{Valente2023,Almeida2023}. The Hagen-Poiseuille equation is for the steady-state laminar flow of incompressible, Newtonian fluid through a \textbf{long} channel \footnote{Note that the blood is not a Newtonian fluid and experiences shear thickening (or shear thinning) under different shear rates. But there are certain limits for the shear rate over which we can assume that the blood is a Newtonian fluid. For instance, at a very low shear stress, the viscosity of blood increases a lot at lower tube diameters as the RBC can not squeeze through narrow channels.}. The Hagen-Poiseuille flow is given by
+	\[ Q_{ij} = \frac{\pi r_{ij}^4}{8\eta L_{ij}}(p_i - p_j). \]
+	For a derivation of this equation from the first principles see \cite{tecscience2020}. The choices for adaptation rule can be due to \cite{Tero2010} where Tero et al propose adaptation rule of the type
+	\[ \frac{d D_{ij}}{dt} = f(|Q_{ij}|) - D_{ij}, \]
+	where the first term is for the increase of conductance of the tube due to flow and the second term is the baseline shrinkage of the vessel segment. As suggested by Tero et al, one possible choice for $ f(|Q_{ij}|) $ is 
+	\[ f(|Q_{ij}|) = \frac{|Q_{ij}|^\gamma}{1+|Q_{ij}|^\gamma} \]
+	Similar to what we derived at \autoref{Hu_Work}, the total volume of the network is
+	\[ V = \beta \sum_{(i,j)\in E} \sqrt{D_{ij}}L_{ij}. \]
+	Note that the variable $ D_{ij} $ represents the conductivity here whereas in \autoref{Hu_Work} it is used for the diameter. By using the chain rule we can write
+	\[ \frac{d V}{dt} \propto \sum_{(i,j)\in E} \frac{L_{ij}}{2\sqrt{D_{ij}}} \frac{dD_{ij}}{dt} \]
+	where we choose $ d D_{ij}/dt $ according to the ODE governing the time evolution of $ D_{ij} $. Note that not every choice of the RHS of this ODE will guarantee that $ dV/dt = 0 $, and thus the volume is conserved. \cite{Almeida2023} claims that since the choice of $ f $ by \cite{Tero2010}, does not conserve the volume, thus it violates the fact that the fluid is incompressible. I do not think this is true. The volume of the network can shrink, and this has nothing to do with the compression of the fluid inside. Smaller network carries less fluid.
+	
+	
+	
+	\section{Work by Karen Alim}
+	
+	\section{Work by Carl D Modes group}
+	
+	\section{Work by Katifori group}
+	
+	\section{Work by Markovich group}
+	
+	
+	\section{Work bCaterina De Bacco group}
+	
+	\newpage
+	\bibliography{References/references}
 \end{document}
