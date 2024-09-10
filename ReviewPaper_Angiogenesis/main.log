@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  9 SEP 2024 17:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  10 SEP 2024 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -548,16 +548,17 @@ Package natbib Warning: Citation `Tero2010' on page 5 undefined on input line 1
 Package natbib Warning: Citation `Tero2010' on page 5 undefined on input line 2
 04.
 
+[5]
 
-Underfull \hbox (badness 1028) in paragraph at lines 217--217
+Package natbib Warning: Citation `Tero2010' on page 6 undefined on input line 2
+08.
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 231--231
 []\T1/lmr/bx/n/14.4 Work bCa-te-rina De Bacco
  []
 
-
-Underfull \vbox (badness 5908) has occurred while \output is active []
-
- [5]
-(./main.bbl
+[6] (./main.bbl
 Missing character: There is no – ("2013) in font ec-lmr10!
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 7.
@@ -675,23 +676,21 @@ Overfull \hbox (68.17848pt too wide) in paragraph at lines 77--84
 ction/$[][]\T1/lmr/m/n/10 .
  []
 
-[6])
+)
 
 Package natbib Warning: There were undefined citations.
 
-[7
-
-] (./main.aux)
+[7] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D2FDD20AA565211C14135016169BC9AB;6926.
  ) 
 Here is how much of TeX's memory you used:
- 11983 strings out of 476191
- 188487 string characters out of 5812072
+ 11989 strings out of 476191
+ 188546 string characters out of 5812072
  513441 words of memory out of 5000000
- 32532 multiletter control sequences out of 15000+600000
- 516660 words of font info for 71 fonts, out of 8000000 for 9000
+ 32535 multiletter control sequences out of 15000+600000
+ 517587 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,11n,76p,1445b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,76p,1445b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (7 pages).
