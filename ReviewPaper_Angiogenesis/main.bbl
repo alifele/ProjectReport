@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -81,6 +81,19 @@
 \newblock URL
   \url{https://www.tec-science.com/mechanics/gases-and-liquids/hagen-poiseuille-equation-for-pipe-flows-with-friction/}.
   -- Zugriffsdatum: 2024-09-09
+
+\bibitem[Tero u.\,a.(2010)Tero, Takagi, Saigusa, Ito, Bebber, Fricker, Yumiki,
+  Kobayashi und Nakagaki]{Tero2010}
+\dinatlabel{Tero u.\,a. 2010} \textsc{Tero}, Atsushi~; \textsc{Takagi}, Seiji~;
+  \textsc{Saigusa}, Tetsu~; \textsc{Ito}, Kentaro~; \textsc{Bebber}, Dan~P.~;
+  \textsc{Fricker}, Mark~D.~; \textsc{Yumiki}, Kenji~; \textsc{Kobayashi},
+  Ryo~; \textsc{Nakagaki}, Toshiyuki:
+\newblock Rules for {Biologically} {Inspired} {Adaptive} {Network} {Design}.
+\newblock In: \emph{Science}
+\newblock 327 (2010), Januar, Nr.~5964, S.~439--442. --
+\newblock URL \url{https://www.science.org/doi/10.1126/science.1177894}. --
+  Zugriffsdatum: 2024-09-09. --
+\newblock ISSN 0036-8075, 1095-9203
 
 \bibitem[Valente(2023)]{Valente2023}
 \dinatlabel{Valente 2023} \textsc{Valente}, Ana~F.:
