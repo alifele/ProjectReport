@@ -1,6 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  18 SEP 2024 13:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.26)  18 SEP 2024 18:49
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -541,7 +541,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--193
  []
 
 [5]
-Underfull \hbox (badness 1028) in paragraph at lines 231--231
+Underfull \hbox (badness 1028) in paragraph at lines 246--246
 []\T1/lmr/bx/n/14.4 Work bCa-te-rina De Bacco
  []
 
@@ -608,57 +608,94 @@ Underfull \hbox (badness 2626) in paragraph at lines 41--47
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 49--55
+Underfull \hbox (badness 4120) in paragraph at lines 49--56
+[]\T1/lmr/m/n/10 [Fele-Paranj 2024]  \T1/lmr/m/sc/10 Fele-Paranj\T1/lmr/m/n/10 
+, Ali:  On
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 49--56
+\T1/lmr/m/n/10 the Lapla-cian of graphs.   (2024). --  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--56
+[][]$\T1/lmtt/m/n/10 https : / / github . com / alifele / Lecture-[]Notes /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--56
+\T1/lmtt/m/n/10 blob / main / ScientificNotes / OntheLaplacian /
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 58--64
 []\T1/lmr/m/n/10 [Hu und Cai 2013]  \T1/lmr/m/sc/10 Hu\T1/lmr/m/n/10 , Dan ; \T
 1/lmr/m/sc/10 Cai\T1/lmr/m/n/10 , David:
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 49--55
+Underfull \hbox (badness 5726) in paragraph at lines 58--64
 \T1/lmr/m/n/10 port Net-works.  In: \T1/lmr/m/it/10 Phys-i-cal Re-view Let-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 49--55
+Underfull \hbox (badness 2626) in paragraph at lines 58--64
 \T1/lmr/m/n/10 --  URL [][]$\T1/lmtt/m/n/10 https : / / link . aps . org / doi 
 / 10 . 1103 /
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 65--75
+Underfull \hbox (badness 10000) in paragraph at lines 66--72
+\T1/lmtt/m/n/10 web . sas . upenn . edu / dist / 6 / 217 / files / 2019 / 09 /
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 82--90
+[]\T1/lmr/m/n/10 [Ronellenfitsch und Kat-i-fori 2016]  \T1/lmr/m/sc/10 Ronel-le
+n-
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 82--90
+\T1/lmr/m/n/10 ti-miza-tion, Lo-cal Adap-ta-tion, and the Role of
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 92--102
 \T1/lmtt/m/n/10 abs / 10 . 1111 / j . 1742-[]7843 . 2011 . 00815 . x$[][]\T1/lm
 r/m/n/10 . -- Zu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--84
+Underfull \hbox (badness 10000) in paragraph at lines 104--111
 []\T1/lmr/m/n/10 [tec-science 2020]  \T1/lmr/m/sc/10 tec-science\T1/lmr/m/n/10 
 :  \T1/lmr/m/it/10 Deriva-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--84
+Underfull \hbox (badness 10000) in paragraph at lines 104--111
 \T1/lmr/m/it/10 tion of Hagen-Poiseuille equa-tion for pipe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--84
+Underfull \hbox (badness 10000) in paragraph at lines 104--111
 \T1/lmr/m/it/10 flows with fric-tion | tec-science\T1/lmr/m/n/10 .  April
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--84
+Underfull \hbox (badness 10000) in paragraph at lines 104--111
 \T1/lmr/m/n/10 2020. --  URL [][]$\T1/lmtt/m/n/10 https : / / www . tec-[]scien
 ce .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--84
+Underfull \hbox (badness 10000) in paragraph at lines 104--111
 \T1/lmtt/m/n/10 com / mechanics / gases-[]and-[]liquids /
  []
 
 
-Overfull \hbox (68.17848pt too wide) in paragraph at lines 77--84
+Overfull \hbox (68.17848pt too wide) in paragraph at lines 104--111
 \T1/lmtt/m/n/10 hagen-[]poiseuille-[]equation-[]for-[]pipe-[]flows-[]with-[]fri
 ction/$[][]\T1/lmr/m/n/10 .
  []
@@ -668,10 +705,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D2FDD20AA565211C14135016169BC9AB;6926.
  ) 
 Here is how much of TeX's memory you used:
- 11992 strings out of 476191
- 188594 string characters out of 5812072
- 513546 words of memory out of 5000000
- 32538 multiletter control sequences out of 15000+600000
+ 12001 strings out of 476191
+ 188810 string characters out of 5812072
+ 513652 words of memory out of 5000000
+ 32547 multiletter control sequences out of 15000+600000
  517587 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,11n,76p,1445b,396s stack positions out of 5000i,500n,10000p,200000b,80000s

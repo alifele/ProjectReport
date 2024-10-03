@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{13}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -45,6 +45,15 @@
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevE.73.016116}. --
   Zugriffsdatum: 2024-09-08
 
+\bibitem[Fele-Paranj(2024)]{FeleParanj2024}
+\dinatlabel{Fele-Paranj 2024} \textsc{Fele-Paranj}, Ali:
+\newblock On the Laplacian of graphs.
+\newblock
+\newblock (2024). --
+\newblock URL
+  \url{https://github.com/alifele/Lecture-Notes/blob/main/Scientific Notes/On
+  the Laplacian/Laplacian.pdf}
+
 \bibitem[Hu und Cai(2013)]{Hu2013}
 \dinatlabel{Hu und Cai 2013} \textsc{Hu}, Dan~; \textsc{Cai}, David:
 \newblock Adaptation and {Optimization} of {Biological} {Transport} {Networks}.
@@ -53,6 +62,14 @@
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.111.138701}. --
   Zugriffsdatum: 2024-09-08
 
+\bibitem[Katifori(2019)]{KatiforiJune2019}
+\dinatlabel{Katifori 2019} \textsc{Katifori}, Eleni:
+\newblock Biological Flow Networks: The absolute basics.
+\newblock In: \emph{Online Note}
+\newblock (2019). --
+\newblock URL
+  \url{https://bpb-us-w2.wpmucdn.com/web.sas.upenn.edu/dist/6/217/files/2019/09/BoulderFlowsPart1.pdf}
+
 \bibitem[Murray(1926)]{Murray1926}
 \dinatlabel{Murray 1926} \textsc{Murray}, Cecil~D.:
 \newblock The {Physiological} {Principle} of {Minimum} {Work}.
@@ -60,6 +77,16 @@
 \newblock 12 (1926), M\^^b{a}rz, Nr.~3, S.~207--214. --
 \newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.12.3.207}. --
   Zugriffsdatum: 2024-09-08
+
+\bibitem[Ronellenfitsch und Katifori(2016)]{Ronellenfitsch2016}
+\dinatlabel{Ronellenfitsch und Katifori 2016} \textsc{Ronellenfitsch}, Henrik~;
+  \textsc{Katifori}, Eleni:
+\newblock Global {Optimization}, {Local} {Adaptation}, and the {Role} of
+  {Growth} in {Distribution} {Networks}.
+\newblock In: \emph{Physical Review Letters}
+\newblock 117 (2016), September, Nr.~13, S.~138301. --
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.117.138301}. --
+  Zugriffsdatum: 2024-09-18
 
 \bibitem[Secomb u.\,a.(2012)Secomb, Dewhirst und Pries]{Secomb2012}
 \dinatlabel{Secomb u.\,a. 2012} \textsc{Secomb}, Timothy~W.~;

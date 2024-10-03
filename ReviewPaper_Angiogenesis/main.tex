@@ -224,6 +224,20 @@
 	\section{Work by Carl D Modes group}
 	
 	\section{Work by Katifori group}
+	In this research group there are multiple papers that most of them share the basics. The note \cite{KatiforiJune2019} covers most of the important basics for flow networks in biology. The paper by \cite{Ronellenfitsch2016} authors discuss the role of growth in distribution networks. They include the growth effectively by a scaling factor and assume that the distance between two points grow as $ d(t) = \lambda_t d(0) $. Furthermore, they assume that all of the dynamical quantities scale like $ \square(t) = \lambda_t^\sigma \square'(t) $, where $ \square $ can be any dynamical quantities in the model like pressure of the nodes $ \mathbf{P} $, and flow on the edges $ \mathbf{F} $. Note that the exponent $ \sigma $ depends on the dynamical quantity in $ \square $.
+	
+	They define a weighted graph (where weights are the conductance of the edges) and define the pressures on the nodes and the flow on the edges, related to each other by
+	\[ Q_e = C_e (p_i - p_j)/L_e \]
+	where $ Q_e, C_e, $ and $ L_e $ are the flow, conductance, and the length of the edge $ e $ respectively, and $ p_i, p_j $ are the pressure of the adjacent nodes to the edge $ e $. This can be written more compactly as
+	\[ \mathbf{Q} = \mathbf{C}\mathbf{L}^{-1}\Delta \mathbf{P} \]
+	where $ \mathbf{C} $, and $ \mathbf{L} $ are the diagonal matrices of the conductance and length of edges, and $ \Delta $ is the transpose of the incidence matrix. See \cite{FeleParanj2024} for more details. The Kirchhoff equation that they solve is 
+	\[ \Delta^T \mathbf{Q} = \mathbf{q}  \]
+	where $ \mathbf{q} $ is the source or sink terms on the nodes. Solving this is equivalent to solve the Poisson-like equation
+	\[ \mathcal{L} \mathbf{P} = \mathbf{q}, \]
+	with the connection that $ \mathcal{L} = \Delta ^T  \mathbf{C}\mathbf{L}^{-1} \Delta  $. The evolution law they use for the conductances is
+	\[ \frac{d C_e}{dt} = a (Q_e/\hat{Q})^{2\gamma} - b C_e + c, \]
+	where $ \hat{Q} $ is a reference flow, and $ a,\gamma, b, c $ are constants. By including the growth as a time dependent scaling, they derive the equation for the asymptotic case to study its topology. By setting $ C = \lambda_t^{2\gamma\delta} C' $, they write the ODE for asymptotic equations
+	\[ \frac{d C_e'}{dt} = a(Q_e'/\hat{Q})^{2\gamma} - b' C_e' + \lambda_t^{-2\gamma\delta}c. \]
 	 
 	
 	\section{Work by Markovich group}
