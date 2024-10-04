@@ -12,12 +12,18 @@ class Tip:
         self.dt = 0.01
 
     def update(self):
-        theta = np.random.uniform(-np.pi / 10, np.pi / 10)
+        self.move()
+        self.branch()
+
+
+
+    def move(self):
+        theta = np.random.randn() * np.pi / 50
         self.velocity = np.matmul(rotMat(theta), self.velocity)
         self.position += self.dt * self.velocity
 
+    def branch(self):
         if np.random.random() < 0.01:
             self.duct.network.handleBranching(np.copy(self.position))
             self.isAlive = False
-
 
