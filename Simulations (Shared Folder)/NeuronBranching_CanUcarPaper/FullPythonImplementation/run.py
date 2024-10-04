@@ -2,7 +2,7 @@ from pylab import *
 from tqdm import tqdm
 
 
-from main import BARW
+from main_OLD import BARW
 
 tmax = 200
 prob_branch = 0.03

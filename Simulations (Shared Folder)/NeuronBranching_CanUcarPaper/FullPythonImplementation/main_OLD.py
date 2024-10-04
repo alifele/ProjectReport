@@ -319,9 +319,9 @@ class BARW:
         #     self.angle_list = np.append(self.angle_list, np.array(angleEntryList),axis=0)
 
         self.angle_list = np.append(self.angle_list, np.column_stack((np.degrees(self.angle), self.node[:, -1])), axis=0)
-        self.coordsTemp = np.append(self.coordsTemp, np.array(self.node), axis=0)
-        self.coordinates = np.copy(self.coordsTemp)
-        # self.coordinates = np.append(self.coordinates, np.array(self.node), axis=0)
+        # self.coordsTemp = np.append(self.coordsTemp, np.array(self.node), axis=0)
+        # self.coordinates = np.copy(self.coordsTemp)
+        self.coordinates = np.append(self.coordinates, np.array(self.node), axis=0)
 
 
 
