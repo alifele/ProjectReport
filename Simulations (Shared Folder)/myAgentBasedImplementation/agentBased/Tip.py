@@ -1,5 +1,7 @@
 import numpy as np
-from utils import rotMat
+from dask.array import angle
+
+from agentBased.MovementModels import *
 
 
 class Tip:
@@ -9,7 +11,6 @@ class Tip:
         self.collisionData = None ## this will be replaced with collision information if collides: [Stopperduct, stopperPoint]
         self.isAlive = True
         self.duct = duct
-
         self.dt = self.duct.network.dt
 
     def update(self):
@@ -25,12 +26,11 @@ class Tip:
 
 
     def move(self):
-        theta = np.random.randn() * np.pi / 20
-        self.velocity = np.matmul(rotMat(theta), self.velocity)
-        self.position += self.dt * self.velocity
+        # self.position, self.velocity = cartesianMove(self.position, self.velocity, self.dt)
+        self.position, self.velocity = angleMove(self.position, self.velocity, self.dt)
+
 
     def branch(self):
-        if np.random.random() < 0.02:
+        if np.random.random() < 0.022:
             self.duct.network.handleBranching(self.position, self.duct)
             self.isAlive = False
-

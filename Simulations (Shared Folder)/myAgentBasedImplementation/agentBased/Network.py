@@ -42,8 +42,8 @@ class Network:
         v = parent.tip.velocity
         # child1_angle = np.random.randn()*np.pi/100.0 + np.pi/8
         # child2_angle = np.random.randn()*np.pi/100.0 - np.pi/8
-        child1_angle = np.pi/4
-        child2_angle = -np.pi/4
+        child1_angle = np.pi/8
+        child2_angle = -np.pi/8
         self.ductsToBeAdded.append(Duct(initPos,np.matmul(rotMat(child1_angle),v),self, parent))
         self.ductsToBeAdded.append(Duct(initPos,np.matmul(rotMat(child2_angle),v),self, parent))
 

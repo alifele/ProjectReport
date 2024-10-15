@@ -4,51 +4,87 @@ from agentBased.Network import Network
 import networkx as nx
 import sys
 
+from agentBased.Remodel import Remodel
+
 # Increase the recursion limit
-sys.setrecursionlimit(10000)
+sys.setrecursionlimit(800)
 
 
 class Main:
     def __init__(self):
         self.network = Network()
+        self.remod = None
         self.G = None
 
     def run(self):
-        for i in range(200):
+        for i in range(1100):
             self.network.update()
+
         self.turnToGraph()
-        self.G.remove_edges_from(nx.selfloop_edges(self.G))
+        self.remod = Remodel(self.G)
+        self.G_BeforeRemodeling = self.G.copy()
+        self.remod.remodel()
+
+
+
 
     def plot(self):
-        plt.figure(figsize=(12,12))
-        for duct in self.network.ductsList:
-            coord = np.array(duct.tailCurve)
-            # plt.scatter(coord[:,0],coord[:,1],s=2,c="k")
-            plt.plot(coord[:,0],coord[:,1],color='steelblue',alpha=0.2)
-            if duct.tip.isAlive:
-                pass
-                # plt.plot(duct.tip.position[0],duct.tip.position[1],'o',color="orange",ms=3)
+        maxRad = np.max([(self.G.edges[u, v]['C']) ** (1 / 4) for u, v in self.G.edges()])
+        plt.figure(figsize=(12, 12))
+        for u, v, data in self.G.edges(data=True):
+            coord = np.array(data["curve"])
+            rad = data["C"] ** (1 / 4) / maxRad * 5
+            plt.plot(coord[:, 0], coord[:, 1], color='steelblue', alpha=1, lw=rad)
 
-        # pos = {node: node for node in self.G.nodes()}
-        # nx.draw(self.G, pos, node_size=5, node_color="lightblue", edge_color="red", font_size=8)
+        for sink in self.remod.sinkNodes:
+            plt.plot(sink[0], sink[1], "*r", ms=2)
 
-        cycles = nx.cycle_basis(self.G)
-        cmap = plt.get_cmap('tab20')
-
-        for idx, cycle in enumerate(cycles):
-            color = cmap(idx % 20)
-            for i in range(len(cycle) - 1):
-                edge = main.G.get_edge_data(cycle[i], cycle[i + 1])
-                curve = np.array(edge.get("curve"))
-                plt.plot(curve[:, 0], curve[:, 1],color=color)
-
-            i += 1
-            edge = main.G.get_edge_data(cycle[i], cycle[0])
-            curve = np.array(edge.get("curve"))
-            plt.plot(curve[:, 0], curve[:, 1],color=color)
+        for source in self.remod.sourceNodes:
+            plt.plot(source[0], source[1], "*g")
 
         plt.axis('equal')
         plt.show()
+
+
+        plt.figure(figsize=(12, 12))
+        r = 5
+        for u, v, data in self.G_BeforeRemodeling.edges(data=True):
+            coord = np.array(data["curve"])
+            plt.plot(coord[:, 0], coord[:, 1], color='steelblue', alpha=1, lw=r/3)
+
+        plt.axis('equal')
+        plt.show()
+
+
+
+
+
+
+        # for duct in self.network.ductsList:
+        #     coord = np.array(duct.tailCurve)
+        #     # plt.scatter(coord[:,0],coord[:,1],s=2,c="k")
+        #     plt.plot(coord[:,0],coord[:,1],color='steelblue',alpha=0.2)
+        #     if duct.tip.isAlive:
+        #         pass
+        #         # plt.plot(duct.tip.position[0],duct.tip.position[1],'o',color="orange",ms=3)
+
+        # pos = {node: node for node in self.G.nodes()}
+        # nx.draw(self.G, pos, node_size=5, node_color="lightblue", edge_color="red", font_size=8)
+        #
+        # cycles = nx.cycle_basis(self.G)
+        # cmap = plt.get_cmap('tab20')
+
+        # for idx, cycle in enumerate(cycles):
+        #     color = cmap(idx % 20)
+        #     for i in range(len(cycle) - 1):
+        #         edge = main.G.get_edge_data(cycle[i], cycle[i + 1])
+        #         curve = np.array(edge.get("curve"))
+        #         plt.plot(curve[:, 0], curve[:, 1],color=color)
+        #
+        #     i += 1
+        #     edge = main.G.get_edge_data(cycle[i], cycle[0])
+        #     curve = np.array(edge.get("curve"))
+        #     plt.plot(curve[:, 0], curve[:, 1],color=color)
 
     def turnToGraph(self):
         self.G = nx.Graph()
@@ -56,6 +92,18 @@ class Main:
         processed = set()
         for duct in self.network.ductsList:
             self.process_duct(duct, self.G, processed)
+
+        self.G.remove_edges_from(nx.selfloop_edges(self.G))
+
+        ## Removing those edges that their length is zero
+        edges_to_remove = []
+        for u, v, data in self.G.edges(data=True):
+            if 'curve' in data and len(data['curve']) == 0:  # Check if 'curve' attribute exists and has zero length
+                edges_to_remove.append((u, v))
+        # Remove the edges from the graph
+        self.G.remove_edges_from(edges_to_remove)
+
+
 
     def process_duct(self, duct, G, processed):
         """
