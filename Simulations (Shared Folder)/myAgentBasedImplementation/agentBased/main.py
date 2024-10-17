@@ -17,16 +17,27 @@ class Main:
         self.G = None
 
     def run(self):
-        for i in range(1100):
+        for i in range(600):
             self.network.update()
 
-        self.turnToGraph()
-        self.remod = Remodel(self.G)
-        self.G_BeforeRemodeling = self.G.copy()
-        self.remod.remodel()
+        # self.turnToGraph()
+        # self.remod = Remodel(self.G)
+        # self.G_BeforeRemodeling = self.G.copy()
+        # self.remod.remodel()
 
 
+    def simplePlotter(self):
+        """
+        This will plot the network using matplotlib. Useful if you are not considering
+        the remodeling and you just want to work on the angiogenesis part.
+        :return:
+        """
+        for duct in self.network.ductsList:
+            curve = np.array(duct.tailCurve)
+            plt.plot(curve[:,0],curve[:,1],"steelblue")
 
+        plt.axis('equal')
+        plt.show()
 
     def plot(self):
         maxRad = np.max([(self.G.edges[u, v]['C']) ** (1 / 4) for u, v in self.G.edges()])
@@ -190,7 +201,8 @@ class Main:
 if __name__ == '__main__':
     main = Main()
     main.run()
-    main.plot()
+    # main.plot()  ## For more complicated plotting when you also have the remodeling
+    main.simplePlotter()
     # main.network.collisionDetection()
 
 
