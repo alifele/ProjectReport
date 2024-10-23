@@ -22,6 +22,9 @@ class Network:
 
     def initialize(self):
         self.ductsList.append(Duct(np.array([0.0,0.0]),np.array([self.vNorm,0.0]), self, None))
+        self.ductsList.append(Duct(np.array([10.0,0.0]),np.array([0.0, self.vNorm]), self, None))
+        self.ductsList.append(Duct(np.array([0.0,10.0]),np.array([0.0, -self.vNorm]), self, None))
+        self.ductsList.append(Duct(np.array([10.0,10.0]),np.array([-self.vNorm, 0.0]), self, None))
 
 
     def update(self):

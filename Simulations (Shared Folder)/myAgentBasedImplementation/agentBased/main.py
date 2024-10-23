@@ -10,20 +10,24 @@ from agentBased.Remodel import Remodel
 sys.setrecursionlimit(800)
 
 
+
+
+
 class Main:
     def __init__(self):
         self.network = Network()
         self.remod = None
         self.G = None
 
+
     def run(self):
-        for i in range(600):
+        for i in range(800):
             self.network.update()
 
-        # self.turnToGraph()
-        # self.remod = Remodel(self.G)
-        # self.G_BeforeRemodeling = self.G.copy()
-        # self.remod.remodel()
+        self.turnToGraph()
+        self.remod = Remodel(self.G)
+        self.G_BeforeRemodeling = self.G.copy()
+        self.remod.remodel()
 
 
     def simplePlotter(self):
@@ -32,27 +36,38 @@ class Main:
         the remodeling and you just want to work on the angiogenesis part.
         :return:
         """
+        circle = plt.Circle((5, 5), 1, fill=True, color='red',alpha=0.3)  # Circle centered at (10, 10) with radius 2
+        fig, ax = plt.subplots()
+        # ax.add_patch(circle)
+
         for duct in self.network.ductsList:
             curve = np.array(duct.tailCurve)
-            plt.plot(curve[:,0],curve[:,1],"steelblue")
+            ax.plot(curve[:,0],curve[:,1],"steelblue")
 
+        ax.set_aspect('equal', 'box')
         plt.axis('equal')
         plt.show()
 
     def plot(self):
+
+        circle = plt.Circle((5, 5), 2, fill=True, color='red', alpha=0.1)  # Circle centered at (10, 10) with radius 2
+        fig, ax = plt.subplots(figsize=(12, 12))
+        ax.add_patch(circle)
+
         maxRad = np.max([(self.G.edges[u, v]['C']) ** (1 / 4) for u, v in self.G.edges()])
-        plt.figure(figsize=(12, 12))
+        # plt.figure(figsize=(12, 12))
         for u, v, data in self.G.edges(data=True):
             coord = np.array(data["curve"])
             rad = data["C"] ** (1 / 4) / maxRad * 5
-            plt.plot(coord[:, 0], coord[:, 1], color='steelblue', alpha=1, lw=rad)
+            ax.plot(coord[:, 0], coord[:, 1], color='steelblue', alpha=1, lw=rad)
 
         for sink in self.remod.sinkNodes:
-            plt.plot(sink[0], sink[1], "*r", ms=2)
+            ax.plot(sink[0], sink[1], "*r", ms=2)
 
         for source in self.remod.sourceNodes:
-            plt.plot(source[0], source[1], "*g")
+            ax.plot(source[0], source[1], "*g")
 
+        ax.set_aspect('equal', 'box')
         plt.axis('equal')
         plt.show()
 
@@ -65,11 +80,6 @@ class Main:
 
         plt.axis('equal')
         plt.show()
-
-
-
-
-
 
         # for duct in self.network.ductsList:
         #     coord = np.array(duct.tailCurve)
@@ -201,8 +211,8 @@ class Main:
 if __name__ == '__main__':
     main = Main()
     main.run()
-    # main.plot()  ## For more complicated plotting when you also have the remodeling
-    main.simplePlotter()
+    main.plot()  ## For more complicated plotting when you also have the remodeling
+    # main.simplePlotter()
     # main.network.collisionDetection()
 
 

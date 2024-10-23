@@ -32,5 +32,6 @@ class Tip:
 
     def branch(self):
         if np.random.random() < 0.022:
+        # if np.random.random() < 0.018:
             self.duct.network.handleBranching(self.position, self.duct)
             self.isAlive = False

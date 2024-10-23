@@ -1,5 +1,7 @@
 import numpy as np
+from numpy.lib.utils import source
 
+from agentBased.Data import Data
 from agentBased.utils import calculate_curve_length
 import networkx as nx
 from scipy.sparse import linalg as spla
@@ -24,7 +26,7 @@ class Remodel(object):
 
 
     def remodel(self):
-        for i in range(60):
+        for i in range(50): ## 60
             self.G = self.calculateFlow(self.G)
             self.G = self.updateConductance(self.G)
 
@@ -47,7 +49,8 @@ class Remodel(object):
             G.nodes[node]["s"] = 0.0
 
         # self.randomSourceSink(G)
-        self.annulusSourceSink(G)
+        # self.annulusSourceSink(G)
+        self.fourSidedNetwork(G)
 
 
 
@@ -122,6 +125,24 @@ class Remodel(object):
             G.nodes[n]["s"] = -1 / self.N_sink
 
         return G
+
+    def fourSidedNetwork(self, G):
+        self.sourceNodes = [(0.0, 0.0),(0.0,10.0),(10.0,0.0)]
+        self.N_source = len(self.sourceNodes)
+
+        self.sinkNodes = []
+        for node in G.nodes():
+            if np.linalg.norm(np.array(node)-Data.tumorPos) < Data.tumorRad:
+                if np.random.rand() < 0.5:
+                    self.sinkNodes.append(node)
+
+        self.N_sink = len(self.sinkNodes)
+        for n in self.sourceNodes:
+            G.nodes[n]["s"] = 1 / self.N_source
+        for n in self.sinkNodes:
+            G.nodes[n]["s"] = -1 / self.N_sink
+
+
 
 
     def annulusSourceSink(self, G):
